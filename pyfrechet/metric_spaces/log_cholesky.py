@@ -1,5 +1,5 @@
 import numpy as np
-from .metric_space import MetricSpace
+from pyfrechet.metric_spaces import MetricSpace
 
 class LogCholesky(MetricSpace):
     """
