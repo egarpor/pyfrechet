@@ -1,7 +1,8 @@
 from .metric_space import MetricSpace
 from .metric_data import MetricData
+from .metric_data import MetricBall
 from .euclidean import Euclidean
-from .sphere import Sphere
+from .sphere import Sphere, r2_to_angle, r3_to_angles
 from .correlation import CorrFrobenius
 from .wasserstein_1d import Wasserstein1D
 from .network import NetworkCholesky

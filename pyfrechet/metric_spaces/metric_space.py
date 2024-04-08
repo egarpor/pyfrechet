@@ -13,12 +13,17 @@ class MetricSpace(metaclass=ABCMeta):
         pass
 
     def d(self, x, y) -> Union[float, np.ndarray]:
+
+        # Check if arguments are instances of the MetricData class
         x_is_md = type(x).__name__ == 'MetricData'
         y_is_md = type(y).__name__ == 'MetricData'
+
         if not (x_is_md or y_is_md):
             return self._d(x, y)
         elif x_is_md and y_is_md:
-            assert len(x) == len(y)
+            # If both are MetricData instances it computes the distance between them
+            # provided that lengths agree
+            assert len(x) == len(y), "Lenghts of x and y differ"
             return np.array([ self._d(x[i], y[i]) for i in range(len(x)) ])
         elif y_is_md:
             return np.array([ self._d(x, y[i]) for i in range(len(y)) ])
