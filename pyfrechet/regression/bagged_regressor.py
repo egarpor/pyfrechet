@@ -15,7 +15,8 @@ class BaggedRegressor(WeightingRegressor):
                  n_estimators: int=100,
                  bootstrap_fraction: float=0.75,
                  bootstrap_replace: bool=False,
-                 n_jobs: Optional[int]=-2):
+                 n_jobs: Optional[int]=-2,
+                 verbose_parallel: int=0):
         """
         .estimator is the base learner for the BaggedRegressor (e.g. Tree)
         .estimators is a list composed of as many tuples (subsample, estimator trained with subsample)
@@ -29,6 +30,7 @@ class BaggedRegressor(WeightingRegressor):
         self.bootstrap_fraction = bootstrap_fraction
         self.bootstrap_replace = bootstrap_replace
         self.n_jobs = n_jobs
+        self.verbose_parallel=verbose_parallel
 
     def _make_mask(self, N: int) -> np.ndarray:
         """
@@ -57,7 +59,8 @@ class BaggedRegressor(WeightingRegressor):
         """
         super().fit(X, y)
         def calc(): return self._fit_est(X, y)
-        self.estimators = Parallel(n_jobs=self.n_jobs, verbose=1)(delayed(calc)() for _ in range(self.n_estimators)) or []
+        self.estimators = Parallel(n_jobs=self.n_jobs, verbose=self.verbose_parallel)(delayed(calc)() 
+                                                                                      for _ in range(self.n_estimators)) or []
         return self
 
     def _fit_seq(self, X, y: MetricData):
