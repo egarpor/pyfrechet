@@ -3,6 +3,7 @@ sys.path.append(os.path.dirname(os.getcwd()))
 import pickle 
 import numpy as np
 import pandas as pd
+from tqdm import tqdm
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 from pyfrechet.metric_spaces import MetricData, Sphere
@@ -10,7 +11,7 @@ from pyfrechet.regression.bagged_regressor import BaggedRegressor
 from pyfrechet.regression.trees import Tree
 
 M=Sphere(2)
-for file in os.listdir(os.path.join(os.getcwd(), 'data')):
+for file in tqdm(os.listdir(os.path.join(os.getcwd(), 'data')), desc='Progress'):
     # Data from the selected file
     sample=pd.read_csv(os.path.join(os.getcwd(), 'data/'+file))
     X=sample[['ph']].values
