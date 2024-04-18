@@ -34,7 +34,7 @@ def D_mat_par(M, y, n_jobs: int=-2) -> np.ndarray:
             D[j] = M.d(M.index(_y, i), M.index(_y, j))**2
         return D
     
-    D = Parallel(n_jobs=n_jobs, verbose=1)(delayed(calc)(i, y) for i in range(N))
+    D = Parallel(n_jobs=n_jobs, verbose=0)(delayed(calc)(i, y) for i in range(N))
     D = np.r_[D] # Concatenate along the first axis the rows (to obtain final matrix)
     return D + D.T
 

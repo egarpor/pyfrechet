@@ -16,7 +16,7 @@ class BaggedRegressor(WeightingRegressor):
                  bootstrap_fraction: float=0.75,
                  bootstrap_replace: bool=False,
                  n_jobs: Optional[int]=-2,
-                 verbose_parallel: int=0):
+                 verbose: int=0):
         """
         .estimator is the base learner for the BaggedRegressor (e.g. Tree)
         .estimators is a list composed of as many tuples (subsample, estimator trained with subsample)
@@ -30,7 +30,7 @@ class BaggedRegressor(WeightingRegressor):
         self.bootstrap_fraction = bootstrap_fraction
         self.bootstrap_replace = bootstrap_replace
         self.n_jobs = n_jobs
-        self.verbose_parallel=verbose_parallel
+        self.verbose=verbose
 
     def _make_mask(self, N: int) -> np.ndarray:
         """
@@ -59,7 +59,7 @@ class BaggedRegressor(WeightingRegressor):
         """
         super().fit(X, y)
         def calc(): return self._fit_est(X, y)
-        self.estimators = Parallel(n_jobs=self.n_jobs, verbose=self.verbose_parallel)(delayed(calc)() 
+        self.estimators = Parallel(n_jobs=self.n_jobs, verbose=self.verbose)(delayed(calc)() 
                                                                                       for _ in range(self.n_estimators)) or []
         return self
 
@@ -68,7 +68,10 @@ class BaggedRegressor(WeightingRegressor):
         Method to train all the estimators in the ensemble using non-parallel computing (sequential).
         """
         super().fit(X, y)
-        self.estimators = [ self._fit_est(X, y) for _ in tqdm(range(self.n_estimators))]
+        if self.verbose==0:
+            self.estimators = [ self._fit_est(X, y) for _ in range(self.n_estimators)]
+        else:
+            self.estimators = [ self._fit_est(X, y) for _ in tqdm(range(self.n_estimators))]
         return self
 
     # WeightingRegressor has 2 abstract methods: fit() and weights_for()
