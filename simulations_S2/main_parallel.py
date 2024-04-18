@@ -30,11 +30,11 @@ def task(file) -> None:
     X_test=scaler.transform(X_test)
 
     base = Tree(split_type='2means',
-            impurity_method='medoid',
+            impurity_method='cart',
             mtry=None,
             min_split_size=5)
     forest = BaggedRegressor(estimator=base,
-                            n_estimators=20,
+                            n_estimators=100,
                             bootstrap_fraction=1,
                             bootstrap_replace=True,
                             n_jobs=1)
@@ -51,9 +51,10 @@ def task(file) -> None:
     with open(os.path.join(os.getcwd(), 'results/'+filename), 'wb') as f:
         pickle.dump(results, f, protocol=pickle.HIGHEST_PROTOCOL)
 
+
 Parallel(n_jobs=-2, verbose=1)(delayed(task)(file) for file in os.listdir(os.path.join(os.getcwd(), 'data')))     
 
-# Progress bar not working as expected
 # with tqdm(os.listdir(os.path.join(os.getcwd(), 'data')), desc='MC Simulation') as pbar:
 #     Parallel(n_jobs=-2, verbose=0)(delayed(task)(file) for file in pbar)
 
+# Parallel(n_jobs=-2, verbose=0)(delayed(task)(file) for file in tqdm(os.listdir(os.path.join(os.getcwd(), 'data')), desc='MC Simulation'))  
