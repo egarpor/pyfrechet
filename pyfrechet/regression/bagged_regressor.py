@@ -108,9 +108,13 @@ class BaggedRegressor(WeightingRegressor):
         # Estimators of the ensemble in which x is OOB
         oob_estimators_idx = [idx for idx in range(self.n_estimators) if x_idx not in self.estimators[idx][0]]
 
-        y0 = self.estimators[oob_estimators_idx[0]][1].predict(x.reshape(1,-1)).data  
-        oob_preds = np.zeros((len(oob_estimators_idx), y0.shape[0]))
-        oob_preds[0,:] = y0
+        try:
+            y0 = self.estimators[oob_estimators_idx[0]][1].predict(x.reshape(1,-1)).data  
+            oob_preds = np.zeros((len(oob_estimators_idx), y0.shape[0]))
+            oob_preds[0,:] = y0
+        except IndexError:
+            return MetricData(self.y_train_.M, self.y_train_.data).frechet_mean()
+        
 
         for i in range(len(oob_estimators_idx[1:])):
             oob_preds[i,:] = self.estimators[oob_estimators_idx[i]][1].predict(x.reshape(1,-1)).data

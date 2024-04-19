@@ -52,7 +52,7 @@ def task(file) -> None:
         pickle.dump(results, f, protocol=pickle.HIGHEST_PROTOCOL)
 
 
-Parallel(n_jobs=-2, verbose=1)(delayed(task)(file) for file in os.listdir(os.path.join(os.getcwd(), 'data')))     
+Parallel(n_jobs=-2, verbose=40)(delayed(task)(file) for file in os.listdir(os.path.join(os.getcwd(), 'data')))     
 
 # with tqdm(os.listdir(os.path.join(os.getcwd(), 'data')), desc='MC Simulation') as pbar:
 #     Parallel(n_jobs=-2, verbose=0)(delayed(task)(file) for file in pbar)
