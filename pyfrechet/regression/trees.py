@@ -250,6 +250,8 @@ class Tree(WeightingRegressor):
         # Assert that the root node has been set (it is done in .fit())
         assert self.root_node, "No root_node has been initialized"
         node = self.root_node
+        if not x.ndim==1:
+            x=x.reshape(-1)
         while True and node:
             if not node.split:
                 # If there is no split in the node we assign the weights corresponding to the
