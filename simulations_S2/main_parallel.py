@@ -54,7 +54,7 @@ def task(file) -> None:
              'test_predictions': forest.predict(X_test).data,
              'oob_errors': forest.oob_errors()}
 
-    filename=file[:-4] + '_results.pkl'
+    filename=file[:-4] + '_block_' + str(current_block) + '_results.pkl'
     with open(os.path.join(os.getcwd(), 'results/'+filename), 'wb') as f:
         pickle.dump(results, f, protocol=pickle.HIGHEST_PROTOCOL)
 
