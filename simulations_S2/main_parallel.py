@@ -13,6 +13,13 @@ from pyfrechet.regression.trees import Tree
 
 M=Sphere(2)
 
+# By-blocks execution
+n_samples=len(os.listdir(os.path.join(os.getcwd(), 'data')))
+n_cores=50
+# n_cores=int(input('Introduce number of cores: '))
+n_blocks=n_samples/n_cores
+current_block=int(input('Introduce block to compute: '))
+
 def task(file) -> None:
     # Data from the selected file
     sample=pd.read_csv(os.path.join(os.getcwd(), 'data/'+file))
@@ -51,8 +58,9 @@ def task(file) -> None:
     with open(os.path.join(os.getcwd(), 'results/'+filename), 'wb') as f:
         pickle.dump(results, f, protocol=pickle.HIGHEST_PROTOCOL)
 
-
-Parallel(n_jobs=-2, verbose=40)(delayed(task)(file) for file in os.listdir(os.path.join(os.getcwd(), 'data')))     
+# One sample by core in the current block
+Parallel(n_jobs=-1, verbose=40)(delayed(task)(file) for file in \
+        os.listdir(os.path.join(os.getcwd(), 'data'))[n_cores*(current_block-1):n_cores*(current_block)])     
 
 # with tqdm(os.listdir(os.path.join(os.getcwd(), 'data')), desc='MC Simulation') as pbar:
 #     Parallel(n_jobs=-2, verbose=0)(delayed(task)(file) for file in pbar)
