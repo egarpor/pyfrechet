@@ -18,7 +18,7 @@ n_samples=len(os.listdir(os.path.join(os.getcwd(), 'data')))
 n_cores=50
 # n_cores=int(input('Introduce number of cores: '))
 n_blocks=n_samples/n_cores
-current_block=int(input('Introduce block to compute: '))
+current_block=int(sys.argv[1])
 
 def task(file) -> None:
     # Data from the selected file
