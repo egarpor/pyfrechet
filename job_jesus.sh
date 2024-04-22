@@ -5,11 +5,13 @@ module load python/3.9.9
 cd simulations_S2/
 lscpu
 python main_parallel.py $block
+cd ..
 git add .
 git commit -m "Simulations block $block"
 git push
 
 # for b in {1..60}
 # do
-#   sbatch --time=3:00:00 --cpus-per-task=50 --mem=10GB --mail-type=END,FAIL --mail-user=edgarcia@est-econ.uc3m.es --export=block=$b job_jesus.sh
+#   sbatch --time=3:00:00 --cpus-per-task=50 --mem=10GB --mail-type=END,FAIL --mail-user=edgarcia@est-econ.uc3m.es --export=block=$b --output="slurm-block$b-jobid-%j.out" job_jesus.sh
 # done
+
