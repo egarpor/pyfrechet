@@ -6861,3 +6861,5 @@ See "git help gc" for manual housekeeping.
  create mode 100644 simulations_T2/results/T2_Samp55_N500_sigma2_block_29_results.pkl
  create mode 100644 simulations_T2/results/T2_Samp56_N1000_sigma7_block_29_results.pkl
  create mode 100644 simulations_T2/results/T2_Samp56_N1500_sigma2_block_29_results.pkl
+To github.com:egarpor/pyfrechet.git
+   3249a0f..202cb7a  main -> main

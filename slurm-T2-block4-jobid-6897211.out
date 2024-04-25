@@ -7020,3 +7020,30 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 Everything up-to-date
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6897211)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6897211
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 50
+CPU Utilized: 1-14:24:44
+CPU Efficiency: 98.53% of 1-14:59:10 core-walltime
+Job Wall-clock time: 00:46:47
+Memory Utilized: 4.30 GB
+Memory Efficiency: 42.98% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
