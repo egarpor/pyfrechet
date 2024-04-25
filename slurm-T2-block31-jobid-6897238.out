@@ -6837,3 +6837,6 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
  create mode 100644 simulations_T2/results/T2_Samp59_N1500_sigma1_block_31_results.pkl
  create mode 100644 simulations_T2/results/T2_Samp5_N1000_sigma5_block_31_results.pkl
  create mode 100644 simulations_T2/results/T2_Samp5_N1500_sigma2_block_31_results.pkl
+To github.com:egarpor/pyfrechet.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 6544581ddd657d200e82fd3d014df3d8a28cdd0f but expected 4f921fd232fbff957148503a012431dcbd585438)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
