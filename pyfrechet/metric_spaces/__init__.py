@@ -8,6 +8,7 @@ from .wasserstein_1d import Wasserstein1D
 from .network import NetworkCholesky
 from .riemannian_manifold import RiemannianManifold
 from .log_cholesky import LogCholesky
+from .torus import Torus
 
 from .fisher_rao_phase import has_fda
 if has_fda:
