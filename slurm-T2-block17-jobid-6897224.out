@@ -7280,3 +7280,32 @@ Untracked files:
 	simulations_T2/results/T2_Samp58_N1000_sigma6_block_30_results.pkl
 
 no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:egarpor/pyfrechet.git
+   2ac2ed8..efc7171  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6897224)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6897224
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 50
+CPU Utilized: 1-13:59:50
+CPU Efficiency: 98.30% of 1-14:39:10 core-walltime
+Job Wall-clock time: 00:46:23
+Memory Utilized: 4.27 GB
+Memory Efficiency: 42.72% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
