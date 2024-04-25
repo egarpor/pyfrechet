@@ -7424,3 +7424,27 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  50 out of  50 | elapsed: 46.6min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 9256ce4] Simulations T2 block 27
+ 27 files changed, 4585 insertions(+)
+ create mode 100644 simulations_T2/results/T2_Samp100_N1000_sigma2_block_1_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp10_N1000_sigma1_block_1_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp10_N1500_sigma2_block_1_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp10_N200_sigma4_block_1_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp16_N200_sigma2_block_5_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp16_N200_sigma7_block_5_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp16_N500_sigma2_block_5_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp17_N1000_sigma1_block_5_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp1_N200_sigma1_block_7_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp1_N200_sigma6_block_7_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp29_N500_sigma6_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp2_N200_sigma4_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp34_N200_sigma1_block_16_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp35_N1500_sigma3_block_16_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp37_N1500_sigma7_block_18_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp37_N500_sigma1_block_18_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp51_N500_sigma5_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp52_N200_sigma3_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp53_N500_sigma1_block_28_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp53_N500_sigma4_block_28_results.pkl
