@@ -7675,3 +7675,32 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
  create mode 100644 simulations_T2/results/T2_Samp57_N200_sigma5_block_30_results.pkl
  create mode 100644 simulations_T2/results/T2_Samp57_N500_sigma1_block_30_results.pkl
  create mode 100644 simulations_T2/results/T2_Samp58_N1000_sigma6_block_30_results.pkl
+To github.com:egarpor/pyfrechet.git
+   efc7171..62c56f9  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6897228)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6897228
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 50
+CPU Utilized: 1-13:15:18
+CPU Efficiency: 96.31% of 1-14:40:50 core-walltime
+Job Wall-clock time: 00:46:25
+Memory Utilized: 4.24 GB
+Memory Efficiency: 42.36% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
