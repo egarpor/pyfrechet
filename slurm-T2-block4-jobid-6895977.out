@@ -4177,3 +4177,32 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_T2/results/T2_Samp15_N1000_sigma4_block_4_results.pkl'
 [main 10431b3] Simulations T2 block 4
  26 files changed, 1095 insertions(+)
+To github.com:egarpor/pyfrechet.git
+   f80a8a6..10431b3  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6895977)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6895977
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 50
+CPU Utilized: 1-12:37:05
+CPU Efficiency: 98.71% of 1-13:05:50 core-walltime
+Job Wall-clock time: 00:44:31
+Memory Utilized: 4.29 GB
+Memory Efficiency: 42.88% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
