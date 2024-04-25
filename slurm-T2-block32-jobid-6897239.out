@@ -6621,3 +6621,92 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  50 out of  50 | elapsed: 46.7min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 79a4d8f] Simulations T2 block 32
+ 76 files changed, 16337 insertions(+)
+ create mode 100644 simulations_T2/results/T2_Samp5_N1500_sigma4_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N1500_sigma5_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N1500_sigma6_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N1500_sigma7_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N200_sigma1_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N200_sigma2_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N200_sigma3_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N200_sigma4_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N200_sigma5_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N200_sigma6_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N200_sigma7_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N500_sigma1_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N500_sigma2_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N500_sigma3_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N500_sigma4_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N500_sigma5_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N500_sigma6_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp5_N500_sigma7_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1000_sigma1_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1000_sigma2_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1000_sigma3_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1000_sigma4_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1000_sigma5_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1000_sigma6_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1000_sigma7_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1500_sigma1_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1500_sigma2_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1500_sigma3_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1500_sigma4_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1500_sigma5_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1500_sigma6_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N1500_sigma7_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N200_sigma1_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N200_sigma2_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N200_sigma3_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N200_sigma4_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N200_sigma5_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N200_sigma6_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N200_sigma7_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N500_sigma1_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N500_sigma2_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N500_sigma3_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N500_sigma4_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N500_sigma5_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N500_sigma6_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N500_sigma7_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp61_N1000_sigma1_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp61_N1000_sigma2_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp61_N1000_sigma3_block_32_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp61_N1000_sigma4_block_32_results.pkl
+ create mode 100644 slurm-T2-block51-jobid-6897258.out
+ create mode 100644 slurm-T2-block52-jobid-6897259.out
+ create mode 100644 slurm-T2-block53-jobid-6897260.out
+ create mode 100644 slurm-T2-block54-jobid-6897261.out
+ create mode 100644 slurm-T2-block55-jobid-6897262.out
+ create mode 100644 slurm-T2-block56-jobid-6897263.out
+To github.com:egarpor/pyfrechet.git
+   38880e1..79a4d8f  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6897239)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6897239
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 50
+CPU Utilized: 1-14:26:07
+CPU Efficiency: 98.38% of 1-15:04:10 core-walltime
+Job Wall-clock time: 00:46:53
+Memory Utilized: 4.27 GB
+Memory Efficiency: 42.68% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
