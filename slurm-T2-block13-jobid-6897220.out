@@ -6938,3 +6938,21 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  50 out of  50 | elapsed: 46.7min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main e4f3699] Simulations T2 block 13
+ 24 files changed, 1613 insertions(+)
+ create mode 100644 simulations_T2/results/T2_Samp100_N1000_sigma5_block_1_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp10_N1000_sigma7_block_1_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp20_N1000_sigma7_block_7_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp2_N1000_sigma2_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp2_N200_sigma3_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp37_N1500_sigma6_block_18_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp37_N500_sigma3_block_18_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp38_N1500_sigma5_block_18_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp50_N500_sigma5_block_26_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp51_N1000_sigma3_block_26_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp54_N1500_sigma1_block_28_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp54_N200_sigma3_block_28_results.pkl
+To github.com:egarpor/pyfrechet.git
+   9256ce4..e4f3699  main -> main
