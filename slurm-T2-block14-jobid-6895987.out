@@ -3559,3 +3559,66 @@ Traceback (most recent call last):
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
     raise self._result
 FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_T2/results/T2_Samp30_N1500_sigma1_block_14_results.pkl'
+[main 731f1b8] Simulations T2 block 14
+ 32 files changed, 72046 insertions(+)
+ create mode 100644 slurm-T2-block1-jobid-6895974.out
+ create mode 100644 slurm-T2-block10-jobid-6895983.out
+ create mode 100644 slurm-T2-block11-jobid-6895984.out
+ create mode 100644 slurm-T2-block12-jobid-6895985.out
+ create mode 100644 slurm-T2-block13-jobid-6895986.out
+ create mode 100644 slurm-T2-block14-jobid-6895987.out
+ create mode 100644 slurm-T2-block15-jobid-6895988.out
+ create mode 100644 slurm-T2-block16-jobid-6895989.out
+ create mode 100644 slurm-T2-block17-jobid-6895990.out
+ create mode 100644 slurm-T2-block18-jobid-6895991.out
+ create mode 100644 slurm-T2-block19-jobid-6895992.out
+ create mode 100644 slurm-T2-block2-jobid-6895975.out
+ create mode 100644 slurm-T2-block20-jobid-6895993.out
+ create mode 100644 slurm-T2-block21-jobid-6895994.out
+ create mode 100644 slurm-T2-block22-jobid-6895995.out
+ create mode 100644 slurm-T2-block23-jobid-6895996.out
+ create mode 100644 slurm-T2-block24-jobid-6895997.out
+ create mode 100644 slurm-T2-block25-jobid-6895998.out
+ create mode 100644 slurm-T2-block26-jobid-6895999.out
+ create mode 100644 slurm-T2-block27-jobid-6896000.out
+ create mode 100644 slurm-T2-block28-jobid-6896001.out
+ create mode 100644 slurm-T2-block29-jobid-6896002.out
+ create mode 100644 slurm-T2-block3-jobid-6895976.out
+ create mode 100644 slurm-T2-block30-jobid-6896003.out
+ create mode 100644 slurm-T2-block31-jobid-6896004.out
+ create mode 100644 slurm-T2-block32-jobid-6896005.out
+ create mode 100644 slurm-T2-block4-jobid-6895977.out
+ create mode 100644 slurm-T2-block5-jobid-6895978.out
+ create mode 100644 slurm-T2-block6-jobid-6895979.out
+ create mode 100644 slurm-T2-block7-jobid-6895980.out
+ create mode 100644 slurm-T2-block8-jobid-6895981.out
+ create mode 100644 slurm-T2-block9-jobid-6895982.out
+To github.com:egarpor/pyfrechet.git
+   9cc5884..731f1b8  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6895987)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6895987
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 50
+CPU Utilized: 1-00:50:46
+CPU Efficiency: 96.49% of 1-01:45:00 core-walltime
+Job Wall-clock time: 00:30:54
+Memory Utilized: 4.25 GB
+Memory Efficiency: 42.51% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
