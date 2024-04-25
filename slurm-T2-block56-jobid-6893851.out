@@ -45,3 +45,35 @@ Traceback (most recent call last):
   File "/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_T2/main_parallel.py", line 10, in <module>
     from pyfrechet.metric_spaces import MetricData, Torus
 ImportError: cannot import name 'Torus' from 'pyfrechet.metric_spaces' (/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/pyfrechet/metric_spaces/__init__.py)
+[main 337f8a6] Simulations T2 block 56
+ 2 files changed, 79 insertions(+)
+ create mode 100644 slurm-T2-block56-jobid-6893851.out
+To github.com:egarpor/pyfrechet.git
+   28ede9a..337f8a6  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6893851)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6893851
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 50
+CPU Utilized: 00:00:08
+CPU Efficiency: 2.29% of 00:05:50 core-walltime
+Job Wall-clock time: 00:00:07
+Memory Utilized: 924.00 KB
+Memory Efficiency: 0.01% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
