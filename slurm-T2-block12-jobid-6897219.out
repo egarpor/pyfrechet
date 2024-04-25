@@ -7205,3 +7205,30 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
  create mode 100644 slurm-T2-block9-jobid-6897216.out
 To github.com:egarpor/pyfrechet.git
    fb0595a..2aaec04  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6897219)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6897219
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 50
+CPU Utilized: 1-12:04:04
+CPU Efficiency: 95.58% of 1-13:44:10 core-walltime
+Job Wall-clock time: 00:45:17
+Memory Utilized: 4.33 GB
+Memory Efficiency: 43.26% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
