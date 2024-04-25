@@ -7632,3 +7632,30 @@ See "git help gc" for manual housekeeping.
  create mode 100644 slurm-T2-block50-jobid-6897257.out
 To github.com:egarpor/pyfrechet.git
    886f39c..3214fe7  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6897210)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6897210
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 50
+CPU Utilized: 1-14:07:11
+CPU Efficiency: 98.13% of 1-14:50:50 core-walltime
+Job Wall-clock time: 00:46:37
+Memory Utilized: 4.23 GB
+Memory Efficiency: 42.34% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+

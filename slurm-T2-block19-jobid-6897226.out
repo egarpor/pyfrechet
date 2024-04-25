@@ -7936,3 +7936,6 @@ See "git help gc" for manual housekeeping.
  create mode 100644 simulations_T2/results/T2_Samp58_N1000_sigma1_block_30_results.pkl
  create mode 100644 simulations_T2/results/T2_Samp58_N1500_sigma7_block_30_results.pkl
  create mode 100644 slurm-T2-block44-jobid-6897251.out
+To github.com:egarpor/pyfrechet.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 3214fe7d7633dc6975aa106ca9e21c128f493170 but expected 886f39c08d0313005eaa35c79273e414016ab651)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
