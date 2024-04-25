@@ -4530,3 +4530,35 @@ Traceback (most recent call last):
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
     raise self._result
 FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_T2/results/T2_Samp13_N1500_sigma5_block_3_results.pkl'
+[main ecf1e5c] Simulations T2 block 3
+ 33 files changed, 6288 insertions(+)
+ create mode 100644 slurm-T2-block33-jobid-6896006.out
+To github.com:egarpor/pyfrechet.git
+   731f1b8..ecf1e5c  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6895976)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6895976
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 50
+CPU Utilized: 1-11:54:11
+CPU Efficiency: 98.78% of 1-12:20:50 core-walltime
+Job Wall-clock time: 00:43:37
+Memory Utilized: 4.25 GB
+Memory Efficiency: 42.53% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
