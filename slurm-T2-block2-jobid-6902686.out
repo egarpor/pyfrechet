@@ -8685,3 +8685,41 @@ Traceback (most recent call last):
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
     raise self._result
 FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_T2/results/T2_Samp11_N200_sigma7_block_2_results.pkl'
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main c5904ac] Simulations T2 block 2
+ 9 files changed, 23173 insertions(+)
+ create mode 100644 slurm-T2-block5-jobid-6902689.out
+ create mode 100644 slurm-T2-block6-jobid-6902690.out
+ create mode 100644 slurm-T2-block7-jobid-6902691.out
+ create mode 100644 slurm-T2-block8-jobid-6902692.out
+ create mode 100644 slurm-T2-block9-jobid-6902693.out
+To github.com:egarpor/pyfrechet.git
+   792229c..c5904ac  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6902686)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6902686
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 50
+CPU Utilized: 1-12:26:25
+CPU Efficiency: 94.04% of 1-14:45:00 core-walltime
+Job Wall-clock time: 00:46:30
+Memory Utilized: 4.79 GB
+Memory Efficiency: 47.90% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
