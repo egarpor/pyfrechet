@@ -10,8 +10,8 @@ git add .
 git commit -m "Simulations T2 block $block"
 git push
 
-# for b in {1..60}
+# for b in {1..56}
 # do
-#   sbatch --time=3:00:00 --cpus-per-task=50 --mem=10GB --mail-type=END,FAIL --mail-user=edgarcia@est-econ.uc3m.es --export=block=$b --output="slurm-T2-block$b-jobid-%j.out" job_jesus_T2.sh
+#   sbatch --time=1:30:00 --cpus-per-task=50 --mem=6GB --mail-type=END,FAIL --mail-user=edgarcia@est-econ.uc3m.es --export=block=$b --output="slurm-T2-jobid-%j-block$b.out" job_jesus_T2.sh
 # done
 
