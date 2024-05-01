@@ -893,3 +893,28 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 /home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1474: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
   return fit_method(estimator, *args, **kwargs)
 [Parallel(n_jobs=-1)]: Done  64 out of  64 | elapsed: 31.0min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 8f2e518] Simulations S2 block 49
+ 19 files changed, 120 insertions(+)
+ create mode 100644 simulations_S2/results/S2_Samp86_N500_spiral1_sigma4_block_45_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp89_N200_spiral1_sigma4_block_47_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp91_N100_spiral0_sigma2_block_48_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp91_N100_spiral0_sigma3_block_48_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp91_N100_spiral1_sigma2_block_48_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp92_N100_spiral0_sigma1_block_48_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp92_N100_spiral0_sigma2_block_48_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp92_N100_spiral0_sigma4_block_48_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp92_N100_spiral1_sigma2_block_48_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp92_N100_spiral1_sigma4_block_48_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp95_N200_spiral1_sigma1_block_49_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp96_N500_spiral1_sigma1_block_49_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp99_N200_spiral0_sigma4_block_47_results.pkl
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
