@@ -29721,3 +29721,48 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  56 out of  56 | elapsed: 79.7min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main e255aca] Simulations T2 block 33
+ 29 files changed, 7663 insertions(+)
+ create mode 100644 simulations_T2/results/T2_Samp66_N500_sigma1_block_33_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp68_N500_sigma1_block_33_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp68_N500_sigma3_block_33_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp68_N500_sigma4_block_33_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp68_N500_sigma5_block_33_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp68_N500_sigma6_block_33_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp69_N500_sigma1_block_33_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp69_N500_sigma2_block_33_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp69_N500_sigma3_block_33_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp69_N500_sigma4_block_33_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp69_N500_sigma5_block_33_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp69_N500_sigma7_block_33_results.pkl
+To github.com:egarpor/pyfrechet.git
+   29e4c77..e255aca  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6963241)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6963241
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 2-23:19:37
+CPU Efficiency: 95.57% of 3-02:38:08 core-walltime
+Job Wall-clock time: 01:19:58
+Memory Utilized: 4.83 GB
+Memory Efficiency: 48.27% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
