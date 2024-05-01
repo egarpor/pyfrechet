@@ -19,7 +19,7 @@ for file in tqdm(os.listdir(os.path.join(os.getcwd(), 'data')), desc='Progress')
     y=MetricData(M, sample[['theta.1', 'theta.2']].values)
 
     # Train/test partition and scaling data
-    train_idx, test_idx=train_test_split(np.arange(len(X)), test_size=0.25)
+    train_idx, test_idx=train_test_split(np.arange(len(X)), test_size=100)
     X_train=X[train_idx]
     X_test=X[test_idx]
     y_train=y[train_idx]

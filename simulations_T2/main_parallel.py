@@ -15,7 +15,7 @@ M=Torus(2)
 
 # By-blocks execution
 n_samples=len(os.listdir(os.path.join(os.getcwd(), 'data')))
-n_cores=50
+n_cores=56
 # n_cores=int(input('Introduce number of cores: '))
 n_blocks=n_samples/n_cores
 current_block=int(sys.argv[1])
@@ -27,7 +27,7 @@ def task(file) -> None:
     y=MetricData(M, sample[['theta.1', 'theta.2']].values)
 
     # Train/test partition and scaling data
-    train_idx, test_idx=train_test_split(np.arange(len(X)), test_size=0.25)
+    train_idx, test_idx=train_test_split(np.arange(len(X)), test_size=100)
     X_train=X[train_idx]
     X_test=X[test_idx]
     y_train=y[train_idx]
