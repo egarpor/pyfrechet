@@ -908,3 +908,61 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  59 out of  64 | elapsed: 89.0min remaining:  7.5min
 [Parallel(n_jobs=-1)]: Done  61 out of  64 | elapsed: 89.0min remaining:  4.4min
 [Parallel(n_jobs=-1)]: Done  64 out of  64 | elapsed: 89.1min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main da13fcb] Simulations S2 block 10
+ 61 files changed, 925 insertions(+)
+ create mode 100644 simulations_S2/results/S2_Samp26_N500_spiral0_sigma1_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp26_N500_spiral0_sigma2_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp26_N500_spiral0_sigma3_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp26_N500_spiral0_sigma4_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp26_N500_spiral1_sigma1_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp26_N500_spiral1_sigma2_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp26_N500_spiral1_sigma3_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp26_N500_spiral1_sigma4_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp27_N500_spiral0_sigma1_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp27_N500_spiral0_sigma2_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp27_N500_spiral1_sigma1_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp27_N500_spiral1_sigma2_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp27_N500_spiral1_sigma3_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp27_N500_spiral1_sigma4_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N100_spiral0_sigma1_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N100_spiral0_sigma2_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N100_spiral0_sigma3_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N100_spiral0_sigma4_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N100_spiral1_sigma1_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N100_spiral1_sigma2_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N100_spiral1_sigma3_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N100_spiral1_sigma4_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N500_spiral0_sigma2_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N500_spiral0_sigma4_block_10_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp30_N100_spiral0_sigma1_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp30_N100_spiral0_sigma2_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp30_N100_spiral0_sigma3_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp30_N100_spiral0_sigma4_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp30_N100_spiral1_sigma1_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp30_N100_spiral1_sigma2_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp30_N100_spiral1_sigma3_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp30_N100_spiral1_sigma4_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp31_N100_spiral0_sigma1_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp31_N100_spiral1_sigma2_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp31_N100_spiral1_sigma3_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp31_N100_spiral1_sigma4_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp32_N100_spiral0_sigma1_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp32_N100_spiral0_sigma3_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp32_N100_spiral1_sigma3_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp33_N100_spiral0_sigma4_block_15_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp33_N100_spiral1_sigma2_block_15_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp34_N100_spiral0_sigma2_block_15_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp34_N100_spiral0_sigma4_block_15_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp34_N100_spiral1_sigma1_block_15_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp34_N100_spiral1_sigma4_block_15_results.pkl
+ create mode 100644 slurm-S2-block24-jobid-6959469.out
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
