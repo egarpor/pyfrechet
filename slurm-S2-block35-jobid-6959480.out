@@ -659,3 +659,87 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+[Parallel(n_jobs=-1)]: Done  29 out of  64 | elapsed: 56.1min remaining: 67.8min
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+[Parallel(n_jobs=-1)]: Done  31 out of  64 | elapsed: 56.6min remaining: 60.3min
+[Parallel(n_jobs=-1)]: Done  33 out of  64 | elapsed: 56.7min remaining: 53.3min
+[Parallel(n_jobs=-1)]: Done  35 out of  64 | elapsed: 56.8min remaining: 47.0min
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+[Parallel(n_jobs=-1)]: Done  37 out of  64 | elapsed: 56.9min remaining: 41.5min
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+[Parallel(n_jobs=-1)]: Done  39 out of  64 | elapsed: 57.2min remaining: 36.6min
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+[Parallel(n_jobs=-1)]: Done  41 out of  64 | elapsed: 57.3min remaining: 32.2min
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+[Parallel(n_jobs=-1)]: Done  43 out of  64 | elapsed: 57.7min remaining: 28.2min
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+[Parallel(n_jobs=-1)]: Done  45 out of  64 | elapsed: 57.7min remaining: 24.4min
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1474: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
