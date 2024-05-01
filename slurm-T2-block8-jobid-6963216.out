@@ -25714,3 +25714,41 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  56 out of  56 | elapsed: 79.7min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 86b57f0] Simulations T2 block 8
+ 19 files changed, 3466 insertions(+)
+ create mode 100644 simulations_T2/results/T2_Samp21_N500_sigma6_block_7_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp22_N500_sigma6_block_8_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp22_N500_sigma7_block_8_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp23_N500_sigma7_block_8_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp33_N500_sigma2_block_14_results.pkl
+To github.com:egarpor/pyfrechet.git
+   5b7e036..86b57f0  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6963216)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6963216
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 2-22:39:53
+CPU Efficiency: 94.90% of 3-02:27:52 core-walltime
+Job Wall-clock time: 01:19:47
+Memory Utilized: 4.85 GB
+Memory Efficiency: 48.49% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
