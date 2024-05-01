@@ -28281,3 +28281,74 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  56 out of  56 | elapsed: 77.9min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 2b02266] Simulations T2 block 27
+ 63 files changed, 32191 insertions(+)
+ create mode 100644 simulations_T2/results/T2_Samp57_N500_sigma1_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp57_N500_sigma2_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp57_N500_sigma3_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp57_N500_sigma4_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp57_N500_sigma5_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp57_N500_sigma6_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp57_N500_sigma7_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp58_N500_sigma1_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp58_N500_sigma2_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp58_N500_sigma3_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp58_N500_sigma4_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp58_N500_sigma5_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp58_N500_sigma6_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp58_N500_sigma7_block_27_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp68_N200_sigma3_block_33_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp69_N200_sigma2_block_33_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp6_N200_sigma1_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp6_N200_sigma2_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp6_N200_sigma5_block_34_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp6_N200_sigma6_block_34_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp6_N200_sigma7_block_34_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp70_N200_sigma3_block_34_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp70_N200_sigma4_block_34_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp70_N200_sigma6_block_34_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp71_N200_sigma1_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp71_N200_sigma2_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp71_N200_sigma3_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp71_N200_sigma4_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp71_N200_sigma5_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp71_N200_sigma6_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp71_N200_sigma7_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp72_N200_sigma1_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp72_N200_sigma2_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp72_N200_sigma3_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp72_N200_sigma4_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp72_N200_sigma5_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp72_N200_sigma6_block_35_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp72_N200_sigma7_block_35_results.pkl
+To github.com:egarpor/pyfrechet.git
+   cab662a..2b02266  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 6963235)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 6963235
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 2-21:24:19
+CPU Efficiency: 95.13% of 3-00:57:20 core-walltime
+Job Wall-clock time: 01:18:10
+Memory Utilized: 4.78 GB
+Memory Efficiency: 47.77% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
