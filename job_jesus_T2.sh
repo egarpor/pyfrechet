@@ -12,6 +12,6 @@ git push
 
 # for b in {1..50}
 # do
-#   sbatch --time=4:00:00 --cpus-per-task=56 --mem=10GB --mail-type=END,FAIL --mail-user=edgarcia@est-econ.uc3m.es --export=block=$b --output="slurm-T2-block$b-jobid-%j.out" job_jesus_T2.sh
+#   sbatch --time=2:00:00 --cpus-per-task=56 --mem=10GB --mail-type=END,FAIL --mail-user=edgarcia@est-econ.uc3m.es --export=block=$b --output="slurm-T2-block$b-jobid-%j.out" job_jesus_T2.sh
 # done
 
