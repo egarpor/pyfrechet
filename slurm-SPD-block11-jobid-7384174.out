@@ -47,3 +47,36 @@ Traceback (most recent call last):
 ImportError: cannot import name 'spd_to_log_chol' from 'pyfrechet.metric_spaces' (/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/pyfrechet/metric_spaces/__init__.py)
 Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
+[main d2a846ec] Simulations SPD block 11
+ 7 files changed, 207 insertions(+)
+ create mode 100644 slurm-SPD-block12-jobid-7384175.out
+ create mode 100644 slurm-SPD-block8-jobid-7384171.out
+To github.com:egarpor/pyfrechet.git
+   336715d8..d2a846ec  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7384174)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7384174
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 00:00:15
+CPU Efficiency: 2.98% of 00:08:24 core-walltime
+Job Wall-clock time: 00:00:09
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 10.00 GB (10.00 GB/node)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
