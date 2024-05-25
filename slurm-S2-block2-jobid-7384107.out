@@ -841,3 +841,53 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  61 out of  64 | elapsed: 89.1min remaining:  4.4min
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  64 out of  64 | elapsed: 89.2min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 601c13a6] Simulations S2 block 2
+ 46 files changed, 519 insertions(+)
+ create mode 100644 simulations_S2/results/S2_Samp10_N500_spiral0_sigma1_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N500_spiral0_sigma2_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N500_spiral0_sigma4_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N500_spiral1_sigma1_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N500_spiral1_sigma2_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N500_spiral1_sigma3_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N500_spiral1_sigma4_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N500_spiral0_sigma1_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N500_spiral0_sigma2_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N500_spiral0_sigma3_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N500_spiral0_sigma4_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N500_spiral1_sigma1_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N500_spiral1_sigma2_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N500_spiral1_sigma3_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N500_spiral1_sigma4_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp1_N500_spiral0_sigma4_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp1_N500_spiral1_sigma1_block_2_results.pkl
+To github.com:egarpor/pyfrechet.git
+   4f4b4cc8..601c13a6  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7384107)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7384107
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 3-19:59:50
+CPU Efficiency: 96.47% of 3-23:21:36 core-walltime
+Job Wall-clock time: 01:29:24
+Memory Utilized: 5.60 GB
+Memory Efficiency: 55.95% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
