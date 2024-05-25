@@ -933,3 +933,31 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  64 out of  64 | elapsed: 92.9min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 3149ccc6] Simulations S2 block 4
+ 27 files changed, 118 insertions(+)
+ create mode 100644 simulations_S2/results/S2_Samp14_N500_spiral0_sigma3_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp14_N500_spiral1_sigma1_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp14_N500_spiral1_sigma2_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp14_N500_spiral1_sigma3_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N500_spiral0_sigma1_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N500_spiral0_sigma2_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N500_spiral0_sigma3_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N500_spiral0_sigma4_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N500_spiral1_sigma1_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N500_spiral1_sigma2_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N500_spiral1_sigma3_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp16_N500_spiral0_sigma2_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp16_N500_spiral0_sigma3_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp16_N500_spiral0_sigma4_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp16_N500_spiral1_sigma1_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp17_N500_spiral0_sigma3_block_5_results.pkl
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
