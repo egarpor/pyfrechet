@@ -782,3 +782,40 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  59 out of  64 | elapsed: 93.9min remaining:  8.0min
 [Parallel(n_jobs=-1)]: Done  61 out of  64 | elapsed: 93.9min remaining:  4.6min
 [Parallel(n_jobs=-1)]: Done  64 out of  64 | elapsed: 94.0min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main e5b027f7] Simulations S2 block 30
+ 31 files changed, 1372 insertions(+)
+ create mode 100644 simulations_S2/results/S2_Samp5_N500_spiral0_sigma1_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp65_N500_spiral0_sigma1_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp65_N500_spiral0_sigma2_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp65_N500_spiral0_sigma3_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp65_N500_spiral0_sigma4_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp65_N500_spiral1_sigma1_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp65_N500_spiral1_sigma4_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp66_N500_spiral0_sigma1_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp66_N500_spiral0_sigma2_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp66_N500_spiral0_sigma3_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp66_N500_spiral0_sigma4_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp66_N500_spiral1_sigma1_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp66_N500_spiral1_sigma2_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp66_N500_spiral1_sigma3_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp66_N500_spiral1_sigma4_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp6_N500_spiral0_sigma4_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp6_N500_spiral1_sigma1_block_30_results.pkl
+ create mode 100644 slurm-S2-block35-jobid-7384140.out
+ create mode 100644 slurm-S2-block36-jobid-7384141.out
+ create mode 100644 slurm-S2-block37-jobid-7384142.out
+ create mode 100644 slurm-S2-block38-jobid-7384143.out
+ create mode 100644 slurm-S2-block39-jobid-7384144.out
+ create mode 100644 slurm-S2-block40-jobid-7384145.out
+ create mode 100644 slurm-S2-block43-jobid-7384148.out
+ create mode 100644 slurm-S2-block44-jobid-7384149.out
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
