@@ -910,3 +910,49 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  61 out of  64 | elapsed: 85.6min remaining:  4.2min
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  64 out of  64 | elapsed: 85.7min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 638f199e] Simulations S2 block 16
+ 54 files changed, 240 insertions(+)
+ create mode 100644 simulations_S2/results/S2_Samp27_N500_spiral0_sigma3_block_11_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp28_N500_spiral0_sigma4_block_11_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp28_N500_spiral1_sigma3_block_11_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp29_N500_spiral0_sigma4_block_11_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp34_N500_spiral0_sigma1_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp34_N500_spiral0_sigma2_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp34_N500_spiral0_sigma4_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp34_N500_spiral1_sigma1_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp34_N500_spiral1_sigma2_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp34_N500_spiral1_sigma3_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp35_N500_spiral0_sigma1_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp35_N500_spiral0_sigma2_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp35_N500_spiral0_sigma3_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp35_N500_spiral0_sigma4_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp35_N500_spiral1_sigma1_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp35_N500_spiral1_sigma2_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp35_N500_spiral1_sigma3_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp35_N500_spiral1_sigma4_block_14_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp38_N500_spiral0_sigma1_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp38_N500_spiral0_sigma2_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp38_N500_spiral0_sigma3_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp38_N500_spiral0_sigma4_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp38_N500_spiral1_sigma1_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp38_N500_spiral1_sigma2_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp38_N500_spiral1_sigma3_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp39_N500_spiral0_sigma1_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp39_N500_spiral0_sigma2_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp39_N500_spiral0_sigma3_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp39_N500_spiral0_sigma4_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp39_N500_spiral1_sigma1_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp39_N500_spiral1_sigma2_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp39_N500_spiral1_sigma3_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp39_N500_spiral1_sigma4_block_16_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp3_N500_spiral1_sigma3_block_14_results.pkl
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
