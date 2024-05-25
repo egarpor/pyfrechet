@@ -141,3 +141,26 @@ Traceback (most recent call last):
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
     raise self._result
 numpy.linalg.LinAlgError: Matrix is not positive definite
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 02d6b94e] Simulations SPD block 15
+ 29 files changed, 290080 insertions(+)
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N200_df1_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N200_df2_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N200_df4_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N200_df5_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N200_df6_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N200_df7_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N200_df1_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N200_df2_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N200_df3_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N200_df4_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N200_df5_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N200_df6_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N200_df7_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp20_N50_df2_block_7_results.pkl
+ create mode 100644 slurm-SPD-block11-jobid-7386315.out
+ create mode 100644 slurm-SPD-block12-jobid-7386316.out
+ create mode 100644 slurm-SPD-block13-jobid-7386317.out
+ create mode 100644 slurm-SPD-block14-jobid-7386318.out
+ create mode 100644 slurm-SPD-block15-jobid-7386319.out
