@@ -45,3 +45,41 @@ Traceback (most recent call last):
   File "/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_SPD/main_parallel.py", line 12, in <module>
     from pyfrechet.metric_spaces import MetricData, LogCholesky, spd_to_log_chol, log_chol_to_spd
 ImportError: cannot import name 'spd_to_log_chol' from 'pyfrechet.metric_spaces' (/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/pyfrechet/metric_spaces/__init__.py)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 8b54995f] Simulations SPD block 24
+ 9 files changed, 14 insertions(+), 229 deletions(-)
+ rewrite slurm-S2-block15-jobid-7384120.out (96%)
+ rewrite slurm-S2-block17-jobid-7384122.out (96%)
+ rewrite slurm-S2-block23-jobid-7384128.out (96%)
+ rewrite slurm-S2-block26-jobid-7384131.out (96%)
+ rewrite slurm-S2-block27-jobid-7384132.out (96%)
+To github.com:egarpor/pyfrechet.git
+   97466fc7..8b54995f  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7384187)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7384187
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 00:00:15
+CPU Efficiency: 2.98% of 00:08:24 core-walltime
+Job Wall-clock time: 00:00:09
+Memory Utilized: 236.00 KB
+Memory Efficiency: 0.00% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
