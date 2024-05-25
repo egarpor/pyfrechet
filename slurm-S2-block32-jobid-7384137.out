@@ -1018,3 +1018,44 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  64 out of  64 | elapsed: 59.2min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 4f4b4cc8] Simulations S2 block 32
+ 38 files changed, 331 insertions(+)
+ create mode 100644 simulations_S2/results/S2_Samp67_N200_spiral1_sigma2_block_31_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp69_N500_spiral0_sigma1_block_32_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp69_N500_spiral0_sigma2_block_32_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp69_N500_spiral0_sigma3_block_32_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp69_N500_spiral0_sigma4_block_32_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp69_N500_spiral1_sigma1_block_32_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp69_N500_spiral1_sigma4_block_32_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp6_N500_spiral1_sigma4_block_32_results.pkl
+To github.com:egarpor/pyfrechet.git
+   795b6b31..4f4b4cc8  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7384137)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7384137
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 2-12:18:23
+CPU Efficiency: 95.18% of 2-15:21:36 core-walltime
+Job Wall-clock time: 00:59:24
+Memory Utilized: 5.44 GB
+Memory Efficiency: 54.43% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
