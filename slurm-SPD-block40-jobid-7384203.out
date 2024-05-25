@@ -55,3 +55,6 @@ See "git help gc" for manual housekeeping.
  create mode 100644 slurm-SPD-block40-jobid-7384203.out
  create mode 100644 slurm-SPD-block42-jobid-7384205.out
  create mode 100644 slurm-SPD-block43-jobid-7384206.out
+To github.com:egarpor/pyfrechet.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at f266464fed5e100ea131d00c801d7d391b512d03 but expected 1bb8d39d4744d1c92a8c6a9152c5669025bb3402)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'

@@ -53,3 +53,32 @@ are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 fatal: cannot lock ref 'HEAD': is at f266464fed5e100ea131d00c801d7d391b512d03 but expected 1bb8d39d4744d1c92a8c6a9152c5669025bb3402
+To github.com:egarpor/pyfrechet.git
+   1bb8d39d..f266464f  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7384206)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7384206
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 00:00:15
+CPU Efficiency: 4.46% of 00:05:36 core-walltime
+Job Wall-clock time: 00:00:06
+Memory Utilized: 692.00 KB
+Memory Efficiency: 0.01% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+

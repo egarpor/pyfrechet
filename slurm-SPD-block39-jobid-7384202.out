@@ -53,3 +53,6 @@ are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 /var/spool/slurmd/job7384202/slurm_script: line 10: 3752769 Bus error               (core dumped) git commit -m "Simulations SPD block $block"
+To github.com:egarpor/pyfrechet.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at f266464fed5e100ea131d00c801d7d391b512d03 but expected 1bb8d39d4744d1c92a8c6a9152c5669025bb3402)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
