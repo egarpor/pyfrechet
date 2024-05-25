@@ -45,3 +45,51 @@ Traceback (most recent call last):
   File "/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_SPD/main_parallel.py", line 12, in <module>
     from pyfrechet.metric_spaces import MetricData, LogCholesky, spd_to_log_chol, log_chol_to_spd
 ImportError: cannot import name 'spd_to_log_chol' from 'pyfrechet.metric_spaces' (/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/pyfrechet/metric_spaces/__init__.py)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main c1774f1c] Simulations SPD block 33
+ 37 files changed, 2458 insertions(+)
+ create mode 100644 slurm-S2-block13-jobid-7384118.out
+ create mode 100644 slurm-S2-block14-jobid-7384119.out
+ create mode 100644 slurm-S2-block16-jobid-7384121.out
+ create mode 100644 slurm-S2-block18-jobid-7384123.out
+ create mode 100644 slurm-S2-block19-jobid-7384124.out
+ create mode 100644 slurm-S2-block20-jobid-7384125.out
+ create mode 100644 slurm-S2-block21-jobid-7384126.out
+ create mode 100644 slurm-S2-block22-jobid-7384127.out
+ create mode 100644 slurm-S2-block24-jobid-7384129.out
+ create mode 100644 slurm-S2-block25-jobid-7384130.out
+ create mode 100644 slurm-SPD-block29-jobid-7384192.out
+ create mode 100644 slurm-SPD-block30-jobid-7384193.out
+ create mode 100644 slurm-SPD-block31-jobid-7384194.out
+ create mode 100644 slurm-SPD-block32-jobid-7384195.out
+ create mode 100644 slurm-SPD-block33-jobid-7384196.out
+To github.com:egarpor/pyfrechet.git
+   8b54995f..c1774f1c  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7384196)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7384196
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 00:00:15
+CPU Efficiency: 3.83% of 00:06:32 core-walltime
+Job Wall-clock time: 00:00:07
+Memory Utilized: 292.00 KB
+Memory Efficiency: 0.00% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
