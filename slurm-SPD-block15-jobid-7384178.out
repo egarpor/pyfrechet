@@ -53,3 +53,6 @@ are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 fatal: cannot lock ref 'HEAD': is at 16b5eb5655dd8a94a5f20c4e966f755cb0f7e907 but expected 1cca2173fe0c356a44104450cd49e592375d08b6
+To github.com:egarpor/pyfrechet.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 16b5eb5655dd8a94a5f20c4e966f755cb0f7e907 but expected 1cca2173fe0c356a44104450cd49e592375d08b6)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'

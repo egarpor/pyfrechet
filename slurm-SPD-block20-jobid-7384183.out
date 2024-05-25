@@ -45,3 +45,38 @@ Traceback (most recent call last):
   File "/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_SPD/main_parallel.py", line 12, in <module>
     from pyfrechet.metric_spaces import MetricData, LogCholesky, spd_to_log_chol, log_chol_to_spd
 ImportError: cannot import name 'spd_to_log_chol' from 'pyfrechet.metric_spaces' (/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/pyfrechet/metric_spaces/__init__.py)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 9968049a] Simulations SPD block 20
+ 12 files changed, 206 insertions(+)
+ create mode 100644 slurm-S2-block11-jobid-7384116.out
+ create mode 100644 slurm-SPD-block20-jobid-7384183.out
+To github.com:egarpor/pyfrechet.git
+   2b991d32..9968049a  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7384183)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7384183
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 00:00:14
+CPU Efficiency: 2.27% of 00:10:16 core-walltime
+Job Wall-clock time: 00:00:11
+Memory Utilized: 188.00 KB
+Memory Efficiency: 0.00% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+

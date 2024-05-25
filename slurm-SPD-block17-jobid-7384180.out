@@ -50,3 +50,6 @@ See "git help gc" for manual housekeeping.
 [main 2b991d32] Simulations SPD block 17
  5 files changed, 9 insertions(+), 64 deletions(-)
  rewrite slurm-SPD-block23-jobid-7384186.out (96%)
+To github.com:egarpor/pyfrechet.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 2b991d325b71157d33436829ba0f9a38a36a4898 but expected 16b5eb5655dd8a94a5f20c4e966f755cb0f7e907)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
