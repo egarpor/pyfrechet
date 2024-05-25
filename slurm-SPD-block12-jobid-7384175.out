@@ -50,3 +50,32 @@ See "git help gc" for manual housekeeping.
 [main 1eb7c5a9] Simulations SPD block 12
  5 files changed, 55 insertions(+)
  create mode 100644 slurm-SPD-block6-jobid-7384169.out
+To github.com:egarpor/pyfrechet.git
+   d2a846ec..1eb7c5a9  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7384175)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7384175
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 00:00:15
+CPU Efficiency: 2.23% of 00:11:12 core-walltime
+Job Wall-clock time: 00:00:12
+Memory Utilized: 1.11 MB
+Memory Efficiency: 0.01% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
