@@ -45,3 +45,31 @@ Traceback (most recent call last):
   File "/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_SPD/main_parallel.py", line 12, in <module>
     from pyfrechet.metric_spaces import MetricData, LogCholesky, spd_to_log_chol, log_chol_to_spd
 ImportError: cannot import name 'spd_to_log_chol' from 'pyfrechet.metric_spaces' (/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/pyfrechet/metric_spaces/__init__.py)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 8b12662f] Simulations SPD block 46
+ 53 files changed, 707 insertions(+)
+ create mode 100644 simulations_S2/results/S2_Samp100_N50_spiral1_sigma2_block_1_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N50_spiral1_sigma1_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N50_spiral1_sigma2_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N50_spiral1_sigma3_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N50_spiral0_sigma3_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N50_spiral1_sigma4_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp12_N50_spiral0_sigma2_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp12_N50_spiral0_sigma4_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp12_N50_spiral1_sigma1_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp13_N50_spiral1_sigma1_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp13_N50_spiral1_sigma2_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp14_N50_spiral1_sigma1_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp14_N50_spiral1_sigma2_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp14_N50_spiral1_sigma3_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N50_spiral0_sigma4_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp1_N50_spiral0_sigma1_block_4_results.pkl
+ create mode 100644 slurm-SPD-block44-jobid-7384207.out
+ create mode 100644 slurm-SPD-block45-jobid-7384208.out
+ create mode 100644 slurm-SPD-block46-jobid-7384209.out
+ create mode 100644 slurm-SPD-block47-jobid-7384210.out
+ create mode 100644 slurm-SPD-block48-jobid-7384211.out
+To github.com:egarpor/pyfrechet.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 8b12662fdfe2e477a9a9ebc111089ab364923ef2 but expected 7751d4f9c0fef1a69c005ba385853c6b1bf6d822)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
