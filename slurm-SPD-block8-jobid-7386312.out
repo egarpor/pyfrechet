@@ -193,3 +193,285 @@ Traceback (most recent call last):
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
     raise self._result
 numpy.linalg.LinAlgError: Matrix is not positive definite
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 6077069f] Simulations SPD block 8
+ 250 files changed, 1154708 insertions(+)
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N100_df1_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N100_df2_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N100_df3_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N100_df4_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N100_df5_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N100_df6_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N100_df7_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N200_df1_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N200_df2_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N200_df3_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N200_df4_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N200_df5_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N200_df6_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N200_df7_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N50_df1_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N50_df2_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N50_df3_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N50_df4_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N50_df5_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N50_df6_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp100_N50_df7_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N100_df1_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N100_df2_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N100_df3_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N100_df4_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N100_df5_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N100_df6_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N100_df7_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N200_df1_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N200_df2_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N200_df3_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N200_df4_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N200_df5_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N200_df6_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N200_df7_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N50_df1_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N50_df2_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N50_df3_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N50_df4_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N50_df5_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N50_df6_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp10_N50_df7_block_1_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N100_df1_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N100_df2_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N100_df3_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N100_df4_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N100_df5_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N100_df6_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N100_df7_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N200_df1_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N200_df2_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N200_df3_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N200_df4_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N200_df5_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N200_df6_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N200_df7_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N50_df1_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N50_df2_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N50_df3_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N50_df4_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N50_df5_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N50_df6_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp11_N50_df7_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N100_df1_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N100_df2_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N100_df3_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N100_df4_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N100_df5_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N100_df6_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N100_df7_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N200_df1_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N200_df2_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N200_df3_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N200_df4_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N200_df5_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N200_df6_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N200_df7_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N50_df1_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N50_df2_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N50_df3_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N50_df4_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N50_df5_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N50_df6_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp12_N50_df7_block_2_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N100_df1_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N100_df2_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N100_df3_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N100_df4_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N100_df5_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N100_df6_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N100_df7_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N200_df1_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N200_df2_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N200_df3_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N200_df4_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N200_df5_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N200_df6_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N200_df7_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N50_df1_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N50_df2_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N50_df3_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N50_df4_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N50_df5_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N50_df6_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp13_N50_df7_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N100_df1_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N100_df2_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N100_df3_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N100_df4_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N100_df5_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N100_df6_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N100_df7_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N200_df1_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N200_df2_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N200_df3_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N200_df4_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N200_df5_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N200_df6_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N200_df7_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N50_df1_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N50_df2_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N50_df3_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N50_df4_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N50_df5_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N50_df6_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp14_N50_df7_block_3_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N100_df1_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N100_df2_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N100_df3_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N100_df4_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N100_df5_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N100_df6_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N100_df7_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N200_df1_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N200_df2_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N200_df3_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N200_df4_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N200_df5_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N200_df6_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N200_df7_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N50_df1_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N50_df2_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N50_df3_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N50_df4_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N50_df5_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N50_df6_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp15_N50_df7_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N100_df1_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N100_df2_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N100_df3_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N100_df4_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N100_df5_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N100_df6_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N100_df7_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N200_df1_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N200_df2_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N200_df3_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N200_df4_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N200_df5_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N200_df6_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N200_df7_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N50_df1_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N50_df2_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N50_df3_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N50_df4_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N50_df5_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N50_df6_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp16_N50_df7_block_4_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N100_df1_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N100_df2_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N100_df3_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N100_df4_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N100_df5_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N100_df6_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N100_df7_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N200_df1_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N200_df2_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N200_df3_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N200_df4_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N200_df5_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N200_df6_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N200_df7_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N50_df1_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N50_df2_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N50_df3_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N50_df4_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N50_df5_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N50_df6_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp17_N50_df7_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N100_df1_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N100_df2_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N100_df3_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N100_df4_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N100_df5_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N100_df6_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N100_df7_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N200_df1_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N200_df2_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N200_df3_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N200_df4_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N200_df5_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N200_df6_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N200_df7_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N50_df1_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N50_df2_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N50_df3_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N50_df4_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N50_df5_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N50_df6_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp18_N50_df7_block_5_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N100_df1_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N100_df2_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N100_df3_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N100_df4_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N100_df5_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N100_df6_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N100_df7_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N200_df3_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N50_df1_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N50_df2_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N50_df3_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N50_df4_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N50_df5_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N50_df6_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp19_N50_df7_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N100_df1_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N100_df2_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N100_df3_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N100_df4_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N100_df5_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N100_df6_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N100_df7_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N50_df1_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N50_df2_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N50_df3_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N50_df4_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N50_df5_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N50_df6_block_6_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp1_N50_df7_block_6_results.pkl
+ create mode 100644 slurm-SPD-block1-jobid-7386305.out
+ create mode 100644 slurm-SPD-block10-jobid-7386314.out
+ create mode 100644 slurm-SPD-block2-jobid-7386306.out
+ create mode 100644 slurm-SPD-block3-jobid-7386307.out
+ create mode 100644 slurm-SPD-block4-jobid-7386308.out
+ create mode 100644 slurm-SPD-block5-jobid-7386309.out
+ create mode 100644 slurm-SPD-block6-jobid-7386310.out
+ create mode 100644 slurm-SPD-block7-jobid-7386311.out
+ create mode 100644 slurm-SPD-block8-jobid-7386312.out
+ create mode 100644 slurm-SPD-block9-jobid-7386313.out
+To github.com:egarpor/pyfrechet.git
+   56dab639..6077069f  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7386312)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7386312
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 00:19:17
+CPU Efficiency: 40.51% of 00:47:36 core-walltime
+Job Wall-clock time: 00:00:51
+Memory Utilized: 5.17 MB
+Memory Efficiency: 0.05% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
