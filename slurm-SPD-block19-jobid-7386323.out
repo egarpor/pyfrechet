@@ -147,3 +147,50 @@ Traceback (most recent call last):
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
     raise self._result
 numpy.linalg.LinAlgError: Matrix is not positive definite
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main a5af8b33] Simulations SPD block 19
+ 28 files changed, 27707 insertions(+)
+ create mode 100644 simulations_SPD/results/SPD_Samp20_N50_df4_block_7_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp20_N50_df5_block_7_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp20_N50_df6_block_7_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp20_N50_df7_block_7_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp21_N50_df1_block_7_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp21_N50_df2_block_7_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp21_N50_df4_block_7_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp21_N50_df5_block_7_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp21_N50_df6_block_7_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp21_N50_df7_block_7_results.pkl
+ create mode 100644 slurm-SPD-block16-jobid-7386320.out
+ create mode 100644 slurm-SPD-block17-jobid-7386321.out
+ create mode 100644 slurm-SPD-block18-jobid-7386322.out
+ create mode 100644 slurm-SPD-block19-jobid-7386323.out
+To github.com:egarpor/pyfrechet.git
+   02d6b94e..a5af8b33  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7386323)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7386323
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 00:15:26
+CPU Efficiency: 39.37% of 00:39:12 core-walltime
+Job Wall-clock time: 00:00:42
+Memory Utilized: 2.65 MB
+Memory Efficiency: 0.03% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
