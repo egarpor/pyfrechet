@@ -1,0 +1,4 @@
+slurmstepd: info: Setting TMPDIR to /scratch/7384116. Previous errors about TMPDIR can be discarded
+python/3.9.9 loaded
+jupyter-server/1.13.5-python-3.9.9 loaded
+jupyterlab/3.2.4-python-3.9.9 loaded

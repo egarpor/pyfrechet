@@ -45,3 +45,8 @@ Traceback (most recent call last):
   File "/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_SPD/main_parallel.py", line 12, in <module>
     from pyfrechet.metric_spaces import MetricData, LogCholesky, spd_to_log_chol, log_chol_to_spd
 ImportError: cannot import name 'spd_to_log_chol' from 'pyfrechet.metric_spaces' (/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/pyfrechet/metric_spaces/__init__.py)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 2b991d32] Simulations SPD block 17
+ 5 files changed, 9 insertions(+), 64 deletions(-)
+ rewrite slurm-SPD-block23-jobid-7384186.out (96%)

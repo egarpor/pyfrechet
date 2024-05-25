@@ -1,4 +1,4 @@
-slurmstepd: info: Setting TMPDIR to /scratch/7384181. Previous errors about TMPDIR can be discarded
+slurmstepd: info: Setting TMPDIR to /scratch/7384183. Previous errors about TMPDIR can be discarded
 python/3.9.9 loaded
 jupyter-server/1.13.5-python-3.9.9 loaded
 jupyterlab/3.2.4-python-3.9.9 loaded
@@ -45,11 +45,3 @@ Traceback (most recent call last):
   File "/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_SPD/main_parallel.py", line 12, in <module>
     from pyfrechet.metric_spaces import MetricData, LogCholesky, spd_to_log_chol, log_chol_to_spd
 ImportError: cannot import name 'spd_to_log_chol' from 'pyfrechet.metric_spaces' (/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/pyfrechet/metric_spaces/__init__.py)
-fatal: Unable to create '/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-fatal: cannot lock ref 'HEAD': is at 2b991d325b71157d33436829ba0f9a38a36a4898 but expected 16b5eb5655dd8a94a5f20c4e966f755cb0f7e907
