@@ -45,3 +45,15 @@ Traceback (most recent call last):
   File "/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_SPD/main_parallel.py", line 12, in <module>
     from pyfrechet.metric_spaces import MetricData, LogCholesky, spd_to_log_chol, log_chol_to_spd
 ImportError: cannot import name 'spd_to_log_chol' from 'pyfrechet.metric_spaces' (/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/pyfrechet/metric_spaces/__init__.py)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 1bb8d39d] Simulations SPD block 38
+ 37 files changed, 942 insertions(+)
+ create mode 100644 slurm-SPD-block34-jobid-7384197.out
+ create mode 100644 slurm-SPD-block35-jobid-7384198.out
+ create mode 100644 slurm-SPD-block36-jobid-7384199.out
+ create mode 100644 slurm-SPD-block37-jobid-7384200.out
+ create mode 100644 slurm-SPD-block38-jobid-7384201.out
+To github.com:egarpor/pyfrechet.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 1bb8d39d4744d1c92a8c6a9152c5669025bb3402 but expected c1774f1c1ed2af2fd7c26e4086a031561e05ba67)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
