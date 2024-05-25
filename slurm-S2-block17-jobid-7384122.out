@@ -983,3 +983,158 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  64 out of  64 | elapsed: 69.0min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 77d22f96] Simulations S2 block 17
+ 154 files changed, 2687 insertions(+)
+ create mode 100644 simulations_S2/results/S2_Samp2_N200_spiral0_sigma4_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N200_spiral1_sigma1_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N200_spiral1_sigma2_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N200_spiral1_sigma3_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp2_N200_spiral1_sigma4_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp32_N200_spiral0_sigma1_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp32_N200_spiral0_sigma2_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp32_N200_spiral0_sigma3_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp32_N200_spiral0_sigma4_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp32_N200_spiral1_sigma1_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp32_N200_spiral1_sigma2_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp32_N200_spiral1_sigma3_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp32_N200_spiral1_sigma4_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp33_N200_spiral0_sigma1_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp33_N200_spiral0_sigma2_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp33_N200_spiral0_sigma3_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp33_N200_spiral0_sigma4_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp33_N200_spiral1_sigma1_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp33_N200_spiral1_sigma2_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp33_N200_spiral1_sigma3_block_13_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp38_N500_spiral1_sigma4_block_17_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp40_N500_spiral0_sigma1_block_17_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp40_N500_spiral0_sigma2_block_17_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp40_N500_spiral0_sigma3_block_17_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp40_N500_spiral0_sigma4_block_17_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp40_N500_spiral1_sigma2_block_17_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp40_N500_spiral1_sigma3_block_17_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp40_N500_spiral1_sigma4_block_17_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp41_N200_spiral1_sigma3_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp41_N200_spiral1_sigma4_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp42_N200_spiral0_sigma1_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp42_N200_spiral0_sigma2_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp42_N200_spiral0_sigma3_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp42_N200_spiral1_sigma2_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp42_N200_spiral1_sigma3_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp42_N200_spiral1_sigma4_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp43_N200_spiral0_sigma1_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp43_N200_spiral0_sigma2_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp43_N200_spiral0_sigma3_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp43_N200_spiral1_sigma3_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp43_N200_spiral1_sigma4_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp44_N200_spiral0_sigma1_block_19_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp44_N200_spiral0_sigma2_block_19_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp44_N200_spiral0_sigma3_block_19_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp44_N200_spiral1_sigma2_block_19_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp44_N200_spiral1_sigma4_block_19_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp45_N200_spiral0_sigma1_block_19_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp45_N200_spiral0_sigma2_block_19_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp45_N200_spiral1_sigma1_block_19_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp45_N200_spiral1_sigma3_block_19_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp45_N200_spiral1_sigma4_block_19_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp4_N200_spiral0_sigma2_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp4_N200_spiral0_sigma3_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp4_N200_spiral0_sigma4_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp4_N200_spiral1_sigma1_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp4_N200_spiral1_sigma3_block_18_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp4_N200_spiral1_sigma4_block_19_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp53_N200_spiral0_sigma3_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp53_N200_spiral0_sigma4_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp53_N200_spiral1_sigma1_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp53_N200_spiral1_sigma2_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp53_N200_spiral1_sigma3_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp53_N200_spiral1_sigma4_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp54_N200_spiral0_sigma1_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp54_N200_spiral0_sigma2_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp54_N200_spiral0_sigma3_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp54_N200_spiral0_sigma4_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp54_N200_spiral1_sigma1_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp54_N200_spiral1_sigma2_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp54_N200_spiral1_sigma3_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp54_N200_spiral1_sigma4_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp55_N200_spiral0_sigma1_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp55_N200_spiral0_sigma2_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp55_N200_spiral0_sigma3_block_24_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp57_N200_spiral0_sigma1_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp57_N200_spiral0_sigma2_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp5_N200_spiral1_sigma3_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp61_N200_spiral0_sigma1_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp61_N200_spiral0_sigma2_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp61_N200_spiral0_sigma3_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp61_N200_spiral0_sigma4_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp61_N200_spiral1_sigma1_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp61_N200_spiral1_sigma2_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp61_N200_spiral1_sigma3_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp61_N200_spiral1_sigma4_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp62_N200_spiral0_sigma1_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp62_N200_spiral0_sigma2_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp62_N200_spiral0_sigma3_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp62_N200_spiral0_sigma4_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp62_N200_spiral1_sigma1_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp62_N200_spiral1_sigma2_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp62_N200_spiral1_sigma3_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp62_N200_spiral1_sigma4_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp63_N200_spiral0_sigma1_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp63_N200_spiral0_sigma2_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp63_N200_spiral0_sigma3_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp63_N200_spiral0_sigma4_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp63_N200_spiral1_sigma1_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp63_N200_spiral1_sigma2_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp63_N200_spiral1_sigma3_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp63_N200_spiral1_sigma4_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp64_N200_spiral0_sigma1_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp64_N200_spiral0_sigma2_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp64_N200_spiral0_sigma3_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp64_N200_spiral0_sigma4_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp64_N200_spiral1_sigma1_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp64_N200_spiral1_sigma4_block_29_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp65_N200_spiral0_sigma2_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp65_N200_spiral0_sigma3_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp65_N200_spiral0_sigma4_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp65_N200_spiral1_sigma1_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp65_N200_spiral1_sigma3_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp65_N200_spiral1_sigma4_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp66_N200_spiral0_sigma2_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp66_N200_spiral0_sigma4_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp66_N200_spiral1_sigma2_block_30_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp67_N200_spiral0_sigma1_block_31_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp67_N200_spiral1_sigma3_block_31_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp67_N200_spiral1_sigma4_block_31_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp69_N200_spiral0_sigma1_block_31_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp6_N200_spiral1_sigma3_block_28_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp6_N200_spiral1_sigma4_block_28_results.pkl
+To github.com:egarpor/pyfrechet.git
+   6fb7f99f..77d22f96  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7384122)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7384122
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 2-22:47:34
+CPU Efficiency: 95.88% of 3-01:49:52 core-walltime
+Job Wall-clock time: 01:09:13
+Memory Utilized: 5.45 GB
+Memory Efficiency: 54.51% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
