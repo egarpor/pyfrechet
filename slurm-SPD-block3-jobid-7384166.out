@@ -52,3 +52,4 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at 9d111c3c9b030353afbc53f182bcfa13a124c1e0 but expected af9029c0f36057342a27dc8c83eeb668f2437689
