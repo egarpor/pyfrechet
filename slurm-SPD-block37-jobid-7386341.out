@@ -149,3 +149,39 @@ Traceback (most recent call last):
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
     raise self._result
 numpy.linalg.LinAlgError: Matrix is not positive definite
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 426bd85a] Simulations SPD block 37
+ 31 files changed, 27779 insertions(+)
+ create mode 100644 slurm-SPD-block37-jobid-7386341.out
+ create mode 100644 slurm-SPD-block38-jobid-7386342.out
+ create mode 100644 slurm-SPD-block39-jobid-7386343.out
+To github.com:egarpor/pyfrechet.git
+   4fe46d8d..426bd85a  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7386341)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7386341
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 00:16:15
+CPU Efficiency: 41.45% of 00:39:12 core-walltime
+Job Wall-clock time: 00:00:42
+Memory Utilized: 217.97 MB
+Memory Efficiency: 2.13% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
