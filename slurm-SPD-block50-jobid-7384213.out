@@ -45,3 +45,81 @@ Traceback (most recent call last):
   File "/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_SPD/main_parallel.py", line 12, in <module>
     from pyfrechet.metric_spaces import MetricData, LogCholesky, spd_to_log_chol, log_chol_to_spd
 ImportError: cannot import name 'spd_to_log_chol' from 'pyfrechet.metric_spaces' (/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/pyfrechet/metric_spaces/__init__.py)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 110fc1fb] Simulations SPD block 50
+ 77 files changed, 1377 insertions(+)
+ create mode 100644 simulations_S2/results/S2_Samp100_N50_spiral0_sigma3_block_1_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp100_N50_spiral0_sigma4_block_1_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp100_N50_spiral1_sigma1_block_1_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp100_N50_spiral1_sigma3_block_1_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp100_N50_spiral1_sigma4_block_1_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N50_spiral0_sigma1_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N50_spiral0_sigma2_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N50_spiral0_sigma3_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N50_spiral0_sigma4_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp10_N50_spiral1_sigma4_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N50_spiral0_sigma1_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N50_spiral0_sigma2_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N50_spiral0_sigma4_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N50_spiral1_sigma1_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N50_spiral1_sigma2_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp11_N50_spiral1_sigma3_block_2_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp12_N50_spiral0_sigma1_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp12_N50_spiral1_sigma2_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp12_N50_spiral1_sigma3_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp12_N50_spiral1_sigma4_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp13_N50_spiral0_sigma1_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp13_N50_spiral0_sigma2_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp13_N50_spiral0_sigma3_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp13_N50_spiral0_sigma4_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp13_N50_spiral1_sigma4_block_3_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp14_N50_spiral0_sigma1_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp14_N50_spiral0_sigma2_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp14_N50_spiral0_sigma3_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp14_N50_spiral0_sigma4_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp14_N50_spiral1_sigma4_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N50_spiral0_sigma1_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N50_spiral0_sigma2_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N50_spiral0_sigma3_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N50_spiral1_sigma1_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N50_spiral1_sigma2_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp15_N50_spiral1_sigma3_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp16_N50_spiral1_sigma2_block_5_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp16_N50_spiral1_sigma3_block_5_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp17_N50_spiral0_sigma2_block_5_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp18_N50_spiral0_sigma4_block_6_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp1_N50_spiral0_sigma2_block_4_results.pkl
+ create mode 100644 simulations_S2/results/S2_Samp1_N50_spiral0_sigma3_block_5_results.pkl
+ create mode 100644 slurm-S2-block28-jobid-7384133.out
+ create mode 100644 slurm-SPD-block49-jobid-7384212.out
+ create mode 100644 slurm-SPD-block50-jobid-7384213.out
+To github.com:egarpor/pyfrechet.git
+   8b12662f..110fc1fb  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7384213)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7384213
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 00:00:15
+CPU Efficiency: 2.98% of 00:08:24 core-walltime
+Job Wall-clock time: 00:00:09
+Memory Utilized: 612.00 KB
+Memory Efficiency: 0.01% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
