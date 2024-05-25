@@ -7,7 +7,7 @@ from .correlation import CorrFrobenius
 from .wasserstein_1d import Wasserstein1D
 from .network import NetworkCholesky
 from .riemannian_manifold import RiemannianManifold
-from .log_cholesky import LogCholesky
+from .log_cholesky import LogCholesky, log_chol_to_spd, spd_to_log_chol
 from .torus import Torus
 
 from .fisher_rao_phase import has_fda
