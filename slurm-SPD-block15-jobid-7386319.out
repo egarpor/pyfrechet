@@ -164,3 +164,32 @@ See "git help gc" for manual housekeeping.
  create mode 100644 slurm-SPD-block13-jobid-7386317.out
  create mode 100644 slurm-SPD-block14-jobid-7386318.out
  create mode 100644 slurm-SPD-block15-jobid-7386319.out
+To github.com:egarpor/pyfrechet.git
+   6077069f..02d6b94e  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7386319)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7386319
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 00:11:08
+CPU Efficiency: 32.24% of 00:34:32 core-walltime
+Job Wall-clock time: 00:00:37
+Memory Utilized: 2.33 MB
+Memory Efficiency: 0.02% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+

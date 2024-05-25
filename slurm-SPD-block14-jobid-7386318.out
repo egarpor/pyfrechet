@@ -171,3 +171,10 @@ Traceback (most recent call last):
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
     raise self._result
 numpy.linalg.LinAlgError: Matrix is not positive definite
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 02ef34c2] Simulations SPD block 14
+ 5 files changed, 1227 insertions(+)
+To github.com:egarpor/pyfrechet.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 02d6b94e268f1d9bbe5c0129929f14233025bef1 but expected 6077069f79632e64a34e36c230376bf1ffd3da4d)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
