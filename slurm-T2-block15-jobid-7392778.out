@@ -33024,3 +33024,42 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  56 out of  56 | elapsed: 78.4min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 1e98d0b2] Simulations T2 block 15
+ 13 files changed, 4378 insertions(+)
+ create mode 100644 simulations_T2/results/T2_Samp35_N500_sigma4_block_15_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp35_N500_sigma6_block_15_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp3_N500_sigma2_block_17_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N500_sigma3_block_29_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp61_N500_sigma1_block_29_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp61_N500_sigma2_block_29_results.pkl
+To github.com:egarpor/pyfrechet.git
+   b99a15b8..1e98d0b2  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7392778)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7392778
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 2-21:09:38
+CPU Efficiency: 94.10% of 3-01:30:00 core-walltime
+Job Wall-clock time: 01:18:45
+Memory Utilized: 4.88 GB
+Memory Efficiency: 48.80% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
