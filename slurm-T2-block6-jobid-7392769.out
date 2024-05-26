@@ -31477,3 +31477,32 @@ See "git help gc" for manual housekeeping.
  create mode 100644 simulations_T2/results/T2_Samp30_N500_sigma3_block_12_results.pkl
  create mode 100644 simulations_T2/results/T2_Samp4_N500_sigma3_block_23_results.pkl
  create mode 100644 simulations_T2/results/T2_Samp98_N500_sigma4_block_12_results.pkl
+To github.com:egarpor/pyfrechet.git
+   9a38242b..17ac7821  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7392769)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7392769
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 3-01:41:49
+CPU Efficiency: 96.25% of 3-04:33:52 core-walltime
+Job Wall-clock time: 01:22:02
+Memory Utilized: 4.85 GB
+Memory Efficiency: 48.51% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
