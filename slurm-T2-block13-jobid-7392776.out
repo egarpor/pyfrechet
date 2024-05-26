@@ -37633,3 +37633,54 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  56 out of  56 | elapsed: 82.6min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 1272b1b7] Simulations T2 block 13
+ 36 files changed, 16994 insertions(+)
+ create mode 100644 simulations_T2/results/T2_Samp31_N500_sigma1_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp31_N500_sigma2_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp31_N500_sigma3_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp31_N500_sigma4_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp31_N500_sigma5_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp31_N500_sigma6_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp31_N500_sigma7_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp32_N500_sigma1_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp32_N500_sigma2_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp32_N500_sigma3_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp32_N500_sigma4_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp32_N500_sigma5_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp32_N500_sigma6_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp32_N500_sigma7_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp98_N500_sigma5_block_13_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp98_N500_sigma6_block_13_results.pkl
+ create mode 100644 slurm-T2-block47-jobid-7392810.out
+ create mode 100644 slurm-T2-block48-jobid-7392811.out
+To github.com:egarpor/pyfrechet.git
+   ff3891bf..1272b1b7  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7392776)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7392776
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 3-02:28:01
+CPU Efficiency: 96.26% of 3-05:21:28 core-walltime
+Job Wall-clock time: 01:22:53
+Memory Utilized: 4.92 GB
+Memory Efficiency: 49.18% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
