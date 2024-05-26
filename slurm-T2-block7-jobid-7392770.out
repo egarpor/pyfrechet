@@ -35244,3 +35244,47 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  56 out of  56 | elapsed: 82.3min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 1ea5aed5] Simulations T2 block 7
+ 29 files changed, 9502 insertions(+)
+ create mode 100644 simulations_T2/results/T2_Samp20_N500_sigma2_block_7_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp20_N500_sigma4_block_7_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp20_N500_sigma6_block_7_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp20_N500_sigma7_block_7_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp21_N500_sigma1_block_7_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp21_N500_sigma4_block_7_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp21_N500_sigma5_block_7_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp21_N500_sigma6_block_7_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp21_N500_sigma7_block_7_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp50_N500_sigma4_block_23_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp98_N500_sigma3_block_7_results.pkl
+To github.com:egarpor/pyfrechet.git
+   3af5f2b0..1ea5aed5  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7392770)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7392770
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 3-02:14:32
+CPU Efficiency: 96.32% of 3-05:04:40 core-walltime
+Job Wall-clock time: 01:22:35
+Memory Utilized: 4.84 GB
+Memory Efficiency: 48.41% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
