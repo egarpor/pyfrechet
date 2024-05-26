@@ -147,3 +147,63 @@ Traceback (most recent call last):
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
     raise self._result
 numpy.linalg.LinAlgError: Matrix is not positive definite
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main ebdaf4e9] Simulations SPD block 48
+ 63 files changed, 48293 insertions(+)
+ create mode 100644 simulations_SPD/results/SPD_Samp24_N100_df1_block_9_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp24_N100_df2_block_9_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp24_N100_df3_block_9_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp24_N100_df5_block_9_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp24_N100_df7_block_9_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp25_N100_df4_block_9_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp25_N100_df5_block_9_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp25_N100_df7_block_9_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp26_N100_df3_block_10_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp26_N100_df4_block_10_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp26_N100_df6_block_10_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp27_N100_df1_block_10_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp27_N100_df5_block_10_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp27_N100_df6_block_10_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp29_N100_df2_block_11_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp52_N50_df5_block_24_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp56_N50_df2_block_26_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp56_N50_df4_block_26_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp56_N50_df6_block_26_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp57_N50_df1_block_27_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp57_N50_df3_block_27_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp57_N50_df6_block_27_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp58_N50_df2_block_27_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp59_N50_df4_block_28_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp59_N50_df5_block_28_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp60_N50_df7_block_29_results.pkl
+ create mode 100644 slurm-SPD-block48-jobid-7386352.out
+To github.com:egarpor/pyfrechet.git
+   e702e925..ebdaf4e9  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7386352)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7386352
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 00:16:39
+CPU Efficiency: 34.31% of 00:48:32 core-walltime
+Job Wall-clock time: 00:00:52
+Memory Utilized: 5.22 MB
+Memory Efficiency: 0.05% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
