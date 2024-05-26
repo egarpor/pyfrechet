@@ -33426,3 +33426,19 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 [Parallel(n_jobs=-1)]: Done  56 out of  56 | elapsed: 78.5min finished
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main b99a15b8] Simulations T2 block 10
+ 18 files changed, 9333 insertions(+)
+ create mode 100644 simulations_T2/results/T2_Samp26_N500_sigma5_block_10_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp26_N500_sigma7_block_10_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp35_N500_sigma5_block_15_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp35_N500_sigma7_block_15_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp36_N500_sigma4_block_15_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp36_N500_sigma6_block_15_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp39_N500_sigma4_block_17_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp39_N500_sigma7_block_17_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp42_N500_sigma3_block_19_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp42_N500_sigma7_block_19_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp43_N500_sigma4_block_19_results.pkl
+ create mode 100644 simulations_T2/results/T2_Samp60_N500_sigma1_block_29_results.pkl
