@@ -151,3 +151,76 @@ Traceback (most recent call last):
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
     raise self._result
 numpy.linalg.LinAlgError: Matrix is not positive definite
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 371cd2ca] Simulations SPD block 49
+ 76 files changed, 74305 insertions(+)
+ create mode 100644 simulations_SPD/results/SPD_Samp24_N100_df4_block_9_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp24_N100_df6_block_9_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp25_N100_df3_block_9_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp25_N100_df6_block_9_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp26_N100_df5_block_10_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp26_N100_df7_block_10_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp27_N100_df2_block_10_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp27_N100_df3_block_10_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp28_N100_df1_block_11_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp28_N100_df2_block_11_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp28_N100_df3_block_11_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp28_N100_df4_block_11_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp28_N100_df6_block_11_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp28_N100_df7_block_11_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp29_N100_df3_block_11_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp29_N100_df7_block_11_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp2_N100_df3_block_12_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp51_N50_df1_block_24_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp51_N50_df4_block_24_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp51_N50_df6_block_24_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp52_N50_df3_block_24_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp55_N50_df1_block_26_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp55_N50_df2_block_26_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp55_N50_df3_block_26_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp55_N50_df5_block_26_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp55_N50_df6_block_26_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp55_N50_df7_block_26_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp56_N50_df1_block_26_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp56_N50_df3_block_26_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp56_N50_df5_block_26_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp57_N50_df4_block_27_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp58_N50_df1_block_27_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp58_N50_df3_block_27_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp58_N50_df5_block_27_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp58_N50_df6_block_27_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp59_N50_df6_block_28_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp59_N50_df7_block_28_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp5_N50_df5_block_28_results.pkl
+ create mode 100644 simulations_SPD/results/SPD_Samp61_N50_df2_block_29_results.pkl
+ create mode 100644 slurm-SPD-block49-jobid-7386353.out
+To github.com:egarpor/pyfrechet.git
+   ebdaf4e9..371cd2ca  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 7386353)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 7386353
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 56
+CPU Utilized: 00:15:47
+CPU Efficiency: 38.43% of 00:41:04 core-walltime
+Job Wall-clock time: 00:00:44
+Memory Utilized: 28.81 MB
+Memory Efficiency: 0.28% of 10.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
