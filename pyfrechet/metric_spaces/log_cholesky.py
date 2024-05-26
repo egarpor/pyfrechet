@@ -22,8 +22,14 @@ class LogCholesky(MetricSpace):
     def __init__(self, dim):
         self.dim = dim
 
+    # def _d(self, x, y):
+    #     return np.linalg.norm(x - y)
+    
     def _d(self, x, y):
-        return np.linalg.norm(x - y)
+        if x.ndim==1:
+            return np.linalg.norm(x - y)
+        else:
+            return np.linalg.norm(x - y, axis=1)
     
     def _frechet_mean(self, y, w):
         return w.dot(y)
