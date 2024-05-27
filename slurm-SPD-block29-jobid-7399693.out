@@ -153,3 +153,18 @@ Traceback (most recent call last):
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
     raise self._result
 numpy.linalg.LinAlgError: Matrix is not positive definite
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 5066cbe0] Simulations SPD block 29
+ 36 files changed, 36460 insertions(+)
+ create mode 100644 slurm-SPD-block29-jobid-7399693.out
+ create mode 100644 slurm-SPD-block30-jobid-7399694.out
+ create mode 100644 slurm-SPD-block31-jobid-7399695.out
+ create mode 100644 slurm-SPD-block32-jobid-7399696.out
+ create mode 100644 slurm-SPD-block33-jobid-7399697.out
+ create mode 100644 slurm-SPD-block34-jobid-7399698.out
+ create mode 100644 slurm-SPD-block35-jobid-7399699.out
+ create mode 100644 slurm-SPD-block36-jobid-7399700.out
+ create mode 100644 slurm-SPD-block37-jobid-7399701.out
+ create mode 100644 slurm-SPD-block38-jobid-7399702.out
+ create mode 100644 slurm-SPD-block39-jobid-7399703.out
