@@ -151,3 +151,14 @@ Traceback (most recent call last):
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
     raise self._result
 numpy.linalg.LinAlgError: Matrix is not positive definite
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main d6b36d14] Simulations SPD block 12
+ 3 files changed, 90 insertions(+)
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]          main -> main (non-fast-forward)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
