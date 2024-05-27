@@ -165,3 +165,18 @@ Traceback (most recent call last):
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
     raise self._result
 numpy.linalg.LinAlgError: Matrix is not positive definite
+fatal: Unable to create '/mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at e3008f1312d9563cb082b69525ad1c0dc4d271c3 but expected 5066cbe02fa168910a38da9c9fdba1bc1aa3f5e6
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]          main -> main (non-fast-forward)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.

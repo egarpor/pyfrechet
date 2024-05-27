@@ -168,3 +168,10 @@ See "git help gc" for manual housekeeping.
  create mode 100644 slurm-SPD-block37-jobid-7399701.out
  create mode 100644 slurm-SPD-block38-jobid-7399702.out
  create mode 100644 slurm-SPD-block39-jobid-7399703.out
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]          main -> main (non-fast-forward)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
