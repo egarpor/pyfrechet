@@ -103,7 +103,7 @@ class BaggedRegressor(WeightingRegressor):
         assert len(self.estimators) > 0, "At least one estimator is needed to compute OOB predictions"
 
         # Index of the observation x in the training data
-        x_idx = np.argwhere(np.all(self.X_train_==x, axis=1)).flatten()
+        x_idx = np.argwhere(np.all(self.X_train_==x, axis=1)).flatten()[0]
 
         # Estimators of the ensemble in which x is OOB
         oob_estimators_idx = [idx for idx in range(self.n_estimators) if x_idx not in self.estimators[idx][0]]
