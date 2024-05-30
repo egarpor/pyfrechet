@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from typing import Generator, Optional, Literal, Union
 
 from sklearn.cluster import KMeans
+import warnings
 
 from pyfrechet.metric_spaces import MetricData
 from pyfrechet.metric_spaces.utils import *
@@ -35,11 +36,13 @@ def _2means_propose_splits(X_j):
 
     See Capitaine et al. (2020) and Bulté et al. (2023)
     """
-    kmeans = KMeans(
-        n_clusters=2,
-        n_init=1, # Number of times KMeans is run with different centroid seed
-        max_iter=10 # Maximum number of iterations of the KMeans in a single run
-    ).fit(X_j.reshape((X_j.shape[0], 1)))
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        kmeans = KMeans(
+            n_clusters=2,
+            n_init=1, # Number of times KMeans is run with different centroid seed
+            max_iter=10 # Maximum number of iterations of the KMeans in a single run
+        ).fit(X_j.reshape((X_j.shape[0], 1)))
 
     assert not kmeans.labels_ is None, "2means clustering labels are None"
     sel = kmeans.labels_.astype(bool)
