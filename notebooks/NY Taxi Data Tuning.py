@@ -69,8 +69,8 @@ X_train=scaler.fit_transform(X_train)
 X_test=scaler.transform(X_test)
 
 param_grid={
-    'estimator__min_split_size': [1, 5, 10, 15, 20, 25, 30, 35],
-    'estimator__mtry': [1, 2, 3, 4, 5, 6, 8, 10, 12, 14]
+    'estimator__min_split_size': [1, 5, 10, 15, 20, 25, 30],
+    'estimator__mtry': [1, 2, 3, 4, 5, 6, 8, 10, 12]
 }
 # param_grid={
 #     'estimator__min_split_size': [1, 5],
