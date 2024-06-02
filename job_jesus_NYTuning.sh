@@ -11,4 +11,4 @@ git commit -m "NY_Taxi_Data_Tuning 1"
 git push
 
 
-# sbatch --time=6:00:00 --cpus-per-task=64 --mem=10GB --mail-type=END,FAIL --mail-user=edgarcia@est-econ.uc3m.es --export=NYTuning --output="slurm-NYTuning-jobid-%j.out" job_jesus_NYTuning.sh
+# sbatch --time=6:00:00 --cpus-per-task=64 --mem=10GB --mail-type=END,FAIL --mail-user=edgarcia@est-econ.uc3m.es --output="slurm-NYTuning.out" job_jesus_NYTuning.sh
