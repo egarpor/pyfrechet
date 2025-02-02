@@ -40,6 +40,11 @@ def task(file) -> None:
     X_train=scaler.fit_transform(X_train)
     X_test=scaler.transform(X_test)
 
+    # print(X_train.shape)
+    # print(X_test.shape)
+    # print(y_train.data.shape)
+    # print(y_test.data.shape)
+
     base = Tree(split_type='2means',
             impurity_method='cart',
             mtry=None, # It is a regression curve setting, only one predictor

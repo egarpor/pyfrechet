@@ -8,6 +8,11 @@ from .wasserstein_1d import Wasserstein1D
 from .network import NetworkCholesky
 from .riemannian_manifold import RiemannianManifold
 from .log_cholesky import LogCholesky, log_chol_to_spd, spd_to_log_chol
+from .custom_affine_invariant import CustomAffineInvariant
+from .log_euclidean import LogEuclidean
+from .custom_log_euclidean import CustomLogEuclidean
+from .custom_affine_invariant import CustomAffineInvariant
+from .affine_invariant import AffineInvariant
 from .torus import Torus
 
 from .fisher_rao_phase import has_fda
