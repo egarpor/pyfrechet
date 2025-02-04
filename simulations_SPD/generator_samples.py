@@ -1,9 +1,8 @@
 import sys, os; sys.path.append(os.path.dirname(os.getcwd())) 
-from typing import Union
 import numpy as np
 from scipy.special import digamma
-import pickle
 from scipy.stats import wishart
+import pickle
 
 def Sigma_t(t_array, Sigma_array):
     """Provides an array with the matrices given by a regression model that interpolates between four matrices."""  
@@ -23,16 +22,15 @@ def sim_regression_matrices(Sigmas: tuple,
                             df: int=2):
     t = np.array(t)
     
-    #Simulate the time for regression (sample_t) and the true time (true_t)
     q = Sigmas[0].shape[0]
 
     c_dq = 2 * np.exp((1 / q) * sum( digamma((df - np.arange(1, q + 1) + 1 ) / 2) ))
     sigma_t = Sigma_t(t, Sigmas)
-    sample_Y = [1/c_dq*wishart( df=df, scale = sigma_t[k] ).rvs( size=1 ) for k in range(t.shape[0])]
-    return {'t': t, 'y': sample_Y}
+    sample_Y = [wishart( df=df, scale = sigma_t[k]/c_dq ).rvs( size=1 ) for k in range(t.shape[0])]
+    return {'t': t, 'y': sample_Y} 
     
 
-# Define the matrices to interpolate
+# Define the matrices to interpolate 
 Sigma_1 = np.array([[1, -0.6],
                   [-0.6, 0.5]])
 Sigma_2 = np.array([[1, 0],
@@ -43,7 +41,9 @@ Sigma_3 = np.array([[0.5, 0.4],
 n_samples = 100
 sample_sizes = [50, 100, 200, 500]
 sample_sizes = [size for size in sample_sizes]
-dfs = [2, 2.5, 3, 3.5, 4, 5, 6]
+dfs = [5, 10, 15]
+
+# For each combination of sample size and degrees of freedom, generate n_samples samples
 
 np.random.seed(1000)
 for sample_size in sample_sizes:
@@ -56,10 +56,10 @@ for sample_size in sample_sizes:
             
             filename = os.path.join(os.getcwd(), 'simulations_SPD', 'data', 'SPD_Samp' + str(k)+'_N'+ \
                                 str(sample_size)+ '_df' + \
-                                str(dfs.index(df)+1)+'.pkl')
+                                str(df)+'.pkl')
 
             with open(filename, 'wb') as f:
-                np.save(sample, f)
+                pickle.dump(sample, f)
             
 
 

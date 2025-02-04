@@ -57,12 +57,6 @@ class WeightingRegressor(RegressorMixin, BaseEstimator, metaclass=ABCMeta):
         """
         return self.y_train_.frechet_mean(self.weights_for(x))
     
-    def _oob_predict_one(self, x):        
-        """
-        Make OOB prediction for just one new observation (requirement for oob_predict() method).
-        """
-        return self.y_train_.frechet_mean(self.oob_weights_for(x))
-    
     @abstractmethod
     def fit(self:T, X, y: MetricData) -> T:
         self.X_train_ = X

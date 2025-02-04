@@ -5,7 +5,6 @@ import pickle
 import numpy as np
 
 from joblib import Parallel, delayed
-from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
  # Set the correct path to the pyfrechet module
 #sys.path.insert(1, 'C:/Users/Diego/Desktop/Doctorado/codi/pballs')
@@ -24,10 +23,8 @@ current_block = int(sys.argv[1])
 
 def task(file) -> None:
     # Data from the selected file
-    sign_level = np.array([0.01, 0.05, 0.1])
     with open(os.path.join(os.getcwd(), 'simulations_SPD', 'data/' + file), 'rb') as f:
         sample = pickle.load(f)
-
     X=np.c_[sample['t']]
     scaler = MinMaxScaler(feature_range=(0,1))
     X = scaler.fit_transform(X)
@@ -94,25 +91,24 @@ def task(file) -> None:
         y=MetricData(M, y)
         
         forest.fit(X, y)
-        
-        oob_errors = forest.oob_errors_matrix()
 
-        Dalpha = np.percentile(oob_errors, (1-sign_level)*100)
         
-        results = {'y_train_data': y.data,
+        results = { 'x_train_data': X,
+                    'y_train_data': y.data,
                     'train_predictions': forest.predict_matrix(X).data,
-                    'OOB_errors': oob_errors,
-                    'OOB_quantile' : Dalpha,
                     'forest': forest,
                     }
         
 
-        filename = dist + '_' + file[:-4] + '_block_' + str(current_block) + '_results'
+        filename = 'simulations_SPD/results/' + dist + '_' + file[:-4] + '_block_' + str(current_block) + '_results'
         np.save(filename, results)
 
 
 print(f'Block number: {current_block}')
 # One sample by core in the current block
 
-for file in os.listdir(os.path.join(os.getcwd(), 'simulations_SPD', 'data'))[n_cores*(current_block-1):n_cores*(current_block)]:
-    task(file)
+Parallel(n_jobs=-1, verbose=40)(
+    delayed(task)(file)
+    for file in os.listdir(os.path.join(os.getcwd(), 'simulations_SPD', 'data/'))[n_cores*(current_block-1):n_cores*(current_block)]
+    if (file.endswith('.pkl')) #and not os.path.exists(os.path.join(os.getcwd(), 'simulations_SPD', 'results/' + 'WASS_Samp' +  file[9:-4]+ '_results.npy' )))
+)

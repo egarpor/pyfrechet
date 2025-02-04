@@ -6,8 +6,6 @@ import numpy as np
 from joblib import Parallel, delayed
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
- # Set the correct path to the pyfrechet module
-#sys.path.insert(1, 'C:/Users/Diego/Desktop/Doctorado/codi/pballs')
 from pyfrechet.regression.bagged_regressor import BaggedRegressor
 from pyfrechet.regression.trees import Tree
 from pyfrechet.metric_spaces import MetricData, Wasserstein1D
@@ -18,7 +16,6 @@ n_samples=len(os.listdir(os.path.join(os.path.join(os.getcwd(), 'simulations_Was
 
 def task(file) -> None:
     # Data from the selected file
-    sign_level = np.array([0.01, 0.05, 0.1])
     with open(os.path.join(os.path.join(os.getcwd(), 'simulations_Wass'), 'wass_data/' + file), 'rb') as f:
         sample = pickle.load(f)
         
