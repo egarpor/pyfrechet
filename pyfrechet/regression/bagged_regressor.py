@@ -154,6 +154,36 @@ class BaggedRegressor(WeightingRegressor):
         """
         oob_preds=self.oob_predict(self.X_train_)
         return oob_preds.M.d(self.y_train_.data, oob_preds.data)
+
+    def oob_predict_matrix(self, x: np.ndarray) -> MetricData:
+        """
+        Matrix-valued response
+        """
+        # Check if estimator has been fitted (.fit() has been applied), otherwise raise an error
+        check_is_fitted(self)
+
+         # To allow (1,p) and (,p) shapes ('matrices' and 'vectors')
+        if len(x.shape) == 1 or x.shape[0] == 1:
+            return self._oob_predict_one(x)
+        else:
+            y0 = self._oob_predict_one(x[0,:])
+            # The shape of predictions will have x.shape[0] (number of observations for prediction) rows
+            # and y0.shape[0] (length (dimension) of the MetricData class we are handling) columns
+            oob_pred = np.zeros((x.shape[0], y0.shape[0], y0.shape[1]))
+            oob_pred[0,:,:] = y0
+            for i in range(1, x.shape[0]):
+
+                oob_pred[i,:,:] = self._oob_predict_one(x[i,:])
+                
+            return MetricData(self.y_train_.M, oob_pred)
+
+    def oob_errors_matrix(self) -> np.ndarray:
+        """
+        OOB errors for matrix valued response
+        """
+        oob_preds=self.oob_predict_matrix(self.X_train_)
+        return oob_preds.M.d(self.y_train_, oob_preds)
+    
     #def _oob_predict_one(self, x: np.ndarray) -> np.ndarray:
     #    """
     #    Predicts observation x using only the estimators in which x is OOB (out-of-bag).
