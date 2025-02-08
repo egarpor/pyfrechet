@@ -49,7 +49,7 @@ np.random.seed(1000)
 for sample_size in sample_sizes:
     for df in dfs:
         for k in range(1, n_samples+1):
-            sample_t = np.sort(np.random.uniform(size=sample_size))
+            sample_t = np.random.uniform(size=sample_size)
             sample = sim_regression_matrices(Sigmas = (Sigma_1, Sigma_2, Sigma_3), 
                                            t = sample_t,  
                                            df = df)
