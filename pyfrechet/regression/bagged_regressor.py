@@ -153,7 +153,7 @@ class BaggedRegressor(WeightingRegressor):
         between the training observation target and its OOB prediction.
         """
         oob_preds=self.oob_predict(self.X_train_)
-        return oob_preds.M.d(self.y_train_.data, oob_preds.data)
+        return oob_preds.M.d(self.y_train_, oob_preds)
 
     def oob_predict_matrix(self, x: np.ndarray) -> MetricData:
         """
