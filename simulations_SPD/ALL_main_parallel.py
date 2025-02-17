@@ -4,14 +4,14 @@ sys.path.append(os.getcwd())
 import pickle 
 import numpy as np
 
+from pyfrechet.metrics import mse
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import make_scorer
 from joblib import Parallel, delayed
-from sklearn.preprocessing import MinMaxScaler
- # Set the correct path to the pyfrechet module
-#sys.path.insert(1, 'C:/Users/Diego/Desktop/Doctorado/codi/pballs')
+
 from pyfrechet.metric_spaces import MetricData, CustomLogEuclidean, CustomAffineInvariant, LogCholesky, spd_to_log_chol
 from pyfrechet.regression.bagged_regressor import BaggedRegressor
 from pyfrechet.regression.trees import Tree
-
 
 
 # By-blocks execution
@@ -21,15 +21,31 @@ n_cores=56
 n_blocks = n_samples/n_cores
 current_block = int(sys.argv[1])
 
+# Define parameter grid for tuning
+param_grid = {
+    'estimator__min_split_size': [1, 5]
+}
+
+# Custom scorer (negative mean squared error, assuming mse is defined elsewhere)
+# neg_mse = make_scorer(mse, greater_is_better=False)
+
+# def tune_forest(X, y):
+#     """ Perform hyperparameter tuning using GridSearchCV. """
+#     base = Tree(split_type='2means', mtry = None, impurity_method='cart')
+#     forest = BaggedRegressor(estimator=base, n_estimators=100, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=1)
+#     
+#     tuned_forest = GridSearchCV(estimator=forest, param_grid=param_grid, scoring=neg_mse, cv=5, n_jobs=1, verbose=4)
+#     tuned_forest.fit(X, y)
+#     return tuned_forest.best_estimator_
+
+
 def task(file) -> None:
     # Data from the selected file
     with open(os.path.join(os.getcwd(), 'simulations_SPD', 'data/' + file), 'rb') as f:
         sample = pickle.load(f)
     X=np.c_[sample['t']]
-    scaler = MinMaxScaler(feature_range=(0,1))
-    X = scaler.fit_transform(X)
 
-    y = np.array(sample['y'])
+    sample_Y = np.array(sample['y'])
 
     base = Tree(split_type='2means',
                 impurity_method='cart',
@@ -42,63 +58,42 @@ def task(file) -> None:
                                 bootstrap_replace=True,
                                 n_jobs=1)
     
-    for dist in ['AI']:
-        #if dist == 'LC':
-        #    M=LogCholesky(dim=2)
-        #    sampleY_LogChol=np.c_[[spd_to_log_chol(A) for A in sample['sample'][1]]]
-        #    y=MetricData(M, sampleY_LogChol)
-        #    y_train = y[train_idx]
-        #    y_test = y[test_idx]
-        #    
-        #    forest.fit(X_train, y_train)
-        #    
-        #    Dalpha = np.percentile(forest.oob_errors(), (1-sign_level)*100)
-        #    
-        #    results = {'train_indices': train_idx,
-        #                'y_train_data': y_train.data,
-        #                'train_predictions': forest.predict(X_train).data,
-        #                'y_test_data': y_test.data,
-        #                'test_predictions': forest.predict(X_test).data,
-        #                'oob_errors': forest.oob_errors(),
-        #                
-        #                'coverage': np.mean(np.array([M.d(forest.predict(X_test).data, y_test.data) <= alpha for alpha in Dalpha]).T, axis = 0),
-        #                'OOB_quantile' : Dalpha,
-        #                'forest': forest,
-        #                }
-        #    
-        #elif dist == 'LE':
-        #    M=CustomLogEuclidean(dim=2)
-        #    y=MetricData(M, np.array(sample['sample'][1]))
-        #    y_train = y[train_idx]
-        #    y_test = y[test_idx]
-        #    
-        #    forest.fit(X_train, y_train)
-        #    
-        #    Dalpha = np.percentile(forest.oob_errors_matrix(), (1-sign_level)*100)
-        #    
-        #    results = {'train_indices': train_idx,
-        #                'y_train_data': y_train.data,
-        #                'train_predictions': forest.predict_matrix(X_train).data,
-        #                'y_test_data': y_test.data,
-        #                'test_predictions': forest.predict_matrix(X_test).data,
-        #                'oob_errors': forest.oob_errors_matrix(),
-        #                'coverage': np.mean(np.array([M.d(forest.predict_matrix(X_test).data, y_test.data) <= alpha for alpha in Dalpha]).T, axis = 0),
-        #                'OOB_quantile' : Dalpha,
-        #                'forest': forest,
-        #                }
-        #else:
-        M=CustomAffineInvariant(dim=2)
-        y=MetricData(M, y)
-        
-        forest.fit(X, y)
+    for dist in ['LC', 'AI', 'LE']:
+        if dist == 'LC':
+            M=LogCholesky(dim=2)
+            sampleY_LogChol = np.c_[[spd_to_log_chol(A) for A in sample['y']]]
+            y = MetricData(M, sampleY_LogChol)
+            # Perform hyperparameter tuning
+            forest.fit(X, y)
 
-        
-        results = { 'x_train_data': X,
-                    'y_train_data': y.data,
-                    'train_predictions': forest.predict_matrix(X).data,
-                    'forest': forest,
-                    }
-        
+            results = { 'x_train_data': X,
+                        'y_train_data': y.data,
+                        'train_predictions': forest.predict(X).data,
+                        'forest': forest,
+                        }
+            
+        elif dist == 'AI':
+            M=CustomAffineInvariant(dim=2)
+            y=MetricData(M, sample_Y)
+
+            # Perform hyperparameter tuning
+            forest.fit(X, y)
+
+            results = { 'x_train_data': X,
+                        'y_train_data': y.data,
+                        'train_predictions': forest.predict_matrix(X).data,
+                        'forest': forest,
+                        }
+            
+        elif dist == 'LE':
+            M=CustomLogEuclidean(dim=2)
+            y=MetricData(M, sample_Y)
+
+            results = { 'x_train_data': X,
+            'y_train_data': y.data,
+            'train_predictions': forest.predict_matrix(X).data,
+            'forest': forest,
+            }  
 
         filename = 'simulations_SPD/results/' + dist + '_' + file[:-4] + '_block_' + str(current_block) + '_results'
         np.save(filename, results)

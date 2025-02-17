@@ -62,3 +62,29 @@ class CustomAffineInvariant(MetricSpace):
 
     def __str__(self):
         return f'CustomAffineInvariant({self.dim}x{self.dim})'
+    
+
+import numpy as np
+
+class SPDVectorizer:
+    """Wraps SPD matrices for sklearn compatibility by vectorizing them."""
+    def __init__(self, metric_space):
+        self.metric_space = metric_space  # Instance of CustomAffineInvariant
+
+    def vectorize(self, matrix):
+        """Converts a 2x2 SPD matrix to a 3D vector."""
+        return np.array([matrix[0, 0], matrix[1, 1], matrix[0, 1]])
+
+    def devectorize(self, vector):
+        """Converts a 3D vector back to a 2x2 SPD matrix."""
+        return np.array([[vector[0], vector[2]], 
+                         [vector[2], vector[1]]])
+
+    def dist(self, v1, v2):
+        """Computes distance using SPD matrices."""
+        return self.metric_space.d(self.devectorize(v1), self.devectorize(v2))
+
+    def frechet_mean(self, vectors, weights):
+        """Computes the Fréchet mean using SPD matrices."""
+        matrices = np.array([self.devectorize(v) for v in vectors])
+        return self.vectorize(self.metric_space._frechet_mean(matrices, weights))

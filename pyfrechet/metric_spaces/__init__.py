@@ -9,9 +9,11 @@ from .network import NetworkCholesky
 from .riemannian_manifold import RiemannianManifold
 from .log_cholesky import LogCholesky, log_chol_to_spd, spd_to_log_chol
 from .custom_affine_invariant import CustomAffineInvariant
+from .custom_affine_invariant_2 import CustomAffineInvariant_2
 from .log_euclidean import LogEuclidean
 from .custom_log_euclidean import CustomLogEuclidean
-from .custom_affine_invariant import CustomAffineInvariant
+from .custom_affine_invariant import SPDVectorizer
+
 from .affine_invariant import AffineInvariant
 from .torus import Torus
 
