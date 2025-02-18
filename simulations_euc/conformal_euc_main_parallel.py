@@ -71,8 +71,6 @@ def task(file) -> None:
 
     # Store results
     results = {
-        'x_train_data': X_train,
-        'y_train_data': y_train,
         'x_test_data': X_test,
         'y_test_data': y_test,
         'forest': best_forest,
@@ -82,14 +80,14 @@ def task(file) -> None:
     filename = os.path.join(os.getcwd(), 'simulations_euc', 'conformal_results', file[:-4] + '_results.npy')
     np.save(filename, results)
 
-if __name__ == '__main__':
-    with multiprocessing.Pool() as pool:
-        pool.map(task, os.listdir(os.path.join(os.getcwd(), 'simulations_euc', 'data/')))
+# if __name__ == '__main__':
+#     with multiprocessing.Pool() as pool:
+#         pool.map(task, os.listdir(os.path.join(os.getcwd(), 'simulations_euc', 'data/')))
 
 
 
-# Parallel(n_jobs=8, verbose=40)(
-#     delayed(task)(file)
-#     for file in os.listdir(os.path.join(os.getcwd(), 'simulations_euc', 'data/'))
-#     if (file.endswith('.pkl')) and not os.path.exists(os.path.join(os.getcwd(), 'simulations_euc', 'conformal_results/' + 'euc_samp' +  file[8:-4]+ '_results.npy' ))
-# )
+Parallel(n_jobs=8, verbose=40)(
+    delayed(task)(file)
+    for file in os.listdir(os.path.join(os.getcwd(), 'simulations_euc', 'data/'))
+    if (file.endswith('.pkl')) and not os.path.exists(os.path.join(os.getcwd(), 'simulations_euc', 'conformal_results/' + 'euc_samp' +  file[8:-4]+ '_results.npy' ))
+)
