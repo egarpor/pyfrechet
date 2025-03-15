@@ -14,7 +14,6 @@ from sklearn.metrics import make_scorer
 import time
 from sklearn.model_selection import GridSearchCV
 import base64
-from scipy.stats import vonmises_fisher
 
 def lambda2str(expr):
     b = cloudpickle.dumps(expr)
@@ -70,7 +69,7 @@ def task(file) -> None:
     filename = os.path.join(os.getcwd(), 'simulations_sphere', 'results', f'{file[:-4]}_results.npy')
     np.save(filename, results)
 
-Parallel(n_jobs=-1, verbose=40)(
+Parallel(n_jobs=11, verbose=40)(
     delayed(task)(file)
     for file in os.listdir(os.path.join(os.getcwd(), 'simulations_sphere', 'data/'))
     if (file.endswith('.pkl') and not os.path.exists(os.path.join(os.getcwd(), 'simulations_sphere', 'results/' +  file[:-4]+ '_results.npy' )))

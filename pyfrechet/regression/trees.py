@@ -81,9 +81,6 @@ def _greedy_propose_splits(X_j):
         yield X_j[i]
 
 
-        
-
-
 class Tree(WeightingRegressor):
     def __init__(self, 
                  split_type: Literal['greedy', '2means']='greedy',

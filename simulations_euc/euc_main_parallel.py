@@ -21,10 +21,10 @@ import time
 #n_blocks = n_samples/n_cores
 #current_block = int(sys.argv[1])
 
-M = Euclidean(dim=1)
+M = two_euclidean(dim=1)
 # Define parameter grid for tuning
 param_grid = {
-    'estimator__min_split_size': [1, 3, 5]
+    'estimator__min_split_size': [1, 5, 10, 20]
 }
 
 # Custom scorer (negative mean squared error)
@@ -40,7 +40,6 @@ def tune_forest(X, y, forest=forest, param_grid=param_grid):
     tuned_forest.fit(X, y)
     return tuned_forest.best_estimator_
 
-
 def task(file) -> None:    
     # Data from the selected file
     with open(os.path.join(os.getcwd(), 'simulations_euc', 'data', file), 'rb') as f:
@@ -55,15 +54,11 @@ def task(file) -> None:
 
     # Perform hyperparameter tuning
     best_forest = tune_forest(X, y, forest, param_grid)
-    # Fit the best forest
-    best_forest.fit(X, y)
 
     end_time = time.time()
     tuning_fitting_time = end_time - start_time
     # Store results
     results = {
-        'x_data': X,
-        'y_data': y,
         'forest': best_forest,
         'tuning_fitting_time': tuning_fitting_time
     }
@@ -75,5 +70,5 @@ def task(file) -> None:
 Parallel(n_jobs=-1, verbose=40)(
     delayed(task)(file)
     for file in os.listdir(os.path.join(os.getcwd(), 'simulations_euc', 'data/'))
-    if (file.endswith('.pkl')) and not os.path.exists(os.path.join(os.getcwd(), 'simulations_euc', 'results/' + 'euc_samp' +  file[8:-4]+ '_results.npy' ))
+    if (file.endswith('.pkl')) and not os.path.exists(os.path.join(os.getcwd(), 'simulations_euc', 'results/' + 'euc_samp' +  file[8:-4]+ '_results.npy' ) and (int(file.split('_')[1][4:]) <=100 ))
 )

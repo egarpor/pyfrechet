@@ -71,12 +71,3 @@ class MetricData:
         """(Magic method) Returns text information about the object. It is called by print() function."""
         return f'MetricData(M={self.M}, len={len(self)}, has_distance={not self.distances is None})'
     
-
-class MetricBall:
-    def __init__(self, M: MetricSpace, center: np.ndarray, radius: float):
-        self.M = M
-        self.center = center
-        self.radius = radius
-
-    def isin_Ball(self, x: np.ndarray) -> np.ndarray:
-        return self.M.d(self.center, x) < self.radius

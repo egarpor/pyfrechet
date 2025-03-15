@@ -1,7 +1,8 @@
 import os
 import numpy as np
 import pickle
-from scipy.stats import vonmises_fisher
+from scipy.stats import vonmises_line, vonmises_fisher
+
 
 # Function defining the regression mean m_0(theta) on S^2
 def m_0(theta, mu):
@@ -65,7 +66,7 @@ np.random.seed(1000)
 for sample_size in sample_sizes:
     for kappa in kappa_values:
         for k in range(1, n_samples + 1):
-            theta_samples = np.random.uniform(0, 2 * np.pi, sample_size)  # Random angles
+            theta_samples = vonmises_line(kappa = kappa).rvs(sample_size) + np.pi # Random angles
             theta, Y = simulate_data(kappa, mu, theta_samples)
             filename = os.path.join(save_folder, f'sphere_samp{k}_N{sample_size}_kappa{kappa}.pkl')
             with open(filename, 'wb') as f:

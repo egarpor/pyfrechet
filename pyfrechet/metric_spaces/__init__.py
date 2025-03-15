@@ -1,8 +1,8 @@
 from .metric_space import MetricSpace
 from .metric_data import MetricData
-from .metric_data import MetricBall
 from .euclidean import Euclidean
 from .sphere import Sphere, r2_to_angle, r3_to_angles
+from .hyperboloid import H2, extrinsic_to_intrinsic
 from .correlation import CorrFrobenius
 from .wasserstein_1d import Wasserstein1D
 from .network import NetworkCholesky
@@ -13,6 +13,7 @@ from .custom_affine_invariant_2 import CustomAffineInvariant_2
 from .log_euclidean import LogEuclidean
 from .custom_log_euclidean import CustomLogEuclidean
 from .custom_affine_invariant import SPDVectorizer
+from .euclidean_copy import two_euclidean
 
 from .affine_invariant import AffineInvariant
 from .torus import Torus
