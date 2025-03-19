@@ -1,7 +1,5 @@
 #!/bin/sh
-
 module load python/3.9.9
-# cd /mnt/netapp2/Store_uni/home/usc/ei/ega/jesus/pyfrechet/simulations_T2/
 cd simulations_sphere/
 lscpu
 python sphere_parallel.py $block

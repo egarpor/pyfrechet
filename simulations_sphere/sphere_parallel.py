@@ -1,4 +1,6 @@
 import sys, os
+print(os.getcwd())
+print(os.path.dirname(__file__))
 sys.path.append(os.path.dirname(__file__))
 sys.path.append(os.getcwd())
 import numpy as np
