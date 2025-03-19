@@ -1,7 +1,7 @@
 import sys, os
 print(os.getcwd())
-print('dir', os.path.abspath(os.path.join(os.getcwd(), os.pardir)))
-sys.path.append(os.path.dirname(__file__))
+print('dir', )
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), os.pardir)))
 sys.path.append(os.getcwd())
 import numpy as np
 import pickle
