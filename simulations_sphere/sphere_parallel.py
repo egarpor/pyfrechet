@@ -25,8 +25,14 @@ param_grid = {
 # Custom scorer (negative mean squared error)
 neg_mse = make_scorer(mse, greater_is_better=False)
 
+# By-blocks execution
+n_samples=len(os.listdir(os.path.join(os.getcwd(), 'data')))
+n_cores=56
+n_blocks=n_samples/n_cores
+current_block=int(sys.argv[1])
+
 base = Tree(split_type='2means', mtry=None, impurity_method='cart')
-base_forest = BaggedRegressor(estimator=base, n_estimators=100, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1)
+base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1)
 
 M = Sphere(2)
 
@@ -164,11 +170,12 @@ def task(file) -> None:
         'time': pb_time,
     }
 
-    filename = os.path.join(os.getcwd(), 'simulations_sphere', 'results', f'{file[:-4]}_results.npy')
+    filename = os.path.join(os.getcwd(), 'simulations_sphere', 'results', f'{file[:-4]}' + str(current_block) + '_results.npy')
     np.save(filename, results)
 
-Parallel(n_jobs=10, verbose=40)(
-    delayed(task)(file)
-    for file in os.listdir(os.path.join(os.getcwd(), 'simulations_sphere', 'data/'))
-    if (file.endswith('.pkl') and not os.path.exists(os.path.join(os.getcwd(), 'simulations_sphere', 'results/' +  file[:-4]+ '_results.npy' )))
-)
+Parallel(n_jobs=-1, verbose=40)( delayed(task)(file) for file in \
+        os.listdir(os.path.join(os.getcwd(), 'simulations_sphere', 'data/'))[n_cores*(current_block-1):n_cores*(current_block)]
+        if (file.endswith('.pkl'))
+    )
+
+# and not os.path.exists(os.path.join(os.getcwd(), 'simulations_sphere', 'results/' +  file[:-4]+ '_results.npy' ))

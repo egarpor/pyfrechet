@@ -18,7 +18,6 @@ param_grid = {
     'max_features': [1, 2, 3]
     }
 
-
 def tune_forest(X, y, param_grid):
     """Perform hyperparameter tuning using GridSearchCV."""
     base_forest = RandomForestRegressor(n_jobs=1, random_state=1000, n_estimators=2000, oob_score=True)
