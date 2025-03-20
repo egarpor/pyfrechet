@@ -3,7 +3,7 @@ from pyfrechet.metric_spaces import MetricSpace
 from scipy.linalg import eigvals
 from geomstats.geometry.spd_matrices import SPDMatrices, SPDMetricLogEuclidean
 from geomstats.learning.frechet_mean import FrechetMean
-from pyriemann.utils.distance import distance_logeuclid
+# from pyriemann.utils.distance import distance_logeuclid
 
 class CustomLogEuclidean(MetricSpace):
     """
