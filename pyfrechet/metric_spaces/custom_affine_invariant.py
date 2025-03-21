@@ -54,7 +54,6 @@ class CustomAffineInvariant(MetricSpace):
 
         return np.sqrt(np.sum(log_eigenvalues**2))
 
-
     def _frechet_mean(self, y, w):
         mean = FrechetMean(metric=self.manifold.metric)
         mean.fit(y, weights=w)

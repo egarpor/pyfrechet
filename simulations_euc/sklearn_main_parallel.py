@@ -204,5 +204,5 @@ file_list = list(filter(lambda file: file.endswith(f'block_{current_block}.pkl')
 with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total=56)) as progress_bar:
     Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in \
         # select files that end with "block_{current_block}.pkl"
-        file_list[0:56]
+        file_list[0:3]
     )

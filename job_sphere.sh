@@ -4,7 +4,7 @@ module load python/3.9.9
 lscpu
 python simulations_sphere/sphere_parallel.py $block
 git add .
-git commit -m "Simulations sphere block $block"
+git commit -m "Simulations Sphere block $block"
 git push
 
 #for b in {1..20}
