@@ -65,8 +65,8 @@ np.random.seed(1000)
 for sample_size in sample_sizes:
     for kappa in kappa_values:
         for k in range(1, n_samples + 1):
-            theta_samples = vonmises_line(kappa = 1).rvs(sample_size) + np.pi # Random angles
+            theta_samples = vonmises_line(kappa = 1).rvs(sample_size) # Random angles
             theta, Y = simulate_data(kappa, mu, theta_samples)
-            filename = os.path.join(save_folder, f'sphere_samp{k}_N{sample_size}_kappa{kappa}.pkl')
+            filename = os.path.join(save_folder, f'sphere_samp{k}_N{sample_size}_kappa{kappa}_block_{k // 25 + 1}.pkl')
             with open(filename, 'wb') as f:
                 pickle.dump({'theta': theta, 'Y': Y}, f)
