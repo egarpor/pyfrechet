@@ -89,7 +89,6 @@ def task(file) -> None:
         hyp_data = hyp_data.iloc[int(file.split('_')[1][4:]) - 1]
         theta = hyp_data['t']
         new_y = hyp_data[['V1', 'V2', 'V3']]
-
         # Predict the new observation
         pb_new_pred = forest.predict(theta.reshape(-1,1))
         pb_i_cov[estimation, :] = (M.d(pb_new_pred, new_y) <= oob_quantile)

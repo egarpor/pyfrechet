@@ -43,7 +43,7 @@ def save_simulated_samples(n_samples, sample_sizes, n_predictors, sigma_values, 
                 X, Y = simulate_data(sigma=sigma, X_design=X_design, betas=betas)
 
                 # Define the filename for saving
-                filename = os.path.join(save_folder, f'euc_samp{k}_N{sample_size}_sigma{np.round(sigma, 1)}.pkl')
+                filename = os.path.join(save_folder, f'euc_samp{k}_N{sample_size}_sigma{np.round(sigma, 1)}_block_{k // 25 + 1}.pkl')
                 
                 # Save the sample using pickle
                 with open(filename, 'wb') as f:
