@@ -1,11 +1,11 @@
 #!/bin/sh
-# module load python/3.9.9
+module load python/3.9.9
 
-# lscpu
+lscpu
 python simulations_euc/sklearn_main_parallel.py $block
-# git add .
-# git commit -m "Simulations Euclidean block $block"
-# git push
+git add .
+git commit -m "Simulations Euclidean block $block"
+git push
 
 #for b in {1..20}
 #do
