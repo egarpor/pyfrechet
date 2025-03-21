@@ -2,7 +2,7 @@
 # module load python/3.9.9
 
 # lscpu
-python simulations_euc/sklearn_main_parallel.py 20
+python simulations_euc/sklearn_main_parallel.py $block
 # git add .
 # git commit -m "Simulations Euclidean block $block"
 # git push
