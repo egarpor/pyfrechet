@@ -1,11 +1,11 @@
 #!/bin/sh
-#module load python/3.9.9
+module load python/3.9.9
 
-#lscpu
+lscpu
 python simulations_H2/H2_parallel.py $block
-# git add .
-# git commit -m "Simulations hyperboloid block $block"
-# git push
+git add .
+git commit -m "Simulations hyperboloid block $block"
+git push
 
 # for b in {1..20}
 # do
