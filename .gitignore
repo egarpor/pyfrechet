@@ -8,10 +8,3 @@ build/
 dist/
 *.egg-info/
 .history/
-notebooks/yellow_tripdata_2019-01.csv
-notebooks/yellow_tripdata_2019-02.csv
-simulations_SPD/results/*.pkl
-simulations_T2/results/*.pkl
-**/*.pkl
-*.npy
-*.json
