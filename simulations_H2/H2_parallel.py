@@ -9,7 +9,6 @@ from joblib import Parallel, delayed
 from pyfrechet.metric_spaces import MetricData, H2
 from pyfrechet.regression.bagged_regressor import BaggedRegressor
 from pyfrechet.regression.trees import Tree
-import cloudpickle
 from sklearn.preprocessing import MinMaxScaler
 from pyfrechet.metrics import mse
 from sklearn.metrics import make_scorer

@@ -1,12 +1,16 @@
 import os
 import pickle
 import numpy as np
+from scipy.stats import beta
 import time
+import joblib
 from joblib import Parallel, delayed
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split
+from tqdm import tqdm
+import contextlib
 
 np.random.seed(1000)
 sign_level = np.array([0.01, 0.05, 0.1])
@@ -16,11 +20,31 @@ data_dir = os.path.join(os.getcwd(), 'simulations_euc', 'data')
 results_dir = os.path.join(os.getcwd(), 'simulations_euc', 'results')
 os.makedirs(results_dir, exist_ok=True)
 
+# By-blocks execution
+n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_euc/' 'data')))
+current_block=int(sys.argv[1])
+
 # Define parameter grid for tuning
 param_grid = {
     'min_samples_leaf': [1, 5, 10],
     'max_features': [1, 2, 3]
     }
+
+@contextlib.contextmanager
+def tqdm_joblib(tqdm_object):
+    """Context manager to patch joblib to report into tqdm progress bar given as argument"""
+    class TqdmBatchCompletionCallback(joblib.parallel.BatchCompletionCallBack):
+        def __call__(self, *args, **kwargs):
+            tqdm_object.update(n=self.batch_size)
+            return super().__call__(*args, **kwargs)
+
+    old_batch_callback = joblib.parallel.BatchCompletionCallBack
+    joblib.parallel.BatchCompletionCallBack = TqdmBatchCompletionCallback
+    try:
+        yield tqdm_object
+    finally:
+        joblib.parallel.BatchCompletionCallBack = old_batch_callback
+        tqdm_object.close()
 
 # Function to simulate regression data
 def simulate_data(sigma, X_design, betas):
@@ -44,8 +68,8 @@ def simulate_data(sigma, X_design, betas):
 
 def tune_forest(X, y, param_grid):
     """Perform hyperparameter tuning using GridSearchCV."""
-    base_forest = RandomForestRegressor(n_jobs=1, random_state=1000, n_estimators=2000, max_features=1, oob_score=True)
-    grid_search = GridSearchCV(estimator=base_forest, param_grid=param_grid, scoring='neg_mean_squared_error', cv=5, n_jobs=-1, verbose=4)
+    base_forest = RandomForestRegressor(n_jobs=-1, random_state=1000, n_estimators=200, oob_score=True)
+    grid_search = GridSearchCV(estimator = base_forest, param_grid=param_grid, scoring='neg_mean_squared_error', cv=5, n_jobs=-1, verbose=4)
     grid_search.fit(X, y)
     return grid_search.best_estimator_
 
@@ -91,6 +115,7 @@ def task(file):
     end_time = time.time()
     conf_time = end_time - start_time
     print(f"Finished tuning {file}.")
+
 ############################################################################################################
     # TYPE I COVERAGE RESULTS
     n_estimations = 50
@@ -99,7 +124,7 @@ def task(file):
 
     for estimation in range(n_estimations):
         # Randomly select rows from the dataframe
-        new_X = np.sqrt(2)*2*(np.random.beta(1/2, 1/2, (1, n_predictors)) - 1/2)
+        new_X = 2*np.sqrt(5)*(np.random.beta(2, 2, (1, n_predictors)) - 1/2)
         # Add a column of ones for the intercept (beta_0)
         new_X, new_y = simulate_data(sigma = true_sigma, X_design=new_X, betas=betas)
         new_X = new_X.reshape(1, n_predictors)
@@ -112,11 +137,12 @@ def task(file):
         conf_i_cov[estimation, :] = (np.abs(conf_new_pred - new_y) <= quantile)
             
     print(f"Finished type I coverage {file}.")
+
 ############################################################################################################            
     # TYPE II COVERAGE RESULTS
     MC = 500
     #Generate observations to estimate the probability
-    new_X = np.sqrt(2)*2*(np.random.beta(1/2, 1/2, (MC, n_predictors)) - 1/2)
+    new_X = 2*np.sqrt(5)*(np.random.beta(2, 2, (MC, n_predictors)) - 1/2)
     new_X, new_y = simulate_data(sigma = true_sigma, X_design=new_X, betas = betas)
 
     pb_new_pred = pb_forest.predict(new_X)
@@ -125,14 +151,16 @@ def task(file):
     pb_II_coverage = np.sum(np.abs(pb_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(oob_quantile, (MC, 1)), axis = 0) / MC
     conf_II_coverage = np.sum(np.abs(conf_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(quantile, (MC, 1)), axis = 0) / MC
     print(f"Finished type II coverage {file}.")
+
 ############################################################################################################
+    q_25 = 2*np.sqrt(5)*(beta(2,2).ppf(.25)-1/2)
     # TYPE III COVERAGE RESULTS
     pb_iii_cov = np.zeros(shape = (n_estimations, 3))
     conf_iii_cov = np.zeros(shape = (n_estimations, 3))
 
     for estimation in range(n_estimations):
         # Randomly select rows from the dataframe
-        new_X = np.repeat(-1, n_predictors).reshape(1, n_predictors)
+        new_X = np.repeat(q_25, n_predictors).reshape(1, n_predictors)
         # Add a column of ones for the intercept (beta_0)
         new_X, new_y = simulate_data(sigma = true_sigma, X_design=new_X, betas=betas)
 
@@ -143,10 +171,11 @@ def task(file):
         pb_iii_cov[estimation, :] = (np.abs(pb_new_pred - new_y) <= oob_quantile)
         conf_iii_cov[estimation, :] = (np.abs(conf_new_pred - new_y) <= quantile)
     print(f"Finished type III coverage {file}.")
+
 ############################################################################################################
     # TYPE IV COVERAGE RESULTS
     #Generate observations to estimate the probability
-    new_X = np.repeat(-1, MC * n_predictors).reshape(MC, n_predictors)
+    new_X = np.repeat(q_25, MC * n_predictors).reshape(MC, n_predictors)
     new_X, new_y = simulate_data(sigma = true_sigma, X_design=new_X, betas = betas)
 
     pb_new_pred = pb_forest.predict(new_X)
@@ -171,13 +200,13 @@ def task(file):
         'pb_time': pb_time,
         'conf_time': conf_time,
     }
-    print(f"Finished {file}.")
     filename = os.path.join(results_dir, file[:-4] + '_results.npy')
-    print(filename)
     np.save(filename, results)
 
-Parallel(n_jobs=2, verbose=40)(
-    delayed(task)(file)
-    for file in os.listdir(data_dir)
-    if (file.endswith('.pkl') and not os.path.exists(os.path.join(os.getcwd(), 'simulations_euc', 'results/' +  file[:-4]+ '_results.npy' )))
-)
+file_list = list(filter(lambda file: file.endswith(f'block_{current_block}.pkl'), filter(lambda file: file.endswith('.pkl'), os.listdir(os.path.join(os.getcwd(), 'simulations_euc', 'data/')))))
+
+with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total=56)) as progress_bar:
+    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in \
+        # select files that end with "block_{current_block}.pkl"
+        file_list[0:56]
+    )
