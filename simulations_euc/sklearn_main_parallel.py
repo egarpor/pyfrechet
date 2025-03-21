@@ -1,4 +1,4 @@
-import os
+import sys, os
 import pickle
 import numpy as np
 from scipy.stats import beta
@@ -19,6 +19,8 @@ betas = np.array([1, -1, 1])  # Define the true beta values
 data_dir = os.path.join(os.getcwd(), 'simulations_euc', 'data')
 results_dir = os.path.join(os.getcwd(), 'simulations_euc', 'results')
 os.makedirs(results_dir, exist_ok=True)
+
+
 
 # By-blocks execution
 n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_euc/' 'data')))
@@ -69,7 +71,7 @@ def simulate_data(sigma, X_design, betas):
 def tune_forest(X, y, param_grid):
     """Perform hyperparameter tuning using GridSearchCV."""
     base_forest = RandomForestRegressor(n_jobs=-1, random_state=1000, n_estimators=200, oob_score=True)
-    grid_search = GridSearchCV(estimator = base_forest, param_grid=param_grid, scoring='neg_mean_squared_error', cv=5, n_jobs=-1, verbose=4)
+    grid_search = GridSearchCV(estimator = base_forest, param_grid=param_grid, scoring='neg_mean_squared_error', cv=5, n_jobs=-1, verbose=0)
     grid_search.fit(X, y)
     return grid_search.best_estimator_
 
@@ -78,7 +80,8 @@ def task(file):
     with open(os.path.join(data_dir, file), 'rb') as f:
         sample = pickle.load(f)
 
-    sigma_approx = float(file.split('_')[3][5:-4])
+    sigma_approx = float(file.split('_')[3][5:])
+    N = int(file.split('_')[2][1:])
     if sigma_approx == 0.6:
         true_sigma = 1/np.sqrt(3)
     elif sigma_approx == 0.9:
@@ -103,18 +106,15 @@ def task(file):
     oob_quantile = np.percentile(np.abs(pb_forest.oob_prediction_ - y), (1 - np.array([0.01, 0.05, 0.1])) * 100, method='inverted_cdf')
     end_time = time.time()
     pb_time = end_time - start_time
-    print(f"Finished pb tuning {file}.")
     # Measure time for tuning and fitting (SC regions)
     start_time = time.time()
     # Perform hyperparameter tuning
     conf_forest = tune_forest(X_train, y_train, param_grid) 
-    print(f"Finished conf tuning {file}.")
     # Radii 
     test_preds = conf_forest.predict(X_test)
     quantile = np.percentile(np.abs(y_test - test_preds), (1 - np.array([0.01, 0.05, 0.1])) * 100, method='inverted_cdf')
     end_time = time.time()
     conf_time = end_time - start_time
-    print(f"Finished tuning {file}.")
 
 ############################################################################################################
     # TYPE I COVERAGE RESULTS
@@ -136,7 +136,6 @@ def task(file):
         pb_i_cov[estimation, :] = (np.abs(pb_new_pred - new_y) <= oob_quantile)
         conf_i_cov[estimation, :] = (np.abs(conf_new_pred - new_y) <= quantile)
             
-    print(f"Finished type I coverage {file}.")
 
 ############################################################################################################            
     # TYPE II COVERAGE RESULTS
@@ -148,9 +147,8 @@ def task(file):
     pb_new_pred = pb_forest.predict(new_X)
     conf_new_pred = conf_forest.predict(new_X)
 
-    pb_II_coverage = np.sum(np.abs(pb_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(oob_quantile, (MC, 1)), axis = 0) / MC
-    conf_II_coverage = np.sum(np.abs(conf_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(quantile, (MC, 1)), axis = 0) / MC
-    print(f"Finished type II coverage {file}.")
+    pb_ii_cov = np.sum(np.abs(pb_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(oob_quantile, (MC, 1)), axis = 0) / MC
+    conf_ii_cov = np.sum(np.abs(conf_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(quantile, (MC, 1)), axis = 0) / MC
 
 ############################################################################################################
     q_25 = 2*np.sqrt(5)*(beta(2,2).ppf(.25)-1/2)
@@ -170,7 +168,6 @@ def task(file):
 
         pb_iii_cov[estimation, :] = (np.abs(pb_new_pred - new_y) <= oob_quantile)
         conf_iii_cov[estimation, :] = (np.abs(conf_new_pred - new_y) <= quantile)
-    print(f"Finished type III coverage {file}.")
 
 ############################################################################################################
     # TYPE IV COVERAGE RESULTS
@@ -181,20 +178,19 @@ def task(file):
     pb_new_pred = pb_forest.predict(new_X)
     conf_new_pred = conf_forest.predict(new_X)
 
-    pb_IV_coverage = np.sum(np.abs(pb_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(oob_quantile, (MC, 1)), axis = 0) / MC
-    conf_IV_coverage = np.sum(np.abs(conf_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(quantile, (MC, 1)), axis = 0) / MC
-    print(f"Finished type IV coverage {file}.")
+    pb_iv_cov = np.sum(np.abs(pb_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(oob_quantile, (MC, 1)), axis = 0) / MC
+    conf_iv_cov = np.sum(np.abs(conf_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(quantile, (MC, 1)), axis = 0) / MC
 
     # Store results
     results = {
         'pb_i_cov': pb_i_cov,
         'conf_i_cov': conf_i_cov,
-        'pb_II_coverage': pb_II_coverage,
-        'conf_II_coverage': conf_II_coverage,
+        'pb_ii_cov': pb_ii_cov,
+        'conf_ii_cov': conf_ii_cov,
         'pb_iii_cov': pb_iii_cov,
         'conf_iii_cov': conf_iii_cov,
-        'pb_IV_coverage': pb_IV_coverage,
-        'conf_IV_coverage': conf_IV_coverage,
+        'pb_iv_cov': pb_iv_cov,
+        'conf_iv_cov': conf_iv_cov,
         'OOB_quantile': oob_quantile,
         'quantile': quantile,
         'pb_time': pb_time,
