@@ -84,6 +84,26 @@ def coalesce_weights(w: np.ndarray, shaped) -> np.ndarray:
     N = shaped.shape[0]
     return w if not w is None else np.ones(N)/N
 
+def vectorize(matrix):
+    """Converts a 2x2 SPD matrix to a 3D vector."""
+    if len(matrix.shape) == 2:
+        return np.array([matrix[0, 0], matrix[1, 1], matrix[0, 1]])
+    elif len(matrix.shape) == 3:
+        return np.vstack((matrix[:,0,0], matrix[:,1,1], matrix[:,0,1])).T
+    else:
+        raise ValueError("Check the dimensions of the input.")
+
+def devectorize(vector):
+    """Converts a 3D vector back to a 2x2 SPD matrix."""
+    if len(vector.shape) == 1:
+        return np.array([[vector[0], vector[2]], 
+                        [vector[2], vector[1]]])
+    elif len(vector.shape) == 2:
+        return np.vstack((vector[:,0], vector[:,2], vector[:,2], vector[:,1])).T.reshape(-1, 2, 2)
+    else:
+        raise ValueError("Check the dimensions of the input.")
+
+    
 
 # def main():
 #     D=np.array([[0,1],[2,3]])

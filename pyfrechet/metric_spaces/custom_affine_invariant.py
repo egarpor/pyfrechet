@@ -3,11 +3,13 @@ from pyfrechet.metric_spaces import MetricSpace
 from scipy.linalg import eigvals
 from geomstats.geometry.spd_matrices import SPDMatrices
 from geomstats.learning.frechet_mean import FrechetMean
+from pyfrechet.metric_spaces.utils import vectorize, devectorize
 
 class CustomAffineInvariant(MetricSpace):
     """
     Affine-invariant Riemannian metric space for dxd SPD matrices.
-    
+    Wraps SPD matrices for sklearn compatibility with scikit-learn by vectorizing them.
+
     The distance between two SPD matrices A and B is defined as:
     d(A, B) = || log(A^(-1/2) B A^(-1/2)) ||_F
 
@@ -28,7 +30,10 @@ class CustomAffineInvariant(MetricSpace):
         self.dim = dim 
         self.manifold = SPDMatrices(n=dim)
 
-    def _d(self, S1, S2):
+    def __str__(self):
+        return f'CustomAffineInvariant({self.dim}x{self.dim})'
+        
+    def _d(self, v1, v2):
         """
         Computes the affine-invariant Riemannian metric (AIRM) between two SPD matrices S1 and S2.
 
@@ -43,47 +48,22 @@ class CustomAffineInvariant(MetricSpace):
         # geomstats for the Fréchet mean, the medoids only require computing the distances, so using this function saves time.
         # The Fréchet mean could also be computed using mean_riemann() from pyriemann.utils.mean. 
 
+        S1 = devectorize(v1)
+        S2 = devectorize(v2)
+
         # Compute the matrix S1^{-1}S2
         inv_S1_S2 = np.linalg.solve(S1, S2)
 
         # Compute the eigenvalues of S1^{-1}S2
         eigenvalues = eigvals(inv_S1_S2)
-
         # Compute the log of eigenvalues and sum of their squares
         log_eigenvalues = np.log(eigenvalues.real)  # Ensure real part is taken
 
         return np.sqrt(np.sum(log_eigenvalues**2))
 
-    def _frechet_mean(self, y, w):
+    def _frechet_mean(self, vectors, w):
+        matrices = np.array([devectorize(v) for v in vectors])
         mean = FrechetMean(metric=self.manifold.metric)
-        mean.fit(y, weights=w)
-        return mean.estimate_
-
-    def __str__(self):
-        return f'CustomAffineInvariant({self.dim}x{self.dim})'
-    
-
-import numpy as np
-
-class SPDVectorizer:
-    """Wraps SPD matrices for sklearn compatibility by vectorizing them."""
-    def __init__(self, metric_space):
-        self.metric_space = metric_space  # Instance of CustomAffineInvariant
-
-    def vectorize(self, matrix):
-        """Converts a 2x2 SPD matrix to a 3D vector."""
-        return np.array([matrix[0, 0], matrix[1, 1], matrix[0, 1]])
-
-    def devectorize(self, vector):
-        """Converts a 3D vector back to a 2x2 SPD matrix."""
-        return np.array([[vector[0], vector[2]], 
-                         [vector[2], vector[1]]])
-
-    def dist(self, v1, v2):
-        """Computes distance using SPD matrices."""
-        return self.metric_space.d(self.devectorize(v1), self.devectorize(v2))
-
-    def frechet_mean(self, vectors, weights):
-        """Computes the Fréchet mean using SPD matrices."""
-        matrices = np.array([self.devectorize(v) for v in vectors])
-        return self.vectorize(self.metric_space._frechet_mean(matrices, weights))
+        mean.fit(matrices, weights=w)
+        matrix_frechet_mean = mean.estimate_
+        return vectorize(matrix_frechet_mean)

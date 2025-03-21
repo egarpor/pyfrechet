@@ -181,11 +181,7 @@ def task(file) -> None:
     results_filename = os.path.join(os.getcwd(), 'simulations_sphere', 'results', f'{file[:-4]}' + '_results.npy')
     np.save(results_filename, results)
 
-
-
-
 file_list = list(filter(lambda file: file.endswith(f'block_{current_block}.pkl'), filter(lambda file: file.endswith('.pkl'), os.listdir(os.path.join(os.getcwd(), 'simulations_sphere', 'data/')))))
-
 
 with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total=56)) as progress_bar:
 
