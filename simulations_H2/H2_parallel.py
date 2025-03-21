@@ -48,7 +48,6 @@ def tqdm_joblib(tqdm_object):
         def __call__(self, *args, **kwargs):
             tqdm_object.update(n=self.batch_size)
             return super().__call__(*args, **kwargs)
-
     old_batch_callback = joblib.parallel.BatchCompletionCallBack
     joblib.parallel.BatchCompletionCallBack = TqdmBatchCompletionCallback
     try:
@@ -73,6 +72,7 @@ def task(file) -> None:
     kappa = int(file.split('_')[3][5:])
     N = int(file.split('_')[2][1:])
     samp = int(file.split('_')[1][4:])
+    
     # Perform hyperparameter tuning
     forest = tune_forest(X, y, base_forest, param_grid)
     oob_quantile = np.percentile(forest.oob_errors(), (1 - np.array([0.01, 0.05, 0.1])) * 100, method='inverted_cdf')
@@ -151,8 +151,7 @@ def task(file) -> None:
 
 file_list = list(filter(lambda file: file.endswith(f'block_{current_block}.csv'), filter(lambda file: file.endswith('.csv'), os.listdir(os.path.join(os.getcwd(), 'simulations_H2', 'data/')))))
 
-with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total=56)) as progress_bar:
-
+with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total=3)) as progress_bar:
     Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in \
             # select files that end with "block_{current_block}.pkl"
             file_list[0:3]

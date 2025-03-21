@@ -167,8 +167,22 @@ def task(file) -> None:
     lc_ii_cov = np.sum(M_lc.d(lc_new_pred, new_y).reshape(-1,1) <= np.tile(oob_quantile, (MC,1)), axis = 0) / MC
     le_i_cov = np.sum(M_le.d(le_new_pred, new_y).reshape(-1,1) <= np.tile(oob_quantile, (MC,1)), axis = 0) / MC
 
+############################################################################################################
+    # TYPE III COVERAGE RESULTS
 
-    
+    ai_i_cov = np.zeros(shape = (n_estimations, 3))
+    lc_i_cov = np.zeros(shape = (n_estimations, 3))
+    le_i_cov = np.zeros(shape = (n_estimations, 3))
+    for estimation in range(n_estimations):
+        # Randomly select rows from the dataframe
+        theta = np.array([vonmises_line.ppf(q=0.25, kappa = 1)])
+        # Add a column of ones for the intercept (beta_0)
+        theta, new_y = simulate_data(kappa = kappa, mu = mu, theta_samples = theta)
+
+        # Predict the new observation
+        pb_new_pred = forest.predict(theta.reshape(-1,1))
+        pb_iii_cov[estimation, :] = (M.d(pb_new_pred, new_y) <= oob_quantile)
+
 
 Parallel(n_jobs=-1, verbose=40)(
     delayed(task)(file)
