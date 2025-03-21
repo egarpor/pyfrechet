@@ -3,7 +3,7 @@ __pycache__/
 .DS_Store
 .vscode
 playground
-build/
 dist/
+build/
 *.egg-info/
 .history/
