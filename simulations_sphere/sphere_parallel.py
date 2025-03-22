@@ -183,7 +183,7 @@ def task(file) -> None:
 
 file_list = list(filter(lambda file: file.endswith(f'block_{current_block}.pkl'), filter(lambda file: file.endswith('.pkl'), os.listdir(os.path.join(os.getcwd(), 'simulations_sphere', 'data/')))))
 
-with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total=3)) as progress_bar:
+with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total=56)) as progress_bar:
     Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in \
             # select files that end with "block_{current_block}.pkl"
             file_list[0:3]
