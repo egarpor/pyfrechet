@@ -46,3 +46,40 @@ INFO: Using numpy backend
 INFO: Using numpy backend
 Percentage of tasks completed::   2%|▏         | 1/56 [01:52<1:43:22, 112.77s/it]Percentage of tasks completed::   4%|▎         | 2/56 [01:57<44:29, 49.44s/it]   Percentage of tasks completed::   5%|▌         | 3/56 [06:36<2:16:17, 154.28s/it][Parallel(n_jobs=-1)]: Done   3 out of   3 | elapsed:  6.6min finished
 Percentage of tasks completed::   5%|▌         | 3/56 [06:36<1:56:52, 132.31s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 0374d05e2] Simulations Sphere block 1
+ 6 files changed, 52 insertions(+)
+ create mode 100644 simulations_sphere/results/sphere_samp10_N100_kappa200_block_1_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp10_N100_kappa50_block_1_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp10_N200_kappa200_block_1_results.npy
+ create mode 100644 slurm-H2-block1-jobid-11296878.out
+To github.com:egarpor/pyfrechet.git
+   266f15bd0..0374d05e2  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11296721)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11296721
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 2
+CPU Utilized: 00:09:02
+CPU Efficiency: 66.91% of 00:13:30 core-walltime
+Job Wall-clock time: 00:06:45
+Memory Utilized: 237.54 MB
+Memory Efficiency: 11.60% of 2.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
