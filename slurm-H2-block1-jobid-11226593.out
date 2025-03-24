@@ -47,3 +47,36 @@ INFO: Using numpy backend
 INFO: Using numpy backend
 Percentage of tasks completed::  33%|███▎      | 1/3 [02:31<05:02, 151.09s/it]Percentage of tasks completed::  67%|██████▋   | 2/3 [02:39<01:07, 67.26s/it] Percentage of tasks completed:: 100%|██████████| 3/3 [05:37<00:00, 117.63s/it][Parallel(n_jobs=-1)]: Done   3 out of   3 | elapsed:  5.6min finished
 Percentage of tasks completed:: 100%|██████████| 3/3 [05:37<00:00, 112.41s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 9a98f5c5e] Simulations Hyperboloid block 1
+ 5 files changed, 16 insertions(+)
+To github.com:egarpor/pyfrechet.git
+   cb02da8fa..9a98f5c5e  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11226593)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11226593
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 3
+CPU Utilized: 00:11:05
+CPU Efficiency: 63.33% of 00:17:30 core-walltime
+Job Wall-clock time: 00:05:50
+Memory Utilized: 396.02 MB
+Memory Efficiency: 38.67% of 1.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
