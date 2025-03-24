@@ -1,0 +1,12 @@
+slurmstepd: info: Setting TMPDIR to /scratch/11296722. Previous errors about TMPDIR can be discarded
+INFO: Using numpy backend
+Traceback (most recent call last):
+  File "simulations_H2/H2_parallel.py", line 10, in <module>
+    from pyfrechet.regression.bagged_regressor import BaggedRegressor
+  File "/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/pyfrechet/regression/bagged_regressor.py", line 8, in <module>
+    from .weighting_regressor import WeightingRegressor
+  File "/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/pyfrechet/regression/weighting_regressor.py", line 7, in <module>
+    from pyfrechet.metrics import r2_score
+  File "/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/pyfrechet/metrics.py", line 3, in <module>
+    from sklearn.metrics._regression import _assemble_r2_explained_variance
+ImportError: cannot import name '_assemble_r2_explained_variance' from 'sklearn.metrics._regression' (/home/usc/ei/ega/.local/lib/python3.7/site-packages/sklearn/metrics/_regression.py)
