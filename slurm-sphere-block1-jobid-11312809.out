@@ -1,4 +1,3 @@
-slurmstepd: info: Setting TMPDIR to /scratch/11312666. Previous errors about TMPDIR can be discarded
 python/3.9.9 loaded
 jupyter-server/1.13.5-python-3.9.9 loaded
 jupyterlab/3.2.4-python-3.9.9 loaded
@@ -17,7 +16,7 @@ CPU family:                      6
 Model:                           106
 Model name:                      Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
 Stepping:                        6
-CPU MHz:                         2799.975
+CPU MHz:                         2800.020
 CPU max MHz:                     3400.0000
 CPU min MHz:                     800.0000
 BogoMIPS:                        4400.00
@@ -98,10 +97,10 @@ INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
-Percentage of tasks completed::   0%|          | 1/200 [00:05<19:18,  5.82s/it]Percentage of tasks completed::  56%|█████▌    | 112/200 [00:16<00:13,  6.67it/s]
+Percentage of tasks completed::   0%|          | 1/200 [00:05<18:41,  5.64s/it]Percentage of tasks completed::   1%|          | 2/200 [00:06<09:19,  2.83s/it]Percentage of tasks completed::  56%|█████▌    | 112/200 [00:13<00:10,  8.13it/s]
 Traceback (most recent call last):
-  File "/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_H2/H2_parallel.py", line 156, in <module>
-    Parallel(n_jobs=-1, verbose=2)(delayed(task)(file) for file in file_list)
+  File "/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_sphere/sphere_parallel.py", line 192, in <module>
+    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in file_list)
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 2007, in __call__
     return output if self.return_generator else list(output)
   File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 1650, in _get_outputs
@@ -119,14 +118,3 @@ joblib.externals.loky.process_executor.TerminatedWorkerError: A worker process m
 The exit codes of the workers are {SIGKILL(-9)}
 /home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 112 leaked semlock objects to clean up at shutdown
   warnings.warn(
-Auto packing the repository in background for optimum performance.
-See "git help gc" for manual housekeeping.
-[main f3f127132] Simulations Hyperboloid block 1
- 7 files changed, 160 insertions(+)
- delete mode 100644 simulations_euc/results/euc_samp10_N100_sigma0.6_block_1_results.npy
- delete mode 100644 simulations_euc/results/euc_samp10_N100_sigma0.9_block_1_results.npy
- delete mode 100644 simulations_euc/results/euc_samp10_N100_sigma1.7_block_1_results.npy
- create mode 100644 slurm-H2-block1-jobid-11312666.out
-To github.com:egarpor/pyfrechet.git
-   e35b94127..f3f127132  main -> main
-slurmstepd: error: Detected 5 oom-kill event(s) in StepId=11312666.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
