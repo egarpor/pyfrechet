@@ -83,7 +83,7 @@ def m_0(theta, mu):
     return np.column_stack((x1, x2, x3))
 
 # Function to generate vMF samples
-def simulate_data(kappa, mu, theta_samples):
+def simulate_data(m_0, kappa, mu, theta_samples):
     """
     Generate samples from the von Mises-Fisher distribution on S^2.
     
@@ -132,7 +132,7 @@ def task(file) -> None:
     for estimation in range(n_estimations):
         # Randomly select rows from the dataframe
         theta = vonmises_line(kappa = 1).rvs(1)
-        theta, new_y = simulate_data(kappa = kappa, mu = mu, theta_samples = theta)
+        theta, new_y = simulate_data(m_0 = m_0, kappa = kappa, mu = mu, theta_samples = theta)
 
         # Predict the new observation
         pb_new_pred = forest.predict(theta.reshape(-1,1))
@@ -143,7 +143,7 @@ def task(file) -> None:
     MC = 500
     #Generate observations to estimate the probability
     theta_samples = np.array([vonmises_line(kappa = 1).rvs(MC)]).reshape(-1, 1)
-    new_thetas, new_ys = simulate_data(kappa = kappa, theta_samples = theta_samples, mu=mu)
+    new_thetas, new_ys = simulate_data(m_0 = m_0, kappa = kappa, theta_samples = theta_samples, mu=mu)
     pb_new_pred = forest.predict(new_thetas.reshape(-1, 1))
     pb_ii_cov = np.sum(M.d(MetricData(M, new_ys), pb_new_pred) <= np.tile(oob_quantile, (MC, 1)), axis = 0) / MC
     
@@ -155,7 +155,7 @@ def task(file) -> None:
         # Randomly select rows from the dataframe
         theta = np.array([vonmises_line.ppf(q=0.25, kappa = 1)])
         # Add a column of ones for the intercept (beta_0)
-        theta, new_y = simulate_data(kappa = kappa, mu = mu, theta_samples = theta)
+        theta, new_y = simulate_data(m_0 = m_0, kappa = kappa, mu = mu, theta_samples = theta)
 
         # Predict the new observation
         pb_new_pred = forest.predict(theta.reshape(-1,1))
@@ -164,7 +164,7 @@ def task(file) -> None:
 ############################################################################################################
     # TYPE IV COVERAGE RESULTS
     theta = np.repeat(vonmises_line.ppf(q=0.25, kappa = 1), MC)
-    theta, new_y = simulate_data(kappa = kappa, theta_samples = theta, mu = mu)
+    theta, new_y = simulate_data(m_0 = m_0, kappa = kappa, theta_samples = theta, mu = mu)
 
     pb_new_pred = forest.predict(theta.reshape(-1,1))
     pb_iv_cov = np.sum(M.d(MetricData(M, new_y), pb_new_pred) <= np.tile(oob_quantile, (MC, 1)), axis = 0) / MC
@@ -181,10 +181,12 @@ def task(file) -> None:
     results_filename = os.path.join(os.getcwd(), 'simulations_sphere', 'results', f'{file[:-4]}' + '_results.npy')
     np.save(results_filename, results)
 
-file_list = list(filter(lambda file: file.endswith(f'block_{current_block}.pkl'), filter(lambda file: file.endswith('.pkl'), os.listdir(os.path.join(os.getcwd(), 'simulations_sphere', 'data/')))))
+file_list = list(filter(
+                lambda file: file.endswith(f'block_{current_block}.pkl'), 
+                filter(lambda file: file.endswith('.pkl'), os.listdir(os.path.join(os.getcwd(), 'simulations_sphere', 'data/')))
+                    )
+                )  
+total_files = len(file_list)
 
-with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total=56)) as progress_bar:
-    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in \
-            # select files that end with "block_{current_block}.pkl"
-            file_list[0:3]
-        )
+with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = total_files)) as progress_bar:
+    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in file_list)

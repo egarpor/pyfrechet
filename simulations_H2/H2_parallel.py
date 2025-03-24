@@ -150,9 +150,7 @@ def task(file) -> None:
     np.save(results_filename, results)
 
 file_list = list(filter(lambda file: file.endswith(f'block_{current_block}.csv'), filter(lambda file: file.endswith('.csv'), os.listdir(os.path.join(os.getcwd(), 'simulations_H2', 'data/')))))
+total_files = len(file_list)
 
-with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total=3)) as progress_bar:
-    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in \
-            # select files that end with "block_{current_block}.pkl"
-            file_list[0:3]
-        )
+with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = total_files)) as progress_bar:
+    Parallel(n_jobs=-1, verbose=2)(delayed(task)(file) for file in file_list)
