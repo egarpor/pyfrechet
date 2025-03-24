@@ -43,3 +43,15 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
 Percentage of tasks completed::   0%|          | 0/56 [00:00<?, ?it/s][Parallel(n_jobs=-1)]: Using backend LokyBackend with 2 concurrent workers.
 Percentage of tasks completed::   2%|▏         | 1/56 [00:25<23:48, 25.98s/it]Percentage of tasks completed::   5%|▌         | 3/56 [00:53<15:04, 17.06s/it][Parallel(n_jobs=-1)]: Done   3 out of   3 | elapsed:   53.9s finished
 Percentage of tasks completed::   5%|▌         | 3/56 [00:53<15:51, 17.95s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 6dfd3d810] Simulations Euclidean block 1
+ 4 files changed, 30 insertions(+)
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]            main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
