@@ -118,3 +118,11 @@ joblib.externals.loky.process_executor.TerminatedWorkerError: A worker process m
 The exit codes of the workers are {SIGKILL(-9)}
 /home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 112 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main f2ce0552b] Simulations Sphere block 1
+ 2 files changed, 133 insertions(+)
+ create mode 100644 slurm-sphere-block1-jobid-11312809.out
+To github.com:egarpor/pyfrechet.git
+   f3f127132..f2ce0552b  main -> main
+slurmstepd: error: Detected 5 oom-kill event(s) in StepId=11312809.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

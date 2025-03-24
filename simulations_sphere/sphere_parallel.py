@@ -188,5 +188,5 @@ file_list = list(filter(
                 )  
 total_files = len(file_list)
 
-with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = total_files)) as progress_bar:
-    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in file_list)
+with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = 3)) as progress_bar:
+    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in file_list[:3])
