@@ -43,3 +43,39 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
 Percentage of tasks completed::   0%|          | 0/56 [00:00<?, ?it/s][Parallel(n_jobs=-1)]: Using backend LokyBackend with 2 concurrent workers.
 Percentage of tasks completed::   2%|▏         | 1/56 [00:25<23:39, 25.82s/it]Percentage of tasks completed::   4%|▎         | 2/56 [00:25<09:37, 10.70s/it]Percentage of tasks completed::   5%|▌         | 3/56 [00:53<16:05, 18.22s/it][Parallel(n_jobs=-1)]: Done   3 out of   3 | elapsed:   53.1s finished
 Percentage of tasks completed::   5%|▌         | 3/56 [00:53<15:38, 17.70s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 266f15bd0] Simulations Euclidean block 1
+ 6 files changed, 105 insertions(+)
+ create mode 100644 slurm-H2-block1-jobid-11296722.out
+ create mode 100644 slurm-euc-block1-jobid-11296637.out
+ create mode 100644 slurm-sphere-block1-jobid-11296721.out
+To github.com:egarpor/pyfrechet.git
+   feac1937a..266f15bd0  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11296637)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11296637
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 2
+CPU Utilized: 00:01:19
+CPU Efficiency: 65.83% of 00:02:00 core-walltime
+Job Wall-clock time: 00:01:00
+Memory Utilized: 208.96 MB
+Memory Efficiency: 20.41% of 1.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
