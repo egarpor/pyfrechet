@@ -43,3 +43,28 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
 Percentage of tasks completed::   0%|          | 0/56 [00:00<?, ?it/s][Parallel(n_jobs=-1)]: Using backend LokyBackend with 3 concurrent workers.
 Percentage of tasks completed::   2%|▏         | 1/56 [00:26<24:12, 26.41s/it]Percentage of tasks completed::   5%|▌         | 3/56 [00:27<06:19,  7.15s/it][Parallel(n_jobs=-1)]: Done   3 out of   3 | elapsed:   27.2s finished
 Percentage of tasks completed::   5%|▌         | 3/56 [00:27<08:01,  9.08s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main bf273885f] Simulations Euclidean block 1
+ 14 files changed, 251 insertions(+)
+ create mode 100644 simulations_H2/results/H2_samp10_N100_kappa200_block_1_block_1_results.npy
+ create mode 100644 simulations_H2/results/H2_samp10_N100_kappa50_block_1_block_1_results.npy
+ create mode 100644 simulations_H2/results/H2_samp10_N200_kappa200_block_1_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp10_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp10_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp10_N100_sigma1.7_block_1_results.npy
+ create mode 100644 slurm-H2-block1-jobid-11226593.out
+ create mode 100644 slurm-euc-block1-jobid-11226540.out
+ create mode 100644 slurm-euc-block1-jobid-11260218.out
+ create mode 100644 slurm-euc-block1-jobid-11282028.out
+ create mode 100644 slurm-euc-block1-jobid-11282101.out
+ create mode 100644 slurm-euc-block1-jobid-11282104.out
+ create mode 100644 slurm-sphere-block1-jobid-11226537.out
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]            main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
