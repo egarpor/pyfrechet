@@ -16,8 +16,7 @@ import base64
 from scipy.stats import vonmises_fisher, vonmises_line
 from tqdm import tqdm
 import contextlib
-
-import psutil
+from pyfrechet.metric_spaces.utils import track
 
 np.random.seed(1000)
 
@@ -36,7 +35,7 @@ neg_mse = make_scorer(mse, greater_is_better=False)
 
 # By-blocks execution
 n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_sphere/' 'data')))
-current_block = 1
+current_block = int(sys.argv[1])
 
 base = Tree(split_type='2means', mtry=None, impurity_method='cart')
 base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1)
@@ -44,7 +43,6 @@ base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fracti
 M = Sphere(2)
 
 @contextlib.contextmanager
-@track
 def tqdm_joblib(tqdm_object):
     """Context manager to patch joblib to report into tqdm progress bar given as argument"""
     class TqdmBatchCompletionCallback(joblib.parallel.BatchCompletionCallBack):
@@ -115,6 +113,8 @@ def tune_forest(X, y, forest = base_forest, param_grid=param_grid):
     tuned_forest.fit(X, y)
     return tuned_forest.best_estimator_
 
+# Main task
+@track
 def task(file) -> None:
     """Processes a single file for sphere data regression."""
     with open(os.path.join(os.getcwd(), 'simulations_sphere', 'data', file), 'rb') as f:
@@ -192,4 +192,4 @@ file_list = list(filter(
 total_files = len(file_list)
 
 with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = total_files)) as progress_bar:
-    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in file_list)
+    Parallel(n_jobs=10, verbose=2)( delayed(task)(file) for file in file_list)
