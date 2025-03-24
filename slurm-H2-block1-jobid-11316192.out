@@ -16,7 +16,7 @@ CPU family:                      6
 Model:                           106
 Model name:                      Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
 Stepping:                        6
-CPU MHz:                         2800.032
+CPU MHz:                         2800.029
 CPU max MHz:                     3400.0000
 CPU min MHz:                     800.0000
 BogoMIPS:                        4400.00
@@ -44,38 +44,5 @@ INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
-Percentage of tasks completed::  33%|███▎      | 1/3 [03:00<06:00, 180.13s/it]Percentage of tasks completed::  67%|██████▋   | 2/3 [03:11<01:20, 80.87s/it] Percentage of tasks completed:: 100%|██████████| 3/3 [06:28<00:00, 133.82s/it][Parallel(n_jobs=-1)]: Done   3 out of   3 | elapsed:  6.5min finished
-Percentage of tasks completed:: 100%|██████████| 3/3 [06:28<00:00, 129.45s/it]
-Auto packing the repository in background for optimum performance.
-See "git help gc" for manual housekeeping.
-[main 67ac04b71] Simulations Hyperboloid block 1
- 3 files changed, 39 insertions(+), 1 deletion(-)
-To github.com:egarpor/pyfrechet.git
-   8534e175d..67ac04b71  main -> main
-
-*****************************************************************************
-*                                                                           *
-*                    JOB EFFICIENCY REPORT (seff 11314747)                   *
-*                                                                           *
-*****************************************************************************
-
-Job ID: 11314747
-Cluster: finisterrae3
-User/Group: usceiega/usc
-State: COMPLETED (exit code 0)
-Nodes: 1
-Cores per node: 56
-CPU Utilized: 00:23:57
-CPU Efficiency: 6.45% of 06:11:28 core-walltime
-Job Wall-clock time: 00:06:38
-Memory Utilized: 1.96 GB
-Memory Efficiency: 3.92% of 50.00 GB
-
- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- ++   Memory Efficiency is too small. Please review the requested memory. ++
- ++ It seems that you do not need that much memory so we recommend        ++
- ++ requesting less memory in other similar jobs.                         ++
- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- 
-*****************************************************************************
-
+Percentage of tasks completed::  33%|███▎      | 1/3 [03:02<06:04, 182.12s/it]Percentage of tasks completed::  67%|██████▋   | 2/3 [03:13<01:21, 81.65s/it] Percentage of tasks completed:: 100%|██████████| 3/3 [06:28<00:00, 133.29s/it][Parallel(n_jobs=-1)]: Done   3 out of   3 | elapsed:  6.5min finished
+Percentage of tasks completed:: 100%|██████████| 3/3 [06:28<00:00, 129.39s/it]
