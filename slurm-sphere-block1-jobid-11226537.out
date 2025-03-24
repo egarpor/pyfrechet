@@ -45,3 +45,42 @@ INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
+Percentage of tasks completed::  33%|███▎      | 1/3 [02:02<04:04, 122.01s/it]Percentage of tasks completed:: 100%|██████████| 3/3 [02:02<00:00, 40.71s/it] 
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 463, in _process_worker
+    r = call_item()
+  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 598, in __call__
+    return [func(*args, **kwargs)
+  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 598, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_sphere/sphere_parallel.py", line 182, in task
+    np.save(results_filename, results)
+  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/numpy/lib/npyio.py", line 542, in save
+    file_ctx = open(file, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_sphere/results/sphere_samp10_N100_kappa50_block_1_results.npy'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_sphere/sphere_parallel.py", line 187, in <module>
+    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in \
+  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 2007, in __call__
+    return output if self.return_generator else list(output)
+  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 1650, in _get_outputs
+    yield from self._retrieve()
+  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 1754, in _retrieve
+    self._raise_error_fast()
+  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 1789, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 745, in get_result
+    return self._return_or_raise()
+  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
+    raise self._result
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_sphere/results/sphere_samp10_N100_kappa50_block_1_results.npy'
+/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 2 leaked semlock objects to clean up at shutdown
+  warnings.warn(
