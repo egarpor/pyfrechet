@@ -84,3 +84,15 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_sphere/results/sphere_samp10_N100_kappa50_block_1_results.npy'
 /home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 2 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 53b4c1f0a] Simulations Sphere block 1
+ 2 files changed, 53 insertions(+)
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]            main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
