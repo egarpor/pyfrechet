@@ -34,7 +34,7 @@ neg_mse = make_scorer(mse, greater_is_better=False)
 
 # By-blocks execution
 n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_sphere/' 'data')))
-current_block=int(sys.argv[1])
+current_block = 1
 
 base = Tree(split_type='2means', mtry=None, impurity_method='cart')
 base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1)
@@ -188,5 +188,5 @@ file_list = list(filter(
                 )  
 total_files = len(file_list)
 
-with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = 3)) as progress_bar:
-    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in file_list[:3])
+with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = total_files)) as progress_bar:
+    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in file_list)
