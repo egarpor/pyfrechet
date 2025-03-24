@@ -17,6 +17,8 @@ from scipy.stats import vonmises_fisher, vonmises_line
 from tqdm import tqdm
 import contextlib
 
+import psutil
+
 np.random.seed(1000)
 
 # Parameters
@@ -42,6 +44,7 @@ base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fracti
 M = Sphere(2)
 
 @contextlib.contextmanager
+@track
 def tqdm_joblib(tqdm_object):
     """Context manager to patch joblib to report into tqdm progress bar given as argument"""
     class TqdmBatchCompletionCallback(joblib.parallel.BatchCompletionCallBack):
