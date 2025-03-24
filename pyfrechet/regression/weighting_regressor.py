@@ -82,8 +82,6 @@ class WeightingRegressor(RegressorMixin, BaseEstimator, metaclass=ABCMeta):
     def weights_for(self, x) -> np.ndarray:
         pass
 
-
-
     def predict(self, x):
         # Check if estimator has been fitted (.fit() has been applied), otherwise raise an error
         check_is_fitted(self)

@@ -24,7 +24,7 @@ os.makedirs(results_dir, exist_ok=True)
 
 # By-blocks execution
 n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_euc/' 'data')))
-current_block=int(sys.argv[1])
+current_block = int(sys.argv[1])
 
 # Define parameter grid for tuning
 param_grid = {
@@ -200,9 +200,7 @@ def task(file):
     np.save(filename, results)
 
 file_list = list(filter(lambda file: file.endswith(f'block_{current_block}.pkl'), filter(lambda file: file.endswith('.pkl'), os.listdir(os.path.join(os.getcwd(), 'simulations_euc', 'data/')))))
+total_files = len(file_list)
 
-with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total=56)) as progress_bar:
-    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in \
-        # select files that end with "block_{current_block}.pkl"
-        file_list[0:3]
-    )
+with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = total_files)) as progress_bar:
+    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in file_list)
