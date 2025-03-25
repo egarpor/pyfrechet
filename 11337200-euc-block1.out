@@ -48,3 +48,799 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
 Percentage of tasks completed::  63%|██████▎   | 950/1500 [25:33<11:26,  1.25s/it]Percentage of tasks completed::  63%|██████▎   | 951/1500 [25:33<08:39,  1.06it/s]Percentage of tasks completed::  63%|██████▎   | 952/1500 [25:38<17:30,  1.92s/it]Percentage of tasks completed::  64%|██████▎   | 953/1500 [25:38<13:26,  1.47s/it]Percentage of tasks completed::  64%|██████▎   | 954/1500 [25:38<10:20,  1.14s/it]Percentage of tasks completed::  64%|██████▎   | 955/1500 [25:40<10:35,  1.17s/it]Percentage of tasks completed::  64%|██████▎   | 956/1500 [25:42<14:26,  1.59s/it]Percentage of tasks completed::  64%|██████▍   | 958/1500 [25:44<10:44,  1.19s/it]Percentage of tasks completed::  64%|██████▍   | 959/1500 [25:50<21:26,  2.38s/it]Percentage of tasks completed::  64%|██████▍   | 960/1500 [25:57<33:18,  3.70s/it]Percentage of tasks completed::  64%|██████▍   | 961/1500 [25:58<25:51,  2.88s/it]Percentage of tasks completed::  64%|██████▍   | 962/1500 [25:58<19:10,  2.14s/it]Percentage of tasks completed::  64%|██████▍   | 963/1500 [25:59<15:22,  1.72s/it]Percentage of tasks completed::  64%|██████▍   | 964/1500 [25:59<12:02,  1.35s/it]Percentage of tasks completed::  64%|██████▍   | 965/1500 [26:00<09:49,  1.10s/it]Percentage of tasks completed::  64%|██████▍   | 966/1500 [26:01<09:42,  1.09s/it]Percentage of tasks completed::  65%|██████▍   | 968/1500 [26:01<05:32,  1.60it/s]Percentage of tasks completed::  65%|██████▍   | 969/1500 [26:06<14:36,  1.65s/it]Percentage of tasks completed::  65%|██████▍   | 971/1500 [26:06<09:45,  1.11s/it]Percentage of tasks completed::  65%|██████▍   | 972/1500 [26:07<08:52,  1.01s/it]Percentage of tasks completed::  65%|██████▍   | 973/1500 [26:08<09:18,  1.06s/it]Percentage of tasks completed::  65%|██████▍   | 974/1500 [26:09<09:12,  1.05s/it]Percentage of tasks completed::  65%|██████▌   | 975/1500 [26:11<10:09,  1.16s/it]Percentage of tasks completed::  65%|██████▌   | 976/1500 [26:20<29:11,  3.34s/it]Percentage of tasks completed::  65%|██████▌   | 977/1500 [26:21<22:54,  2.63s/it]Percentage of tasks completed::  65%|██████▌   | 978/1500 [26:22<20:01,  2.30s/it]Percentage of tasks completed::  65%|██████▌   | 979/1500 [26:23<16:30,  1.90s/it]Percentage of tasks completed::  65%|██████▌   | 980/1500 [26:23<12:44,  1.47s/it]Percentage of tasks completed::  65%|██████▌   | 981/1500 [26:24<09:35,  1.11s/it]Percentage of tasks completed::  66%|██████▌   | 983/1500 [26:25<08:23,  1.03it/s]Percentage of tasks completed::  66%|██████▌   | 985/1500 [26:26<05:44,  1.50it/s]Percentage of tasks completed::  66%|██████▌   | 986/1500 [26:27<06:25,  1.33it/s]Percentage of tasks completed::  66%|██████▌   | 987/1500 [26:27<05:18,  1.61it/s]Percentage of tasks completed::  66%|██████▌   | 988/1500 [26:38<27:19,  3.20s/it]Percentage of tasks completed::  66%|██████▌   | 989/1500 [26:39<21:55,  2.57s/it]Percentage of tasks completed::  66%|██████▌   | 990/1500 [26:40<18:57,  2.23s/it]Percentage of tasks completed::  66%|██████▌   | 991/1500 [26:43<21:18,  2.51s/it]Percentage of tasks completed::  66%|██████▌   | 992/1500 [26:45<19:23,  2.29s/it]Percentage of tasks completed::  66%|██████▌   | 993/1500 [26:46<17:16,  2.04s/it]Percentage of tasks completed::  66%|██████▋   | 994/1500 [26:47<14:05,  1.67s/it]Percentage of tasks completed::  66%|██████▋   | 995/1500 [26:47<10:32,  1.25s/it]Percentage of tasks completed::  66%|██████▋   | 997/1500 [26:48<06:15,  1.34it/s]Percentage of tasks completed::  67%|██████▋   | 998/1500 [26:49<06:44,  1.24it/s]Percentage of tasks completed::  67%|██████▋   | 999/1500 [26:49<05:16,  1.58it/s]Percentage of tasks completed::  67%|██████▋   | 1000/1500 [26:55<18:57,  2.27s/it]Percentage of tasks completed::  67%|██████▋   | 1001/1500 [26:57<17:24,  2.09s/it]Percentage of tasks completed::  67%|██████▋   | 1002/1500 [26:59<17:40,  2.13s/it]Percentage of tasks completed::  67%|██████▋   | 1003/1500 [27:00<14:39,  1.77s/it]Percentage of tasks completed::  67%|██████▋   | 1004/1500 [27:00<11:00,  1.33s/it]Percentage of tasks completed::  67%|██████▋   | 1006/1500 [27:01<06:18,  1.30it/s]Percentage of tasks completed::  67%|██████▋   | 1007/1500 [27:01<05:07,  1.60it/s]Percentage of tasks completed::  67%|██████▋   | 1008/1500 [27:08<19:39,  2.40s/it]Percentage of tasks completed::  67%|██████▋   | 1009/1500 [27:10<17:04,  2.09s/it]Percentage of tasks completed::  67%|██████▋   | 1010/1500 [27:10<13:14,  1.62s/it]Percentage of tasks completed::  67%|██████▋   | 1012/1500 [27:15<16:00,  1.97s/it]Percentage of tasks completed::  68%|██████▊   | 1013/1500 [27:15<12:34,  1.55s/it]Percentage of tasks completed::  68%|██████▊   | 1014/1500 [27:16<10:32,  1.30s/it]Percentage of tasks completed::  68%|██████▊   | 1015/1500 [27:16<08:43,  1.08s/it]Percentage of tasks completed::  68%|██████▊   | 1016/1500 [27:17<08:24,  1.04s/it]Percentage of tasks completed::  68%|██████▊   | 1017/1500 [27:19<10:46,  1.34s/it]Percentage of tasks completed::  68%|██████▊   | 1018/1500 [27:19<08:35,  1.07s/it]Percentage of tasks completed::  68%|██████▊   | 1019/1500 [27:20<08:09,  1.02s/it]Percentage of tasks completed::  68%|██████▊   | 1020/1500 [27:26<18:40,  2.33s/it]Percentage of tasks completed::  68%|██████▊   | 1021/1500 [27:27<15:23,  1.93s/it]Percentage of tasks completed::  68%|██████▊   | 1022/1500 [27:27<11:30,  1.44s/it]Percentage of tasks completed::  68%|██████▊   | 1023/1500 [27:28<09:05,  1.14s/it]Percentage of tasks completed::  68%|██████▊   | 1024/1500 [27:36<27:09,  3.42s/it]Percentage of tasks completed::  68%|██████▊   | 1025/1500 [27:37<21:20,  2.70s/it]Percentage of tasks completed::  68%|██████▊   | 1027/1500 [27:38<12:55,  1.64s/it]Percentage of tasks completed::  69%|██████▊   | 1028/1500 [27:39<10:49,  1.38s/it]Percentage of tasks completed::  69%|██████▊   | 1029/1500 [27:40<11:25,  1.46s/it]Percentage of tasks completed::  69%|██████▊   | 1030/1500 [27:41<09:01,  1.15s/it]Percentage of tasks completed::  69%|██████▊   | 1031/1500 [27:41<07:15,  1.08it/s]Percentage of tasks completed::  69%|██████▉   | 1032/1500 [27:43<08:34,  1.10s/it]Percentage of tasks completed::  69%|██████▉   | 1033/1500 [27:44<08:58,  1.15s/it]Percentage of tasks completed::  69%|██████▉   | 1034/1500 [27:45<07:51,  1.01s/it]Percentage of tasks completed::  69%|██████▉   | 1035/1500 [27:48<12:32,  1.62s/it]Percentage of tasks completed::  69%|██████▉   | 1036/1500 [27:53<21:14,  2.75s/it]Percentage of tasks completed::  69%|██████▉   | 1037/1500 [27:56<22:27,  2.91s/it]Percentage of tasks completed::  69%|██████▉   | 1038/1500 [27:57<17:12,  2.23s/it]Percentage of tasks completed::  69%|██████▉   | 1039/1500 [27:57<12:19,  1.60s/it]Percentage of tasks completed::  69%|██████▉   | 1040/1500 [27:58<10:20,  1.35s/it]Percentage of tasks completed::  69%|██████▉   | 1041/1500 [28:00<11:25,  1.49s/it]Percentage of tasks completed::  69%|██████▉   | 1042/1500 [28:01<10:15,  1.34s/it]Percentage of tasks completed::  70%|██████▉   | 1043/1500 [28:01<07:30,  1.01it/s]Percentage of tasks completed::  70%|██████▉   | 1044/1500 [28:01<06:23,  1.19it/s]Percentage of tasks completed::  70%|██████▉   | 1045/1500 [28:02<06:08,  1.23it/s]Percentage of tasks completed::  70%|██████▉   | 1046/1500 [28:04<08:27,  1.12s/it]Percentage of tasks completed::  70%|██████▉   | 1047/1500 [28:04<06:37,  1.14it/s]Percentage of tasks completed::  70%|██████▉   | 1048/1500 [28:10<17:30,  2.32s/it]Percentage of tasks completed::  70%|██████▉   | 1049/1500 [28:13<19:35,  2.61s/it]Percentage of tasks completed::  70%|███████   | 1050/1500 [28:15<17:16,  2.30s/it]Percentage of tasks completed::  70%|███████   | 1051/1500 [28:15<13:00,  1.74s/it]Percentage of tasks completed::  70%|███████   | 1052/1500 [28:16<11:26,  1.53s/it]Percentage of tasks completed::  70%|███████   | 1053/1500 [28:18<12:00,  1.61s/it]Percentage of tasks completed::  70%|███████   | 1054/1500 [28:19<09:27,  1.27s/it]Percentage of tasks completed::  70%|███████   | 1056/1500 [28:23<12:01,  1.62s/it]Percentage of tasks completed::  70%|███████   | 1057/1500 [28:23<09:59,  1.35s/it]Percentage of tasks completed::  71%|███████   | 1058/1500 [28:23<07:40,  1.04s/it]Percentage of tasks completed::  71%|███████   | 1060/1500 [28:30<15:20,  2.09s/it]Percentage of tasks completed::  71%|███████   | 1061/1500 [28:33<16:11,  2.21s/it]Percentage of tasks completed::  71%|███████   | 1062/1500 [28:35<16:51,  2.31s/it]Percentage of tasks completed::  71%|███████   | 1063/1500 [28:36<12:59,  1.78s/it]Percentage of tasks completed::  71%|███████   | 1064/1500 [28:37<12:03,  1.66s/it]Percentage of tasks completed::  71%|███████   | 1065/1500 [28:38<11:14,  1.55s/it]Percentage of tasks completed::  71%|███████   | 1066/1500 [28:39<08:24,  1.16s/it]Percentage of tasks completed::  71%|███████   | 1067/1500 [28:39<06:18,  1.14it/s]Percentage of tasks completed::  71%|███████   | 1068/1500 [28:41<08:56,  1.24s/it]Percentage of tasks completed::  71%|███████▏  | 1069/1500 [28:44<12:37,  1.76s/it]Percentage of tasks completed::  71%|███████▏  | 1070/1500 [28:45<12:10,  1.70s/it]Percentage of tasks completed::  71%|███████▏  | 1071/1500 [28:46<09:36,  1.34s/it]Percentage of tasks completed::  71%|███████▏  | 1072/1500 [28:51<16:46,  2.35s/it]Percentage of tasks completed::  72%|███████▏  | 1073/1500 [28:51<12:33,  1.76s/it]Percentage of tasks completed::  72%|███████▏  | 1074/1500 [28:52<09:45,  1.37s/it]Percentage of tasks completed::  72%|███████▏  | 1075/1500 [28:52<07:08,  1.01s/it]Percentage of tasks completed::  72%|███████▏  | 1076/1500 [28:53<08:01,  1.14s/it]Percentage of tasks completed::  72%|███████▏  | 1077/1500 [28:54<07:37,  1.08s/it]Percentage of tasks completed::  72%|███████▏  | 1078/1500 [28:55<07:31,  1.07s/it]Percentage of tasks completed::  72%|███████▏  | 1079/1500 [28:58<12:22,  1.76s/it]Percentage of tasks completed::  72%|███████▏  | 1081/1500 [28:59<07:12,  1.03s/it]Percentage of tasks completed::  72%|███████▏  | 1082/1500 [29:00<07:12,  1.03s/it]Percentage of tasks completed::  72%|███████▏  | 1083/1500 [29:02<08:33,  1.23s/it]Percentage of tasks completed::  72%|███████▏  | 1084/1500 [29:11<23:46,  3.43s/it]Percentage of tasks completed::  72%|███████▏  | 1086/1500 [29:13<16:58,  2.46s/it]Percentage of tasks completed::  73%|███████▎  | 1088/1500 [29:14<10:40,  1.55s/it]Percentage of tasks completed::  73%|███████▎  | 1089/1500 [29:14<08:37,  1.26s/it]Percentage of tasks completed::  73%|███████▎  | 1091/1500 [29:15<07:04,  1.04s/it]Percentage of tasks completed::  73%|███████▎  | 1092/1500 [29:18<10:22,  1.52s/it]Percentage of tasks completed::  73%|███████▎  | 1093/1500 [29:21<12:41,  1.87s/it]Percentage of tasks completed::  73%|███████▎  | 1094/1500 [29:24<14:36,  2.16s/it]Percentage of tasks completed::  73%|███████▎  | 1095/1500 [29:27<14:29,  2.15s/it]Percentage of tasks completed::  73%|███████▎  | 1096/1500 [29:27<10:59,  1.63s/it]Percentage of tasks completed::  73%|███████▎  | 1097/1500 [29:29<12:36,  1.88s/it]Percentage of tasks completed::  73%|███████▎  | 1098/1500 [29:32<13:12,  1.97s/it]Percentage of tasks completed::  73%|███████▎  | 1099/1500 [29:33<11:19,  1.69s/it]Percentage of tasks completed::  73%|███████▎  | 1100/1500 [29:34<10:34,  1.59s/it]Percentage of tasks completed::  73%|███████▎  | 1101/1500 [29:36<11:08,  1.68s/it]Percentage of tasks completed::  73%|███████▎  | 1102/1500 [29:36<08:44,  1.32s/it]Percentage of tasks completed::  74%|███████▎  | 1103/1500 [29:37<06:44,  1.02s/it]Percentage of tasks completed::  74%|███████▎  | 1104/1500 [29:37<05:47,  1.14it/s]Percentage of tasks completed::  74%|███████▎  | 1105/1500 [29:39<08:27,  1.28s/it]Percentage of tasks completed::  74%|███████▎  | 1106/1500 [29:40<07:08,  1.09s/it]Percentage of tasks completed::  74%|███████▍  | 1107/1500 [29:40<05:21,  1.22it/s]Percentage of tasks completed::  74%|███████▍  | 1108/1500 [29:48<19:42,  3.02s/it]Percentage of tasks completed::  74%|███████▍  | 1109/1500 [29:49<15:59,  2.45s/it]Percentage of tasks completed::  74%|███████▍  | 1111/1500 [29:50<08:48,  1.36s/it]Percentage of tasks completed::  74%|███████▍  | 1112/1500 [29:51<08:08,  1.26s/it]Percentage of tasks completed::  74%|███████▍  | 1114/1500 [29:51<05:33,  1.16it/s]Percentage of tasks completed::  74%|███████▍  | 1115/1500 [29:53<06:58,  1.09s/it]Percentage of tasks completed::  74%|███████▍  | 1116/1500 [30:00<16:34,  2.59s/it]Percentage of tasks completed::  74%|███████▍  | 1117/1500 [30:01<13:11,  2.07s/it]Percentage of tasks completed::  75%|███████▍  | 1118/1500 [30:03<12:35,  1.98s/it]Percentage of tasks completed::  75%|███████▍  | 1119/1500 [30:04<12:26,  1.96s/it]Percentage of tasks completed::  75%|███████▍  | 1120/1500 [30:05<09:49,  1.55s/it]Percentage of tasks completed::  75%|███████▍  | 1121/1500 [30:06<07:52,  1.25s/it]Percentage of tasks completed::  75%|███████▍  | 1123/1500 [30:10<10:28,  1.67s/it]Percentage of tasks completed::  75%|███████▍  | 1124/1500 [30:11<09:47,  1.56s/it]Percentage of tasks completed::  75%|███████▌  | 1125/1500 [30:13<10:42,  1.71s/it]Percentage of tasks completed::  75%|███████▌  | 1126/1500 [30:15<10:42,  1.72s/it]Percentage of tasks completed::  75%|███████▌  | 1127/1500 [30:16<09:52,  1.59s/it]Percentage of tasks completed::  75%|███████▌  | 1128/1500 [30:17<09:08,  1.47s/it]Percentage of tasks completed::  75%|███████▌  | 1129/1500 [30:18<08:12,  1.33s/it]Percentage of tasks completed::  75%|███████▌  | 1130/1500 [30:19<06:20,  1.03s/it]Percentage of tasks completed::  75%|███████▌  | 1131/1500 [30:21<09:30,  1.55s/it]Percentage of tasks completed::  75%|███████▌  | 1132/1500 [30:26<15:39,  2.55s/it]Percentage of tasks completed::  76%|███████▌  | 1133/1500 [30:27<12:48,  2.10s/it]Percentage of tasks completed::  76%|███████▌  | 1134/1500 [30:28<10:15,  1.68s/it]Percentage of tasks completed::  76%|███████▌  | 1135/1500 [30:29<08:22,  1.38s/it]Percentage of tasks completed::  76%|███████▌  | 1136/1500 [30:29<06:02,  1.00it/s]Percentage of tasks completed::  76%|███████▌  | 1137/1500 [30:33<10:45,  1.78s/it]Percentage of tasks completed::  76%|███████▌  | 1138/1500 [30:34<09:59,  1.65s/it]Percentage of tasks completed::  76%|███████▌  | 1139/1500 [30:35<08:07,  1.35s/it]Percentage of tasks completed::  76%|███████▌  | 1140/1500 [30:35<07:23,  1.23s/it]Percentage of tasks completed::  76%|███████▌  | 1141/1500 [30:36<05:22,  1.11it/s]Percentage of tasks completed::  76%|███████▌  | 1142/1500 [30:36<05:11,  1.15it/s]Percentage of tasks completed::  76%|███████▌  | 1143/1500 [30:39<07:24,  1.24s/it]Percentage of tasks completed::  76%|███████▋  | 1144/1500 [30:39<06:44,  1.14s/it]Percentage of tasks completed::  76%|███████▋  | 1145/1500 [30:40<05:44,  1.03it/s]Percentage of tasks completed::  76%|███████▋  | 1146/1500 [30:42<07:18,  1.24s/it]Percentage of tasks completed::  76%|███████▋  | 1147/1500 [30:50<18:46,  3.19s/it]Percentage of tasks completed::  77%|███████▋  | 1148/1500 [30:50<14:18,  2.44s/it]Percentage of tasks completed::  77%|███████▋  | 1149/1500 [30:51<10:35,  1.81s/it]Percentage of tasks completed::  77%|███████▋  | 1150/1500 [30:51<07:38,  1.31s/it]Percentage of tasks completed::  77%|███████▋  | 1151/1500 [30:52<07:07,  1.23s/it]Percentage of tasks completed::  77%|███████▋  | 1152/1500 [30:52<05:30,  1.05it/s]Percentage of tasks completed::  77%|███████▋  | 1153/1500 [30:55<09:20,  1.61s/it]Percentage of tasks completed::  77%|███████▋  | 1154/1500 [30:58<10:35,  1.84s/it]Percentage of tasks completed::  77%|███████▋  | 1155/1500 [30:58<07:51,  1.37s/it]Percentage of tasks completed::  77%|███████▋  | 1156/1500 [31:07<21:21,  3.72s/it]Percentage of tasks completed::  77%|███████▋  | 1157/1500 [31:08<16:09,  2.83s/it]Percentage of tasks completed::  77%|███████▋  | 1158/1500 [31:08<11:34,  2.03s/it]Percentage of tasks completed::  77%|███████▋  | 1159/1500 [31:09<10:33,  1.86s/it]Percentage of tasks completed::  77%|███████▋  | 1160/1500 [31:10<07:50,  1.38s/it]Percentage of tasks completed::  77%|███████▋  | 1161/1500 [31:10<06:39,  1.18s/it]Percentage of tasks completed::  77%|███████▋  | 1162/1500 [31:12<06:26,  1.14s/it]Percentage of tasks completed::  78%|███████▊  | 1163/1500 [31:13<07:04,  1.26s/it]Percentage of tasks completed::  78%|███████▊  | 1164/1500 [31:15<08:07,  1.45s/it]Percentage of tasks completed::  78%|███████▊  | 1165/1500 [31:17<09:14,  1.65s/it]Percentage of tasks completed::  78%|███████▊  | 1166/1500 [31:18<07:11,  1.29s/it]Percentage of tasks completed::  78%|███████▊  | 1167/1500 [31:18<06:06,  1.10s/it]Percentage of tasks completed::  78%|███████▊  | 1168/1500 [31:21<08:56,  1.62s/it]Percentage of tasks completed::  78%|███████▊  | 1169/1500 [31:21<06:29,  1.18s/it]Percentage of tasks completed::  78%|███████▊  | 1170/1500 [31:24<09:22,  1.70s/it]Percentage of tasks completed::  78%|███████▊  | 1171/1500 [31:25<08:09,  1.49s/it]Percentage of tasks completed::  78%|███████▊  | 1172/1500 [31:25<06:11,  1.13s/it]Percentage of tasks completed::  78%|███████▊  | 1173/1500 [31:26<04:59,  1.09it/s]Percentage of tasks completed::  78%|███████▊  | 1174/1500 [31:28<07:46,  1.43s/it]Percentage of tasks completed::  78%|███████▊  | 1175/1500 [31:29<06:59,  1.29s/it]Percentage of tasks completed::  78%|███████▊  | 1176/1500 [31:31<07:51,  1.45s/it]Percentage of tasks completed::  78%|███████▊  | 1177/1500 [31:31<05:46,  1.07s/it]Percentage of tasks completed::  79%|███████▊  | 1178/1500 [31:34<08:44,  1.63s/it]Percentage of tasks completed::  79%|███████▊  | 1179/1500 [31:37<10:54,  2.04s/it]Percentage of tasks completed::  79%|███████▊  | 1180/1500 [31:41<13:00,  2.44s/it]Percentage of tasks completed::  79%|███████▊  | 1181/1500 [31:43<12:40,  2.38s/it]Percentage of tasks completed::  79%|███████▉  | 1182/1500 [31:45<12:08,  2.29s/it]Percentage of tasks completed::  79%|███████▉  | 1183/1500 [31:46<09:28,  1.79s/it]Percentage of tasks completed::  79%|███████▉  | 1184/1500 [31:46<07:31,  1.43s/it]Percentage of tasks completed::  79%|███████▉  | 1185/1500 [31:48<07:59,  1.52s/it]Percentage of tasks completed::  79%|███████▉  | 1187/1500 [31:49<05:18,  1.02s/it]Percentage of tasks completed::  79%|███████▉  | 1188/1500 [31:53<09:21,  1.80s/it]Percentage of tasks completed::  79%|███████▉  | 1189/1500 [31:56<10:35,  2.04s/it]Percentage of tasks completed::  79%|███████▉  | 1190/1500 [31:58<10:31,  2.04s/it]Percentage of tasks completed::  79%|███████▉  | 1191/1500 [31:59<09:11,  1.78s/it]Percentage of tasks completed::  79%|███████▉  | 1192/1500 [32:04<13:58,  2.72s/it]Percentage of tasks completed::  80%|███████▉  | 1193/1500 [32:04<10:17,  2.01s/it]Percentage of tasks completed::  80%|███████▉  | 1194/1500 [32:05<07:59,  1.57s/it]Percentage of tasks completed::  80%|███████▉  | 1195/1500 [32:06<08:16,  1.63s/it]Percentage of tasks completed::  80%|███████▉  | 1196/1500 [32:07<06:09,  1.22s/it]Percentage of tasks completed::  80%|███████▉  | 1197/1500 [32:07<04:33,  1.11it/s]Percentage of tasks completed::  80%|███████▉  | 1198/1500 [32:07<03:46,  1.34it/s]Percentage of tasks completed::  80%|███████▉  | 1199/1500 [32:09<04:53,  1.03it/s]Percentage of tasks completed::  80%|████████  | 1200/1500 [32:10<05:35,  1.12s/it]Percentage of tasks completed::  80%|████████  | 1201/1500 [32:11<04:37,  1.08it/s]Percentage of tasks completed::  80%|████████  | 1203/1500 [32:11<03:12,  1.55it/s]Percentage of tasks completed::  80%|████████  | 1204/1500 [32:21<14:38,  2.97s/it]Percentage of tasks completed::  80%|████████  | 1205/1500 [32:22<11:23,  2.32s/it]Percentage of tasks completed::  80%|████████  | 1206/1500 [32:22<08:41,  1.77s/it]Percentage of tasks completed::  80%|████████  | 1207/1500 [32:22<06:35,  1.35s/it]Percentage of tasks completed::  81%|████████  | 1208/1500 [32:23<04:58,  1.02s/it]Percentage of tasks completed::  81%|████████  | 1209/1500 [32:23<03:48,  1.27it/s]Percentage of tasks completed::  81%|████████  | 1210/1500 [32:25<05:09,  1.07s/it]Percentage of tasks completed::  81%|████████  | 1211/1500 [32:26<05:44,  1.19s/it]Percentage of tasks completed::  81%|████████  | 1212/1500 [32:28<06:28,  1.35s/it]Percentage of tasks completed::  81%|████████  | 1213/1500 [32:30<07:41,  1.61s/it]Percentage of tasks completed::  81%|████████  | 1214/1500 [32:30<05:35,  1.17s/it]Percentage of tasks completed::  81%|████████  | 1215/1500 [32:31<04:46,  1.00s/it]Percentage of tasks completed::  81%|████████  | 1216/1500 [32:41<18:31,  3.91s/it]Percentage of tasks completed::  81%|████████  | 1217/1500 [32:45<18:03,  3.83s/it]Percentage of tasks completed::  81%|████████  | 1218/1500 [32:45<12:46,  2.72s/it]Percentage of tasks completed::  81%|████████▏ | 1219/1500 [32:45<09:05,  1.94s/it]Percentage of tasks completed::  81%|████████▏ | 1220/1500 [32:46<06:59,  1.50s/it]Percentage of tasks completed::  81%|████████▏ | 1221/1500 [32:47<06:19,  1.36s/it]Percentage of tasks completed::  81%|████████▏ | 1222/1500 [32:47<04:46,  1.03s/it]Percentage of tasks completed::  82%|████████▏ | 1223/1500 [32:49<05:57,  1.29s/it]Percentage of tasks completed::  82%|████████▏ | 1224/1500 [32:51<06:37,  1.44s/it]Percentage of tasks completed::  82%|████████▏ | 1225/1500 [32:52<06:07,  1.34s/it]Percentage of tasks completed::  82%|████████▏ | 1226/1500 [32:54<07:48,  1.71s/it]Percentage of tasks completed::  82%|████████▏ | 1228/1500 [32:57<06:29,  1.43s/it]Percentage of tasks completed::  82%|████████▏ | 1229/1500 [32:57<05:14,  1.16s/it]Percentage of tasks completed::  82%|████████▏ | 1230/1500 [32:59<06:08,  1.37s/it]Percentage of tasks completed::  82%|████████▏ | 1231/1500 [32:59<04:44,  1.06s/it]Percentage of tasks completed::  82%|████████▏ | 1232/1500 [33:02<06:49,  1.53s/it]Percentage of tasks completed::  82%|████████▏ | 1233/1500 [33:05<08:43,  1.96s/it]Percentage of tasks completed::  82%|████████▏ | 1234/1500 [33:06<07:49,  1.77s/it]Percentage of tasks completed::  82%|████████▏ | 1235/1500 [33:07<06:18,  1.43s/it]Percentage of tasks completed::  82%|████████▏ | 1236/1500 [33:08<05:47,  1.32s/it]Percentage of tasks completed::  82%|████████▏ | 1237/1500 [33:09<04:52,  1.11s/it]Percentage of tasks completed::  83%|████████▎ | 1238/1500 [33:10<05:51,  1.34s/it]Percentage of tasks completed::  83%|████████▎ | 1239/1500 [33:11<04:25,  1.02s/it]Percentage of tasks completed::  83%|████████▎ | 1240/1500 [33:15<09:03,  2.09s/it]Percentage of tasks completed::  83%|████████▎ | 1241/1500 [33:16<06:39,  1.54s/it]Percentage of tasks completed::  83%|████████▎ | 1242/1500 [33:17<06:48,  1.58s/it]Percentage of tasks completed::  83%|████████▎ | 1243/1500 [33:18<05:33,  1.30s/it]Percentage of tasks completed::  83%|████████▎ | 1244/1500 [33:18<04:01,  1.06it/s]Percentage of tasks completed::  83%|████████▎ | 1245/1500 [33:18<03:08,  1.35it/s]Percentage of tasks completed::  83%|████████▎ | 1246/1500 [33:18<02:26,  1.74it/s]Percentage of tasks completed::  83%|████████▎ | 1247/1500 [33:20<03:12,  1.31it/s]Percentage of tasks completed::  83%|████████▎ | 1248/1500 [33:32<18:16,  4.35s/it]Percentage of tasks completed::  83%|████████▎ | 1249/1500 [33:33<13:05,  3.13s/it]Percentage of tasks completed::  83%|████████▎ | 1250/1500 [33:35<11:36,  2.79s/it]Percentage of tasks completed::  83%|████████▎ | 1251/1500 [33:35<08:29,  2.04s/it]Percentage of tasks completed::  83%|████████▎ | 1252/1500 [33:41<13:40,  3.31s/it]Percentage of tasks completed::  84%|████████▎ | 1253/1500 [33:42<10:35,  2.57s/it]Percentage of tasks completed::  84%|████████▎ | 1254/1500 [33:42<07:47,  1.90s/it]Percentage of tasks completed::  84%|████████▎ | 1255/1500 [33:43<05:38,  1.38s/it]Percentage of tasks completed::  84%|████████▎ | 1256/1500 [33:43<04:19,  1.06s/it]Percentage of tasks completed::  84%|████████▍ | 1257/1500 [33:44<04:01,  1.01it/s]Percentage of tasks completed::  84%|████████▍ | 1258/1500 [33:44<03:00,  1.34it/s]Percentage of tasks completed::  84%|████████▍ | 1259/1500 [33:44<02:23,  1.67it/s]Percentage of tasks completed::  84%|████████▍ | 1260/1500 [33:46<03:42,  1.08it/s]Percentage of tasks completed::  84%|████████▍ | 1261/1500 [33:46<03:02,  1.31it/s]Percentage of tasks completed::  84%|████████▍ | 1262/1500 [33:47<02:56,  1.35it/s]Percentage of tasks completed::  84%|████████▍ | 1263/1500 [33:47<02:12,  1.78it/s]Percentage of tasks completed::  84%|████████▍ | 1264/1500 [33:58<14:06,  3.59s/it]Percentage of tasks completed::  84%|████████▍ | 1265/1500 [33:59<11:29,  2.94s/it]Percentage of tasks completed::  84%|████████▍ | 1267/1500 [34:00<07:11,  1.85s/it]Percentage of tasks completed::  85%|████████▍ | 1269/1500 [34:01<04:33,  1.19s/it]Percentage of tasks completed::  85%|████████▍ | 1270/1500 [34:01<03:50,  1.00s/it]Percentage of tasks completed::  85%|████████▍ | 1271/1500 [34:02<03:41,  1.03it/s]Percentage of tasks completed::  85%|████████▍ | 1273/1500 [34:03<02:59,  1.27it/s]Percentage of tasks completed::  85%|████████▍ | 1274/1500 [34:03<02:30,  1.50it/s]Percentage of tasks completed::  85%|████████▌ | 1275/1500 [34:03<02:10,  1.72it/s]Percentage of tasks completed::  85%|████████▌ | 1276/1500 [34:10<07:56,  2.13s/it]Percentage of tasks completed::  85%|████████▌ | 1277/1500 [34:14<09:45,  2.63s/it]Percentage of tasks completed::  85%|████████▌ | 1278/1500 [34:16<08:31,  2.30s/it]Percentage of tasks completed::  85%|████████▌ | 1279/1500 [34:16<06:25,  1.74s/it]Percentage of tasks completed::  85%|████████▌ | 1280/1500 [34:23<12:09,  3.32s/it]Percentage of tasks completed::  85%|████████▌ | 1281/1500 [34:24<09:43,  2.66s/it]Percentage of tasks completed::  85%|████████▌ | 1282/1500 [34:24<06:57,  1.92s/it]Percentage of tasks completed::  86%|████████▌ | 1283/1500 [34:25<05:36,  1.55s/it]Percentage of tasks completed::  86%|████████▌ | 1284/1500 [34:27<05:58,  1.66s/it]Percentage of tasks completed::  86%|████████▌ | 1285/1500 [34:27<04:32,  1.27s/it]Percentage of tasks completed::  86%|████████▌ | 1286/1500 [34:29<05:17,  1.48s/it]Percentage of tasks completed::  86%|████████▌ | 1287/1500 [34:30<04:21,  1.23s/it]Percentage of tasks completed::  86%|████████▌ | 1288/1500 [34:33<06:49,  1.93s/it]Percentage of tasks completed::  86%|████████▌ | 1289/1500 [34:34<05:01,  1.43s/it]Percentage of tasks completed::  86%|████████▌ | 1290/1500 [34:34<03:56,  1.13s/it]Percentage of tasks completed::  86%|████████▌ | 1291/1500 [34:36<04:17,  1.23s/it]Percentage of tasks completed::  86%|████████▌ | 1292/1500 [34:36<03:40,  1.06s/it]Percentage of tasks completed::  86%|████████▌ | 1293/1500 [34:37<03:26,  1.00it/s]Percentage of tasks completed::  86%|████████▋ | 1294/1500 [34:38<03:23,  1.01it/s]Percentage of tasks completed::  86%|████████▋ | 1295/1500 [34:40<04:16,  1.25s/it]Percentage of tasks completed::  86%|████████▋ | 1296/1500 [34:45<08:21,  2.46s/it]Percentage of tasks completed::  86%|████████▋ | 1297/1500 [34:46<06:46,  2.00s/it]Percentage of tasks completed::  87%|████████▋ | 1298/1500 [34:49<07:49,  2.32s/it]Percentage of tasks completed::  87%|████████▋ | 1299/1500 [34:50<05:57,  1.78s/it]Percentage of tasks completed::  87%|████████▋ | 1300/1500 [34:52<06:07,  1.84s/it]Percentage of tasks completed::  87%|████████▋ | 1301/1500 [34:52<04:51,  1.47s/it]Percentage of tasks completed::  87%|████████▋ | 1302/1500 [34:54<04:41,  1.42s/it]Percentage of tasks completed::  87%|████████▋ | 1303/1500 [34:54<03:33,  1.08s/it]Percentage of tasks completed::  87%|████████▋ | 1304/1500 [34:56<04:44,  1.45s/it]Percentage of tasks completed::  87%|████████▋ | 1305/1500 [34:56<03:34,  1.10s/it]Percentage of tasks completed::  87%|████████▋ | 1306/1500 [34:58<03:53,  1.20s/it]Percentage of tasks completed::  87%|████████▋ | 1307/1500 [34:59<03:30,  1.09s/it]Percentage of tasks completed::  87%|████████▋ | 1308/1500 [35:00<03:18,  1.03s/it]Percentage of tasks completed::  87%|████████▋ | 1310/1500 [35:02<03:39,  1.16s/it]Percentage of tasks completed::  87%|████████▋ | 1311/1500 [35:06<05:21,  1.70s/it]Percentage of tasks completed::  87%|████████▋ | 1312/1500 [35:16<12:24,  3.96s/it]Percentage of tasks completed::  88%|████████▊ | 1313/1500 [35:16<09:26,  3.03s/it]Percentage of tasks completed::  88%|████████▊ | 1314/1500 [35:18<07:46,  2.51s/it]Percentage of tasks completed::  88%|████████▊ | 1315/1500 [35:19<06:23,  2.07s/it]Percentage of tasks completed::  88%|████████▊ | 1317/1500 [35:19<03:34,  1.17s/it]Percentage of tasks completed::  88%|████████▊ | 1318/1500 [35:19<02:57,  1.03it/s]Percentage of tasks completed::  88%|████████▊ | 1319/1500 [35:20<02:56,  1.03it/s]Percentage of tasks completed::  88%|████████▊ | 1320/1500 [35:21<02:50,  1.05it/s]Percentage of tasks completed::  88%|████████▊ | 1322/1500 [35:22<02:03,  1.44it/s]Percentage of tasks completed::  88%|████████▊ | 1323/1500 [35:22<02:04,  1.42it/s]Percentage of tasks completed::  88%|████████▊ | 1324/1500 [35:29<06:26,  2.20s/it]Percentage of tasks completed::  88%|████████▊ | 1325/1500 [35:33<07:24,  2.54s/it]Percentage of tasks completed::  88%|████████▊ | 1326/1500 [35:34<06:45,  2.33s/it]Percentage of tasks completed::  88%|████████▊ | 1327/1500 [35:36<05:54,  2.05s/it]Percentage of tasks completed::  89%|████████▊ | 1328/1500 [35:38<05:54,  2.06s/it]Percentage of tasks completed::  89%|████████▉ | 1332/1500 [35:39<02:33,  1.09it/s]Percentage of tasks completed::  89%|████████▉ | 1333/1500 [35:39<02:15,  1.23it/s]Percentage of tasks completed::  89%|████████▉ | 1334/1500 [35:39<01:54,  1.45it/s]Percentage of tasks completed::  89%|████████▉ | 1335/1500 [35:40<01:54,  1.44it/s]Percentage of tasks completed::  89%|████████▉ | 1336/1500 [35:48<06:39,  2.44s/it]Percentage of tasks completed::  89%|████████▉ | 1337/1500 [35:50<06:20,  2.33s/it]Percentage of tasks completed::  89%|████████▉ | 1338/1500 [35:51<05:40,  2.10s/it]Percentage of tasks completed::  89%|████████▉ | 1339/1500 [35:52<04:20,  1.62s/it]Percentage of tasks completed::  89%|████████▉ | 1340/1500 [35:53<04:00,  1.50s/it]Percentage of tasks completed::  89%|████████▉ | 1341/1500 [35:53<03:09,  1.19s/it]Percentage of tasks completed::  89%|████████▉ | 1342/1500 [35:54<02:48,  1.06s/it]Percentage of tasks completed::  90%|████████▉ | 1343/1500 [35:56<03:41,  1.41s/it]Percentage of tasks completed::  90%|████████▉ | 1344/1500 [36:02<07:18,  2.81s/it]Percentage of tasks completed::  90%|████████▉ | 1345/1500 [36:05<07:31,  2.91s/it]Percentage of tasks completed::  90%|████████▉ | 1346/1500 [36:07<06:05,  2.37s/it]Percentage of tasks completed::  90%|████████▉ | 1347/1500 [36:08<04:59,  1.96s/it]Percentage of tasks completed::  90%|████████▉ | 1348/1500 [36:10<05:03,  2.00s/it]Percentage of tasks completed::  90%|████████▉ | 1349/1500 [36:11<04:51,  1.93s/it]Percentage of tasks completed::  90%|█████████ | 1350/1500 [36:12<03:50,  1.54s/it]Percentage of tasks completed::  90%|█████████ | 1351/1500 [36:13<03:35,  1.44s/it]Percentage of tasks completed::  90%|█████████ | 1352/1500 [36:14<02:49,  1.15s/it]Percentage of tasks completed::  90%|█████████ | 1353/1500 [36:14<02:08,  1.15it/s]Percentage of tasks completed::  90%|█████████ | 1354/1500 [36:14<01:35,  1.52it/s]Percentage of tasks completed::  90%|█████████ | 1355/1500 [36:15<01:32,  1.57it/s]Percentage of tasks completed::  90%|█████████ | 1356/1500 [36:17<02:46,  1.15s/it]Percentage of tasks completed::  90%|█████████ | 1357/1500 [36:21<04:53,  2.05s/it]Percentage of tasks completed::  91%|█████████ | 1358/1500 [36:24<05:24,  2.28s/it]Percentage of tasks completed::  91%|█████████ | 1359/1500 [36:26<05:16,  2.24s/it]Percentage of tasks completed::  91%|█████████ | 1360/1500 [36:27<04:30,  1.93s/it]Percentage of tasks completed::  91%|█████████ | 1361/1500 [36:28<03:26,  1.49s/it]Percentage of tasks completed::  91%|█████████ | 1362/1500 [36:28<02:40,  1.16s/it]Percentage of tasks completed::  91%|█████████ | 1363/1500 [36:30<02:56,  1.29s/it]Percentage of tasks completed::  91%|█████████ | 1364/1500 [36:30<02:24,  1.06s/it]Percentage of tasks completed::  91%|█████████ | 1365/1500 [36:33<03:25,  1.53s/it]Percentage of tasks completed::  91%|█████████ | 1366/1500 [36:35<03:31,  1.58s/it]Percentage of tasks completed::  91%|█████████ | 1367/1500 [36:35<02:41,  1.22s/it]Percentage of tasks completed::  91%|█████████ | 1368/1500 [36:35<02:04,  1.06it/s]Percentage of tasks completed::  91%|█████████▏| 1369/1500 [36:38<03:05,  1.42s/it]Percentage of tasks completed::  91%|█████████▏| 1370/1500 [36:38<02:14,  1.03s/it]Percentage of tasks completed::  91%|█████████▏| 1371/1500 [36:39<02:02,  1.05it/s]Percentage of tasks completed::  91%|█████████▏| 1372/1500 [36:47<06:59,  3.27s/it]Percentage of tasks completed::  92%|█████████▏| 1373/1500 [36:48<04:57,  2.34s/it]Percentage of tasks completed::  92%|█████████▏| 1374/1500 [36:50<04:44,  2.26s/it]Percentage of tasks completed::  92%|█████████▏| 1375/1500 [36:50<03:47,  1.82s/it]Percentage of tasks completed::  92%|█████████▏| 1376/1500 [36:52<03:25,  1.65s/it]Percentage of tasks completed::  92%|█████████▏| 1377/1500 [36:53<02:53,  1.41s/it]Percentage of tasks completed::  92%|█████████▏| 1378/1500 [36:54<02:34,  1.27s/it]Percentage of tasks completed::  92%|█████████▏| 1379/1500 [36:56<03:27,  1.72s/it]Percentage of tasks completed::  92%|█████████▏| 1380/1500 [36:57<02:45,  1.38s/it]Percentage of tasks completed::  92%|█████████▏| 1381/1500 [36:57<02:17,  1.15s/it]Percentage of tasks completed::  92%|█████████▏| 1382/1500 [36:58<01:50,  1.07it/s]Percentage of tasks completed::  92%|█████████▏| 1383/1500 [36:59<02:07,  1.09s/it]Percentage of tasks completed::  92%|█████████▏| 1384/1500 [37:07<06:00,  3.11s/it]Percentage of tasks completed::  92%|█████████▏| 1385/1500 [37:09<05:26,  2.84s/it]Percentage of tasks completed::  92%|█████████▏| 1386/1500 [37:10<03:51,  2.03s/it]Percentage of tasks completed::  92%|█████████▏| 1387/1500 [37:12<03:49,  2.03s/it]Percentage of tasks completed::  93%|█████████▎| 1388/1500 [37:12<03:06,  1.67s/it]Percentage of tasks completed::  93%|█████████▎| 1389/1500 [37:12<02:13,  1.20s/it]Percentage of tasks completed::  93%|█████████▎| 1390/1500 [37:13<01:43,  1.07it/s]Percentage of tasks completed::  93%|█████████▎| 1391/1500 [37:13<01:26,  1.25it/s]Percentage of tasks completed::  93%|█████████▎| 1392/1500 [37:14<01:10,  1.52it/s]Percentage of tasks completed::  93%|█████████▎| 1394/1500 [37:14<00:51,  2.06it/s][Parallel(n_jobs=-1)]: Done 1394 tasks      | elapsed: 37.2min
 Percentage of tasks completed::  93%|█████████▎| 1396/1500 [37:28<05:06,  2.95s/it]Percentage of tasks completed::  93%|█████████▎| 1397/1500 [37:28<04:01,  2.35s/it]Percentage of tasks completed::  93%|█████████▎| 1398/1500 [37:28<03:05,  1.82s/it]Percentage of tasks completed::  93%|█████████▎| 1399/1500 [37:28<02:20,  1.39s/it]Percentage of tasks completed::  93%|█████████▎| 1400/1500 [37:28<01:46,  1.06s/it]Percentage of tasks completed::  93%|█████████▎| 1401/1500 [37:30<01:59,  1.21s/it]Percentage of tasks completed::  93%|█████████▎| 1402/1500 [37:30<01:42,  1.04s/it]Percentage of tasks completed::  94%|█████████▎| 1403/1500 [37:31<01:20,  1.20it/s]Percentage of tasks completed::  94%|█████████▎| 1404/1500 [37:33<01:59,  1.24s/it]Percentage of tasks completed::  94%|█████████▎| 1405/1500 [37:35<02:21,  1.49s/it]Percentage of tasks completed::  94%|█████████▎| 1406/1500 [37:36<01:52,  1.19s/it]Percentage of tasks completed::  94%|█████████▍| 1407/1500 [37:36<01:43,  1.11s/it]Percentage of tasks completed::  94%|█████████▍| 1408/1500 [37:49<06:54,  4.50s/it]Percentage of tasks completed::  94%|█████████▍| 1410/1500 [37:49<03:44,  2.50s/it]Percentage of tasks completed::  94%|█████████▍| 1411/1500 [37:49<02:50,  1.92s/it]Percentage of tasks completed::  94%|█████████▍| 1412/1500 [37:50<02:23,  1.63s/it]Percentage of tasks completed::  94%|█████████▍| 1413/1500 [37:51<02:05,  1.44s/it]Percentage of tasks completed::  94%|█████████▍| 1415/1500 [37:52<01:16,  1.10it/s]Percentage of tasks completed::  94%|█████████▍| 1416/1500 [37:54<01:44,  1.24s/it]Percentage of tasks completed::  94%|█████████▍| 1417/1500 [37:57<02:13,  1.61s/it]Percentage of tasks completed::  95%|█████████▍| 1419/1500 [37:57<01:29,  1.11s/it]Percentage of tasks completed::  95%|█████████▍| 1420/1500 [38:02<02:35,  1.94s/it]Percentage of tasks completed::  95%|█████████▍| 1421/1500 [38:03<02:04,  1.58s/it]Percentage of tasks completed::  95%|█████████▍| 1423/1500 [38:04<01:34,  1.23s/it]Percentage of tasks completed::  95%|█████████▍| 1424/1500 [38:05<01:25,  1.12s/it]Percentage of tasks completed::  95%|█████████▌| 1425/1500 [38:07<01:50,  1.47s/it]Percentage of tasks completed::  95%|█████████▌| 1426/1500 [38:09<01:54,  1.55s/it]Percentage of tasks completed::  95%|█████████▌| 1427/1500 [38:11<01:49,  1.50s/it]Percentage of tasks completed::  95%|█████████▌| 1428/1500 [38:14<02:29,  2.08s/it]Percentage of tasks completed::  95%|█████████▌| 1429/1500 [38:15<01:54,  1.61s/it]Percentage of tasks completed::  95%|█████████▌| 1430/1500 [38:15<01:32,  1.33s/it]Percentage of tasks completed::  95%|█████████▌| 1431/1500 [38:16<01:17,  1.12s/it]Percentage of tasks completed::  95%|█████████▌| 1432/1500 [38:20<02:16,  2.01s/it]Percentage of tasks completed::  96%|█████████▌| 1433/1500 [38:22<02:13,  1.99s/it]Percentage of tasks completed::  96%|█████████▌| 1434/1500 [38:24<02:11,  2.00s/it]Percentage of tasks completed::  96%|█████████▌| 1436/1500 [38:25<01:21,  1.27s/it]Percentage of tasks completed::  96%|█████████▌| 1437/1500 [38:26<01:15,  1.20s/it]Percentage of tasks completed::  96%|█████████▌| 1438/1500 [38:26<00:59,  1.04it/s]Percentage of tasks completed::  96%|█████████▌| 1439/1500 [38:27<00:58,  1.04it/s]Percentage of tasks completed::  96%|█████████▌| 1440/1500 [38:38<03:51,  3.85s/it]Percentage of tasks completed::  96%|█████████▌| 1441/1500 [38:39<02:50,  2.89s/it]Percentage of tasks completed::  96%|█████████▌| 1442/1500 [38:39<02:06,  2.19s/it]Percentage of tasks completed::  96%|█████████▌| 1443/1500 [38:40<01:45,  1.84s/it]Percentage of tasks completed::  96%|█████████▋| 1444/1500 [38:44<02:07,  2.28s/it]Percentage of tasks completed::  96%|█████████▋| 1445/1500 [38:44<01:39,  1.81s/it]Percentage of tasks completed::  96%|█████████▋| 1446/1500 [38:45<01:17,  1.43s/it]Percentage of tasks completed::  97%|█████████▋| 1449/1500 [38:47<00:52,  1.03s/it]Percentage of tasks completed::  97%|█████████▋| 1450/1500 [38:47<00:44,  1.11it/s]Percentage of tasks completed::  97%|█████████▋| 1452/1500 [38:48<00:31,  1.52it/s]Percentage of tasks completed::  97%|█████████▋| 1454/1500 [38:49<00:29,  1.53it/s]Percentage of tasks completed::  97%|█████████▋| 1455/1500 [38:50<00:35,  1.26it/s]Percentage of tasks completed::  97%|█████████▋| 1456/1500 [39:04<02:36,  3.55s/it]Percentage of tasks completed::  97%|█████████▋| 1458/1500 [39:04<01:34,  2.24s/it]Percentage of tasks completed::  97%|█████████▋| 1460/1500 [39:05<01:02,  1.56s/it]Percentage of tasks completed::  97%|█████████▋| 1461/1500 [39:05<00:49,  1.28s/it]Percentage of tasks completed::  97%|█████████▋| 1462/1500 [39:07<00:51,  1.35s/it]Percentage of tasks completed::  98%|█████████▊| 1463/1500 [39:07<00:39,  1.07s/it]Percentage of tasks completed::  98%|█████████▊| 1464/1500 [39:07<00:34,  1.03it/s]Percentage of tasks completed::  98%|█████████▊| 1465/1500 [39:09<00:35,  1.02s/it]Percentage of tasks completed::  98%|█████████▊| 1466/1500 [39:09<00:26,  1.27it/s]Percentage of tasks completed::  98%|█████████▊| 1467/1500 [39:10<00:26,  1.26it/s]Percentage of tasks completed::  98%|█████████▊| 1468/1500 [39:18<01:38,  3.07s/it]Percentage of tasks completed::  98%|█████████▊| 1469/1500 [39:22<01:43,  3.32s/it]Percentage of tasks completed::  98%|█████████▊| 1470/1500 [39:23<01:14,  2.49s/it]Percentage of tasks completed::  98%|█████████▊| 1471/1500 [39:23<00:57,  1.99s/it]Percentage of tasks completed::  98%|█████████▊| 1472/1500 [39:27<01:05,  2.35s/it]Percentage of tasks completed::  98%|█████████▊| 1473/1500 [39:28<00:59,  2.21s/it]Percentage of tasks completed::  98%|█████████▊| 1475/1500 [39:29<00:31,  1.26s/it]Percentage of tasks completed::  98%|█████████▊| 1476/1500 [39:29<00:23,  1.01it/s]Percentage of tasks completed::  98%|█████████▊| 1477/1500 [39:29<00:17,  1.32it/s]Percentage of tasks completed::  99%|█████████▊| 1478/1500 [39:30<00:16,  1.37it/s]Percentage of tasks completed::  99%|█████████▊| 1479/1500 [39:30<00:15,  1.34it/s]Percentage of tasks completed::  99%|█████████▊| 1480/1500 [39:34<00:32,  1.65s/it]Percentage of tasks completed::  99%|█████████▊| 1481/1500 [39:35<00:27,  1.47s/it]Percentage of tasks completed::  99%|█████████▉| 1482/1500 [39:36<00:22,  1.23s/it]Percentage of tasks completed::  99%|█████████▉| 1483/1500 [39:38<00:23,  1.40s/it]Percentage of tasks completed::  99%|█████████▉| 1484/1500 [39:39<00:21,  1.36s/it]Percentage of tasks completed::  99%|█████████▉| 1485/1500 [39:41<00:21,  1.44s/it]Percentage of tasks completed::  99%|█████████▉| 1486/1500 [39:42<00:20,  1.46s/it]Percentage of tasks completed::  99%|█████████▉| 1488/1500 [39:44<00:14,  1.17s/it]Percentage of tasks completed::  99%|█████████▉| 1489/1500 [39:48<00:20,  1.82s/it]Percentage of tasks completed::  99%|█████████▉| 1491/1500 [39:49<00:11,  1.28s/it]Percentage of tasks completed:: 100%|█████████▉| 1494/1500 [39:49<00:04,  1.39it/s]Percentage of tasks completed:: 100%|█████████▉| 1495/1500 [39:50<00:03,  1.39it/s]Percentage of tasks completed:: 100%|█████████▉| 1496/1500 [39:50<00:02,  1.48it/s]Percentage of tasks completed:: 100%|█████████▉| 1497/1500 [39:54<00:03,  1.27s/it]Percentage of tasks completed:: 100%|█████████▉| 1498/1500 [39:55<00:02,  1.30s/it]Percentage of tasks completed:: 100%|█████████▉| 1499/1500 [39:56<00:01,  1.19s/it]Percentage of tasks completed:: 100%|██████████| 1500/1500 [39:56<00:00,  1.10it/s][Parallel(n_jobs=-1)]: Done 1500 out of 1500 | elapsed: 39.9min finished
 Percentage of tasks completed:: 100%|██████████| 1500/1500 [39:56<00:00,  1.60s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 1fa50154a] Simulations Euclidean block 1
+ 854 files changed, 6 insertions(+), 1 deletion(-)
+ create mode 100644 simulations_euc/results/euc_samp100_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp100_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp100_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp100_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp100_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp100_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp100_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp100_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp100_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp100_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp100_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp100_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp101_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp101_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp101_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp101_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp101_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp101_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp101_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp101_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp101_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp101_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp101_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp101_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp102_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp102_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp102_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp102_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp102_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp102_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp102_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp102_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp102_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp102_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp102_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp102_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp103_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp103_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp103_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp103_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp103_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp103_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp103_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp103_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp103_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp103_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp103_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp103_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp104_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp104_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp104_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp104_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp104_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp104_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp104_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp104_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp104_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp104_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp104_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp104_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp105_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp105_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp105_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp105_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp105_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp105_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp105_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp105_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp105_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp105_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp105_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp105_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp106_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp106_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp106_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp106_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp106_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp106_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp106_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp106_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp106_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp106_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp106_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp106_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp107_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp107_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp107_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp107_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp107_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp107_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp107_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp107_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp107_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp107_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp107_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp107_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp108_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp108_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp108_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp108_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp108_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp108_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp108_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp108_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp108_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp108_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp108_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp108_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp109_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp109_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp109_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp109_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp109_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp109_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp109_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp109_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp109_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp109_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp109_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp109_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp110_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp110_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp110_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp110_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp110_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp110_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp110_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp110_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp110_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp110_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp110_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp110_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp111_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp111_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp111_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp111_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp111_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp111_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp111_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp111_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp111_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp111_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp111_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp111_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp112_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp112_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp112_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp112_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp112_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp112_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp112_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp112_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp112_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp112_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp112_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp112_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp113_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp113_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp113_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp113_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp113_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp113_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp113_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp113_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp113_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp113_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp113_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp113_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp114_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp114_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp114_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp114_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp114_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp114_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp114_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp114_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp114_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp114_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp114_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp114_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp115_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp115_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp115_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp115_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp115_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp115_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp115_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp115_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp115_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp115_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp115_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp115_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp116_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp116_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp116_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp116_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp116_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp116_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp116_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp116_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp116_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp116_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp116_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp116_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp117_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp117_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp117_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp117_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp117_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp117_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp117_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp117_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp117_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp117_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp117_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp117_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp118_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp118_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp118_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp118_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp118_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp118_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp118_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp118_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp118_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp118_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp118_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp118_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp119_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp119_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp119_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp119_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp119_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp119_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp119_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp119_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp119_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp119_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp119_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp119_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp120_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp120_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp120_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp120_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp120_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp120_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp120_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp120_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp120_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp120_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp120_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp120_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp121_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp121_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp121_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp121_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp121_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp121_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp121_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp121_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp121_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp121_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp121_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp121_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp122_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp122_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp122_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp122_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp122_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp122_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp122_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp122_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp122_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp122_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp122_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp122_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp123_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp123_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp123_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp123_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp123_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp123_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp123_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp123_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp123_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp123_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp123_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp123_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp124_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp124_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp124_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp124_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp124_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp124_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp124_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp124_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp124_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp124_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp124_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp124_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp125_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp125_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp125_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp125_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp125_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp125_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp125_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp125_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp125_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp125_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp125_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp125_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp17_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp18_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp18_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp18_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp18_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp18_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp18_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp18_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp18_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp18_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp18_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp18_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp18_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp19_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp19_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp19_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp19_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp19_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp19_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp19_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp19_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp19_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp19_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp19_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp19_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp1_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp1_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp1_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp1_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp1_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp1_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp1_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp1_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp1_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp1_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp1_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp1_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp20_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp20_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp20_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp20_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp20_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp20_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp20_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp20_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp20_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp20_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp20_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp20_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp21_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp21_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp21_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp21_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp21_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp21_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp21_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp21_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp21_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp21_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp21_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp21_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp22_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp22_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp22_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp22_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp22_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp22_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp22_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp22_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp22_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp22_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp22_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp22_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp23_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp23_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp23_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp23_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp23_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp23_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp23_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp23_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp23_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp23_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp23_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp23_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp24_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp24_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp24_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp24_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp24_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp24_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp24_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp24_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp24_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp24_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp24_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp24_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp25_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp25_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp25_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp25_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp25_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp25_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp25_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp25_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp25_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp25_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp25_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp25_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp26_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp26_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp26_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp26_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp26_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp26_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp26_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp26_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp26_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp26_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp26_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp26_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp27_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp27_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp27_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp27_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp27_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp27_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp27_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp27_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp27_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp27_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp27_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp27_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp28_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp28_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp28_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp28_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp28_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp28_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp28_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp28_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp28_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp28_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp28_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp28_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp29_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp29_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp29_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp29_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp29_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp29_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp29_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp29_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp29_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp29_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp29_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp29_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp2_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp2_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp2_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp2_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp2_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp2_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp2_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp2_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp2_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp2_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp2_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp2_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp30_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp30_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp30_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp30_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp30_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp30_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp30_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp30_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp30_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp30_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp30_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp30_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp31_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp31_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp31_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp31_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp31_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp31_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp31_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp31_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp31_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp31_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp31_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp31_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp32_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp32_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp32_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp32_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp32_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp32_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp32_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp32_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp32_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp32_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp32_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp32_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp33_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp33_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp33_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp33_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp33_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp33_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp33_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp33_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp33_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp33_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp33_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp33_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp34_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp34_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp34_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp34_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp34_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp34_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp34_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp34_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp34_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp34_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp34_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp34_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp35_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp35_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp35_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp35_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp35_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp35_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp35_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp35_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp35_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp35_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp35_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp35_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp36_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp36_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp36_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp36_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp36_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp36_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp36_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp36_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp36_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp36_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp36_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp36_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp37_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp37_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp37_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp37_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp37_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp37_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp37_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp37_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp37_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp37_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp37_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp37_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp3_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp3_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp3_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp3_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp3_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp3_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp3_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp3_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp3_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp3_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp3_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp3_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp40_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp40_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp40_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp40_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp40_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp40_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp40_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp40_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp40_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp40_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp40_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp40_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp41_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp41_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp41_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp41_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp41_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp41_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp41_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp41_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp41_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp41_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp41_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp41_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp42_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp42_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp42_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp42_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp42_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp42_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp42_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp42_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp42_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp42_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp42_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp42_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp43_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp43_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp43_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp43_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp43_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp43_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp43_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp43_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp43_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp43_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp43_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp43_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp44_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp44_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp44_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp44_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp44_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp44_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp44_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp44_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp44_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp44_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp44_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp44_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp45_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp45_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp45_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp45_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp45_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp45_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp45_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp45_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp45_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp45_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp45_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp45_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp46_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp46_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp46_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp46_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp46_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp46_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp46_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp46_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp46_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp46_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp46_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp46_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp4_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp4_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp4_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp4_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp4_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp4_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp4_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp4_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp4_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp4_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp4_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp4_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp5_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp5_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp5_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp5_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp5_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp5_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp5_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp5_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp5_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp5_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp5_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp5_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp6_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp6_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp6_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp6_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp6_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp6_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp6_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp6_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp6_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp6_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp6_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp6_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp7_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp7_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp7_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp7_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp7_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp7_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp7_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp7_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp7_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp7_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp7_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp7_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp8_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp8_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp8_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp8_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp8_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp8_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp8_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp8_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp8_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp8_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp8_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp8_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp9_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp9_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp9_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp9_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp9_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp9_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp9_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp9_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp9_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp9_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp9_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp9_N50_sigma1.7_block_1_results.npy
+To github.com:egarpor/pyfrechet.git
+   dcfe188eb..1fa50154a  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11337200)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11337200
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 16:07:16
+CPU Efficiency: 75.16% of 21:26:56 core-walltime
+Job Wall-clock time: 00:40:13
+Memory Utilized: 6.76 GB
+Memory Efficiency: 84.44% of 8.00 GB
+
+*****************************************************************************
+
