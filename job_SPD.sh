@@ -6,9 +6,9 @@ git add .
 git commit -m "Simulations SPD block $block"
 git push
 
-# for b in {1..20}
+# for b in {1..50}
 # do
-#   sbatch --time=4:00:00 --cpus-per-task=56 --mem=10GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=$b --output="slurm-SPD-block$b-jobid-%j.out" job_SPD.sh
+#   sbatch --time=05:00:00 -n 1 --cpus-per-task=32 --mem=15GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=$b --output="j-SPD-block$b.out" job_SPD.sh
 # done
 
-# sbatch --time=0:10:00 --cpus-per-task=56 --mem=10GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=1 --output="slurm-SPD-block1-jobid-%j.out" job_SPD.sh
+# sbatch --time=05:00:00 -n 1 --cpus-per-task=32 --mem=15GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=1 --output="j-SPD-block1.out" job_SPD.sh
