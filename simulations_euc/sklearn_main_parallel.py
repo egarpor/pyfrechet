@@ -20,8 +20,6 @@ data_dir = os.path.join(os.getcwd(), 'simulations_euc', 'data')
 results_dir = os.path.join(os.getcwd(), 'simulations_euc', 'results')
 os.makedirs(results_dir, exist_ok=True)
 
-
-
 # By-blocks execution
 n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_euc/' 'data')))
 current_block = int(sys.argv[1])
