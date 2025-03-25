@@ -48,3 +48,19 @@ Traceback (most recent call last):
   File "/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/pyfrechet/metrics.py", line 3, in <module>
     from sklearn.metrics._regression import _assemble_r2_explained_variance
 ImportError: cannot import name '_assemble_r2_explained_variance' from 'sklearn.metrics._regression' (/home/usc/ei/ega/.local/lib/python3.7/site-packages/sklearn/metrics/_regression.py)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 64a68723f] Simulations Hyperboloid block 1
+ 14 files changed, 167 insertions(+), 1 deletion(-)
+ create mode 100644 11347806-H2-block1
+ create mode 100644 11347808-sphere-block1
+ create mode 100644 simulations_sphere/results/sphere_samp18_N500_kappa50_block_1_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp20_N100_kappa200_block_1_results.npy
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]            main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
