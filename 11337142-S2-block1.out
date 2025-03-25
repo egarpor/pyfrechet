@@ -50,3 +50,148 @@ Traceback (most recent call last):
   File "/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/pyfrechet/metric_spaces/utils.py", line 3, in <module>
     import os, psutils
 ModuleNotFoundError: No module named 'psutils'
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main aab3b41b9] Simulations Sphere block 1
+ 723 files changed, 40 insertions(+), 2385 deletions(-)
+ rename slurm-H2-block1-jobid-11336859.out => 11337142-S2-block1.out (91%)
+ rename slurm-H2-block1-jobid-11226593.out => 11337143-H2-block1.out (67%)
+ create mode 100644 simulations_euc/results/euc_samp14_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp14_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp14_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp14_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp14_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp14_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp14_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp14_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp14_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp14_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp14_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp14_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp15_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp15_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp15_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp15_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp15_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp15_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp15_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp15_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp15_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp15_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp15_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp15_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp48_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp48_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp48_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp48_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp48_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp48_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp48_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp48_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp48_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp48_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp48_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp48_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp49_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp49_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp49_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp49_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp49_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp49_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp49_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp49_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp49_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp49_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp49_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp49_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp50_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp50_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp50_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp50_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp50_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp50_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp50_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp50_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp50_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp50_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp50_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp50_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp51_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp51_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp51_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp51_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp51_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp51_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp51_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp51_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp51_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp51_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp51_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp51_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp52_N100_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp52_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp52_N100_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp52_N200_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp52_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp52_N200_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp52_N500_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp52_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp52_N500_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp52_N50_sigma0.6_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp52_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp52_N50_sigma1.7_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp53_N100_sigma0.6_block_1_results.npy
+ delete mode 100644 slurm-H2-block1-jobid-11296722.out
+ delete mode 100644 slurm-H2-block1-jobid-11296878.out
+ delete mode 100644 slurm-H2-block1-jobid-11312666.out
+ delete mode 100644 slurm-H2-block1-jobid-11312913.out
+ delete mode 100644 slurm-H2-block1-jobid-11314353.out
+ delete mode 100644 slurm-H2-block1-jobid-11314747.out
+ delete mode 100644 slurm-H2-block1-jobid-11316192.out
+ delete mode 100644 slurm-H2-block1-jobid-11317998.out
+ delete mode 100644 slurm-NYTuning.out
+ delete mode 100644 slurm-euc-block1-jobid-11226540.out
+ delete mode 100644 slurm-euc-block1-jobid-11260218.out
+ delete mode 100644 slurm-euc-block1-jobid-11282028.out
+ delete mode 100644 slurm-euc-block1-jobid-11282101.out
+ delete mode 100644 slurm-euc-block1-jobid-11282104.out
+ delete mode 100644 slurm-euc-block1-jobid-11296637.out
+ delete mode 100644 slurm-euc-block1-jobid-11312955.out
+ delete mode 100644 slurm-euc-block1-jobid-11314744.out
+ delete mode 100644 slurm-euc-block1-jobid-11336858.out
+ delete mode 100644 slurm-sphere-block1-jobid-11226537.out
+ delete mode 100644 slurm-sphere-block1-jobid-11296721.out
+ delete mode 100644 slurm-sphere-block1-jobid-11312809.out
+ delete mode 100644 slurm-sphere-block1-jobid-11312916.out
+ delete mode 100644 slurm-sphere-block1-jobid-11314746.out
+ delete mode 100644 slurm-sphere-block1-jobid-11318670.out
+ delete mode 100644 slurm-sphere-block1-jobid-11336857.out
+To github.com:egarpor/pyfrechet.git
+   cc3abb2fb..aab3b41b9  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11337142)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11337142
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 00:00:05
+CPU Efficiency: 0.82% of 00:10:08 core-walltime
+Job Wall-clock time: 00:00:19
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 8.00 GB (8.00 GB/node)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
