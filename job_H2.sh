@@ -1,6 +1,5 @@
 #!/bin/sh
 module load python/3.9.9
-
 lscpu
 python simulations_H2/H2_parallel.py $block
 git add .
