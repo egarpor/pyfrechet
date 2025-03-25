@@ -108,7 +108,7 @@ def simulate_data(m_0, kappa, mu, theta_samples):
 
 def tune_forest(X, y, forest = base_forest, param_grid=param_grid):
     """ Perform hyperparameter tuning using GridSearchCV. """
-    tuned_forest = GridSearchCV(estimator = forest, param_grid=param_grid, scoring=neg_mse, cv=5, n_jobs=1, verbose=0)
+    tuned_forest = GridSearchCV(estimator = forest, param_grid=param_grid, scoring=neg_mse, cv=5, n_jobs=-1, verbose=0)
     tuned_forest.fit(X, y)
     return tuned_forest.best_estimator_
 
@@ -190,4 +190,4 @@ file_list = list(filter(
 total_files = len(file_list)
 
 with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = total_files)) as progress_bar:
-    Parallel(n_jobs=10, verbose=2)( delayed(task)(file) for file in file_list)
+    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in file_list)
