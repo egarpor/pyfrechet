@@ -1,10 +1,10 @@
 #!/bin/sh
-#module load python/3.9.9
-#lscpu
-python simulations_SPD/ALL_main_parallel.py 3
-#git add .
-#git commit -m "Simulations SPD block $block"
-#git push
+module load python/3.9.9
+lscpu
+python simulations_SPD/ALL_main_parallel.py $block
+git add .
+git commit -m "Simulations SPD block $block"
+git push
 
 # for b in {1..50}
 # do
