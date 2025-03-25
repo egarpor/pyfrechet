@@ -56,8 +56,7 @@ def tqdm_joblib(tqdm_object):
         joblib.parallel.BatchCompletionCallBack = old_batch_callback
         tqdm_object.close()
 
-# Define metric space
-
+# Main task
 def task(file) -> None:
     """Processes a single file for hyperboloid data regression."""
     with open(os.path.join(os.getcwd(), 'simulations_H2', 'data', file), 'rb') as f:
@@ -152,5 +151,5 @@ def task(file) -> None:
 file_list = list(filter(lambda file: file.endswith(f'block_{current_block}.csv'), filter(lambda file: file.endswith('.csv'), os.listdir(os.path.join(os.getcwd(), 'simulations_H2', 'data/')))))
 total_files = len(file_list)
 
-with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = 3)) as progress_bar:
-    Parallel(n_jobs=-1, verbose=2)(delayed(task)(file) for file in file_list[:3])
+with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = total_files)) as progress_bar:
+    Parallel(n_jobs=-1, verbose=2)(delayed(task)(file) for file in file_list)
