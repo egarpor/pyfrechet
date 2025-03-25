@@ -145,7 +145,7 @@ def task(file) -> None:
         'iv_cov': pb_iv_cov,
         'OOB_quantile': oob_quantile
         }
-    results_filename = os.path.join(os.getcwd(), 'simulations_H2', 'results', f'{file[:-4]}' + '_block_' + str(current_block) + '_results.npy')
+    results_filename = os.path.join(os.getcwd(), 'simulations_H2', 'results', f'{file[:-4]}' + '_results.npy')
     np.save(results_filename, results)
 
 file_list = list(filter(lambda file: file.endswith(f'block_{current_block}.csv'), filter(lambda file: file.endswith('.csv'), os.listdir(os.path.join(os.getcwd(), 'simulations_H2', 'data/')))))
