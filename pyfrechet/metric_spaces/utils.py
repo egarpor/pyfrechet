@@ -1,6 +1,5 @@
 from joblib import Parallel, delayed
 import numpy as np
-import os, psutils
 def get_process_memory():
     process = psutil.Process(os.getpid())
     return process.memory_info().rss
