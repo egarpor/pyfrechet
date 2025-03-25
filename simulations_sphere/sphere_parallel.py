@@ -16,7 +16,6 @@ import base64
 from scipy.stats import vonmises_fisher, vonmises_line
 from tqdm import tqdm
 import contextlib
-from pyfrechet.metric_spaces.utils import track
 
 np.random.seed(1000)
 
@@ -114,7 +113,6 @@ def tune_forest(X, y, forest = base_forest, param_grid=param_grid):
     return tuned_forest.best_estimator_
 
 # Main task
-@track
 def task(file) -> None:
     """Processes a single file for sphere data regression."""
     with open(os.path.join(os.getcwd(), 'simulations_sphere', 'data', file), 'rb') as f:
