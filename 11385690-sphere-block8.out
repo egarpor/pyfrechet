@@ -92,3 +92,43 @@ INFO: Using numpy backend
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  90%|████████▉ | 179/200 [58:40<07:06, 20.30s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [59:19<08:35, 25.77s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [59:52<08:50, 27.90s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:00:07<07:15, 24.18s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:00:19<05:48, 20.53s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:01:25<09:07, 34.19s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:01:49<07:45, 31.01s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:02:34<08:13, 35.22s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:02:40<05:41, 26.30s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:03:29<06:37, 33.16s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:04:25<07:22, 40.25s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:04:26<04:43, 28.39s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:05:32<05:55, 39.53s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:07:24<08:11, 61.48s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:08:29<07:16, 62.32s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:08:32<04:28, 44.69s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:08:36<02:41, 32.26s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:10:39<03:58, 59.57s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:11:05<02:28, 49.42s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:11:53<01:38, 49.25s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:12:10<00:39, 39.35s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:13:37<00:00, 53.86s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 73.6min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:13:37<00:00, 22.09s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main b17d7f2e1] Simulations Sphere block 8
+ 22 files changed, 183 insertions(+), 7 deletions(-)
+ create mode 100644 11385663-H2-block14.out
+ create mode 100644 simulations_H2/results/H2_samp119_N200_kappa200_block_5_results.npy
+ create mode 100644 simulations_H2/results/H2_samp145_N200_kappa200_block_6_results.npy
+ create mode 100644 simulations_H2/results/H2_samp147_N100_kappa50_block_6_results.npy
+ create mode 100644 simulations_H2/results/H2_samp300_N200_kappa200_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp44_N200_kappa50_block_2_results.npy
+ create mode 100644 simulations_H2/results/H2_samp46_N100_kappa200_block_2_results.npy
+ create mode 100644 simulations_H2/results/H2_samp46_N100_kappa50_block_2_results.npy
+ create mode 100644 simulations_H2/results/H2_samp70_N200_kappa50_block_3_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp200_N500_kappa200_block_8_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp322_N500_kappa50_block_13_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp372_N500_kappa50_block_15_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp448_N500_kappa200_block_18_results.npy
+To github.com:egarpor/pyfrechet.git
+   009e18a5e..b17d7f2e1  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11385690)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11385690
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-06:33:30
+CPU Efficiency: 77.62% of 1-15:22:08 core-walltime
+Job Wall-clock time: 01:13:49
+Memory Utilized: 13.46 GB
+Memory Efficiency: 84.09% of 16.00 GB
+
+*****************************************************************************
+
