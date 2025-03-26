@@ -108,3 +108,46 @@ INFO: Using numpy backend
 INFO: Using numpy backend
 Percentage of tasks completed::  82%|████████▏ | 163/200 [50:50<10:59, 17.82s/it]Percentage of tasks completed::  82%|████████▏ | 164/200 [51:16<12:06, 20.18s/it]Percentage of tasks completed::  82%|████████▎ | 165/200 [51:23<09:29, 16.26s/it]Percentage of tasks completed::  83%|████████▎ | 166/200 [51:45<10:11, 17.99s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [52:08<10:46, 19.59s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [52:21<09:24, 17.65s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [52:29<07:35, 14.68s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [52:33<05:39, 11.33s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [52:33<03:55,  8.12s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [52:37<03:12,  6.89s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [53:00<05:11, 11.55s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [54:17<13:31, 31.21s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [54:55<13:53, 33.33s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [55:11<11:12, 28.04s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [55:29<09:34, 24.98s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [55:45<08:13, 22.42s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [55:46<05:37, 16.08s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [56:36<08:39, 26.00s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [56:56<07:41, 24.30s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [57:11<06:25, 21.42s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [57:22<05:14, 18.49s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [58:23<08:20, 31.26s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [58:51<07:31, 30.09s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [59:15<06:35, 28.23s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [59:29<05:12, 24.07s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [59:59<05:09, 25.77s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:00:11<03:57, 21.61s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:01:38<06:52, 41.27s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:02:12<05:52, 39.16s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:03:20<06:23, 47.90s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:03:24<04:02, 34.63s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:04:37<04:37, 46.27s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:05:22<03:49, 45.93s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:06:14<03:10, 47.71s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:06:34<01:57, 39.33s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:07:22<01:23, 41.81s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:07:26<00:30, 30.52s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:08:42<00:00, 44.11s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 68.7min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:08:42<00:00, 20.61s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 930b3bb7a] Simulations Sphere block 8
+ 43 files changed, 186 insertions(+), 10 deletions(-)
+ create mode 100644 simulations_H2/results/H2_samp10_N50_kappa200_block_1_results.npy
+ create mode 100644 simulations_H2/results/H2_samp10_N50_kappa50_block_1_results.npy
+ create mode 100644 simulations_H2/results/H2_samp11_N50_kappa200_block_1_results.npy
+ create mode 100644 simulations_H2/results/H2_samp11_N50_kappa50_block_1_results.npy
+ create mode 100644 simulations_H2/results/H2_samp12_N50_kappa200_block_1_results.npy
+ create mode 100644 simulations_H2/results/H2_samp12_N50_kappa50_block_1_results.npy
+ create mode 100644 simulations_H2/results/H2_samp13_N50_kappa200_block_1_results.npy
+ create mode 100644 simulations_H2/results/H2_samp13_N50_kappa50_block_1_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp200_N500_kappa200_block_8_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp245_N500_kappa50_block_10_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp270_N500_kappa200_block_11_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp290_N500_kappa200_block_12_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp297_N200_kappa50_block_12_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp299_N100_kappa50_block_12_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp300_N50_kappa200_block_12_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp314_N200_kappa200_block_13_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp314_N200_kappa50_block_13_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp316_N100_kappa50_block_13_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp317_N50_kappa200_block_13_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp361_N200_kappa50_block_15_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp363_N100_kappa200_block_15_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp388_N100_kappa50_block_16_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp413_N100_kappa200_block_17_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp413_N100_kappa50_block_17_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp432_N200_kappa50_block_18_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp434_N100_kappa200_block_18_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp434_N100_kappa50_block_18_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp459_N100_kappa200_block_19_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp459_N50_kappa50_block_19_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp484_N100_kappa200_block_20_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp484_N100_kappa50_block_20_results.npy
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]            main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
