@@ -1,4 +1,4 @@
-slurmstepd: info: Setting TMPDIR to /scratch/11385661. Previous errors about TMPDIR can be discarded
+slurmstepd: info: Setting TMPDIR to /scratch/11385662. Previous errors about TMPDIR can be discarded
 python/3.9.9 loaded
 jupyter-server/1.13.5-python-3.9.9 loaded
 jupyterlab/3.2.4-python-3.9.9 loaded
@@ -74,4 +74,3 @@ INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
-Percentage of tasks completed::   0%|          | 1/200 [02:16<7:33:43, 136.80s/it]Percentage of tasks completed::   1%|          | 2/200 [02:17<3:06:19, 56.46s/it] Percentage of tasks completed::   2%|▏         | 3/200 [02:22<1:48:22, 33.01s/it]Percentage of tasks completed::   2%|▏         | 4/200 [02:24<1:08:35, 21.00s/it]Percentage of tasks completed::   2%|▎         | 5/200 [02:24<43:57, 13.53s/it]  Percentage of tasks completed::   3%|▎         | 6/200 [02:25<29:08,  9.01s/it]Percentage of tasks completed::   4%|▎         | 7/200 [02:27<21:25,  6.66s/it]Percentage of tasks completed::   4%|▍         | 8/200 [02:32<20:24,  6.38s/it]Percentage of tasks completed::   4%|▍         | 9/200 [04:45<2:26:21, 45.98s/it]Percentage of tasks completed::   5%|▌         | 10/200 [04:46<1:41:42, 32.12s/it]Percentage of tasks completed::   6%|▌         | 11/200 [04:50<1:13:25, 23.31s/it]Percentage of tasks completed::   6%|▌         | 12/200 [04:50<51:26, 16.42s/it]  Percentage of tasks completed::   6%|▋         | 13/200 [04:53<37:42, 12.10s/it]Percentage of tasks completed::   7%|▋         | 14/200 [04:56<28:53,  9.32s/it]Percentage of tasks completed::   8%|▊         | 15/200 [05:00<23:52,  7.74s/it]Percentage of tasks completed::   8%|▊         | 16/200 [05:09<25:22,  8.28s/it]Percentage of tasks completed::   8%|▊         | 17/200 [05:13<21:38,  7.10s/it]
