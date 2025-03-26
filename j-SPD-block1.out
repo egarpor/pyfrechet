@@ -79,3 +79,35 @@ INFO: Using numpy backend
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  74%|███████▍  | 59/80 [2:37:59<2:45:39, 473.32s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:40:06<2:03:06, 369.32s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [3:19:33<5:06:46, 968.78s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [3:20:21<3:27:44, 692.48s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [3:21:01<2:20:45, 496.79s/it]Percentage of tasks completed::  80%|████████  | 64/80 [3:21:23<1:34:30, 354.38s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [3:21:50<1:04:00, 256.03s/it]Percentage of tasks completed::  82%|████████▎ | 66/80 [3:21:51<41:53, 179.54s/it]  Percentage of tasks completed::  84%|████████▍ | 67/80 [3:22:04<28:05, 129.67s/it]Percentage of tasks completed::  85%|████████▌ | 68/80 [3:22:30<19:42, 98.55s/it] Percentage of tasks completed::  86%|████████▋ | 69/80 [3:28:03<30:56, 168.79s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [3:28:13<20:11, 121.13s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [3:35:06<31:19, 208.79s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:35:39<20:46, 155.82s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:41:25<24:51, 213.02s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:43:22<18:25, 184.27s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:54:49<27:54, 334.93s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:55:52<16:54, 253.57s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [4:02:57<15:14, 304.95s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [4:03:42<07:33, 226.87s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [4:14:40<05:56, 356.27s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [4:15:26<00:00, 263.21s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 255.4min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [4:15:26<00:00, 191.58s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 9cce5ab27] Simulations SPD block 1
+ 22 files changed, 35 insertions(+), 1 deletion(-)
+ create mode 100644 simulations_SPD/results/SPD_samp10_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp10_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp1_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp1_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp2_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp2_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp3_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp3_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp4_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp4_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp5_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp5_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp6_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp6_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp7_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp7_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp8_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp8_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp9_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp9_N500_df5_block_1_results.npy
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]            main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
