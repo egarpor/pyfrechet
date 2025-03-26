@@ -91,3 +91,34 @@ INFO: Using numpy backend
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  86%|████████▌ | 172/200 [1:04:38<11:04, 23.72s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:04:42<07:54, 17.58s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:04:43<05:32, 12.80s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:05:05<06:29, 15.59s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:05:27<07:00, 17.53s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:05:34<05:29, 14.34s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:05:37<03:58, 10.85s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:05:40<02:54,  8.33s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:05:45<02:29,  7.49s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:05:49<02:02,  6.47s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:06:12<03:24, 11.34s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:07:21<08:07, 28.70s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:07:53<07:54, 29.68s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:09:33<12:41, 50.79s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:10:01<10:15, 43.93s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:10:58<10:22, 47.85s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:11:19<07:57, 39.76s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:11:59<07:17, 39.79s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:12:07<05:03, 30.39s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:14:02<08:21, 55.77s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:14:07<05:23, 40.38s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:15:42<06:38, 56.96s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:15:57<04:26, 44.39s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:17:25<04:47, 57.47s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:17:34<02:51, 42.87s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:19:23<03:07, 62.55s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:19:35<01:34, 47.40s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:22:55<01:33, 93.16s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:23:08<00:00, 69.26s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 83.1min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:23:08<00:00, 24.94s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 19fe3b660] Simulations Hyperboloid block 9
+ 7 files changed, 40 insertions(+), 2 deletions(-)
+ create mode 100644 simulations_H2/results/H2_samp225_N500_kappa200_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp225_N500_kappa50_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp249_N500_kappa200_block_10_results.npy
+ create mode 100644 simulations_H2/results/H2_samp249_N500_kappa50_block_10_results.npy
+To github.com:egarpor/pyfrechet.git
+   45cf7a5b1..19fe3b660  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11397804)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11397804
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-09:41:05
+CPU Efficiency: 75.79% of 1-20:26:40 core-walltime
+Job Wall-clock time: 01:23:20
+Memory Utilized: 15.25 GB
+Memory Efficiency: 84.75% of 18.00 GB
+
+*****************************************************************************
+
