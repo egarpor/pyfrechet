@@ -108,3 +108,175 @@ INFO: Using numpy backend
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  88%|████████▊ | 176/200 [1:01:42<12:07, 30.33s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:02:33<14:03, 36.67s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:02:35<09:32, 26.04s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:03:26<11:44, 33.55s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:03:51<10:21, 31.09s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:03:55<07:16, 22.99s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:03:58<05:04, 16.89s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:05:12<09:41, 34.23s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:06:27<12:22, 46.39s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:06:44<09:23, 37.60s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:07:00<07:15, 31.08s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:07:30<06:37, 30.58s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:07:30<04:18, 21.54s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:09:37<09:45, 53.21s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:09:42<06:27, 38.79s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:11:29<08:53, 59.26s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:11:38<05:53, 44.20s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:13:20<07:10, 61.54s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:13:52<05:14, 52.44s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:15:17<05:12, 62.41s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:15:35<03:16, 49.12s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:16:59<02:58, 59.60s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:17:30<01:41, 50.85s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:18:35<00:55, 55.22s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:19:02<00:00, 46.62s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 79.0min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:19:02<00:00, 23.71s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 1e6caa956] Simulations Hyperboloid block 8
+ 159 files changed, 224 insertions(+), 13 deletions(-)
+ create mode 100644 simulations_H2/results/H2_samp198_N500_kappa200_block_8_results.npy
+ create mode 100644 simulations_H2/results/H2_samp198_N500_kappa50_block_8_results.npy
+ create mode 100644 simulations_H2/results/H2_samp199_N500_kappa200_block_8_results.npy
+ create mode 100644 simulations_H2/results/H2_samp199_N500_kappa50_block_8_results.npy
+ create mode 100644 simulations_H2/results/H2_samp200_N500_kappa200_block_8_results.npy
+ create mode 100644 simulations_H2/results/H2_samp200_N500_kappa50_block_8_results.npy
+ create mode 100644 simulations_H2/results/H2_samp213_N500_kappa200_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp213_N500_kappa50_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp214_N500_kappa200_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp221_N200_kappa200_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp221_N200_kappa50_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp222_N100_kappa200_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp222_N100_kappa50_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp223_N100_kappa200_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp223_N100_kappa50_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp223_N50_kappa200_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp223_N50_kappa50_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp260_N500_kappa200_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp261_N500_kappa200_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp261_N500_kappa50_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp267_N200_kappa200_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp267_N200_kappa50_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp268_N200_kappa200_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp268_N200_kappa50_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp269_N100_kappa200_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp269_N100_kappa50_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp269_N50_kappa200_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp269_N50_kappa50_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp270_N100_kappa200_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp270_N100_kappa50_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp270_N50_kappa200_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp270_N50_kappa50_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp285_N500_kappa200_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp285_N500_kappa50_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp291_N200_kappa200_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp291_N200_kappa50_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp292_N200_kappa200_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp293_N100_kappa200_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp293_N100_kappa50_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp293_N50_kappa200_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp293_N50_kappa50_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp294_N100_kappa200_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp294_N100_kappa50_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp294_N50_kappa200_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp294_N50_kappa50_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp308_N500_kappa200_block_13_results.npy
+ create mode 100644 simulations_H2/results/H2_samp309_N500_kappa200_block_13_results.npy
+ create mode 100644 simulations_H2/results/H2_samp309_N500_kappa50_block_13_results.npy
+ create mode 100644 simulations_H2/results/H2_samp314_N200_kappa200_block_13_results.npy
+ create mode 100644 simulations_H2/results/H2_samp314_N200_kappa50_block_13_results.npy
+ create mode 100644 simulations_H2/results/H2_samp315_N200_kappa200_block_13_results.npy
+ create mode 100644 simulations_H2/results/H2_samp315_N200_kappa50_block_13_results.npy
+ create mode 100644 simulations_H2/results/H2_samp317_N100_kappa200_block_13_results.npy
+ create mode 100644 simulations_H2/results/H2_samp317_N100_kappa50_block_13_results.npy
+ create mode 100644 simulations_H2/results/H2_samp317_N50_kappa200_block_13_results.npy
+ create mode 100644 simulations_H2/results/H2_samp317_N50_kappa50_block_13_results.npy
+ create mode 100644 simulations_H2/results/H2_samp318_N50_kappa200_block_13_results.npy
+ create mode 100644 simulations_H2/results/H2_samp331_N500_kappa200_block_14_results.npy
+ create mode 100644 simulations_H2/results/H2_samp331_N500_kappa50_block_14_results.npy
+ create mode 100644 simulations_H2/results/H2_samp336_N200_kappa200_block_14_results.npy
+ create mode 100644 simulations_H2/results/H2_samp338_N100_kappa50_block_14_results.npy
+ create mode 100644 simulations_H2/results/H2_samp339_N100_kappa200_block_14_results.npy
+ create mode 100644 simulations_H2/results/H2_samp339_N100_kappa50_block_14_results.npy
+ create mode 100644 simulations_H2/results/H2_samp339_N50_kappa200_block_14_results.npy
+ create mode 100644 simulations_H2/results/H2_samp339_N50_kappa50_block_14_results.npy
+ create mode 100644 simulations_H2/results/H2_samp355_N500_kappa200_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp355_N500_kappa50_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp356_N500_kappa50_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp363_N100_kappa200_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp363_N100_kappa50_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp363_N50_kappa200_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp363_N50_kappa50_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp364_N100_kappa200_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp364_N100_kappa50_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp364_N50_kappa200_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp364_N50_kappa50_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp380_N500_kappa200_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp380_N500_kappa50_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp381_N500_kappa200_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp381_N500_kappa50_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp388_N100_kappa200_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp388_N100_kappa50_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp388_N50_kappa200_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp388_N50_kappa50_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp389_N100_kappa200_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp389_N100_kappa50_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp389_N50_kappa200_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp389_N50_kappa50_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp405_N500_kappa200_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp405_N500_kappa50_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp406_N500_kappa200_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp406_N500_kappa50_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp411_N200_kappa200_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp411_N200_kappa50_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp413_N100_kappa200_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp413_N100_kappa50_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp413_N50_kappa200_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp413_N50_kappa50_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp414_N100_kappa200_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp414_N100_kappa50_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp414_N50_kappa200_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp414_N50_kappa50_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp430_N500_kappa200_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp430_N500_kappa50_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp431_N500_kappa200_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp431_N500_kappa50_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp436_N200_kappa200_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp436_N200_kappa50_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp437_N100_kappa50_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp438_N100_kappa200_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp438_N100_kappa50_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp438_N50_kappa200_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp438_N50_kappa50_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp439_N100_kappa200_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp439_N100_kappa50_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp439_N50_kappa200_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp439_N50_kappa50_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp453_N500_kappa200_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp453_N500_kappa50_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp454_N500_kappa200_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp454_N500_kappa50_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp460_N200_kappa200_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp460_N200_kappa50_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp461_N100_kappa200_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp461_N100_kappa50_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp461_N50_kappa200_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp461_N50_kappa50_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp462_N100_kappa200_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp462_N100_kappa50_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp462_N50_kappa200_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp462_N50_kappa50_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp479_N500_kappa200_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp480_N500_kappa200_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp480_N500_kappa50_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp486_N200_kappa200_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp486_N200_kappa50_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp487_N100_kappa200_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp487_N100_kappa50_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp488_N100_kappa200_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp488_N100_kappa50_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp488_N50_kappa200_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp488_N50_kappa50_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp489_N50_kappa200_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp489_N50_kappa50_block_20_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp9_N50_df5_block_1_results.npy
+To github.com:egarpor/pyfrechet.git
+   487901f7f..1e6caa956  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11385657)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11385657
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-08:16:40
+CPU Efficiency: 76.37% of 1-18:16:00 core-walltime
+Job Wall-clock time: 01:19:15
+Memory Utilized: 14.65 GB
+Memory Efficiency: 81.38% of 18.00 GB
+
+*****************************************************************************
+
