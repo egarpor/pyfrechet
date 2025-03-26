@@ -1,144 +1,0 @@
-slurmstepd: info: Setting TMPDIR to /scratch/11359688. Previous errors about TMPDIR can be discarded
-python/3.9.9 loaded
-jupyter-server/1.13.5-python-3.9.9 loaded
-jupyterlab/3.2.4-python-3.9.9 loaded
-Architecture:                    x86_64
-CPU op-mode(s):                  32-bit, 64-bit
-Byte Order:                      Little Endian
-Address sizes:                   46 bits physical, 57 bits virtual
-CPU(s):                          64
-On-line CPU(s) list:             0-63
-Thread(s) per core:              1
-Core(s) per socket:              32
-Socket(s):                       2
-NUMA node(s):                    4
-Vendor ID:                       GenuineIntel
-CPU family:                      6
-Model:                           106
-Model name:                      Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
-Stepping:                        6
-CPU MHz:                         2797.998
-CPU max MHz:                     3400.0000
-CPU min MHz:                     800.0000
-BogoMIPS:                        4400.00
-Virtualization:                  VT-x
-L1d cache:                       3 MiB
-L1i cache:                       2 MiB
-L2 cache:                        80 MiB
-L3 cache:                        96 MiB
-NUMA node0 CPU(s):               0-15
-NUMA node1 CPU(s):               16-31
-NUMA node2 CPU(s):               32-47
-NUMA node3 CPU(s):               48-63
-Vulnerability Itlb multihit:     Not affected
-Vulnerability L1tf:              Not affected
-Vulnerability Mds:               Not affected
-Vulnerability Meltdown:          Not affected
-Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
-Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
-Vulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling
-Vulnerability Srbds:             Not affected
-Vulnerability Tsx async abort:   Not affected
-Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid fsrm md_clear pconfig flush_l1d arch_capabilities
-INFO: Using numpy backend
-Percentage of tasks completed::   0%|          | 0/200 [00:00<?, ?it/s][Parallel(n_jobs=-1)]: Using backend LokyBackend with 32 concurrent workers.
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-Percentage of tasks completed::   0%|          | 1/200 [02:08<7:06:03, 128.46s/it]Percentage of tasks completed::   1%|          | 2/200 [02:14<3:06:27, 56.50s/it] Percentage of tasks completed::   2%|▏         | 3/200 [02:14<1:41:10, 30.81s/it]Percentage of tasks completed::   2%|▏         | 4/200 [02:16<1:02:38, 19.18s/it]Percentage of tasks completed::   2%|▎         | 5/200 [02:21<46:26, 14.29s/it]  Percentage of tasks completed::   3%|▎         | 6/200 [02:23<32:31, 10.06s/it]Percentage of tasks completed::   4%|▎         | 7/200 [02:24<23:09,  7.20s/it]Percentage of tasks completed::   4%|▍         | 8/200 [02:25<16:34,  5.18s/it]Percentage of tasks completed::   4%|▍         | 9/200 [04:23<2:08:13, 40.28s/it]Percentage of tasks completed::   5%|▌         | 10/200 [04:24<1:29:25, 28.24s/it]Percentage of tasks completed::   6%|▌         | 11/200 [04:25<1:02:43, 19.91s/it]Percentage of tasks completed::   6%|▌         | 12/200 [04:43<1:00:26, 19.29s/it]Percentage of tasks completed::   6%|▋         | 13/200 [04:45<43:47, 14.05s/it]  Percentage of tasks completed::   7%|▋         | 14/200 [04:47<32:17, 10.42s/it]Percentage of tasks completed::   8%|▊         | 15/200 [04:52<27:07,  8.80s/it]Percentage of tasks completed::   8%|▊         | 16/200 [04:53<19:53,  6.49s/it]Percentage of tasks completed::   8%|▊         | 17/200 [04:58<18:13,  5.98s/it]Percentage of tasks completed::   9%|▉         | 18/200 [05:12<25:04,  8.27s/it]Percentage of tasks completed::  10%|▉         | 19/200 [06:44<1:40:59, 33.48s/it]Percentage of tasks completed::  10%|█         | 20/200 [07:06<1:30:31, 30.17s/it]Percentage of tasks completed::  10%|█         | 21/200 [07:12<1:07:52, 22.75s/it]Percentage of tasks completed::  11%|█         | 22/200 [07:14<49:25, 16.66s/it]  Percentage of tasks completed::  12%|█▏        | 23/200 [08:45<1:55:02, 38.99s/it]Percentage of tasks completed::  12%|█▏        | 24/200 [08:58<1:31:07, 31.07s/it]Percentage of tasks completed::  12%|█▎        | 25/200 [09:19<1:22:14, 28.20s/it]Percentage of tasks completed::  13%|█▎        | 26/200 [09:21<59:08, 20.39s/it]  Percentage of tasks completed::  14%|█▎        | 27/200 [09:43<59:50, 20.76s/it]Percentage of tasks completed::  14%|█▍        | 28/200 [09:53<49:49, 17.38s/it]Percentage of tasks completed::  14%|█▍        | 29/200 [10:14<52:56, 18.57s/it]Percentage of tasks completed::  15%|█▌        | 30/200 [10:20<42:17, 14.93s/it]Percentage of tasks completed::  16%|█▌        | 31/200 [10:24<32:26, 11.52s/it]Percentage of tasks completed::  16%|█▌        | 32/200 [10:27<25:19,  9.04s/it]Percentage of tasks completed::  16%|█▋        | 33/200 [10:41<29:02, 10.43s/it]Percentage of tasks completed::  17%|█▋        | 34/200 [10:43<22:19,  8.07s/it]Percentage of tasks completed::  18%|█▊        | 35/200 [11:04<32:47, 11.92s/it]Percentage of tasks completed::  18%|█▊        | 36/200 [11:18<34:25, 12.59s/it]Percentage of tasks completed::  18%|█▊        | 37/200 [11:33<35:33, 13.09s/it]Percentage of tasks completed::  19%|█▉        | 38/200 [12:17<1:00:23, 22.37s/it]Percentage of tasks completed::  20%|█▉        | 39/200 [12:34<56:04, 20.89s/it]  Percentage of tasks completed::  20%|██        | 40/200 [12:41<44:43, 16.77s/it]Percentage of tasks completed::  20%|██        | 41/200 [13:54<1:28:30, 33.40s/it]Percentage of tasks completed::  21%|██        | 42/200 [14:02<1:08:02, 25.84s/it]Percentage of tasks completed::  22%|██▏       | 43/200 [14:14<57:14, 21.88s/it]  Percentage of tasks completed::  22%|██▏       | 44/200 [14:34<55:28, 21.33s/it]Percentage of tasks completed::  22%|██▎       | 45/200 [14:45<46:48, 18.12s/it]Percentage of tasks completed::  23%|██▎       | 46/200 [15:00<44:06, 17.19s/it]Percentage of tasks completed::  24%|██▎       | 47/200 [15:29<52:35, 20.62s/it]Percentage of tasks completed::  24%|██▍       | 48/200 [15:35<41:06, 16.23s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  24%|██▍       | 49/200 [16:47<1:22:54, 32.94s/it]Percentage of tasks completed::  25%|██▌       | 50/200 [17:03<1:10:10, 28.07s/it]Percentage of tasks completed::  26%|██▌       | 51/200 [17:33<1:10:42, 28.47s/it]Percentage of tasks completed::  26%|██▋       | 53/200 [18:33<1:11:42, 29.27s/it]Percentage of tasks completed::  27%|██▋       | 54/200 [18:45<1:00:45, 24.97s/it]Percentage of tasks completed::  28%|██▊       | 55/200 [19:06<58:01, 24.01s/it]  Percentage of tasks completed::  28%|██▊       | 56/200 [19:55<1:13:32, 30.64s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  28%|██▊       | 57/200 [20:51<1:30:03, 37.79s/it]Percentage of tasks completed::  29%|██▉       | 58/200 [20:56<1:07:02, 28.33s/it]Percentage of tasks completed::  30%|██▉       | 59/200 [21:17<1:01:58, 26.37s/it]Percentage of tasks completed::  30%|███       | 60/200 [21:23<47:15, 20.26s/it]  Percentage of tasks completed::  30%|███       | 61/200 [21:30<37:53, 16.35s/it]Percentage of tasks completed::  31%|███       | 62/200 [21:53<42:15, 18.38s/it]Percentage of tasks completed::  32%|███▏      | 63/200 [23:37<1:40:25, 43.98s/it]Percentage of tasks completed::  32%|███▏      | 64/200 [23:59<1:24:17, 37.19s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  32%|███▎      | 65/200 [25:11<1:47:30, 47.78s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  33%|███▎      | 66/200 [25:20<1:20:45, 36.16s/it]Percentage of tasks completed::  34%|███▎      | 67/200 [25:22<57:42, 26.03s/it]  Percentage of tasks completed::  34%|███▍      | 68/200 [25:43<53:39, 24.39s/it]Percentage of tasks completed::  34%|███▍      | 69/200 [25:55<44:53, 20.56s/it]Percentage of tasks completed::  35%|███▌      | 70/200 [25:58<33:17, 15.36s/it]Percentage of tasks completed::  36%|███▌      | 71/200 [26:03<26:35, 12.37s/it]Percentage of tasks completed::  36%|███▌      | 72/200 [26:19<28:35, 13.40s/it]Percentage of tasks completed::  36%|███▋      | 73/200 [26:19<20:04,  9.48s/it]Percentage of tasks completed::  37%|███▋      | 74/200 [26:51<34:00, 16.19s/it]Percentage of tasks completed::  38%|███▊      | 75/200 [26:52<24:00, 11.53s/it]Percentage of tasks completed::  38%|███▊      | 76/200 [27:11<28:30, 13.79s/it]Percentage of tasks completed::  38%|███▊      | 77/200 [27:18<24:03, 11.74s/it]Percentage of tasks completed::  39%|███▉      | 78/200 [27:36<27:45, 13.65s/it]Percentage of tasks completed::  40%|███▉      | 79/200 [28:20<46:12, 22.91s/it]Percentage of tasks completed::  40%|████      | 80/200 [28:26<35:17, 17.65s/it]Percentage of tasks completed::  40%|████      | 81/200 [28:27<25:20, 12.77s/it]Percentage of tasks completed::  41%|████      | 82/200 [29:28<53:28, 27.19s/it]Percentage of tasks completed::  42%|████▏     | 83/200 [29:34<40:39, 20.85s/it]Percentage of tasks completed::  42%|████▏     | 84/200 [30:07<47:23, 24.51s/it]Percentage of tasks completed::  42%|████▎     | 85/200 [30:29<45:09, 23.56s/it]Percentage of tasks completed::  43%|████▎     | 86/200 [30:35<34:50, 18.34s/it]Percentage of tasks completed::  44%|████▎     | 87/200 [30:49<32:19, 17.16s/it]Percentage of tasks completed::  44%|████▍     | 88/200 [30:59<27:57, 14.98s/it]Percentage of tasks completed::  44%|████▍     | 89/200 [31:10<25:29, 13.78s/it]Percentage of tasks completed::  45%|████▌     | 90/200 [31:12<18:33, 10.12s/it]Percentage of tasks completed::  46%|████▌     | 91/200 [31:38<27:31, 15.15s/it]Percentage of tasks completed::  46%|████▌     | 92/200 [31:46<23:13, 12.90s/it]Percentage of tasks completed::  46%|████▋     | 93/200 [32:08<27:46, 15.58s/it]Percentage of tasks completed::  47%|████▋     | 94/200 [33:05<49:46, 28.18s/it]Percentage of tasks completed::  48%|████▊     | 95/200 [33:14<38:59, 22.28s/it]Percentage of tasks completed::  48%|████▊     | 96/200 [33:18<28:52, 16.65s/it]Percentage of tasks completed::  48%|████▊     | 97/200 [33:26<24:27, 14.24s/it]Percentage of tasks completed::  49%|████▉     | 98/200 [33:42<25:04, 14.75s/it][Parallel(n_jobs=-1)]: Done  98 tasks      | elapsed: 33.7min
-Percentage of tasks completed::  50%|████▉     | 99/200 [34:52<52:30, 31.19s/it]Percentage of tasks completed::  50%|█████     | 100/200 [35:29<54:58, 32.99s/it]Percentage of tasks completed::  50%|█████     | 101/200 [35:31<38:57, 23.61s/it]Percentage of tasks completed::  51%|█████     | 102/200 [35:33<28:02, 17.17s/it]Percentage of tasks completed::  52%|█████▏    | 103/200 [35:36<21:10, 13.10s/it]Percentage of tasks completed::  52%|█████▏    | 104/200 [36:02<27:01, 16.89s/it]Percentage of tasks completed::  52%|█████▎    | 105/200 [36:25<29:29, 18.62s/it]Percentage of tasks completed::  53%|█████▎    | 106/200 [36:51<32:58, 21.04s/it]Percentage of tasks completed::  54%|█████▎    | 107/200 [37:00<26:56, 17.38s/it]Percentage of tasks completed::  54%|█████▍    | 108/200 [37:07<21:33, 14.06s/it]Percentage of tasks completed::  55%|█████▍    | 109/200 [37:25<23:27, 15.47s/it]Percentage of tasks completed::  55%|█████▌    | 110/200 [37:52<28:09, 18.77s/it]Percentage of tasks completed::  56%|█████▌    | 111/200 [37:59<22:39, 15.28s/it]Percentage of tasks completed::  56%|█████▌    | 112/200 [38:04<18:03, 12.31s/it]Percentage of tasks completed::  56%|█████▋    | 113/200 [38:26<21:51, 15.08s/it]Percentage of tasks completed::  57%|█████▋    | 114/200 [38:50<25:30, 17.80s/it]Percentage of tasks completed::  57%|█████▊    | 115/200 [39:05<24:14, 17.11s/it]Percentage of tasks completed::  58%|█████▊    | 116/200 [39:23<24:12, 17.29s/it]Percentage of tasks completed::  58%|█████▊    | 117/200 [40:09<35:44, 25.84s/it]Percentage of tasks completed::  59%|█████▉    | 118/200 [40:18<28:32, 20.89s/it]Percentage of tasks completed::  60%|█████▉    | 119/200 [40:45<30:37, 22.69s/it]Percentage of tasks completed::  60%|██████    | 120/200 [41:03<28:22, 21.29s/it]Percentage of tasks completed::  60%|██████    | 121/200 [41:08<21:21, 16.23s/it]Percentage of tasks completed::  61%|██████    | 122/200 [41:14<17:19, 13.33s/it]Percentage of tasks completed::  62%|██████▏   | 123/200 [41:27<17:02, 13.27s/it]Percentage of tasks completed::  62%|██████▏   | 124/200 [41:52<21:06, 16.66s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  62%|██████▎   | 125/200 [42:56<38:28, 30.77s/it]Percentage of tasks completed::  63%|██████▎   | 126/200 [43:05<29:56, 24.27s/it]Percentage of tasks completed::  64%|██████▎   | 127/200 [43:08<22:00, 18.08s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  64%|██████▍   | 128/200 [43:23<20:26, 17.04s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  64%|██████▍   | 129/200 [44:02<27:56, 23.62s/it]Percentage of tasks completed::  65%|██████▌   | 130/200 [44:14<23:33, 20.20s/it]Percentage of tasks completed::  66%|██████▌   | 131/200 [44:46<27:08, 23.60s/it]Percentage of tasks completed::  66%|██████▌   | 132/200 [45:01<23:53, 21.08s/it]Percentage of tasks completed::  66%|██████▋   | 133/200 [45:12<20:11, 18.08s/it]Percentage of tasks completed::  67%|██████▋   | 134/200 [45:41<23:36, 21.46s/it]Percentage of tasks completed::  68%|██████▊   | 135/200 [45:49<18:37, 17.19s/it]Percentage of tasks completed::  68%|██████▊   | 136/200 [46:10<19:47, 18.56s/it]Percentage of tasks completed::  68%|██████▊   | 137/200 [47:18<34:50, 33.18s/it]Percentage of tasks completed::  69%|██████▉   | 138/200 [47:23<25:42, 24.88s/it]Percentage of tasks completed::  70%|██████▉   | 139/200 [47:29<19:30, 19.19s/it]Percentage of tasks completed::  70%|███████   | 140/200 [47:56<21:32, 21.54s/it]Percentage of tasks completed::  70%|███████   | 141/200 [47:59<15:35, 15.86s/it]Percentage of tasks completed::  71%|███████   | 142/200 [48:07<13:06, 13.56s/it]Percentage of tasks completed::  72%|███████▏  | 143/200 [48:14<11:08, 11.72s/it]Percentage of tasks completed::  72%|███████▎  | 145/200 [48:45<12:13, 13.34s/it]Percentage of tasks completed::  73%|███████▎  | 146/200 [50:03<26:26, 29.38s/it]Percentage of tasks completed::  74%|███████▎  | 147/200 [50:14<21:43, 24.60s/it]Percentage of tasks completed::  74%|███████▍  | 148/200 [50:14<15:35, 17.98s/it]Percentage of tasks completed::  74%|███████▍  | 149/200 [51:14<25:20, 29.82s/it]Percentage of tasks completed::  75%|███████▌  | 150/200 [51:19<18:49, 22.59s/it]Percentage of tasks completed::  76%|███████▌  | 151/200 [51:56<21:55, 26.84s/it]Percentage of tasks completed::  76%|███████▌  | 152/200 [52:03<16:48, 21.01s/it]Percentage of tasks completed::  76%|███████▋  | 153/200 [52:13<13:59, 17.86s/it]Percentage of tasks completed::  77%|███████▋  | 154/200 [52:23<11:48, 15.40s/it]Percentage of tasks completed::  78%|███████▊  | 155/200 [53:05<17:28, 23.29s/it]Percentage of tasks completed::  78%|███████▊  | 156/200 [53:13<13:40, 18.65s/it]Percentage of tasks completed::  78%|███████▊  | 157/200 [54:02<19:58, 27.87s/it]Percentage of tasks completed::  79%|███████▉  | 158/200 [54:20<17:25, 24.90s/it]Percentage of tasks completed::  80%|███████▉  | 159/200 [54:20<11:59, 17.55s/it]Percentage of tasks completed::  80%|████████  | 160/200 [54:24<08:49, 13.24s/it]Percentage of tasks completed::  80%|████████  | 161/200 [54:26<06:26,  9.91s/it]Percentage of tasks completed::  81%|████████  | 162/200 [54:39<06:51, 10.83s/it]Percentage of tasks completed::  82%|████████▏ | 163/200 [56:16<22:43, 36.86s/it]Percentage of tasks completed::  82%|████████▏ | 164/200 [56:40<19:39, 32.78s/it]Percentage of tasks completed::  82%|████████▎ | 165/200 [56:41<13:37, 23.37s/it]Percentage of tasks completed::  83%|████████▎ | 166/200 [56:45<09:54, 17.48s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [56:50<07:38, 13.91s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [57:01<06:51, 12.86s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [57:37<07:36, 15.21s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [57:47<06:47, 14.04s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [57:49<05:02, 10.82s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  86%|████████▋ | 173/200 [58:25<07:59, 17.75s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [59:01<09:53, 22.83s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [59:48<12:25, 29.84s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:00:31<13:27, 33.66s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:00:49<11:03, 28.85s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:00:59<08:34, 23.37s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:01:23<08:16, 23.64s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:02:13<10:26, 31.33s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:02:15<07:09, 22.59s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:02:43<07:19, 24.43s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:03:40<09:36, 33.91s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:04:13<08:58, 33.66s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:05:20<10:57, 43.85s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:05:23<07:22, 31.60s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:05:46<06:15, 28.91s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:05:53<04:28, 22.38s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:08:07<10:15, 55.91s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:08:08<06:32, 39.29s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:09:43<08:24, 56.01s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:09:53<05:37, 42.15s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:11:18<06:24, 55.00s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:11:22<03:59, 39.84s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:11:23<00:00, 21.42s/it]
-joblib.externals.loky.process_executor._RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 463, in _process_worker
-    r = call_item()
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 291, in __call__
-    return self.fn(*self.args, **self.kwargs)
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 598, in __call__
-    return [func(*args, **kwargs)
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 598, in <listcomp>
-    return [func(*args, **kwargs)
-  File "/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_H2/H2_parallel.py", line 149, in task
-    np.save(results_filename, results)
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/numpy/lib/npyio.py", line 542, in save
-    file_ctx = open(file, "wb")
-OSError: [Errno 122] Disk quota exceeded: '/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_H2/results/H2_samp122_N500_kappa200_block_5_results.npy'
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_H2/H2_parallel.py", line 155, in <module>
-    Parallel(n_jobs=-1, verbose=2)(delayed(task)(file) for file in file_list)
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 2007, in __call__
-    return output if self.return_generator else list(output)
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 1650, in _get_outputs
-    yield from self._retrieve()
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 1754, in _retrieve
-    self._raise_error_fast()
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 1789, in _raise_error_fast
-    error_job.get_result(self.timeout)
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 745, in get_result
-    return self._return_or_raise()
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
-    raise self._result
-OSError: [Errno 122] Disk quota exceeded: '/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_H2/results/H2_samp122_N500_kappa200_block_5_results.npy'
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 12 leaked semlock objects to clean up at shutdown
-  warnings.warn(
-fatal: Unable to create '/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/.git/index.lock': Disk quota exceeded
-fatal: Unable to create '/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/.git/index.lock': Disk quota exceeded
-To github.com:egarpor/pyfrechet.git
- ! [rejected]            main -> main (fetch first)
-error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
-hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: (e.g., 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
