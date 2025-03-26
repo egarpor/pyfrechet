@@ -96,3 +96,61 @@ INFO: Using numpy backend
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  88%|████████▊ | 175/200 [54:21<07:14, 17.36s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [54:32<06:13, 15.56s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [55:21<09:45, 25.45s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [55:40<08:41, 23.70s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [55:41<05:54, 16.87s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [56:21<07:55, 23.75s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [56:48<07:47, 24.62s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [57:00<06:15, 20.87s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [57:20<05:48, 20.52s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [58:23<08:53, 33.37s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [58:40<07:08, 28.57s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [59:03<06:17, 26.95s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [59:24<05:23, 24.89s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:00:07<06:07, 30.59s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:00:20<04:38, 25.29s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:01:39<06:53, 41.31s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:02:17<06:02, 40.31s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:03:03<05:36, 42.12s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:03:40<04:43, 40.57s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:04:46<04:47, 47.97s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:05:27<03:50, 46.11s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:06:22<03:15, 48.80s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:06:33<01:52, 37.35s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:07:11<01:14, 37.42s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:08:05<00:42, 42.53s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:09:08<00:00, 48.68s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 69.1min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:09:08<00:00, 20.74s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main b4c02edeb] Simulations Sphere block 18
+ 64 files changed, 642 insertions(+), 16 deletions(-)
+ create mode 100644 simulations_H2/results/H2_samp119_N50_kappa50_block_5_results.npy
+ create mode 100644 simulations_H2/results/H2_samp134_N500_kappa50_block_6_results.npy
+ create mode 100644 simulations_H2/results/H2_samp140_N200_kappa200_block_6_results.npy
+ create mode 100644 simulations_H2/results/H2_samp142_N100_kappa200_block_6_results.npy
+ create mode 100644 simulations_H2/results/H2_samp163_N200_kappa50_block_7_results.npy
+ create mode 100644 simulations_H2/results/H2_samp187_N200_kappa200_block_8_results.npy
+ create mode 100644 simulations_H2/results/H2_samp188_N100_kappa200_block_8_results.npy
+ create mode 100644 simulations_H2/results/H2_samp201_N500_kappa50_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp204_N500_kappa200_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp204_N500_kappa50_block_9_results.npy
+ create mode 100644 simulations_H2/results/H2_samp225_N200_kappa50_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp259_N200_kappa50_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp284_N200_kappa200_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp284_N200_kappa50_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp309_N200_kappa50_block_13_results.npy
+ create mode 100644 simulations_H2/results/H2_samp334_N100_kappa200_block_14_results.npy
+ create mode 100644 simulations_H2/results/H2_samp334_N100_kappa50_block_14_results.npy
+ create mode 100644 simulations_H2/results/H2_samp359_N100_kappa200_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp359_N100_kappa50_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp36_N500_kappa200_block_2_results.npy
+ create mode 100644 simulations_H2/results/H2_samp382_N50_kappa200_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp382_N50_kappa50_block_16_results.npy
+ create mode 100644 simulations_H2/results/H2_samp402_N200_kappa50_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp403_N200_kappa50_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp405_N100_kappa200_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp406_N100_kappa200_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp406_N100_kappa50_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp428_N200_kappa200_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp428_N200_kappa50_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp431_N100_kappa200_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp431_N100_kappa50_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp450_N200_kappa200_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp450_N200_kappa50_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp451_N200_kappa200_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp452_N200_kappa50_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp455_N100_kappa200_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp455_N100_kappa50_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp45_N50_kappa200_block_2_results.npy
+ create mode 100644 simulations_H2/results/H2_samp475_N200_kappa50_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp476_N200_kappa50_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp478_N200_kappa50_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp69_N100_kappa200_block_3_results.npy
+ create mode 100644 simulations_H2/results/H2_samp69_N100_kappa50_block_3_results.npy
+ create mode 100644 simulations_H2/results/H2_samp84_N500_kappa200_block_4_results.npy
+ create mode 100644 simulations_H2/results/H2_samp93_N50_kappa200_block_4_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp449_N500_kappa200_block_18_results.npy
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]            main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
