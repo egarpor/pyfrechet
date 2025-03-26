@@ -101,3 +101,8 @@ INFO: Using numpy backend
   warnings.warn(
 Percentage of tasks completed::  82%|████████▎ | 165/200 [1:01:04<11:12, 19.20s/it]INFO: Using numpy backend
 Percentage of tasks completed::  83%|████████▎ | 166/200 [1:01:09<08:30, 15.01s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [1:01:38<10:25, 18.94s/it]INFO: Using numpy backend
+Percentage of tasks completed::  84%|████████▍ | 168/200 [1:01:54<09:41, 18.16s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:02:02<07:46, 15.06s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:02:07<06:06, 12.20s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:02:18<05:41, 11.79s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:02:32<05:44, 12.31s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+Percentage of tasks completed::  86%|████████▋ | 173/200 [1:04:54<23:06, 51.34s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:05:08<17:27, 40.29s/it]
