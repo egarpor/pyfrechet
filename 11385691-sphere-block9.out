@@ -212,3 +212,24 @@ See "git help gc" for manual housekeeping.
  create mode 100644 simulations_sphere/results/sphere_samp99_N500_kappa50_block_4_results.npy
 To github.com:egarpor/pyfrechet.git
    aa33c52fc..3e7291e2b  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11385691)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11385691
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-04:05:03
+CPU Efficiency: 78.01% of 1-12:00:00 core-walltime
+Job Wall-clock time: 01:07:30
+Memory Utilized: 13.99 GB
+Memory Efficiency: 87.46% of 16.00 GB
+
+*****************************************************************************
+
