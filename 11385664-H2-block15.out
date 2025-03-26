@@ -85,3 +85,37 @@ INFO: Using numpy backend
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  88%|████████▊ | 176/200 [1:05:52<07:43, 19.32s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:05:52<05:12, 13.58s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:06:14<05:53, 16.07s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:08:06<15:40, 44.79s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:08:31<13:01, 39.07s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:08:45<10:00, 31.60s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:09:23<10:01, 33.40s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:10:35<12:44, 44.98s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:10:50<09:33, 35.82s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:11:17<08:17, 33.19s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:11:22<05:49, 24.98s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:12:20<07:33, 34.86s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:12:54<06:55, 34.66s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:14:21<09:11, 50.13s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:14:34<06:30, 39.01s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:15:54<07:41, 51.33s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:16:13<05:33, 41.63s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:18:22<07:55, 67.99s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:18:28<04:55, 49.23s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:20:02<05:13, 62.70s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:20:19<03:15, 48.99s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:21:45<03:00, 60.04s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:22:15<01:42, 51.07s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:23:43<01:02, 62.10s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:24:01<00:00, 48.98s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 84.0min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:24:01<00:00, 25.21s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 24553fec9] Simulations Hyperboloid block 15
+ 12 files changed, 36 insertions(+), 4 deletions(-)
+ create mode 100644 simulations_H2/results/H2_samp349_N500_kappa200_block_14_results.npy
+ create mode 100644 simulations_H2/results/H2_samp349_N500_kappa50_block_14_results.npy
+ create mode 100644 simulations_H2/results/H2_samp374_N500_kappa200_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp374_N500_kappa50_block_15_results.npy
+ create mode 100644 simulations_H2/results/H2_samp449_N500_kappa50_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp472_N500_kappa200_block_19_results.npy
+ create mode 100644 simulations_H2/results/H2_samp472_N500_kappa50_block_19_results.npy
+To github.com:egarpor/pyfrechet.git
+   788dd7f25..24553fec9  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11385664)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11385664
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-10:30:04
+CPU Efficiency: 76.84% of 1-20:53:52 core-walltime
+Job Wall-clock time: 01:24:11
+Memory Utilized: 15.22 GB
+Memory Efficiency: 84.57% of 18.00 GB
+
+*****************************************************************************
+
