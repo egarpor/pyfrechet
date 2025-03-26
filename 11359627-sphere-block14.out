@@ -106,3 +106,11 @@ See "git help gc" for manual housekeeping.
  create mode 100644 simulations_sphere/results/sphere_samp448_N200_kappa50_block_18_results.npy
  create mode 100644 simulations_sphere/results/sphere_samp466_N500_kappa200_block_19_results.npy
  create mode 100644 simulations_sphere/results/sphere_samp473_N200_kappa200_block_19_results.npy
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]            main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
