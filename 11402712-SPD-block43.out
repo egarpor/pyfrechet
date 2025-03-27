@@ -1,4 +1,4 @@
-slurmstepd: info: Setting TMPDIR to /scratch/11402709. Previous errors about TMPDIR can be discarded
+slurmstepd: info: Setting TMPDIR to /scratch/11402712. Previous errors about TMPDIR can be discarded
 python/3.9.9 loaded
 jupyter-server/1.13.5-python-3.9.9 loaded
 jupyterlab/3.2.4-python-3.9.9 loaded
@@ -17,7 +17,7 @@ CPU family:                      6
 Model:                           106
 Model name:                      Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
 Stepping:                        6
-CPU MHz:                         2800.006
+CPU MHz:                         2785.588
 CPU max MHz:                     3400.0000
 CPU min MHz:                     800.0000
 BogoMIPS:                        4400.00
@@ -74,17 +74,3 @@ INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::   1%|▏         | 1/80 [11:47<15:31:40, 707.60s/it]Percentage of tasks completed::   2%|▎         | 2/80 [11:55<6:24:55, 296.10s/it] Percentage of tasks completed::   4%|▍         | 3/80 [12:02<3:30:46, 164.24s/it]Percentage of tasks completed::   6%|▋         | 5/80 [12:04<1:29:45, 71.81s/it] Percentage of tasks completed::   8%|▊         | 6/80 [12:09<1:04:38, 52.42s/it]Percentage of tasks completed::   9%|▉         | 7/80 [12:21<49:24, 40.62s/it]  Percentage of tasks completed::  10%|█         | 8/80 [12:22<34:51, 29.05s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  11%|█▏        | 9/80 [23:11<4:11:17, 212.36s/it]Percentage of tasks completed::  12%|█▎        | 10/80 [24:26<3:20:20, 171.73s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  14%|█▍        | 11/80 [29:03<3:53:22, 202.94s/it]Percentage of tasks completed::  15%|█▌        | 12/80 [29:08<2:43:00, 143.83s/it]Percentage of tasks completed::  16%|█▋        | 13/80 [29:44<2:04:41, 111.67s/it]Percentage of tasks completed::  18%|█▊        | 14/80 [29:48<1:27:20, 79.40s/it] Percentage of tasks completed::  19%|█▉        | 15/80 [30:03<1:05:14, 60.22s/it]Percentage of tasks completed::  20%|██        | 16/80 [30:21<50:38, 47.47s/it]  Percentage of tasks completed::  21%|██▏       | 17/80 [30:47<43:07, 41.08s/it]Percentage of tasks completed::  22%|██▎       | 18/80 [31:05<35:08, 34.00s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  24%|██▍       | 19/80 [41:26<3:33:31, 210.03s/it]Percentage of tasks completed::  25%|██▌       | 20/80 [41:37<2:30:31, 150.53s/it]Percentage of tasks completed::  26%|██▋       | 21/80 [42:20<1:56:10, 118.14s/it]Percentage of tasks completed::  28%|██▊       | 22/80 [43:05<1:33:07, 96.34s/it] WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  29%|██▉       | 23/80 [52:21<3:42:24, 234.12s/it]Percentage of tasks completed::  30%|███       | 24/80 [54:28<3:08:33, 202.04s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  31%|███▏      | 25/80 [59:04<3:25:25, 224.10s/it]Percentage of tasks completed::  32%|███▎      | 26/80 [1:00:12<2:39:43, 177.47s/it]
