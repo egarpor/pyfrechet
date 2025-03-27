@@ -96,3 +96,39 @@ INFO: Using numpy backend
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  89%|████████▉ | 71/80 [3:33:12<35:53, 239.26s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:34:28<25:20, 190.06s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:40:39<28:30, 244.41s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:41:15<18:10, 181.80s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:52:40<27:45, 333.01s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:53:40<16:44, 251.06s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:59:36<14:07, 282.51s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [4:01:52<07:56, 238.42s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [4:12:03<05:50, 350.27s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [4:16:29<00:00, 324.87s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 256.5min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [4:16:29<00:00, 192.36s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 9c56448a2] Simulations SPD block 46
+ 15 files changed, 82 insertions(+), 3 deletions(-)
+ create mode 100644 simulations_SPD/results/SPD_samp460_N500_df15_block_46_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp460_N500_df5_block_46_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp470_N200_df15_block_47_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp475_N50_df15_block_48_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp475_N50_df5_block_48_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp485_N50_df15_block_49_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp485_N50_df5_block_49_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp495_N50_df15_block_50_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp495_N50_df5_block_50_results.npy
+To github.com:egarpor/pyfrechet.git
+   a32eee4da..9c56448a2  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11402715)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11402715
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-15:36:31
+CPU Efficiency: 64.01% of 5-16:52:16 core-walltime
+Job Wall-clock time: 04:16:38
+Memory Utilized: 14.69 GB
+Memory Efficiency: 91.79% of 16.00 GB
+
+*****************************************************************************
+
