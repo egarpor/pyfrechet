@@ -11,6 +11,8 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 import contextlib
+from sklearn.metrics import mean_squared_error as mse
+
 
 np.random.seed(1000)
 sign_level = np.array([0.01, 0.05, 0.1])
@@ -80,12 +82,12 @@ def task(file):
 
     sigma_approx = float(file.split('_')[3][5:])
     N = int(file.split('_')[2][1:])
-    if sigma_approx == 0.6:
-        true_sigma = 1/np.sqrt(3)
-    elif sigma_approx == 0.9:
-        true_sigma = np.sqrt(3)/2
-    elif sigma_approx == 1.7:
-        true_sigma = np.sqrt(3)
+    if sigma_approx == 0.7:
+        true_sigma = 3*np.sqrt(17)/17
+    elif sigma_approx == 1.4:
+        true_sigma = np.sqrt(2)
+    # elif sigma_approx == 1.7:
+    #     true_sigma = np.sqrt(3)
     else:
         raise ValueError("Sigma value not found.")
 
@@ -179,6 +181,18 @@ def task(file):
     pb_iv_cov = np.sum(np.abs(pb_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(oob_quantile, (MC, 1)), axis = 0) / MC
     conf_iv_cov = np.sum(np.abs(conf_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(quantile, (MC, 1)), axis = 0) / MC
 
+############################################################################################################
+    # MSE
+    test_size = 500
+    new_X_design = 2*np.sqrt(5)*(np.random.beta(2, 2, (test_size, n_predictors)) - 1/2)
+    X_test, y_test = simulate_data(sigma = true_sigma, X_design=new_X_design, betas = betas)
+
+    pb_new_pred = pb_forest.predict(X_test)
+    conf_new_pred = conf_forest.predict(X_test)
+
+    pb_mse = mse(pb_new_pred, y_test)
+    conf_mse = mse(conf_new_pred, y_test)
+
     # Store results
     results = {
         'pb_i_cov': pb_i_cov,
@@ -193,6 +207,8 @@ def task(file):
         'quantile': quantile,
         'pb_time': pb_time,
         'conf_time': conf_time,
+        'pb_mse': pb_mse,
+        'conf_mse': conf_mse
     }
     filename = os.path.join(results_dir, file[:-4] + '_results.npy')
     np.save(filename, results)
