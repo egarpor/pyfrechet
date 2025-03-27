@@ -22,12 +22,11 @@ os.makedirs(results_dir, exist_ok=True)
 
 # By-blocks execution
 n_samples=len(os.listdir(os.path.join(os.getcwd(), 'sunspots/' 'data')))
-current_block=int(sys.argv[1])
 
 # Define parameter grid for tuning
 param_grid = {
     'min_samples_leaf': [1, 5, 10],
-    'max_features': [1, 2, 3]
+    'max_features': [1, 2]
     }
 
 @contextlib.contextmanager
