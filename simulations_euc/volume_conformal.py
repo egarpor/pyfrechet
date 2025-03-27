@@ -35,7 +35,7 @@ def tune_forest(X, y, param_grid):
     """Perform hyperparameter tuning using GridSearchCV."""
     base = Tree(split_type='2means', impurity_method='cart')
     forest = BaggedRegressor(estimator=base, n_estimators=100, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=1)
-    grid_search = GridSearchCV(estimator=forest, param_grid=param_grid, scoring='neg_mean_squared_error', cv=5, n_jobs=-1, verbose=4)
+    grid_search = GridSearchCV(estimator=forest, param_grid=param_grid, scoring='neg_mean_squared_error', cv=5, n_jobs=-1, verbose=0)
     grid_search.fit(X, y)
     return grid_search.best_estimator_
 
@@ -85,7 +85,7 @@ def task(file):
     filename = os.path.join(results_dir, file[:-4] + '_volume.npy')
     np.save(filename, results)
 
-Parallel(n_jobs=-1, verbose=40)(
+Parallel(n_jobs=10, verbose=2)(
     delayed(task)(file)
     for file in os.listdir(data_dir)
     if (file.endswith('.pkl') and not os.path.exists(os.path.join(os.getcwd(), 'simulations_euc', 'conf_volume_results/' +  file[:-4]+ '_volume.npy' )))

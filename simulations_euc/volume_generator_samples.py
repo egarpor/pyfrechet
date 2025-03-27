@@ -50,8 +50,8 @@ def save_simulated_samples(n_samples, sample_sizes, n_predictors):
                 # Simulate the regression data for the given sample size
 
                 # Generate the design matrix X
-                X_design = np.sqrt(2)*2*(np.random.beta(1/2, 1/2, (sample_size, n_predictors)) - 1/2)
-
+                X_design = 2*np.sqrt(5)*(np.random.beta(2, 2, (sample_size, n_predictors)) - 1/2)
+                
                 X, Y = simulate_data(X_design=X_design, dim = dim)
                 
                 # Define the filename for saving
