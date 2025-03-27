@@ -74,3 +74,4 @@ INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
+Percentage of tasks completed::   1%|▏         | 1/80 [11:37<15:18:16, 697.43s/it]Percentage of tasks completed::   2%|▎         | 2/80 [11:44<6:18:40, 291.29s/it] Percentage of tasks completed::   4%|▍         | 3/80 [11:44<3:23:16, 158.39s/it]Percentage of tasks completed::   5%|▌         | 4/80 [11:46<2:02:11, 96.46s/it] Percentage of tasks completed::   6%|▋         | 5/80 [11:48<1:18:07, 62.50s/it]Percentage of tasks completed::   8%|▊         | 6/80 [11:52<52:25, 42.50s/it]  Percentage of tasks completed::   9%|▉         | 7/80 [11:52<34:56, 28.73s/it]Percentage of tasks completed::  10%|█         | 8/80 [12:17<32:55, 27.44s/it]
