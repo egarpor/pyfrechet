@@ -90,3 +90,31 @@ INFO: Using numpy backend
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  88%|████████▊ | 70/80 [3:26:08<20:25, 122.57s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [3:33:22<32:25, 216.12s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:35:02<24:09, 181.13s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:40:20<25:55, 222.23s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:42:47<19:58, 199.75s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:52:29<26:11, 314.35s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:53:00<15:17, 229.49s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:59:47<14:08, 282.73s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [4:02:57<08:29, 254.94s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [4:11:08<05:25, 325.55s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [4:14:20<00:00, 285.58s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 254.3min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [4:14:20<00:00, 190.75s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 920565ebe] Simulations SPD block 32
+ 3 files changed, 30 insertions(+), 1 deletion(-)
+ create mode 100644 simulations_SPD/results/SPD_samp320_N500_df5_block_32_results.npy
+To github.com:egarpor/pyfrechet.git
+   3beabc352..920565ebe  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11402701)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11402701
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-16:25:46
+CPU Efficiency: 65.15% of 5-15:43:28 core-walltime
+Job Wall-clock time: 04:14:29
+Memory Utilized: 14.70 GB
+Memory Efficiency: 91.88% of 16.00 GB
+
+*****************************************************************************
+
