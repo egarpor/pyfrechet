@@ -107,3 +107,31 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  86%|████████▋ | 69/80 [3:29:08<27:49, 151.81s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [3:29:18<18:11, 109.11s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [3:36:48<31:43, 211.53s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:36:50<19:49, 148.65s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:41:22<21:38, 185.52s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:42:22<14:47, 147.84s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:57:31<31:22, 376.42s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:57:54<18:01, 270.38s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [4:06:05<16:48, 336.33s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [4:07:37<08:46, 263.32s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [4:17:20<05:59, 359.14s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [4:19:47<00:00, 295.56s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 259.8min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [4:19:47<00:00, 194.85s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main a5a25c824] Simulations SPD block 48
+ 3 files changed, 83 insertions(+), 1 deletion(-)
+ create mode 100644 simulations_SPD/results/SPD_samp480_N500_df5_block_48_results.npy
+To github.com:egarpor/pyfrechet.git
+   f5e10863a..a5a25c824  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11402717)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11402717
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-17:49:51
+CPU Efficiency: 64.79% of 5-18:38:24 core-walltime
+Job Wall-clock time: 04:19:57
+Memory Utilized: 14.58 GB
+Memory Efficiency: 91.13% of 16.00 GB
+
+*****************************************************************************
+
