@@ -53,7 +53,8 @@ betas = np.array([1, -1, 1])  # Define the true beta values
 
 # Set parameters for the regression scenario
 n_predictors = 3  # Number of predictors
-sigma_values = [1/np.sqrt(3), np.sqrt(3)/2, np.sqrt(3)]  # Different sigma values
+# sigma_values = [1/np.sqrt(3), np.sqrt(3)/2, np.sqrt(3)]  # Different sigma values
+sigma_values = [3*np.sqrt(17)/17, np.sqrt(2)]
 sample_sizes = [50, 100, 200, 500]  # Different sample sizes
 
 # --- Saving the simulated regression samples ---
