@@ -89,3 +89,4 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  71%|███████▏  | 57/80 [2:25:16<2:01:44, 317.57s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  72%|███████▎  | 58/80 [2:26:15<1:27:59, 239.98s/it][Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 146.3min remaining: 55.5min
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  74%|███████▍  | 59/80 [2:46:45<3:07:58, 537.07s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:48:17<2:14:28, 403.44s/it]
