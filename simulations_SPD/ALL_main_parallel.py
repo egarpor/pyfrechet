@@ -200,7 +200,7 @@ def task(file) -> None:
     # TYPE IV COVERAGE RESULTS
     MC = 500
     #Generate observations to estimate the probability
-    new_ts = np.repeat(q_25, MC)y
+    new_ts = np.repeat(q_25, MC)
     new_ys = sim_regression_matrices(Sigmas = (Sigma_1, Sigma_2, Sigma_3), 
                                     t = new_ts,  
                                     df = df)['y']
