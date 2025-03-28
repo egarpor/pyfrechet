@@ -75,7 +75,7 @@ def tune_forest(X, y, param_grid):
     grid_search.fit(X, y)
     return grid_search.best_estimator_
 
-def task(file):    
+def task(file):
     # Load data
     with open(os.path.join(data_dir, file), 'rb') as f:
         sample = pickle.load(f)
@@ -151,8 +151,8 @@ def task(file):
     conf_ii_cov = np.sum(np.abs(conf_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(quantile, (MC, 1)), axis = 0) / MC
 
 ############################################################################################################
-    q_25 = 2*np.sqrt(5)*(beta(2,2).ppf(.25)-1/2)
     # TYPE III COVERAGE RESULTS
+    q_25 = 2*np.sqrt(5)*(beta(2,2).ppf(.25)-1/2)
     pb_iii_cov = np.zeros(shape = (n_estimations, 3))
     conf_iii_cov = np.zeros(shape = (n_estimations, 3))
 

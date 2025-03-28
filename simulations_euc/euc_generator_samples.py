@@ -2,8 +2,6 @@ import sys, os; sys.path.append(os.path.dirname(os.getcwd()))
 import numpy as np
 import pickle
 
-np.random.seed(1000)
-
 # Function to simulate regression data
 def simulate_data(sigma, X_design, betas):
     Ys = []

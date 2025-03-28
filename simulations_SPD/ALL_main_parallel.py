@@ -18,6 +18,7 @@ from tqdm import tqdm
 from pyfrechet.metric_spaces.utils import vectorize
 from scipy.special import digamma
 
+np.random.seed(1000)
 # Parameters
 sample_sizes = [50, 100, 200, 500]  # Sample sizes
 sign_level = np.array([0.01, 0.05, 0.1])

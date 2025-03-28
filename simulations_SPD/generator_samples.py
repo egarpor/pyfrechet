@@ -4,6 +4,8 @@ from scipy.special import digamma
 from scipy.stats import wishart
 import pickle
 
+np.random.seed(1000)
+
 save_folder = os.path.join(os.getcwd(), 'simulations_SPD', 'data')
 os.makedirs(save_folder, exist_ok=True)
 
@@ -43,8 +45,6 @@ sample_sizes = [size for size in sample_sizes]
 dfs = [5, 15]
 
 # For each combination of sample size and degrees of freedom, generate n_samples samples
-
-np.random.seed(1000)
 for sample_size in sample_sizes:
     for df in dfs:
         for k in range(1, n_samples+1):
