@@ -3,6 +3,8 @@ import numpy as np
 import pickle
 from scipy.stats import vonmises_line, vonmises_fisher
 
+np.random.seed(1000)
+
 # Function defining the regression mean m_0(theta) on S^2
 def m_0(theta, mu):
     """
@@ -61,7 +63,6 @@ mu = np.array([1/np.sqrt(2), 1/np.sqrt(2)])  # Fixed unit vector in R^2
 save_folder = os.path.join(os.getcwd(), 'simulations_sphere', 'data')
 os.makedirs(save_folder, exist_ok=True)
 
-np.random.seed(1000)
 for sample_size in sample_sizes:
     for kappa in kappa_values:
         for k in range(1, n_samples + 1):
