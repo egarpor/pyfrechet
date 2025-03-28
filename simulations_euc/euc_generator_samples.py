@@ -2,6 +2,7 @@ import sys, os; sys.path.append(os.path.dirname(os.getcwd()))
 import numpy as np
 import pickle
 
+np.random.seed(1000)
 # Function to simulate regression data
 def simulate_data(sigma, X_design, betas):
     Ys = []
@@ -24,8 +25,6 @@ def simulate_data(sigma, X_design, betas):
 
 # Function to save the simulated regression data
 def save_simulated_samples(n_samples, sample_sizes, n_predictors, sigma_values, betas):
-    np.random.seed(1000)
-    
     # Create the folder for saving simulations if it doesn't exist
     save_folder = os.path.join(os.getcwd(), 'simulations_euc', 'data')
     os.makedirs(save_folder, exist_ok=True)
@@ -52,7 +51,7 @@ betas = np.array([1, -1, 1])  # Define the true beta values
 # Set parameters for the regression scenario
 n_predictors = 3  # Number of predictors
 # sigma_values = [1/np.sqrt(3), np.sqrt(3)/2, np.sqrt(3)]  # Different sigma values
-sigma_values = [3*np.sqrt(17)/17, np.sqrt(2)]
+sigma_values = [np.sqrt(3)/2, np.sqrt(2)]
 sample_sizes = [50, 100, 200, 500]  # Different sample sizes
 
 # --- Saving the simulated regression samples ---

@@ -13,7 +13,6 @@ from tqdm import tqdm
 import contextlib
 from sklearn.metrics import mean_squared_error as mse
 
-
 np.random.seed(1000)
 sign_level = np.array([0.01, 0.05, 0.1])
 betas = np.array([1, -1, 1])  # Define the true beta values
@@ -82,8 +81,8 @@ def task(file):
 
     sigma_approx = float(file.split('_')[3][5:])
     N = int(file.split('_')[2][1:])
-    if sigma_approx == 0.7:
-        true_sigma = 3*np.sqrt(17)/17
+    if sigma_approx == 0.9:
+        true_sigma = np.sqrt(3)/2
     elif sigma_approx == 1.4:
         true_sigma = np.sqrt(2)
     # elif sigma_approx == 1.7:
