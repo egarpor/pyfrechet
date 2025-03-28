@@ -100,3 +100,16 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  74%|███████▍  | 59/80 [2:40:20<2:54:28, 498.49s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:41:33<2:03:36, 370.84s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [3:21:19<5:08:51, 975.34s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [3:22:07<3:29:11, 697.29s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [3:22:11<2:18:37, 489.29s/it]Percentage of tasks completed::  80%|████████  | 64/80 [3:22:20<1:32:02, 345.13s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [3:22:26<1:00:49, 243.27s/it]Percentage of tasks completed::  82%|████████▎ | 66/80 [3:22:47<41:15, 176.84s/it]  Percentage of tasks completed::  84%|████████▍ | 67/80 [3:23:21<29:00, 133.88s/it]Percentage of tasks completed::  85%|████████▌ | 68/80 [3:23:39<19:47, 98.96s/it] Percentage of tasks completed::  86%|████████▋ | 69/80 [3:27:57<26:55, 146.85s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [3:29:19<21:14, 127.49s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [3:37:31<35:29, 236.60s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:37:49<22:48, 171.06s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:43:18<25:30, 218.67s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:44:01<16:35, 165.97s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:57:52<30:26, 365.22s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:59:54<19:29, 292.44s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [4:04:56<14:45, 295.19s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [4:05:04<06:58, 209.12s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [4:15:43<05:38, 338.07s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [4:17:59<00:00, 277.36s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 258.0min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [4:17:59<00:00, 193.49s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 5ff849c47] Simulations SPD block 27
+ 3 files changed, 10 insertions(+), 1 deletion(-)
+ create mode 100644 simulations_SPD/results/SPD_samp270_N500_df5_block_27_results.npy
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]            main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.

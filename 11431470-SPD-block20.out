@@ -113,3 +113,11 @@ See "git help gc" for manual housekeeping.
  4 files changed, 23 insertions(+), 1 deletion(-)
  create mode 100644 simulations_SPD/results/SPD_samp200_N500_df15_block_20_results.npy
  create mode 100644 simulations_SPD/results/SPD_samp200_N500_df5_block_20_results.npy
+To github.com:egarpor/pyfrechet.git
+ ! [rejected]            main -> main (fetch first)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
