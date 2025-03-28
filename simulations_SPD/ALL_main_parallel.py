@@ -171,12 +171,14 @@ def task(file) -> None:
 
 ############################################################################################################
     # TYPE III COVERAGE RESULTS
+    q_25 = 2*np.sqrt(5)*(beta(2,2).ppf(.25)-1/2)
+    
     ai_iii_cov = np.zeros(shape = (n_estimations, 3))
     lc_iii_cov = np.zeros(shape = (n_estimations, 3))
     le_iii_cov = np.zeros(shape = (n_estimations, 3))
     for estimation in range(n_estimations):
         # Generate a new observation
-        new_t = np.array([0.25])
+        new_t = np.array([q_25])
         new_y = sim_regression_matrices(Sigmas = (Sigma_1, Sigma_2, Sigma_3), 
                                          t = new_t,  
                                          df = df)['y']
@@ -198,7 +200,7 @@ def task(file) -> None:
     # TYPE IV COVERAGE RESULTS
     MC = 500
     #Generate observations to estimate the probability
-    new_ts = np.repeat(0.25, MC)
+    new_ts = np.repeat(q_25, MC)y
     new_ys = sim_regression_matrices(Sigmas = (Sigma_1, Sigma_2, Sigma_3), 
                                     t = new_ts,  
                                     df = df)['y']
