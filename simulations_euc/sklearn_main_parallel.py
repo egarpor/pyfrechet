@@ -13,7 +13,6 @@ from tqdm import tqdm
 import contextlib
 from sklearn.metrics import mean_squared_error as mse
 
-
 np.random.seed(1000)
 sign_level = np.array([0.01, 0.05, 0.1])
 betas = np.array([1, -1, 1])  # Define the true beta values
@@ -75,15 +74,15 @@ def tune_forest(X, y, param_grid):
     grid_search.fit(X, y)
     return grid_search.best_estimator_
 
-def task(file):    
+def task(file):
     # Load data
     with open(os.path.join(data_dir, file), 'rb') as f:
         sample = pickle.load(f)
 
     sigma_approx = float(file.split('_')[3][5:])
     N = int(file.split('_')[2][1:])
-    if sigma_approx == 0.7:
-        true_sigma = 3*np.sqrt(17)/17
+    if sigma_approx == 0.9:
+        true_sigma = np.sqrt(3)/2
     elif sigma_approx == 1.4:
         true_sigma = np.sqrt(2)
     # elif sigma_approx == 1.7:
@@ -151,8 +150,8 @@ def task(file):
     conf_ii_cov = np.sum(np.abs(conf_new_pred.reshape(-1,1) - new_y).reshape(-1,1) <= np.tile(quantile, (MC, 1)), axis = 0) / MC
 
 ############################################################################################################
-    q_25 = 2*np.sqrt(5)*(beta(2,2).ppf(.25)-1/2)
     # TYPE III COVERAGE RESULTS
+    q_25 = 2*np.sqrt(5)*(beta(2,2).ppf(.25)-1/2)
     pb_iii_cov = np.zeros(shape = (n_estimations, 3))
     conf_iii_cov = np.zeros(shape = (n_estimations, 3))
 
