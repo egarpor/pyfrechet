@@ -1,4 +1,4 @@
-slurmstepd: info: Setting TMPDIR to /scratch/11460918. Previous errors about TMPDIR can be discarded
+slurmstepd: info: Setting TMPDIR to /scratch/11460923. Previous errors about TMPDIR can be discarded
 python/3.9.9 loaded
 jupyter-server/1.13.5-python-3.9.9 loaded
 jupyterlab/3.2.4-python-3.9.9 loaded
@@ -17,7 +17,7 @@ CPU family:                      6
 Model:                           106
 Model name:                      Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
 Stepping:                        6
-CPU MHz:                         2689.925
+CPU MHz:                         2799.995
 CPU max MHz:                     3400.0000
 CPU min MHz:                     800.0000
 BogoMIPS:                        4400.00
@@ -74,41 +74,3 @@ INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::   1%|▏         | 1/80 [11:46<15:29:47, 706.17s/it]Percentage of tasks completed::  80%|████████  | 64/80 [11:47<02:56, 11.05s/it]   
-joblib.externals.loky.process_executor._RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 463, in _process_worker
-    r = call_item()
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 291, in __call__
-    return self.fn(*self.args, **self.kwargs)
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 598, in __call__
-    return [func(*args, **kwargs)
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 598, in <listcomp>
-    return [func(*args, **kwargs)
-  File "/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_SPD/ALL_main_parallel.py", line 174, in task
-    q_25 = 2*np.sqrt(5)*(beta(2,2).ppf(.25)-1/2)
-NameError: name 'beta' is not defined
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_SPD/ALL_main_parallel.py", line 251, in <module>
-    Parallel(n_jobs=-1, verbose=2)(delayed(task)(file) for file in file_list)
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 2007, in __call__
-    return output if self.return_generator else list(output)
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 1650, in _get_outputs
-    yield from self._retrieve()
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 1754, in _retrieve
-    self._raise_error_fast()
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 1789, in _raise_error_fast
-    error_job.get_result(self.timeout)
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 745, in get_result
-    return self._return_or_raise()
-  File "/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
-    raise self._result
-NameError: name 'beta' is not defined
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 62 leaked semlock objects to clean up at shutdown
-  warnings.warn(
