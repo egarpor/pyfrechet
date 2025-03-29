@@ -111,3 +111,43 @@ Traceback (most recent call last):
 NameError: name 'beta' is not defined
 /home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 60 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 1de070803] Simulations SPD block 4
+ 38 files changed, 86 insertions(+), 2 deletions(-)
+ create mode 100644 simulations_euc/results/euc_samp174_N500_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp174_N500_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp175_N100_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp175_N100_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp175_N200_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp175_N200_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp175_N500_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp175_N50_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp175_N50_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp176_N100_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp176_N100_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp303_N500_sigma1.4_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp304_N100_sigma1.4_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp304_N200_sigma0.9_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp304_N200_sigma1.4_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp304_N50_sigma0.9_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp304_N50_sigma1.4_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N200_sigma1.4_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N500_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N500_sigma1.4_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N50_sigma1.4_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N100_sigma1.4_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N200_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N200_sigma1.4_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N50_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp39_N50_sigma1.4_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp431_N500_sigma1.4_block_4_results.npy
+ create mode 100644 simulations_euc/results/euc_samp432_N100_sigma1.4_block_4_results.npy
+ create mode 100644 simulations_euc/results/euc_samp432_N200_sigma0.9_block_4_results.npy
+ create mode 100644 simulations_euc/results/euc_samp432_N200_sigma1.4_block_4_results.npy
+ create mode 100644 simulations_euc/results/euc_samp432_N50_sigma0.9_block_4_results.npy
+To github.com:egarpor/pyfrechet.git
+   029237902..1de070803  main -> main
