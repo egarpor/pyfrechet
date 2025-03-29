@@ -119,3 +119,30 @@ See "git help gc" for manual housekeeping.
  2 files changed, 43 insertions(+), 1 deletion(-)
 To github.com:egarpor/pyfrechet.git
    18009dd4c..8152ae451  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11460941)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11460941
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 05:12:40
+CPU Efficiency: 84.23% of 06:11:12 core-walltime
+Job Wall-clock time: 00:11:36
+Memory Utilized: 5.22 GB
+Memory Efficiency: 32.65% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
