@@ -11,14 +11,14 @@ os.makedirs(save_folder, exist_ok=True)
 
 def Sigma_t(t_array, Sigma_array):
     """Provides an array with the matrices given by a regression model that interpolates between four matrices."""  
-    """The regression starts with Sigma_1 and then goes to Sigma_2 and Sigma_3 and ends in Sigma_4."""
+    """In [0,1], the regression starts with Sigma_1 and then goes to Sigma_2 and Sigma_3."""
+    """In general, the regression oscillates between Sigma_1, Sigma_2 and Sigma_3."""
     
     # Define time intervals for interpolation
     t_array = np.array(t_array)
     t_array = t_array[:, None, None]
-
     # Return the interpolated matrices
-    return np.where(t_array < 0.5, np.cos(np.pi*t_array)**2 * Sigma_array[0] + (1 - np.cos(np.pi*(1-t_array))**2) * Sigma_array[1], 0) + np.where(t_array >= 0.5, (1 - np.cos(np.pi*t_array)**2) * Sigma_array[1] + np.cos(np.pi*(1-t_array))**2 * Sigma_array[2], 0)
+    return np.where(np.floor(t_array + 1/2) % 2 == 0, np.cos(np.pi*t_array)**2 * Sigma_array[0] + (1 - np.cos(np.pi*t_array)**2) * Sigma_array[1], 0) + np.where(np.floor(t_array + 1/2) % 2 == 1, (1 - np.cos(np.pi*t_array)**2) * Sigma_array[1] + np.cos(np.pi*t_array)**2 * Sigma_array[2], 0)
 
 def sim_regression_matrices(Sigmas: tuple,
                             t: np.array,
