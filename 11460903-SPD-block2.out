@@ -111,3 +111,44 @@ Traceback (most recent call last):
 NameError: name 'beta' is not defined
 /home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 64 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 8cb2e55a1] Simulations SPD block 2
+ 14 files changed, 216 insertions(+), 3 deletions(-)
+ create mode 100644 simulations_euc/results/euc_samp302_N500_sigma0.9_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp302_N50_sigma1.4_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp303_N100_sigma1.4_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp303_N200_sigma1.4_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp303_N50_sigma0.9_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp303_N50_sigma1.4_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp431_N200_sigma0.9_block_4_results.npy
+ create mode 100644 simulations_euc/results/euc_samp431_N200_sigma1.4_block_4_results.npy
+To github.com:egarpor/pyfrechet.git
+   14293bb09..8cb2e55a1  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11460903)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11460903
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 05:02:26
+CPU Efficiency: 83.15% of 06:03:44 core-walltime
+Job Wall-clock time: 00:11:22
+Memory Utilized: 5.24 GB
+Memory Efficiency: 32.78% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
