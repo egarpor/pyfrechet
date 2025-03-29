@@ -74,3 +74,4 @@ INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
