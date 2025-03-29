@@ -122,3 +122,58 @@ Traceback (most recent call last):
 NameError: name 'beta' is not defined
 /home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 62 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 1b98dd11a] Simulations SPD block 18
+ 28 files changed, 154 insertions(+), 1 deletion(-)
+ create mode 100644 simulations_euc/results/euc_samp242_N200_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp242_N500_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp242_N500_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp243_N200_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp243_N500_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp243_N500_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp243_N50_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp243_N50_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp244_N100_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp244_N100_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp244_N200_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp244_N200_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp244_N500_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp244_N500_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp244_N50_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp244_N50_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp245_N100_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp245_N100_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp245_N200_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp245_N200_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp245_N50_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp245_N50_sigma1.4_block_2_results.npy
+To github.com:egarpor/pyfrechet.git
+   b9c34d541..1b98dd11a  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11460919)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11460919
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 05:11:59
+CPU Efficiency: 84.29% of 06:10:08 core-walltime
+Job Wall-clock time: 00:11:34
+Memory Utilized: 5.05 GB
+Memory Efficiency: 31.55% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
