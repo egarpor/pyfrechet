@@ -113,3 +113,45 @@ Traceback (most recent call last):
 NameError: name 'beta' is not defined
 /home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 64 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 09cb91d2e] Simulations SPD block 11
+ 11 files changed, 175 insertions(+)
+ create mode 100644 simulations_euc/results/euc_samp224_N200_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp224_N50_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp224_N50_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp354_N500_sigma0.9_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp484_N50_sigma0.9_block_4_results.npy
+ create mode 100644 simulations_euc/results/euc_samp485_N100_sigma0.9_block_4_results.npy
+ create mode 100644 simulations_euc/results/euc_samp485_N100_sigma1.4_block_4_results.npy
+ create mode 100644 simulations_euc/results/euc_samp485_N50_sigma0.9_block_4_results.npy
+ create mode 100644 simulations_euc/results/euc_samp87_N500_sigma1.4_block_1_results.npy
+To github.com:egarpor/pyfrechet.git
+   06b4cab1f..09cb91d2e  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11460912)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11460912
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 04:56:20
+CPU Efficiency: 84.19% of 05:52:00 core-walltime
+Job Wall-clock time: 00:11:00
+Memory Utilized: 5.24 GB
+Memory Efficiency: 32.75% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
