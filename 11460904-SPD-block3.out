@@ -111,3 +111,48 @@ Traceback (most recent call last):
 NameError: name 'beta' is not defined
 /home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 64 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 029237902] Simulations SPD block 3
+ 16 files changed, 109 insertions(+), 1 deletion(-)
+ create mode 100644 simulations_euc/results/euc_samp174_N200_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp174_N200_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp174_N50_sigma0.9_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp174_N50_sigma1.4_block_2_results.npy
+ create mode 100644 simulations_euc/results/euc_samp303_N200_sigma0.9_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp303_N500_sigma0.9_block_3_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N100_sigma0.9_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp38_N100_sigma1.4_block_1_results.npy
+ create mode 100644 simulations_euc/results/euc_samp431_N500_sigma0.9_block_4_results.npy
+ create mode 100644 simulations_euc/results/euc_samp431_N50_sigma0.9_block_4_results.npy
+ create mode 100644 simulations_euc/results/euc_samp431_N50_sigma1.4_block_4_results.npy
+ create mode 100644 simulations_euc/results/euc_samp432_N100_sigma0.9_block_4_results.npy
+To github.com:egarpor/pyfrechet.git
+   8cb2e55a1..029237902  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11460904)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11460904
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 05:06:06
+CPU Efficiency: 83.42% of 06:06:56 core-walltime
+Job Wall-clock time: 00:11:28
+Memory Utilized: 5.31 GB
+Memory Efficiency: 33.18% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
