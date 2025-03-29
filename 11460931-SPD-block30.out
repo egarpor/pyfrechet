@@ -112,3 +112,36 @@ Traceback (most recent call last):
 NameError: name 'beta' is not defined
 /home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 64 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 4d3ce60c5] Simulations SPD block 30
+ 6 files changed, 83 insertions(+)
+To github.com:egarpor/pyfrechet.git
+   6a57f7a7a..4d3ce60c5  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11460931)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11460931
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 04:42:48
+CPU Efficiency: 84.43% of 05:34:56 core-walltime
+Job Wall-clock time: 00:10:28
+Memory Utilized: 5.07 GB
+Memory Efficiency: 31.67% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
