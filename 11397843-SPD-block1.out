@@ -1,80 +1,0 @@
-slurmstepd: info: Setting TMPDIR to /scratch/11397843. Previous errors about TMPDIR can be discarded
-python/3.9.9 loaded
-jupyter-server/1.13.5-python-3.9.9 loaded
-jupyterlab/3.2.4-python-3.9.9 loaded
-Architecture:                    x86_64
-CPU op-mode(s):                  32-bit, 64-bit
-Byte Order:                      Little Endian
-Address sizes:                   46 bits physical, 57 bits virtual
-CPU(s):                          64
-On-line CPU(s) list:             0-63
-Thread(s) per core:              1
-Core(s) per socket:              32
-Socket(s):                       2
-NUMA node(s):                    4
-Vendor ID:                       GenuineIntel
-CPU family:                      6
-Model:                           106
-Model name:                      Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
-Stepping:                        6
-CPU MHz:                         2800.000
-CPU max MHz:                     3400.0000
-CPU min MHz:                     800.0000
-BogoMIPS:                        4400.00
-Virtualization:                  VT-x
-L1d cache:                       3 MiB
-L1i cache:                       2 MiB
-L2 cache:                        80 MiB
-L3 cache:                        96 MiB
-NUMA node0 CPU(s):               0-15
-NUMA node1 CPU(s):               16-31
-NUMA node2 CPU(s):               32-47
-NUMA node3 CPU(s):               48-63
-Vulnerability Itlb multihit:     Not affected
-Vulnerability L1tf:              Not affected
-Vulnerability Mds:               Not affected
-Vulnerability Meltdown:          Not affected
-Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
-Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
-Vulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling
-Vulnerability Srbds:             Not affected
-Vulnerability Tsx async abort:   Not affected
-Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid fsrm md_clear pconfig flush_l1d arch_capabilities
-INFO: Using numpy backend
-Percentage of tasks completed::   0%|          | 0/80 [00:00<?, ?it/s][Parallel(n_jobs=-1)]: Using backend LokyBackend with 32 concurrent workers.
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::   1%|▏         | 1/80 [12:40<16:41:22, 760.53s/it]Percentage of tasks completed::   2%|▎         | 2/80 [12:50<6:54:36, 318.93s/it] Percentage of tasks completed::   4%|▍         | 3/80 [12:51<3:42:55, 173.71s/it]Percentage of tasks completed::   5%|▌         | 4/80 [13:00<2:17:41, 108.71s/it]Percentage of tasks completed::   6%|▋         | 5/80 [13:18<1:35:02, 76.03s/it] Percentage of tasks completed::   8%|▊         | 6/80 [13:20<1:02:42, 50.84s/it]Percentage of tasks completed::   9%|▉         | 7/80 [13:34<47:11, 38.78s/it]  Percentage of tasks completed::  10%|█         | 8/80 [14:13<46:47, 38.99s/it]Percentage of tasks completed::  11%|█▏        | 9/80 [25:51<4:49:41, 244.81s/it]Percentage of tasks completed::  12%|█▎        | 10/80 [27:00<3:42:23, 190.62s/it]Percentage of tasks completed::  14%|█▍        | 11/80 [30:37<3:48:42, 198.88s/it]Percentage of tasks completed::  15%|█▌        | 12/80 [30:41<2:37:57, 139.38s/it]Percentage of tasks completed::  16%|█▋        | 13/80 [31:05<1:56:45, 104.56s/it]Percentage of tasks completed::  18%|█▊        | 14/80 [31:06<1:20:31, 73.20s/it] Percentage of tasks completed::  19%|█▉        | 15/80 [31:37<1:05:38, 60.60s/it]Percentage of tasks completed::  20%|██        | 16/80 [32:53<1:09:29, 65.15s/it]Percentage of tasks completed::  21%|██▏       | 17/80 [33:05<51:39, 49.20s/it]  Percentage of tasks completed::  22%|██▎       | 18/80 [33:26<41:57, 40.60s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  24%|██▍       | 19/80 [43:15<3:28:48, 205.39s/it]Percentage of tasks completed::  25%|██▌       | 20/80 [43:30<2:28:18, 148.31s/it]Percentage of tasks completed::  26%|██▋       | 21/80 [43:52<1:48:27, 110.30s/it]Percentage of tasks completed::  28%|██▊       | 22/80 [44:30<1:25:35, 88.54s/it] Percentage of tasks completed::  29%|██▉       | 23/80 [55:41<4:10:18, 263.48s/it]Percentage of tasks completed::  30%|███       | 24/80 [57:33<3:23:23, 217.91s/it]slurmstepd: error: *** JOB 11397843 ON ilk-104 CANCELLED AT 2025-03-26T21:58:14 DUE TO TIME LIMIT ***

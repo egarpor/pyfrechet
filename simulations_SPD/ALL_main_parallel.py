@@ -17,6 +17,7 @@ from scipy.stats import wishart
 from tqdm import tqdm
 from pyfrechet.metric_spaces.utils import vectorize
 from scipy.special import digamma
+from scipy.stats import beta
 
 np.random.seed(1000)
 # Parameters

@@ -1,197 +1,0 @@
-slurmstepd: info: Setting TMPDIR to /scratch/11402710. Previous errors about TMPDIR can be discarded
-python/3.9.9 loaded
-jupyter-server/1.13.5-python-3.9.9 loaded
-jupyterlab/3.2.4-python-3.9.9 loaded
-Architecture:                    x86_64
-CPU op-mode(s):                  32-bit, 64-bit
-Byte Order:                      Little Endian
-Address sizes:                   46 bits physical, 57 bits virtual
-CPU(s):                          64
-On-line CPU(s) list:             0-63
-Thread(s) per core:              1
-Core(s) per socket:              32
-Socket(s):                       2
-NUMA node(s):                    4
-Vendor ID:                       GenuineIntel
-CPU family:                      6
-Model:                           106
-Model name:                      Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
-Stepping:                        6
-CPU MHz:                         2800.000
-CPU max MHz:                     3400.0000
-CPU min MHz:                     800.0000
-BogoMIPS:                        4400.00
-Virtualization:                  VT-x
-L1d cache:                       3 MiB
-L1i cache:                       2 MiB
-L2 cache:                        80 MiB
-L3 cache:                        96 MiB
-NUMA node0 CPU(s):               0-15
-NUMA node1 CPU(s):               16-31
-NUMA node2 CPU(s):               32-47
-NUMA node3 CPU(s):               48-63
-Vulnerability Itlb multihit:     Not affected
-Vulnerability L1tf:              Not affected
-Vulnerability Mds:               Not affected
-Vulnerability Meltdown:          Not affected
-Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
-Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
-Vulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling
-Vulnerability Srbds:             Not affected
-Vulnerability Tsx async abort:   Not affected
-Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid fsrm md_clear pconfig flush_l1d arch_capabilities
-INFO: Using numpy backend
-Percentage of tasks completed::   0%|          | 0/80 [00:00<?, ?it/s][Parallel(n_jobs=-1)]: Using backend LokyBackend with 32 concurrent workers.
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::   1%|▏         | 1/80 [10:14<13:29:43, 614.98s/it]Percentage of tasks completed::   2%|▎         | 2/80 [10:29<5:39:56, 261.50s/it] Percentage of tasks completed::   4%|▍         | 3/80 [11:03<3:22:31, 157.82s/it]Percentage of tasks completed::   5%|▌         | 4/80 [11:05<2:01:52, 96.21s/it] Percentage of tasks completed::   6%|▋         | 5/80 [11:08<1:18:12, 62.56s/it]Percentage of tasks completed::   8%|▊         | 6/80 [11:11<52:10, 42.31s/it]  Percentage of tasks completed::   9%|▉         | 7/80 [11:31<42:46, 35.15s/it]Percentage of tasks completed::  10%|█         | 8/80 [11:40<32:06, 26.76s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  11%|█▏        | 9/80 [21:44<4:05:14, 207.25s/it]Percentage of tasks completed::  12%|█▎        | 10/80 [22:29<3:03:25, 157.22s/it]Percentage of tasks completed::  14%|█▍        | 11/80 [25:45<3:14:32, 169.17s/it]Percentage of tasks completed::  15%|█▌        | 12/80 [26:53<2:36:33, 138.14s/it]Percentage of tasks completed::  16%|█▋        | 13/80 [27:04<1:51:30, 99.85s/it] Percentage of tasks completed::  18%|█▊        | 14/80 [27:25<1:23:27, 75.87s/it]Percentage of tasks completed::  19%|█▉        | 15/80 [27:33<1:00:14, 55.60s/it]Percentage of tasks completed::  20%|██        | 16/80 [27:40<43:31, 40.80s/it]  Percentage of tasks completed::  21%|██▏       | 17/80 [27:52<33:39, 32.05s/it]Percentage of tasks completed::  22%|██▎       | 18/80 [28:23<32:46, 31.72s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  24%|██▍       | 19/80 [37:17<3:05:40, 182.64s/it]Percentage of tasks completed::  25%|██▌       | 20/80 [37:25<2:10:25, 130.42s/it]Percentage of tasks completed::  26%|██▋       | 21/80 [38:08<1:42:12, 103.94s/it]Percentage of tasks completed::  28%|██▊       | 22/80 [38:21<1:14:12, 76.76s/it] WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  29%|██▉       | 23/80 [48:07<3:38:04, 229.56s/it]Percentage of tasks completed::  30%|███       | 24/80 [49:13<2:48:35, 180.64s/it]Percentage of tasks completed::  31%|███▏      | 25/80 [55:16<3:35:32, 235.14s/it]Percentage of tasks completed::  32%|███▎      | 26/80 [56:19<2:45:13, 183.58s/it]Percentage of tasks completed::  34%|███▍      | 27/80 [59:13<2:39:29, 180.55s/it]Percentage of tasks completed::  35%|███▌      | 28/80 [59:50<1:59:14, 137.58s/it]Percentage of tasks completed::  36%|███▋      | 29/80 [1:03:09<2:12:35, 155.99s/it]Percentage of tasks completed::  38%|███▊      | 30/80 [1:03:13<1:31:57, 110.34s/it]Percentage of tasks completed::  39%|███▉      | 31/80 [1:03:36<1:08:45, 84.19s/it] Percentage of tasks completed::  40%|████      | 32/80 [1:03:56<52:01, 65.03s/it]  Percentage of tasks completed::  41%|████▏     | 33/80 [1:04:45<47:02, 60.06s/it]Percentage of tasks completed::  42%|████▎     | 34/80 [1:05:32<43:12, 56.36s/it]Percentage of tasks completed::  44%|████▍     | 35/80 [1:06:44<45:36, 60.82s/it]Percentage of tasks completed::  45%|████▌     | 36/80 [1:08:49<58:55, 80.35s/it]Percentage of tasks completed::  46%|████▋     | 37/80 [1:13:38<1:42:21, 142.82s/it]Percentage of tasks completed::  48%|████▊     | 38/80 [1:14:09<1:16:22, 109.11s/it]Percentage of tasks completed::  49%|████▉     | 39/80 [1:14:24<55:21, 81.02s/it]   Percentage of tasks completed::  50%|█████     | 40/80 [1:15:10<46:56, 70.42s/it]Percentage of tasks completed::  51%|█████▏    | 41/80 [1:22:23<1:56:37, 179.43s/it]Percentage of tasks completed::  52%|█████▎    | 42/80 [1:22:53<1:25:04, 134.33s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  54%|█████▍    | 43/80 [1:24:59<1:21:19, 131.87s/it]Percentage of tasks completed::  55%|█████▌    | 44/80 [1:25:30<1:01:02, 101.74s/it]Percentage of tasks completed::  56%|█████▋    | 45/80 [1:29:31<1:23:43, 143.53s/it]Percentage of tasks completed::  57%|█████▊    | 46/80 [1:30:13<1:04:03, 113.05s/it]Percentage of tasks completed::  59%|█████▉    | 47/80 [1:31:41<58:00, 105.47s/it]  Percentage of tasks completed::  60%|██████    | 48/80 [1:32:10<44:02, 82.58s/it] WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  61%|██████▏   | 49/80 [1:41:20<1:55:06, 222.79s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  62%|██████▎   | 50/80 [1:42:11<1:25:40, 171.34s/it]Percentage of tasks completed::  64%|██████▍   | 51/80 [1:42:22<59:31, 123.15s/it]  Percentage of tasks completed::  65%|██████▌   | 52/80 [1:42:29<41:09, 88.19s/it] WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  66%|██████▋   | 53/80 [1:48:45<1:18:31, 174.51s/it]Percentage of tasks completed::  68%|██████▊   | 54/80 [1:49:18<57:17, 132.19s/it]  Percentage of tasks completed::  69%|██████▉   | 55/80 [2:02:53<2:20:27, 337.12s/it]Percentage of tasks completed::  70%|███████   | 56/80 [2:04:28<1:45:44, 264.34s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [2:10:08<1:50:01, 287.01s/it]Percentage of tasks completed::  72%|███████▎  | 58/80 [2:14:14<1:40:46, 274.85s/it][Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 134.2min remaining: 50.9min
-Percentage of tasks completed::  74%|███████▍  | 59/80 [2:29:53<2:45:55, 474.07s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:31:27<1:59:58, 359.91s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  76%|███████▋  | 61/80 [3:13:13<5:17:51, 1003.75s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [3:13:28<3:32:08, 707.14s/it] Percentage of tasks completed::  79%|███████▉  | 63/80 [3:13:35<2:20:51, 497.15s/it]Percentage of tasks completed::  80%|████████  | 64/80 [3:14:35<1:37:35, 365.95s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [3:15:07<1:06:27, 265.84s/it]Percentage of tasks completed::  82%|████████▎ | 66/80 [3:15:57<46:53, 200.98s/it]  Percentage of tasks completed::  84%|████████▍ | 67/80 [3:16:26<32:21, 149.38s/it]Percentage of tasks completed::  85%|████████▌ | 68/80 [3:16:50<22:22, 111.90s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [3:20:48<27:25, 149.58s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [3:20:50<17:34, 105.41s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  89%|████████▉ | 71/80 [3:29:46<35:10, 234.51s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:31:44<26:38, 199.80s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:36:12<25:40, 220.06s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:36:49<16:32, 165.35s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:47:25<25:31, 306.28s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:49:18<16:33, 248.32s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:56:14<14:55, 298.63s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:56:20<07:01, 210.84s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [4:07:46<05:53, 353.48s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [4:09:05<00:00, 271.20s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 249.1min finished
-Percentage of tasks completed:: 100%|██████████| 80/80 [4:09:05<00:00, 186.82s/it]
-Auto packing the repository in background for optimum performance.
-See "git help gc" for manual housekeeping.
-[main 0c620b136] Simulations SPD block 41
- 81 files changed, 82 insertions(+), 7 deletions(-)
- create mode 100644 simulations_SPD/results/SPD_samp395_N500_df15_block_40_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp395_N500_df5_block_40_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp396_N500_df15_block_40_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp396_N500_df5_block_40_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp397_N500_df15_block_40_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp397_N500_df5_block_40_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp398_N500_df15_block_40_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp398_N500_df5_block_40_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp399_N500_df15_block_40_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp399_N500_df5_block_40_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp406_N500_df15_block_41_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp406_N500_df5_block_41_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp407_N500_df15_block_41_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp407_N500_df5_block_41_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp408_N500_df15_block_41_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp408_N500_df5_block_41_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp409_N500_df15_block_41_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp409_N500_df5_block_41_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp410_N500_df15_block_41_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp410_N500_df5_block_41_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp411_N500_df15_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp411_N500_df5_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp412_N500_df5_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp413_N500_df15_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp414_N500_df15_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp415_N500_df15_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp415_N500_df5_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp416_N500_df15_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp416_N500_df5_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp417_N500_df15_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp417_N500_df5_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp418_N500_df15_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp418_N500_df5_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp419_N500_df15_block_42_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp428_N200_df5_block_43_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp429_N200_df15_block_43_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp429_N200_df5_block_43_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp430_N200_df15_block_43_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp430_N200_df5_block_43_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp440_N200_df15_block_44_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp440_N200_df5_block_44_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp448_N200_df15_block_45_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp448_N200_df5_block_45_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp449_N200_df15_block_45_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp449_N200_df5_block_45_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp450_N200_df15_block_45_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp450_N200_df5_block_45_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp458_N200_df15_block_46_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp458_N200_df5_block_46_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp459_N200_df15_block_46_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp459_N200_df5_block_46_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp460_N100_df15_block_46_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp460_N100_df5_block_46_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp461_N100_df15_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp461_N100_df5_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp462_N100_df15_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp462_N100_df5_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp463_N100_df15_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp463_N100_df5_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp464_N100_df15_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp464_N100_df5_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp465_N100_df15_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp465_N100_df5_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp465_N50_df15_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp465_N50_df5_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp466_N100_df15_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp466_N100_df5_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp466_N50_df15_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp466_N50_df5_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp467_N100_df15_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp467_N100_df5_block_47_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp467_N50_df15_block_47_results.npy
-To github.com:egarpor/pyfrechet.git
-   3a70db54d..0c620b136  main -> main
-
-*****************************************************************************
-*                                                                           *
-*                    JOB EFFICIENCY REPORT (seff 11402710)                   *
-*                                                                           *
-*****************************************************************************
-
-Job ID: 11402710
-Cluster: finisterrae3
-User/Group: usceiega/usc
-State: COMPLETED (exit code 0)
-Nodes: 1
-Cores per node: 32
-CPU Utilized: 3-14:09:47
-CPU Efficiency: 64.80% of 5-12:57:36 core-walltime
-Job Wall-clock time: 04:09:18
-Memory Utilized: 14.52 GB
-Memory Efficiency: 90.76% of 16.00 GB
-
-*****************************************************************************
-

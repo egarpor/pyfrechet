@@ -83,8 +83,8 @@ def task(file):
     N = int(file.split('_')[2][1:])
     if sigma_approx == 0.9:
         true_sigma = np.sqrt(3)/2
-    elif sigma_approx == 1.4:
-        true_sigma = np.sqrt(2)
+    elif sigma_approx == 1.7:
+        true_sigma = np.sqrt(3)
     # elif sigma_approx == 1.7:
     #     true_sigma = np.sqrt(3)
     else:
