@@ -139,3 +139,32 @@ Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
 [main 18009dd4c] Simulations SPD block 41
  3 files changed, 109 insertions(+)
+To github.com:egarpor/pyfrechet.git
+   767ea3648..18009dd4c  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11460942)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11460942
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 05:11:58
+CPU Efficiency: 84.16% of 06:10:40 core-walltime
+Job Wall-clock time: 00:11:35
+Memory Utilized: 5.19 GB
+Memory Efficiency: 32.41% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+

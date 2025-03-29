@@ -113,3 +113,9 @@ Traceback (most recent call last):
 NameError: name 'beta' is not defined
 /home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 62 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 8152ae451] Simulations SPD block 40
+ 2 files changed, 43 insertions(+), 1 deletion(-)
+To github.com:egarpor/pyfrechet.git
+   18009dd4c..8152ae451  main -> main
