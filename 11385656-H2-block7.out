@@ -1,308 +1,0 @@
-slurmstepd: info: Setting TMPDIR to /scratch/11385656. Previous errors about TMPDIR can be discarded
-python/3.9.9 loaded
-jupyter-server/1.13.5-python-3.9.9 loaded
-jupyterlab/3.2.4-python-3.9.9 loaded
-Architecture:                    x86_64
-CPU op-mode(s):                  32-bit, 64-bit
-Byte Order:                      Little Endian
-Address sizes:                   46 bits physical, 57 bits virtual
-CPU(s):                          64
-On-line CPU(s) list:             0-63
-Thread(s) per core:              1
-Core(s) per socket:              32
-Socket(s):                       2
-NUMA node(s):                    4
-Vendor ID:                       GenuineIntel
-CPU family:                      6
-Model:                           106
-Model name:                      Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
-Stepping:                        6
-CPU MHz:                         2708.153
-CPU max MHz:                     3400.0000
-CPU min MHz:                     800.0000
-BogoMIPS:                        4400.00
-Virtualization:                  VT-x
-L1d cache:                       3 MiB
-L1i cache:                       2 MiB
-L2 cache:                        80 MiB
-L3 cache:                        96 MiB
-NUMA node0 CPU(s):               0-15
-NUMA node1 CPU(s):               16-31
-NUMA node2 CPU(s):               32-47
-NUMA node3 CPU(s):               48-63
-Vulnerability Itlb multihit:     Not affected
-Vulnerability L1tf:              Not affected
-Vulnerability Mds:               Not affected
-Vulnerability Meltdown:          Not affected
-Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
-Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
-Vulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling
-Vulnerability Srbds:             Not affected
-Vulnerability Tsx async abort:   Not affected
-Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid fsrm md_clear pconfig flush_l1d arch_capabilities
-INFO: Using numpy backend
-Percentage of tasks completed::   0%|          | 0/200 [00:00<?, ?it/s][Parallel(n_jobs=-1)]: Using backend LokyBackend with 32 concurrent workers.
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::   0%|          | 1/200 [02:15<7:27:47, 135.01s/it]Percentage of tasks completed::   1%|          | 2/200 [02:21<3:17:00, 59.70s/it] Percentage of tasks completed::   2%|▏         | 3/200 [02:26<1:53:35, 34.60s/it]Percentage of tasks completed::   2%|▏         | 4/200 [02:27<1:09:17, 21.21s/it]Percentage of tasks completed::   2%|▎         | 5/200 [02:28<45:49, 14.10s/it]  Percentage of tasks completed::   4%|▎         | 7/200 [02:29<23:11,  7.21s/it]Percentage of tasks completed::   4%|▍         | 8/200 [02:37<23:18,  7.28s/it]Percentage of tasks completed::   4%|▍         | 9/200 [04:53<2:16:22, 42.84s/it]Percentage of tasks completed::   5%|▌         | 10/200 [04:57<1:40:28, 31.73s/it]Percentage of tasks completed::   6%|▌         | 11/200 [04:57<1:11:19, 22.64s/it]Percentage of tasks completed::   6%|▌         | 12/200 [04:58<51:26, 16.42s/it]  Percentage of tasks completed::   6%|▋         | 13/200 [05:08<45:17, 14.53s/it]Percentage of tasks completed::   7%|▋         | 14/200 [05:10<33:50, 10.92s/it]Percentage of tasks completed::   8%|▊         | 15/200 [05:11<24:24,  7.92s/it]Percentage of tasks completed::   8%|▊         | 16/200 [05:14<19:07,  6.23s/it]Percentage of tasks completed::   8%|▊         | 17/200 [05:19<18:38,  6.11s/it]Percentage of tasks completed::   9%|▉         | 18/200 [05:23<16:05,  5.30s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  10%|▉         | 19/200 [07:02<1:40:42, 33.38s/it]Percentage of tasks completed::  10%|█         | 20/200 [07:23<1:29:24, 29.80s/it]Percentage of tasks completed::  10%|█         | 21/200 [07:27<1:05:27, 21.94s/it]Percentage of tasks completed::  11%|█         | 22/200 [07:40<56:51, 19.17s/it]  /home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  12%|█▏        | 23/200 [09:46<2:30:57, 51.17s/it]Percentage of tasks completed::  12%|█▏        | 24/200 [10:03<2:00:27, 41.07s/it]Percentage of tasks completed::  12%|█▎        | 25/200 [10:14<1:33:37, 32.10s/it]Percentage of tasks completed::  13%|█▎        | 26/200 [10:32<1:20:42, 27.83s/it]Percentage of tasks completed::  14%|█▎        | 27/200 [10:35<58:36, 20.32s/it]  Percentage of tasks completed::  14%|█▍        | 28/200 [10:37<42:30, 14.83s/it]Percentage of tasks completed::  14%|█▍        | 29/200 [10:38<30:28, 10.69s/it]Percentage of tasks completed::  15%|█▌        | 30/200 [10:39<22:10,  7.82s/it]Percentage of tasks completed::  16%|█▌        | 31/200 [10:45<20:43,  7.36s/it]Percentage of tasks completed::  16%|█▌        | 32/200 [10:46<14:36,  5.22s/it]Percentage of tasks completed::  16%|█▋        | 33/200 [11:04<25:50,  9.29s/it]Percentage of tasks completed::  17%|█▋        | 34/200 [11:44<50:50, 18.38s/it]Percentage of tasks completed::  18%|█▊        | 35/200 [12:12<58:33, 21.29s/it]Percentage of tasks completed::  18%|█▊        | 36/200 [12:31<56:21, 20.62s/it]Percentage of tasks completed::  18%|█▊        | 37/200 [13:05<1:07:17, 24.77s/it]Percentage of tasks completed::  19%|█▉        | 38/200 [13:06<47:05, 17.44s/it]  Percentage of tasks completed::  20%|█▉        | 39/200 [13:19<43:44, 16.30s/it]Percentage of tasks completed::  20%|██        | 40/200 [14:06<1:08:03, 25.52s/it]Percentage of tasks completed::  20%|██        | 41/200 [15:29<1:52:33, 42.47s/it]Percentage of tasks completed::  21%|██        | 42/200 [15:29<1:18:28, 29.80s/it]Percentage of tasks completed::  22%|██▏       | 43/200 [15:39<1:02:40, 23.96s/it]Percentage of tasks completed::  22%|██▏       | 44/200 [15:46<48:49, 18.78s/it]  Percentage of tasks completed::  22%|██▎       | 45/200 [16:11<53:23, 20.67s/it]Percentage of tasks completed::  23%|██▎       | 46/200 [16:26<49:05, 19.12s/it]Percentage of tasks completed::  24%|██▎       | 47/200 [16:29<36:08, 14.17s/it]Percentage of tasks completed::  24%|██▍       | 48/200 [16:32<27:15, 10.76s/it]Percentage of tasks completed::  24%|██▍       | 49/200 [17:34<1:06:07, 26.28s/it]Percentage of tasks completed::  25%|██▌       | 50/200 [17:51<58:30, 23.40s/it]  Percentage of tasks completed::  26%|██▌       | 51/200 [18:48<1:23:12, 33.51s/it]Percentage of tasks completed::  26%|██▌       | 52/200 [18:50<59:10, 23.99s/it]  Percentage of tasks completed::  26%|██▋       | 53/200 [20:28<1:53:35, 46.36s/it]Percentage of tasks completed::  27%|██▋       | 54/200 [20:40<1:27:05, 35.79s/it]Percentage of tasks completed::  28%|██▊       | 55/200 [20:40<1:01:12, 25.32s/it]Percentage of tasks completed::  28%|██▊       | 56/200 [21:35<1:21:29, 33.95s/it]Percentage of tasks completed::  28%|██▊       | 57/200 [22:18<1:27:56, 36.90s/it]Percentage of tasks completed::  29%|██▉       | 58/200 [22:28<1:08:22, 28.89s/it]Percentage of tasks completed::  30%|██▉       | 59/200 [22:32<50:01, 21.28s/it]  Percentage of tasks completed::  30%|███       | 60/200 [22:47<45:31, 19.51s/it]Percentage of tasks completed::  30%|███       | 61/200 [22:49<32:38, 14.09s/it]Percentage of tasks completed::  31%|███       | 62/200 [23:53<1:06:52, 29.08s/it]Percentage of tasks completed::  32%|███▏      | 63/200 [25:38<1:58:12, 51.77s/it]Percentage of tasks completed::  32%|███▏      | 64/200 [26:37<2:02:14, 53.93s/it]Percentage of tasks completed::  32%|███▎      | 65/200 [26:56<1:38:14, 43.66s/it]Percentage of tasks completed::  33%|███▎      | 66/200 [27:06<1:14:35, 33.40s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  34%|███▎      | 67/200 [27:55<1:24:52, 38.29s/it]Percentage of tasks completed::  34%|███▍      | 68/200 [28:26<1:18:48, 35.82s/it]Percentage of tasks completed::  34%|███▍      | 69/200 [28:34<1:00:37, 27.77s/it]Percentage of tasks completed::  35%|███▌      | 70/200 [28:41<46:24, 21.42s/it]  Percentage of tasks completed::  36%|███▌      | 71/200 [28:48<36:53, 17.16s/it]Percentage of tasks completed::  36%|███▌      | 72/200 [28:55<29:41, 13.92s/it]Percentage of tasks completed::  36%|███▋      | 73/200 [29:03<25:52, 12.22s/it]Percentage of tasks completed::  37%|███▋      | 74/200 [29:13<24:35, 11.71s/it]Percentage of tasks completed::  38%|███▊      | 75/200 [29:15<17:53,  8.59s/it]Percentage of tasks completed::  38%|███▊      | 76/200 [29:27<20:11,  9.77s/it]Percentage of tasks completed::  38%|███▊      | 77/200 [29:29<15:06,  7.37s/it]Percentage of tasks completed::  39%|███▉      | 78/200 [29:50<22:59, 11.31s/it]Percentage of tasks completed::  40%|███▉      | 79/200 [30:58<57:33, 28.54s/it]Percentage of tasks completed::  40%|████      | 80/200 [31:06<44:44, 22.37s/it]Percentage of tasks completed::  40%|████      | 81/200 [31:10<33:28, 16.88s/it]Percentage of tasks completed::  41%|████      | 82/200 [31:31<35:11, 17.89s/it]Percentage of tasks completed::  42%|████▏     | 83/200 [31:46<33:10, 17.01s/it]Percentage of tasks completed::  42%|████▏     | 84/200 [31:57<29:56, 15.48s/it]Percentage of tasks completed::  42%|████▎     | 85/200 [32:18<32:31, 16.97s/it]Percentage of tasks completed::  43%|████▎     | 86/200 [32:19<22:56, 12.07s/it]Percentage of tasks completed::  44%|████▎     | 87/200 [33:22<51:40, 27.43s/it]Percentage of tasks completed::  44%|████▍     | 88/200 [33:30<40:12, 21.54s/it]Percentage of tasks completed::  44%|████▍     | 89/200 [34:00<44:49, 24.23s/it]Percentage of tasks completed::  45%|████▌     | 90/200 [34:10<36:21, 19.84s/it]Percentage of tasks completed::  46%|████▌     | 91/200 [34:11<25:46, 14.19s/it]Percentage of tasks completed::  46%|████▌     | 92/200 [34:17<21:05, 11.72s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  46%|████▋     | 93/200 [35:39<58:56, 33.05s/it]Percentage of tasks completed::  47%|████▋     | 94/200 [35:54<48:24, 27.40s/it]Percentage of tasks completed::  48%|████▊     | 95/200 [35:58<35:39, 20.38s/it]Percentage of tasks completed::  48%|████▊     | 96/200 [36:26<39:27, 22.77s/it]Percentage of tasks completed::  48%|████▊     | 97/200 [36:39<33:53, 19.74s/it]Percentage of tasks completed::  49%|████▉     | 98/200 [36:47<27:31, 16.19s/it][Parallel(n_jobs=-1)]: Done  98 tasks      | elapsed: 36.8min
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  50%|████▉     | 99/200 [38:15<1:03:57, 38.00s/it]Percentage of tasks completed::  50%|█████     | 100/200 [38:32<52:48, 31.69s/it] Percentage of tasks completed::  50%|█████     | 101/200 [38:51<45:58, 27.87s/it]Percentage of tasks completed::  51%|█████     | 102/200 [39:08<39:49, 24.38s/it]Percentage of tasks completed::  52%|█████▏    | 103/200 [39:11<29:01, 17.95s/it]Percentage of tasks completed::  52%|█████▏    | 104/200 [39:30<29:38, 18.52s/it]Percentage of tasks completed::  52%|█████▎    | 105/200 [39:36<22:59, 14.52s/it]Percentage of tasks completed::  53%|█████▎    | 106/200 [39:37<16:31, 10.54s/it]Percentage of tasks completed::  54%|█████▎    | 107/200 [39:41<13:24,  8.65s/it]Percentage of tasks completed::  54%|█████▍    | 108/200 [39:56<16:12, 10.57s/it]Percentage of tasks completed::  55%|█████▍    | 109/200 [41:32<54:48, 36.13s/it]Percentage of tasks completed::  55%|█████▌    | 110/200 [41:38<40:39, 27.11s/it]Percentage of tasks completed::  56%|█████▌    | 111/200 [41:39<28:34, 19.27s/it]Percentage of tasks completed::  56%|█████▌    | 112/200 [41:40<20:19, 13.86s/it]Percentage of tasks completed::  56%|█████▋    | 113/200 [41:51<18:38, 12.85s/it]Percentage of tasks completed::  57%|█████▋    | 114/200 [42:00<16:59, 11.85s/it]Percentage of tasks completed::  57%|█████▊    | 115/200 [42:18<19:05, 13.48s/it]Percentage of tasks completed::  58%|█████▊    | 116/200 [42:18<13:28,  9.62s/it]Percentage of tasks completed::  58%|█████▊    | 117/200 [43:53<48:52, 35.33s/it]Percentage of tasks completed::  59%|█████▉    | 118/200 [44:10<40:40, 29.77s/it]Percentage of tasks completed::  60%|█████▉    | 119/200 [44:23<33:11, 24.58s/it]Percentage of tasks completed::  60%|██████    | 120/200 [44:36<28:04, 21.05s/it]Percentage of tasks completed::  60%|██████    | 121/200 [44:40<21:09, 16.07s/it]Percentage of tasks completed::  61%|██████    | 122/200 [44:43<15:47, 12.14s/it]Percentage of tasks completed::  62%|██████▏   | 123/200 [44:47<12:27,  9.70s/it]Percentage of tasks completed::  62%|██████▏   | 124/200 [45:16<19:42, 15.55s/it]Percentage of tasks completed::  62%|██████▎   | 125/200 [46:37<44:01, 35.23s/it]Percentage of tasks completed::  63%|██████▎   | 126/200 [46:39<31:12, 25.30s/it]Percentage of tasks completed::  64%|██████▎   | 127/200 [46:44<23:22, 19.21s/it]Percentage of tasks completed::  64%|██████▍   | 128/200 [47:03<22:39, 18.89s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  64%|██████▍   | 129/200 [48:52<54:31, 46.08s/it]Percentage of tasks completed::  65%|██████▌   | 130/200 [48:55<38:45, 33.22s/it]Percentage of tasks completed::  66%|██████▌   | 131/200 [49:21<35:31, 30.90s/it]Percentage of tasks completed::  66%|██████▌   | 132/200 [49:23<25:05, 22.13s/it]Percentage of tasks completed::  66%|██████▋   | 133/200 [49:29<19:27, 17.42s/it]Percentage of tasks completed::  67%|██████▋   | 134/200 [49:33<14:35, 13.26s/it]Percentage of tasks completed::  68%|██████▊   | 135/200 [49:39<12:05, 11.16s/it]Percentage of tasks completed::  68%|██████▊   | 136/200 [50:17<20:35, 19.30s/it]Percentage of tasks completed::  68%|██████▊   | 137/200 [50:24<16:21, 15.58s/it]Percentage of tasks completed::  70%|██████▉   | 139/200 [51:55<29:52, 29.38s/it]Percentage of tasks completed::  70%|███████   | 140/200 [52:23<29:01, 29.03s/it]Percentage of tasks completed::  70%|███████   | 141/200 [52:36<24:22, 24.80s/it]Percentage of tasks completed::  71%|███████   | 142/200 [52:55<22:32, 23.33s/it]Percentage of tasks completed::  72%|███████▏  | 143/200 [53:22<23:10, 24.40s/it]Percentage of tasks completed::  72%|███████▏  | 144/200 [53:27<17:38, 18.91s/it]Percentage of tasks completed::  72%|███████▎  | 145/200 [53:41<15:54, 17.36s/it]Percentage of tasks completed::  73%|███████▎  | 146/200 [53:57<15:15, 16.95s/it]Percentage of tasks completed::  74%|███████▎  | 147/200 [55:19<31:57, 36.18s/it]Percentage of tasks completed::  74%|███████▍  | 148/200 [55:28<24:23, 28.15s/it]Percentage of tasks completed::  74%|███████▍  | 149/200 [55:30<17:09, 20.19s/it]Percentage of tasks completed::  75%|███████▌  | 150/200 [55:35<13:12, 15.84s/it]Percentage of tasks completed::  76%|███████▌  | 151/200 [55:36<09:21, 11.47s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  76%|███████▌  | 152/200 [56:04<13:06, 16.39s/it]Percentage of tasks completed::  76%|███████▋  | 153/200 [57:23<27:19, 34.89s/it]Percentage of tasks completed::  77%|███████▋  | 154/200 [57:48<24:33, 32.02s/it]Percentage of tasks completed::  78%|███████▊  | 155/200 [57:55<18:27, 24.60s/it]Percentage of tasks completed::  78%|███████▊  | 156/200 [58:16<17:15, 23.53s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  78%|███████▊  | 157/200 [58:25<13:41, 19.11s/it]Percentage of tasks completed::  79%|███████▉  | 158/200 [58:29<10:16, 14.69s/it]Percentage of tasks completed::  80%|███████▉  | 159/200 [58:39<08:58, 13.12s/it]Percentage of tasks completed::  80%|████████  | 160/200 [58:57<09:50, 14.76s/it]Percentage of tasks completed::  80%|████████  | 161/200 [59:36<14:16, 21.96s/it]Percentage of tasks completed::  81%|████████  | 162/200 [59:42<10:46, 17.02s/it]Percentage of tasks completed::  82%|████████▏ | 163/200 [1:00:45<19:08, 31.05s/it]Percentage of tasks completed::  82%|████████▏ | 164/200 [1:01:04<16:20, 27.23s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py:752: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
-  warnings.warn(
-Percentage of tasks completed::  82%|████████▎ | 165/200 [1:01:04<11:12, 19.20s/it]INFO: Using numpy backend
-Percentage of tasks completed::  83%|████████▎ | 166/200 [1:01:09<08:30, 15.01s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [1:01:38<10:25, 18.94s/it]INFO: Using numpy backend
-Percentage of tasks completed::  84%|████████▍ | 168/200 [1:01:54<09:41, 18.16s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:02:02<07:46, 15.06s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:02:07<06:06, 12.20s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:02:18<05:41, 11.79s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:02:32<05:44, 12.31s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  86%|████████▋ | 173/200 [1:04:54<23:06, 51.34s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:05:08<17:27, 40.29s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:05:14<12:24, 29.77s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:05:16<08:34, 21.44s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:06:05<11:23, 29.71s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:06:36<11:01, 30.08s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:07:24<12:26, 35.57s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:07:27<08:35, 25.77s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:07:49<07:46, 24.55s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:08:00<06:11, 20.66s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:09:29<11:36, 40.96s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:09:39<08:28, 31.78s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:10:00<07:09, 28.62s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:10:35<07:06, 30.46s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:11:37<08:38, 39.89s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:13:00<10:33, 52.77s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:13:24<08:06, 44.21s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:13:43<06:05, 36.60s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:15:09<07:44, 51.60s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:15:28<05:33, 41.71s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:17:36<07:53, 67.58s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:17:41<04:52, 48.70s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:19:03<04:53, 58.73s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:19:47<03:37, 54.32s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:21:07<03:06, 62.25s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:21:21<01:35, 47.54s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:22:19<00:50, 50.72s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:22:46<00:00, 43.69s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 82.8min finished
-Percentage of tasks completed:: 100%|██████████| 200/200 [1:22:46<00:00, 24.83s/it]
-Auto packing the repository in background for optimum performance.
-See "git help gc" for manual housekeeping.
-[main 487901f7f] Simulations Hyperboloid block 7
- 187 files changed, 71 insertions(+), 12 deletions(-)
- create mode 100644 simulations_H2/results/H2_samp173_N500_kappa200_block_7_results.npy
- create mode 100644 simulations_H2/results/H2_samp173_N500_kappa50_block_7_results.npy
- create mode 100644 simulations_H2/results/H2_samp174_N500_kappa200_block_7_results.npy
- create mode 100644 simulations_H2/results/H2_samp174_N500_kappa50_block_7_results.npy
- create mode 100644 simulations_H2/results/H2_samp175_N500_kappa200_block_7_results.npy
- create mode 100644 simulations_H2/results/H2_samp175_N500_kappa50_block_7_results.npy
- create mode 100644 simulations_H2/results/H2_samp196_N500_kappa200_block_8_results.npy
- create mode 100644 simulations_H2/results/H2_samp196_N500_kappa50_block_8_results.npy
- create mode 100644 simulations_H2/results/H2_samp197_N500_kappa200_block_8_results.npy
- create mode 100644 simulations_H2/results/H2_samp197_N500_kappa50_block_8_results.npy
- create mode 100644 simulations_H2/results/H2_samp212_N500_kappa200_block_9_results.npy
- create mode 100644 simulations_H2/results/H2_samp212_N500_kappa50_block_9_results.npy
- create mode 100644 simulations_H2/results/H2_samp219_N200_kappa200_block_9_results.npy
- create mode 100644 simulations_H2/results/H2_samp219_N200_kappa50_block_9_results.npy
- create mode 100644 simulations_H2/results/H2_samp220_N200_kappa200_block_9_results.npy
- create mode 100644 simulations_H2/results/H2_samp220_N200_kappa50_block_9_results.npy
- create mode 100644 simulations_H2/results/H2_samp221_N100_kappa200_block_9_results.npy
- create mode 100644 simulations_H2/results/H2_samp221_N100_kappa50_block_9_results.npy
- create mode 100644 simulations_H2/results/H2_samp221_N50_kappa200_block_9_results.npy
- create mode 100644 simulations_H2/results/H2_samp221_N50_kappa50_block_9_results.npy
- create mode 100644 simulations_H2/results/H2_samp222_N50_kappa200_block_9_results.npy
- create mode 100644 simulations_H2/results/H2_samp222_N50_kappa50_block_9_results.npy
- create mode 100644 simulations_H2/results/H2_samp225_N500_kappa200_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp225_N500_kappa50_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp259_N500_kappa200_block_11_results.npy
- create mode 100644 simulations_H2/results/H2_samp259_N500_kappa50_block_11_results.npy
- create mode 100644 simulations_H2/results/H2_samp260_N500_kappa50_block_11_results.npy
- create mode 100644 simulations_H2/results/H2_samp265_N200_kappa200_block_11_results.npy
- create mode 100644 simulations_H2/results/H2_samp265_N200_kappa50_block_11_results.npy
- create mode 100644 simulations_H2/results/H2_samp266_N200_kappa200_block_11_results.npy
- create mode 100644 simulations_H2/results/H2_samp266_N200_kappa50_block_11_results.npy
- create mode 100644 simulations_H2/results/H2_samp267_N100_kappa200_block_11_results.npy
- create mode 100644 simulations_H2/results/H2_samp267_N100_kappa50_block_11_results.npy
- create mode 100644 simulations_H2/results/H2_samp268_N100_kappa200_block_11_results.npy
- create mode 100644 simulations_H2/results/H2_samp268_N100_kappa50_block_11_results.npy
- create mode 100644 simulations_H2/results/H2_samp268_N50_kappa200_block_11_results.npy
- create mode 100644 simulations_H2/results/H2_samp268_N50_kappa50_block_11_results.npy
- create mode 100644 simulations_H2/results/H2_samp283_N500_kappa200_block_12_results.npy
- create mode 100644 simulations_H2/results/H2_samp283_N500_kappa50_block_12_results.npy
- create mode 100644 simulations_H2/results/H2_samp284_N500_kappa200_block_12_results.npy
- create mode 100644 simulations_H2/results/H2_samp284_N500_kappa50_block_12_results.npy
- create mode 100644 simulations_H2/results/H2_samp289_N200_kappa200_block_12_results.npy
- create mode 100644 simulations_H2/results/H2_samp289_N200_kappa50_block_12_results.npy
- create mode 100644 simulations_H2/results/H2_samp290_N200_kappa200_block_12_results.npy
- create mode 100644 simulations_H2/results/H2_samp290_N200_kappa50_block_12_results.npy
- create mode 100644 simulations_H2/results/H2_samp291_N100_kappa50_block_12_results.npy
- create mode 100644 simulations_H2/results/H2_samp292_N100_kappa200_block_12_results.npy
- create mode 100644 simulations_H2/results/H2_samp292_N100_kappa50_block_12_results.npy
- create mode 100644 simulations_H2/results/H2_samp292_N50_kappa200_block_12_results.npy
- create mode 100644 simulations_H2/results/H2_samp292_N50_kappa50_block_12_results.npy
- create mode 100644 simulations_H2/results/H2_samp307_N500_kappa200_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp307_N500_kappa50_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp308_N500_kappa50_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp312_N200_kappa200_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp312_N200_kappa50_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp313_N200_kappa200_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp313_N200_kappa50_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp315_N100_kappa200_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp315_N100_kappa50_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp315_N50_kappa200_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp315_N50_kappa50_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp316_N100_kappa200_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp316_N100_kappa50_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp316_N50_kappa200_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp316_N50_kappa50_block_13_results.npy
- create mode 100644 simulations_H2/results/H2_samp327_N500_kappa200_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp329_N500_kappa200_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp329_N500_kappa50_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp330_N500_kappa200_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp330_N500_kappa50_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp336_N200_kappa50_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp337_N100_kappa200_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp337_N100_kappa50_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp337_N50_kappa200_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp337_N50_kappa50_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp338_N100_kappa200_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp338_N50_kappa200_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp338_N50_kappa50_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp350_N500_kappa200_block_14_results.npy
- create mode 100644 simulations_H2/results/H2_samp351_N500_kappa200_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp351_N500_kappa50_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp352_N500_kappa200_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp352_N500_kappa50_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp353_N500_kappa200_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp353_N500_kappa50_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp354_N500_kappa200_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp354_N500_kappa50_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp360_N200_kappa200_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp361_N200_kappa200_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp361_N200_kappa50_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp362_N100_kappa200_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp362_N100_kappa50_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp362_N50_kappa200_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp362_N50_kappa50_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp375_N500_kappa200_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp375_N500_kappa50_block_15_results.npy
- create mode 100644 simulations_H2/results/H2_samp376_N500_kappa200_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp376_N500_kappa50_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp377_N500_kappa200_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp377_N500_kappa50_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp378_N500_kappa200_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp378_N500_kappa50_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp379_N500_kappa200_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp379_N500_kappa50_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp386_N200_kappa200_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp386_N200_kappa50_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp387_N100_kappa200_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp387_N100_kappa50_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp387_N50_kappa200_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp387_N50_kappa50_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp400_N500_kappa200_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp400_N500_kappa50_block_16_results.npy
- create mode 100644 simulations_H2/results/H2_samp401_N500_kappa200_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp401_N500_kappa50_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp402_N500_kappa200_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp402_N500_kappa50_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp403_N500_kappa200_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp403_N500_kappa50_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp404_N500_kappa200_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp404_N500_kappa50_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp410_N200_kappa200_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp412_N100_kappa200_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp412_N100_kappa50_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp412_N50_kappa200_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp412_N50_kappa50_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp425_N500_kappa200_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp425_N500_kappa50_block_17_results.npy
- create mode 100644 simulations_H2/results/H2_samp426_N500_kappa200_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp426_N500_kappa50_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp427_N500_kappa200_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp427_N500_kappa50_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp428_N500_kappa200_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp428_N500_kappa50_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp429_N500_kappa200_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp429_N500_kappa50_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp435_N200_kappa200_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp435_N200_kappa50_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp437_N100_kappa200_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp437_N50_kappa200_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp437_N50_kappa50_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp450_N500_kappa200_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp450_N500_kappa50_block_18_results.npy
- create mode 100644 simulations_H2/results/H2_samp451_N500_kappa200_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp451_N500_kappa50_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp452_N500_kappa200_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp452_N500_kappa50_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp459_N200_kappa200_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp459_N200_kappa50_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp460_N100_kappa200_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp460_N100_kappa50_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp460_N50_kappa200_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp460_N50_kappa50_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp475_N500_kappa200_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp475_N500_kappa50_block_19_results.npy
- create mode 100644 simulations_H2/results/H2_samp476_N500_kappa200_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp476_N500_kappa50_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp477_N500_kappa200_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp477_N500_kappa50_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp478_N500_kappa200_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp478_N500_kappa50_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp479_N500_kappa50_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp485_N200_kappa200_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp485_N200_kappa50_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp486_N50_kappa200_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp486_N50_kappa50_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp487_N50_kappa200_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp487_N50_kappa50_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp500_N500_kappa200_block_20_results.npy
- create mode 100644 simulations_H2/results/H2_samp500_N500_kappa50_block_20_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp6_N200_df15_block_1_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp6_N200_df5_block_1_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp9_N50_df15_block_1_results.npy
-To github.com:egarpor/pyfrechet.git
-   910e02407..487901f7f  main -> main
-
-*****************************************************************************
-*                                                                           *
-*                    JOB EFFICIENCY REPORT (seff 11385656)                   *
-*                                                                           *
-*****************************************************************************
-
-Job ID: 11385656
-Cluster: finisterrae3
-User/Group: usceiega/usc
-State: COMPLETED (exit code 0)
-Nodes: 1
-Cores per node: 32
-CPU Utilized: 1-10:11:51
-CPU Efficiency: 77.30% of 1-20:14:24 core-walltime
-Job Wall-clock time: 01:22:57
-Memory Utilized: 15.07 GB
-Memory Efficiency: 83.74% of 18.00 GB
-
-*****************************************************************************
-
