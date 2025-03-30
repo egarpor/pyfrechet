@@ -96,3 +96,22 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  28%|██▊       | 22/80 [38:57<1:25:04, 88.01s/it] WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 /home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
   return fit_method(estimator, *args, **kwargs)
+/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+Percentage of tasks completed::  29%|██▉       | 23/80 [49:19<3:55:53, 248.30s/it]Percentage of tasks completed::  30%|███       | 24/80 [51:56<3:25:55, 220.63s/it]Percentage of tasks completed::  31%|███▏      | 25/80 [52:13<2:26:27, 159.78s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+Percentage of tasks completed::  32%|███▎      | 26/80 [54:52<2:23:30, 159.45s/it]Percentage of tasks completed::  34%|███▍      | 27/80 [55:16<1:44:50, 118.68s/it]Percentage of tasks completed::  35%|███▌      | 28/80 [56:41<1:34:12, 108.70s/it]Percentage of tasks completed::  36%|███▋      | 29/80 [57:21<1:14:47, 88.00s/it] Percentage of tasks completed::  38%|███▊      | 30/80 [57:34<54:39, 65.58s/it]  Percentage of tasks completed::  39%|███▉      | 31/80 [57:55<42:40, 52.26s/it]Percentage of tasks completed::  40%|████      | 32/80 [58:31<37:56, 47.44s/it]Percentage of tasks completed::  41%|████▏     | 33/80 [59:35<40:56, 52.27s/it]Percentage of tasks completed::  42%|████▎     | 34/80 [1:00:54<46:10, 60.22s/it]Percentage of tasks completed::  44%|████▍     | 35/80 [1:03:16<1:03:39, 84.88s/it]Percentage of tasks completed::  45%|████▌     | 36/80 [1:03:52<51:32, 70.28s/it]  Percentage of tasks completed::  46%|████▋     | 37/80 [1:08:48<1:38:51, 137.94s/it]Percentage of tasks completed::  48%|████▊     | 38/80 [1:09:06<1:11:23, 101.98s/it]Percentage of tasks completed::  49%|████▉     | 39/80 [1:09:15<50:32, 73.97s/it]   /home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+Percentage of tasks completed::  50%|█████     | 40/80 [1:12:08<1:09:11, 103.79s/it]Percentage of tasks completed::  51%|█████▏    | 41/80 [1:16:47<1:41:32, 156.23s/it]Percentage of tasks completed::  52%|█████▎    | 42/80 [1:19:55<1:45:04, 165.92s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  54%|█████▍    | 43/80 [1:21:18<1:26:51, 140.85s/it]Percentage of tasks completed::  55%|█████▌    | 44/80 [1:21:54<1:05:36, 109.35s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  56%|█████▋    | 45/80 [1:23:27<1:01:01, 104.60s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+Percentage of tasks completed::  57%|█████▊    | 46/80 [1:24:35<53:02, 93.61s/it]   WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  59%|█████▉    | 47/80 [1:26:39<56:29, 102.72s/it]Percentage of tasks completed::  60%|██████    | 48/80 [1:26:49<40:00, 75.01s/it] Percentage of tasks completed::  61%|██████▏   | 49/80 [1:36:21<1:55:45, 224.05s/it]
