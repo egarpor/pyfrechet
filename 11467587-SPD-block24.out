@@ -1,4 +1,4 @@
-slurmstepd: info: Setting TMPDIR to /scratch/11467582. Previous errors about TMPDIR can be discarded
+slurmstepd: info: Setting TMPDIR to /scratch/11467587. Previous errors about TMPDIR can be discarded
 python/3.9.9 loaded
 jupyter-server/1.13.5-python-3.9.9 loaded
 jupyterlab/3.2.4-python-3.9.9 loaded
@@ -17,7 +17,7 @@ CPU family:                      6
 Model:                           106
 Model name:                      Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
 Stepping:                        6
-CPU MHz:                         2800.091
+CPU MHz:                         2799.680
 CPU max MHz:                     3400.0000
 CPU min MHz:                     800.0000
 BogoMIPS:                        4400.00
@@ -74,8 +74,3 @@ INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::   1%|▏         | 1/80 [11:17<14:51:39, 677.21s/it]Percentage of tasks completed::   2%|▎         | 2/80 [12:24<6:54:08, 318.58s/it] Percentage of tasks completed::   4%|▍         | 3/80 [12:26<3:43:24, 174.09s/it]Percentage of tasks completed::   5%|▌         | 4/80 [12:28<2:14:17, 106.02s/it]Percentage of tasks completed::   8%|▊         | 6/80 [12:36<1:04:00, 51.90s/it] Percentage of tasks completed::   9%|▉         | 7/80 [12:48<49:43, 40.87s/it]  Percentage of tasks completed::  10%|█         | 8/80 [13:00<39:23, 32.82s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  11%|█▏        | 9/80 [25:12<4:36:24, 233.58s/it]Percentage of tasks completed::  12%|█▎        | 10/80 [25:24<3:17:09, 169.00s/it]Percentage of tasks completed::  14%|█▍        | 11/80 [30:09<3:53:32, 203.08s/it]Percentage of tasks completed::  15%|█▌        | 12/80 [30:17<2:45:01, 145.61s/it]Percentage of tasks completed::  16%|█▋        | 13/80 [30:33<1:59:23, 106.91s/it]Percentage of tasks completed::  18%|█▊        | 14/80 [31:09<1:34:37, 86.02s/it] Percentage of tasks completed::  19%|█▉        | 15/80 [31:17<1:07:48, 62.60s/it]Percentage of tasks completed::  20%|██        | 16/80 [31:42<54:40, 51.26s/it]  Percentage of tasks completed::  21%|██▏       | 17/80 [31:48<39:44, 37.85s/it]Percentage of tasks completed::  22%|██▎       | 18/80 [32:02<31:49, 30.80s/it]
