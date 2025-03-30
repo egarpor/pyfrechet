@@ -1184,3 +1184,5 @@ INFO: Using numpy backend
  create mode 100644 simulations_SPD/results/SPD_samp9_N500_df5_block_1_results.npy
  create mode 100644 simulations_SPD/results/SPD_samp9_N50_df15_block_1_results.npy
  create mode 100644 simulations_SPD/results/SPD_samp9_N50_df5_block_1_results.npy
+To github.com:egarpor/pyfrechet.git
+   5cc8cd24c..637ac9ea8  main -> main
