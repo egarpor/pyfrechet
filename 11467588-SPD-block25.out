@@ -103,3 +103,55 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  89%|████████▉ | 71/80 [3:45:06<37:12, 248.06s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:46:10<25:43, 192.89s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:50:07<24:01, 205.98s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:50:28<15:04, 150.72s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [4:04:41<30:06, 361.29s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [4:07:03<19:42, 295.54s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [4:11:50<14:38, 292.83s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [4:11:51<06:51, 205.51s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [4:21:52<05:23, 323.98s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [4:23:04<00:00, 248.51s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 263.1min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [4:23:04<00:00, 197.31s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 35dfca7a7] Simulations SPD block 25
+ 38 files changed, 182 insertions(+), 12 deletions(-)
+ create mode 100644 simulations_SPD/results/SPD_samp250_N500_df15_block_25_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp250_N500_df5_block_25_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp269_N500_df15_block_27_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp269_N500_df5_block_27_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp291_N500_df15_block_30_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp292_N500_df15_block_30_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp293_N500_df15_block_30_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp311_N500_df5_block_32_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp340_N100_df5_block_34_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp359_N100_df5_block_36_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp378_N50_df15_block_38_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp415_N200_df15_block_42_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp418_N50_df15_block_42_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp418_N50_df5_block_42_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp425_N200_df5_block_43_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp428_N50_df5_block_43_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp445_N200_df5_block_45_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp451_N200_df15_block_46_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp452_N200_df15_block_46_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp453_N200_df15_block_46_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp454_N200_df15_block_46_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp462_N200_df15_block_47_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp471_N200_df15_block_48_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp487_N100_df15_block_49_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp487_N100_df5_block_49_results.npy
+To github.com:egarpor/pyfrechet.git
+   3a82793b4..35dfca7a7  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11467588)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11467588
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-20:16:35
+CPU Efficiency: 65.72% of 5-20:24:32 core-walltime
+Job Wall-clock time: 04:23:16
+Memory Utilized: 14.44 GB
+Memory Efficiency: 90.25% of 16.00 GB
+
+*****************************************************************************
+
