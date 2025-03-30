@@ -75,3 +75,6 @@ INFO: Using numpy backend
 INFO: Using numpy backend
 INFO: Using numpy backend
 Percentage of tasks completed::   1%|▏         | 1/80 [11:26<15:04:31, 686.98s/it]Percentage of tasks completed::   2%|▎         | 2/80 [11:35<6:14:28, 288.06s/it] Percentage of tasks completed::   4%|▍         | 3/80 [11:45<3:26:20, 160.78s/it]Percentage of tasks completed::   5%|▌         | 4/80 [11:45<2:03:35, 97.58s/it] Percentage of tasks completed::   6%|▋         | 5/80 [11:55<1:22:25, 65.95s/it]Percentage of tasks completed::   8%|▊         | 6/80 [11:56<53:49, 43.65s/it]  Percentage of tasks completed::   9%|▉         | 7/80 [12:04<38:55, 31.99s/it]Percentage of tasks completed::  10%|█         | 8/80 [12:07<27:26, 22.86s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+Percentage of tasks completed::  11%|█▏        | 9/80 [23:56<4:41:02, 237.50s/it]Percentage of tasks completed::  12%|█▎        | 10/80 [24:35<3:25:33, 176.19s/it]
