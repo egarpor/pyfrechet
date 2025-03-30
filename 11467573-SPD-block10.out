@@ -113,3 +113,45 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  88%|████████▊ | 70/80 [3:12:53<43:39, 261.95s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [3:25:04<1:00:25, 402.88s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:26:34<41:11, 308.99s/it]  Percentage of tasks completed::  91%|█████████▏| 73/80 [3:27:58<28:10, 241.52s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:36:27<32:09, 321.56s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:41:52<26:53, 322.72s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:45:24<19:18, 289.57s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:50:26<14:39, 293.28s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:50:42<07:00, 210.06s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:55:18<03:49, 229.79s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:56:34<00:00, 183.74s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 236.6min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:56:34<00:00, 177.43s/it]
+[main c7ea1f545] Simulations SPD block 10
+ 27 files changed, 53 insertions(+), 7 deletions(-)
+ create mode 100644 simulations_SPD/results/SPD_samp108_N500_df15_block_11_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp136_N200_df5_block_14_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp149_N50_df5_block_15_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp173_N100_df5_block_18_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp174_N100_df15_block_18_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp174_N100_df5_block_18_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp201_N50_df15_block_21_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp201_N50_df5_block_21_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp202_N50_df15_block_21_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp202_N50_df5_block_21_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp203_N50_df15_block_21_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp203_N50_df5_block_21_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp204_N50_df15_block_21_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp204_N50_df5_block_21_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp60_N500_df15_block_6_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp99_N500_df15_block_10_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp99_N500_df5_block_10_results.npy
+To github.com:egarpor/pyfrechet.git
+   d9c1c8781..c7ea1f545  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11467573)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11467573
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-02:38:29
+CPU Efficiency: 59.12% of 5-06:15:28 core-walltime
+Job Wall-clock time: 03:56:44
+Memory Utilized: 14.69 GB
+Memory Efficiency: 91.80% of 16.00 GB
+
+*****************************************************************************
+
