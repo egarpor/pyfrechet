@@ -100,3 +100,6 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  69%|██████▉   | 55/80 [2:11:00<2:32:01, 364.86s/it]Percentage of tasks completed::  70%|███████   | 56/80 [2:12:21<1:51:55, 279.83s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  71%|███████▏  | 57/80 [2:18:00<1:54:06, 297.69s/it]Percentage of tasks completed::  72%|███████▎  | 58/80 [2:18:45<1:21:16, 221.66s/it][Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 138.8min remaining: 52.6min
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  74%|███████▍  | 59/80 [2:36:42<2:47:25, 478.37s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:39:41<2:09:29, 388.48s/it]
