@@ -112,3 +112,31 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  61%|██████▏   | 49/80 [1:53:02<2:00:54, 234.01s/it]Percentage of tasks completed::  62%|██████▎   | 50/80 [1:54:08<1:31:49, 183.65s/it]Percentage of tasks completed::  64%|██████▍   | 51/80 [1:54:36<1:06:06, 136.77s/it]Percentage of tasks completed::  65%|██████▌   | 52/80 [1:56:22<59:30, 127.52s/it]  Percentage of tasks completed::  66%|██████▋   | 53/80 [2:00:53<1:16:47, 170.65s/it]Percentage of tasks completed::  68%|██████▊   | 54/80 [2:01:24<55:50, 128.85s/it]  Percentage of tasks completed::  69%|██████▉   | 55/80 [2:18:02<2:42:19, 389.59s/it]Percentage of tasks completed::  70%|███████   | 56/80 [2:19:44<2:01:15, 303.15s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [2:25:55<2:04:04, 323.69s/it]Percentage of tasks completed::  72%|███████▎  | 58/80 [2:26:42<1:28:13, 240.64s/it][Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 146.7min remaining: 55.6min
 Percentage of tasks completed::  74%|███████▍  | 59/80 [2:45:20<2:56:17, 503.71s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:47:03<2:07:53, 383.67s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [3:25:39<5:04:59, 963.16s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [3:26:49<3:28:33, 695.19s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [3:27:10<2:19:42, 493.10s/it]Percentage of tasks completed::  80%|████████  | 64/80 [3:27:44<1:34:46, 355.41s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [3:28:08<1:03:59, 255.97s/it]Percentage of tasks completed::  82%|████████▎ | 66/80 [3:28:26<43:02, 184.44s/it]  Percentage of tasks completed::  84%|████████▍ | 67/80 [3:28:57<29:58, 138.33s/it]Percentage of tasks completed::  85%|████████▌ | 68/80 [3:29:37<21:48, 109.04s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [3:35:02<31:49, 173.63s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [3:35:02<20:18, 121.81s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [3:42:29<32:52, 219.15s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:42:55<21:30, 161.28s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:49:07<26:11, 224.46s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:50:19<17:52, 178.78s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [4:03:11<29:43, 356.78s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [4:05:39<19:36, 294.07s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [4:10:19<14:29, 289.95s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [4:11:33<07:30, 225.18s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [4:20:46<05:23, 323.36s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [4:25:20<00:00, 308.60s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 265.3min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [4:25:20<00:00, 199.01s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main df9076864] Simulations SPD block 39
+ 3 files changed, 33 insertions(+), 1 deletion(-)
+ create mode 100644 simulations_SPD/results/SPD_samp390_N500_df5_block_39_results.npy
+To github.com:egarpor/pyfrechet.git
+   733427dc8..df9076864  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11467602)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11467602
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-19:50:39
+CPU Efficiency: 64.85% of 5-21:37:04 core-walltime
+Job Wall-clock time: 04:25:32
+Memory Utilized: 14.63 GB
+Memory Efficiency: 91.45% of 16.00 GB
+
+*****************************************************************************
+
