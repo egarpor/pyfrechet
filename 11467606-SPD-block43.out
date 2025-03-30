@@ -82,4 +82,4 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  24%|██▍       | 19/80 [39:45<3:15:30, 192.30s/it]Percentage of tasks completed::  25%|██▌       | 20/80 [41:16<2:41:50, 161.85s/it]Percentage of tasks completed::  26%|██▋       | 21/80 [41:26<1:54:13, 116.16s/it]Percentage of tasks completed::  28%|██▊       | 22/80 [41:26<1:18:39, 81.37s/it] /home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
   return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  29%|██▉       | 23/80 [53:06<4:13:31, 266.86s/it]
+Percentage of tasks completed::  29%|██▉       | 23/80 [53:06<4:13:31, 266.86s/it]Percentage of tasks completed::  30%|███       | 24/80 [53:41<3:04:20, 197.51s/it]Percentage of tasks completed::  31%|███▏      | 25/80 [58:32<3:26:43, 225.53s/it]Percentage of tasks completed::  32%|███▎      | 26/80 [59:48<2:42:23, 180.43s/it]
