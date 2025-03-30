@@ -122,3 +122,26 @@ See "git help gc" for manual housekeeping.
  5 files changed, 33 insertions(+), 2 deletions(-)
  create mode 100644 simulations_SPD/results/SPD_samp460_N500_df15_block_46_results.npy
  create mode 100644 simulations_SPD/results/SPD_samp480_N500_df5_block_48_results.npy
+To github.com:egarpor/pyfrechet.git
+   df9076864..b321f9d33  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11467611)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11467611
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-17:13:33
+CPU Efficiency: 65.13% of 5-17:00:16 core-walltime
+Job Wall-clock time: 04:16:53
+Memory Utilized: 14.24 GB
+Memory Efficiency: 89.00% of 16.00 GB
+
+*****************************************************************************
+
