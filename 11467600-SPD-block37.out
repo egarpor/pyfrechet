@@ -96,3 +96,34 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  54%|█████▍    | 43/80 [1:29:47<1:42:18, 165.92s/it]Percentage of tasks completed::  55%|█████▌    | 44/80 [1:30:16<1:14:46, 124.64s/it]Percentage of tasks completed::  56%|█████▋    | 45/80 [1:30:30<53:26, 91.63s/it]   Percentage of tasks completed::  57%|█████▊    | 46/80 [1:32:28<56:23, 99.50s/it]Percentage of tasks completed::  59%|█████▉    | 47/80 [1:35:40<1:09:58, 127.24s/it]Percentage of tasks completed::  60%|██████    | 48/80 [1:36:56<59:43, 112.00s/it]  Percentage of tasks completed::  61%|██████▏   | 49/80 [1:45:31<2:00:11, 232.64s/it]Percentage of tasks completed::  62%|██████▎   | 50/80 [1:46:23<1:29:13, 178.44s/it]Percentage of tasks completed::  64%|██████▍   | 51/80 [1:47:12<1:07:36, 139.89s/it]Percentage of tasks completed::  65%|██████▌   | 52/80 [1:48:04<52:57, 113.49s/it]  Percentage of tasks completed::  66%|██████▋   | 53/80 [1:50:54<58:40, 130.40s/it]Percentage of tasks completed::  68%|██████▊   | 54/80 [1:53:36<1:00:33, 139.76s/it]Percentage of tasks completed::  69%|██████▉   | 55/80 [2:08:34<2:32:59, 367.17s/it]Percentage of tasks completed::  70%|███████   | 56/80 [2:09:23<1:48:43, 271.83s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [2:14:58<1:51:28, 290.80s/it]Percentage of tasks completed::  72%|███████▎  | 58/80 [2:16:31<1:24:52, 231.48s/it][Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 136.5min remaining: 51.8min
 Percentage of tasks completed::  74%|███████▍  | 59/80 [2:35:47<2:58:07, 508.94s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:37:16<2:07:39, 382.97s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [3:18:42<5:21:03, 1013.87s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [3:19:10<3:35:25, 718.07s/it] Percentage of tasks completed::  79%|███████▉  | 63/80 [3:19:36<2:24:34, 510.24s/it]Percentage of tasks completed::  80%|████████  | 64/80 [3:19:39<1:35:30, 358.15s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [3:19:54<1:03:48, 255.22s/it]Percentage of tasks completed::  82%|████████▎ | 66/80 [3:19:59<42:02, 180.15s/it]  Percentage of tasks completed::  84%|████████▍ | 67/80 [3:20:55<30:58, 142.94s/it]Percentage of tasks completed::  85%|████████▌ | 68/80 [3:21:19<21:27, 107.25s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [3:25:31<27:37, 150.66s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [3:27:27<23:22, 140.26s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [3:34:25<33:31, 223.50s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:34:51<21:54, 164.32s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:41:38<27:40, 237.23s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:42:12<17:36, 176.13s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:53:58<27:55, 335.02s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:56:17<18:25, 276.45s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [4:01:03<13:57, 279.32s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [4:04:12<08:24, 252.11s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [4:11:36<05:09, 309.65s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [4:12:33<00:00, 233.91s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 252.6min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [4:12:33<00:00, 189.42s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main f08192e1f] Simulations SPD block 37
+ 8 files changed, 53 insertions(+), 3 deletions(-)
+ create mode 100644 simulations_SPD/results/SPD_samp370_N500_df5_block_37_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp409_N500_df15_block_41_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp493_N500_df5_block_50_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp494_N500_df5_block_50_results.npy
+To github.com:egarpor/pyfrechet.git
+   185aaedb5..f08192e1f  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11467600)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11467600
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-16:25:18
+CPU Efficiency: 65.60% of 5-14:47:28 core-walltime
+Job Wall-clock time: 04:12:44
+Memory Utilized: 14.56 GB
+Memory Efficiency: 91.03% of 16.00 GB
+
+*****************************************************************************
+
