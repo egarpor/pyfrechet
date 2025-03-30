@@ -90,3 +90,17 @@ INFO: Using numpy backend
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  51%|█████▏    | 41/80 [1:24:37<1:55:25, 177.57s/it]Percentage of tasks completed::  52%|█████▎    | 42/80 [1:25:09<1:24:43, 133.77s/it]Percentage of tasks completed::  54%|█████▍    | 43/80 [1:28:37<1:36:10, 155.97s/it]Percentage of tasks completed::  55%|█████▌    | 44/80 [1:29:22<1:13:39, 122.75s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  56%|█████▋    | 45/80 [1:31:22<1:11:01, 121.77s/it]Percentage of tasks completed::  57%|█████▊    | 46/80 [1:32:09<56:23, 99.51s/it]   WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  59%|█████▉    | 47/80 [1:35:16<1:09:05, 125.63s/it]Percentage of tasks completed::  60%|██████    | 48/80 [1:36:43<1:00:56, 114.27s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  61%|██████▏   | 49/80 [1:43:16<1:42:13, 197.84s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  62%|██████▎   | 50/80 [1:46:15<1:35:59, 191.98s/it]Percentage of tasks completed::  64%|██████▍   | 51/80 [1:46:34<1:07:44, 140.16s/it]Percentage of tasks completed::  65%|██████▌   | 52/80 [1:48:04<58:22, 125.08s/it]  WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate

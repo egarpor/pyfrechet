@@ -85,4 +85,10 @@ INFO: Using numpy backend
 Percentage of tasks completed::  61%|██████▏   | 49/80 [1:45:08<2:00:09, 232.55s/it]Percentage of tasks completed::  62%|██████▎   | 50/80 [1:45:43<1:26:35, 173.17s/it]Percentage of tasks completed::  64%|██████▍   | 51/80 [1:46:06<1:01:55, 128.13s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  66%|██████▋   | 53/80 [1:53:14<1:15:34, 167.94s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  68%|██████▊   | 54/80 [1:56:29<1:15:38, 174.56s/it]Percentage of tasks completed::  69%|██████▉   | 55/80 [2:10:55<2:28:05, 355.41s/it]
+Percentage of tasks completed::  68%|██████▊   | 54/80 [1:56:29<1:15:38, 174.56s/it]Percentage of tasks completed::  69%|██████▉   | 55/80 [2:10:55<2:28:05, 355.41s/it]Percentage of tasks completed::  70%|███████   | 56/80 [2:12:24<1:53:06, 282.78s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [2:14:16<1:30:09, 235.19s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  72%|███████▎  | 58/80 [2:17:24<1:21:14, 221.59s/it][Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 137.4min remaining: 52.1min
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
