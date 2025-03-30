@@ -77,3 +77,13 @@ INFO: Using numpy backend
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::   1%|▏         | 1/80 [10:35<13:56:20, 635.20s/it]Percentage of tasks completed::   2%|▎         | 2/80 [11:37<6:27:54, 298.40s/it] Percentage of tasks completed::   4%|▍         | 3/80 [11:40<3:29:49, 163.51s/it]Percentage of tasks completed::   5%|▌         | 4/80 [11:49<2:09:44, 102.43s/it]Percentage of tasks completed::   6%|▋         | 5/80 [12:04<1:28:23, 70.71s/it] Percentage of tasks completed::   8%|▊         | 6/80 [12:04<57:39, 46.76s/it]  Percentage of tasks completed::   9%|▉         | 7/80 [12:06<39:16, 32.28s/it]Percentage of tasks completed::  10%|█         | 8/80 [12:12<28:25, 23.69s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
