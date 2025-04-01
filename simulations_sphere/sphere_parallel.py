@@ -8,7 +8,6 @@ from joblib import Parallel, delayed
 from pyfrechet.metric_spaces import MetricData, Sphere
 from pyfrechet.regression.bagged_regressor import BaggedRegressor
 from pyfrechet.regression.trees import Tree
-from sklearn.preprocessing import MinMaxScaler
 from pyfrechet.metrics import mse
 from sklearn.metrics import make_scorer
 from sklearn.model_selection import GridSearchCV
@@ -170,13 +169,96 @@ def task(file) -> None:
     pb_new_pred = forest.predict(theta.reshape(-1,1))
     pb_iv_cov = np.sum(M.d(MetricData(M, new_y), pb_new_pred) <= np.tile(oob_quantile, (MC, 1)), axis = 0) / MC
 
+############################################################################################################
+    # Error inside and outside interquartile range
+
+    # Initialize dictionaries with empty lists
+    extreme_diccionario_5 = {
+        'kappa_50': {'50': [], '100': [], '200': [], '500': []},
+        'kappa_200': {'50': [], '100': [], '200': [], '500': []}
+    }
+    extreme_diccionario_15 = {
+        'kappa_50': {'50': [], '100': [], '200': [], '500': []},
+        'kappa_200': {'50': [], '100': [], '200': [], '500': []}
+    }
+    extreme_diccionario_25 = {
+        'kappa_50': {'50': [], '100': [], '200': [], '500': []},
+        'kappa_200': {'50': [], '100': [], '200': [], '500': []}
+    }
+    middle_diccionario_5 = {
+        'kappa_50': {'50': [], '100': [], '200': [], '500': []},
+        'kappa_200': {'50': [], '100': [], '200': [], '500': []}
+    }
+    middle_diccionario_15 = {
+        'kappa_50': {'50': [], '100': [], '200': [], '500': []},
+        'kappa_200': {'50': [], '100': [], '200': [], '500': []}
+    }
+    middle_diccionario_25 = {
+        'kappa_50': {'50': [], '100': [], '200': [], '500': []},
+        'kappa_200': {'50': [], '100': [], '200': [], '500': []}
+    }
+
+    # Extract N
+    N = int(file.split('_')[2][1:])  # Extract integer value of N
+    # Convert to dictionary key format
+    kappa_key = f'kappa_{kappa}'
+    N_key = str(N)
+
+    theta_array = np.linspace(-np.pi, np.pi, 1000)
+    sphere_values = m_0(theta_array, mu)
+
+    theta_q_5 = vonmises_line.ppf(0.05, loc=0, kappa=1)
+    theta_q_15 = vonmises_line.ppf(0.15, loc=0, kappa=1)
+    theta_q_25 = vonmises_line.ppf(0.25, loc=0, kappa=1)
+    theta_q_75 = vonmises_line.ppf(0.75, loc=0, kappa=1)
+    theta_q_85 = vonmises_line.ppf(0.85, loc=0, kappa=1)
+    theta_q_95 = vonmises_line.ppf(0.95, loc=0, kappa=1)
+
+    assert(np.allclose(theta_q_5, -theta_q_95))
+    assert(np.allclose(theta_q_15, -theta_q_85))
+    assert(np.allclose(theta_q_25, -theta_q_75))
+
+    # select the values of forest_oob_errors_sorted that correspond to the predictors on the left of the 0.1 quantile
+    extreme_theta_quantile_5 = np.logical_or(theta_array < theta_q_5, theta_array > theta_q_95)
+    extreme_theta_quantile_15 = np.logical_or(theta_array < theta_q_15, theta_array > theta_q_85)
+    extreme_theta_quantile_25 = np.logical_or(theta_array < theta_q_25, theta_array > theta_q_75)
+
+    # select the values of forest_oob_errors_sorted that correspond to the predictors between the 0.1 and the 0.9 quantile
+    middle_theta_quantile_5 = np.logical_and(theta_array > theta_q_5, theta_array < theta_q_95)
+    middle_theta_quantile_15 = np.logical_and(theta_array > theta_q_15, theta_array < theta_q_85)
+    middle_theta_quantile_25 = np.logical_and(theta_array > theta_q_25, theta_array < theta_q_75)
+
+    errors = M.d(MetricData(M, sphere_values), forest.predict(theta_array.reshape(-1, 1)))
+
+    forest_errors_extreme_5 = errors[extreme_theta_quantile_5].mean()
+    forest_errors_extreme_15 = errors[extreme_theta_quantile_15].mean()
+    forest_errors_extreme_25 = errors[extreme_theta_quantile_25].mean()
+
+    forest_errors_middle_5 = errors[middle_theta_quantile_5].mean()
+    forest_errors_middle_15 = errors[middle_theta_quantile_15].mean()
+    forest_errors_middle_25 = errors[middle_theta_quantile_25].mean()
+
+    middle_diccionario_5[kappa_key][N_key].append(forest_errors_middle_5)
+    middle_diccionario_15[kappa_key][N_key].append(forest_errors_middle_15)
+    middle_diccionario_25[kappa_key][N_key].append(forest_errors_middle_25)
+
+    extreme_diccionario_5[kappa_key][N_key].append(forest_errors_extreme_5)
+    extreme_diccionario_15[kappa_key][N_key].append(forest_errors_extreme_15)
+    extreme_diccionario_25[kappa_key][N_key].append(forest_errors_extreme_25)
+
     # Store results
     results = {
         'i_cov': pb_i_cov,
         'ii_cov': pb_ii_cov,
         'iii_cov': pb_iii_cov,
         'iv_cov': pb_iv_cov,
-        'OOB_quantile': oob_quantile
+        'OOB_quantile': oob_quantile,
+        'extreme_5': extreme_diccionario_5,
+        'extreme_15': extreme_diccionario_15,
+        'extreme_25': extreme_diccionario_25,
+        'middle_5': middle_diccionario_5,
+        'middle_15': middle_diccionario_15,
+        'middle_25': middle_diccionario_25
         }
 
     results_filename = os.path.join(os.getcwd(), 'simulations_sphere', 'results', f'{file[:-4]}' + '_results.npy')
