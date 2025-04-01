@@ -113,3 +113,37 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/simulations_sphere/results/sphere_samp11_N50_kappa50_block_1_results.npy'
 /home/usc/ei/ega/.local/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 58 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main d2a75301a] Simulations Sphere block 1
+ 2 files changed, 148 insertions(+)
+ create mode 100644 11518841-sphere-block1.out
+To github.com:egarpor/pyfrechet.git
+   34b5fb3a6..d2a75301a  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11518841)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11518841
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 00:52:01
+CPU Efficiency: 73.89% of 01:10:24 core-walltime
+Job Wall-clock time: 00:02:12
+Memory Utilized: 3.73 GB
+Memory Efficiency: 23.33% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
