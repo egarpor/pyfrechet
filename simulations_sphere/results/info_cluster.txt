@@ -1,0 +1,11 @@
+sbatch --time=0:10:00 --cpus-per-task=3 --mem-per-cpu=1GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=1 --output="/simulations_sphere/out/slurm-H2-block1-jobid-%j.out" job_H2.sh
+sbatch --time=0:10:00 --cpus-per-task=3 --mem-per-cpu=1GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=1 --output="/simulations_sphere/out/slurm-sphere-block1-jobid-%j.out" job_sphere.sh
+sbatch --time=0:10:00 --cpus-per-task=3 --mem-per-cpu=1GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=1 --output="/simulations_sphere/out/slurm-H2-block1-jobid-%j.out" job_H2.sh
+sbatch --time=0:10:00 --cpus-per-task=3 --mem-per-cpu=1GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=1 --output="/simulations_sphere/out/slurm-sphere-block1-jobid-%j.out" job_sphere.sh
+
+for b in {1..20}
+do
+  sbatch --time=02:00:00 --cpus-per-task=32 --mem-per-cpu=8GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=$b --output="slurm-sphere-block$b-jobid-%j.out" job_sphere.sh
+done
+
+SPHERE: 10 cores, 1 block (200 tasks), 1 hour. ¿Memory?
