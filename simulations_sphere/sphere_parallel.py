@@ -172,38 +172,6 @@ def task(file) -> None:
 ############################################################################################################
     # Error inside and outside interquartile range
 
-    # Initialize dictionaries with empty lists
-    extreme_diccionario_5 = {
-        'kappa_50': {'50': [], '100': [], '200': [], '500': []},
-        'kappa_200': {'50': [], '100': [], '200': [], '500': []}
-    }
-    extreme_diccionario_15 = {
-        'kappa_50': {'50': [], '100': [], '200': [], '500': []},
-        'kappa_200': {'50': [], '100': [], '200': [], '500': []}
-    }
-    extreme_diccionario_25 = {
-        'kappa_50': {'50': [], '100': [], '200': [], '500': []},
-        'kappa_200': {'50': [], '100': [], '200': [], '500': []}
-    }
-    middle_diccionario_5 = {
-        'kappa_50': {'50': [], '100': [], '200': [], '500': []},
-        'kappa_200': {'50': [], '100': [], '200': [], '500': []}
-    }
-    middle_diccionario_15 = {
-        'kappa_50': {'50': [], '100': [], '200': [], '500': []},
-        'kappa_200': {'50': [], '100': [], '200': [], '500': []}
-    }
-    middle_diccionario_25 = {
-        'kappa_50': {'50': [], '100': [], '200': [], '500': []},
-        'kappa_200': {'50': [], '100': [], '200': [], '500': []}
-    }
-
-    # Extract N
-    N = int(file.split('_')[2][1:])  # Extract integer value of N
-    # Convert to dictionary key format
-    kappa_key = f'kappa_{kappa}'
-    N_key = str(N)
-
     theta_array = np.linspace(-np.pi, np.pi, 1000)
     sphere_values = m_0(theta_array, mu)
 
@@ -238,14 +206,6 @@ def task(file) -> None:
     forest_errors_middle_15 = errors[middle_theta_quantile_15].mean()
     forest_errors_middle_25 = errors[middle_theta_quantile_25].mean()
 
-    middle_diccionario_5[kappa_key][N_key].append(forest_errors_middle_5)
-    middle_diccionario_15[kappa_key][N_key].append(forest_errors_middle_15)
-    middle_diccionario_25[kappa_key][N_key].append(forest_errors_middle_25)
-
-    extreme_diccionario_5[kappa_key][N_key].append(forest_errors_extreme_5)
-    extreme_diccionario_15[kappa_key][N_key].append(forest_errors_extreme_15)
-    extreme_diccionario_25[kappa_key][N_key].append(forest_errors_extreme_25)
-
     # Store results
     results = {
         'i_cov': pb_i_cov,
@@ -253,12 +213,12 @@ def task(file) -> None:
         'iii_cov': pb_iii_cov,
         'iv_cov': pb_iv_cov,
         'OOB_quantile': oob_quantile,
-        'extreme_5': extreme_diccionario_5,
-        'extreme_15': extreme_diccionario_15,
-        'extreme_25': extreme_diccionario_25,
-        'middle_5': middle_diccionario_5,
-        'middle_15': middle_diccionario_15,
-        'middle_25': middle_diccionario_25
+        'extreme_5': forest_errors_extreme_5,
+        'extreme_15': forest_errors_extreme_15,
+        'extreme_25': forest_errors_extreme_25,
+        'middle_5': forest_errors_middle_5,
+        'middle_15': forest_errors_middle_15,
+        'middle_25': forest_errors_middle_25
         }
 
     results_filename = os.path.join(os.getcwd(), 'simulations_sphere', 'results', f'{file[:-4]}' + '_results.npy')
