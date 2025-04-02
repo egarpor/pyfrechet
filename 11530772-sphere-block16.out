@@ -108,4 +108,41 @@ INFO: Using numpy backend
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  83%|████████▎ | 166/200 [55:20<11:19, 19.98s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
   return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  84%|████████▍ | 168/200 [55:56<10:12, 19.14s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [56:17<10:07, 19.59s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [56:23<07:57, 15.91s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [57:15<12:30, 25.87s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [57:35<11:14, 24.10s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [57:48<09:24, 20.92s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [58:13<09:34, 22.10s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [58:27<08:13, 19.75s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [58:40<07:08, 17.86s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [59:06<07:45, 20.24s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [59:19<06:34, 17.93s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [59:24<04:56, 14.12s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:00:47<11:35, 34.79s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:00:56<08:34, 27.06s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:01:10<06:56, 23.14s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:01:14<04:54, 17.33s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:02:33<09:31, 35.72s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:02:54<07:51, 31.42s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:03:22<07:04, 30.34s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:03:27<04:56, 22.79s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:04:14<06:01, 30.16s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:04:39<05:13, 28.49s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:05:42<06:27, 38.79s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:06:37<06:34, 43.81s/it]
+Percentage of tasks completed::  84%|████████▍ | 168/200 [55:56<10:12, 19.14s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [56:17<10:07, 19.59s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [56:23<07:57, 15.91s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [57:15<12:30, 25.87s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [57:35<11:14, 24.10s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [57:48<09:24, 20.92s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [58:13<09:34, 22.10s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [58:27<08:13, 19.75s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [58:40<07:08, 17.86s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [59:06<07:45, 20.24s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [59:19<06:34, 17.93s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [59:24<04:56, 14.12s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:00:47<11:35, 34.79s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:00:56<08:34, 27.06s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:01:10<06:56, 23.14s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:01:14<04:54, 17.33s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:02:33<09:31, 35.72s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:02:54<07:51, 31.42s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:03:22<07:04, 30.34s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:03:27<04:56, 22.79s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:04:14<06:01, 30.16s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:04:39<05:13, 28.49s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:05:42<06:27, 38.79s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:06:37<06:34, 43.81s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:07:48<06:54, 51.84s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:08:11<05:02, 43.24s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:09:06<04:41, 46.90s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:09:48<03:46, 45.24s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:10:46<03:16, 49.13s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:11:18<02:11, 43.87s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:12:19<01:38, 49.26s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:12:44<00:41, 41.85s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:13:40<00:00, 46.04s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 73.7min finished
+Percentage of tasks completed:: 100%|██████████| 200/200 [1:13:40<00:00, 22.10s/it]
+fatal: Unable to create '/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/mnt/netapp2/Store_uni/home/usc/ei/ega/diego/pyfrechet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Everything up-to-date
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 11530772)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 11530772
+Cluster: finisterrae3
+User/Group: usceiega/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-06:55:02
+CPU Efficiency: 78.32% of 1-15:28:32 core-walltime
+Job Wall-clock time: 01:14:01
+Memory Utilized: 13.88 GB
+Memory Efficiency: 86.78% of 16.00 GB
+
+*****************************************************************************
+
