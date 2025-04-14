@@ -16,6 +16,7 @@ class BaggedRegressor(WeightingRegressor):
                  n_estimators: int=100,
                  bootstrap_fraction: float=0.75,
                  bootstrap_replace: bool=False,
+                 seed: Optional[int]=None,
                  n_jobs: Optional[int]=-2,
                  verbose: int=0):
         """
@@ -30,38 +31,89 @@ class BaggedRegressor(WeightingRegressor):
         self.estimators: list[tuple[np.ndarray, WeightingRegressor]] = []
         self.bootstrap_fraction = bootstrap_fraction
         self.bootstrap_replace = bootstrap_replace
+        self.seed = seed
         self.n_jobs = n_jobs
-        self.verbose=verbose
+        self.verbose = verbose
 
-    def _make_mask(self, N: int) -> np.ndarray:
+
+    #def _l2_d(self, rows, row1, structure):
+    #    """
+    #    Computes the L2 distances between one row (row1) and multiple rows (rows)
+    #    based on the given metric spaces.
+#
+    #    Parameters:
+    #        row1: 1D numpy array, vector in the product metric space (the base row)
+    #        rows: 2D numpy array of shape (n_rows, n_cols), rows to compute distances against row1
+    #        structure: The structure object containing the metric spaces and corresponding columns
+#
+    #    Returns:
+    #        numpy array: An array of L2 distances between row1 and each row in rows
+    #    """
+    #    # Initialize an array to store distances
+    #    distances = np.zeros(rows.shape[0])
+#
+    #    # Iterate over each row in rows
+    #    for i, row2 in enumerate(rows):
+    #        total_distance_squared = 0
+#
+    #        # Iterate through the structure (metric spaces)
+    #        for M, columns in structure:
+    #            # Extract the corresponding columns from both rows
+    #            values1 = row1[columns]
+    #            values2 = row2[columns]
+#
+    #            # Compute the distance for this metric space
+    #            distance = M.d(values1, values2)
+#
+    #            # Add the squared distance to the total
+    #            total_distance_squared += distance ** 2
+#
+    #        # Compute the L2 distance and store it in the distances array
+    #        distances[i] = np.sqrt(total_distance_squared)
+#
+    #    return distances
+
+    def _make_mask(self, N: int, seed) -> np.ndarray:
         """
         Method for randomly select the training subsample of each base learner.
 
         By default it takes bootstrap samples without replacement of size bootstrap_fraction * N.
         If bootstrap_fraction=1 and bootstrap_replace=True, the usual bootstrap approach is performed.
         """
-        s = int(self.bootstrap_fraction * N)
-        return np.random.choice(N, size=s, replace=True) if self.bootstrap_replace \
-            else np.random.choice(N, size=s, replace=False)
+        rng = np.random.default_rng(seed)  # Create RNG once
 
-    def _fit_est(self, X, y: MetricData) -> tuple[np.ndarray, object]:
+        s = int(self.bootstrap_fraction * N)
+        return rng.choice(N, size=s, replace=True) if self.bootstrap_replace \
+            else rng.choice(N, size=s, replace=False)
+
+    def _fit_est(self, X, y: MetricData, est_idx: int) -> tuple[np.ndarray, object]:
         """Method to train a single base estimator of the ensemble.
         
         It returns a tuple with the mask that identifies the subsample employed and the 
         fitted estimator."""
-        mask = self._make_mask(X.shape[0])
+        est_seed = None
+        if self.seed is not None:
+            est_seed = self.seed * self.n_estimators + est_idx
+        
+        mask = self._make_mask(X.shape[0], seed=est_seed)
+        print(mask)
+
+        # Clone the estimator, set the seed if supported
+        estimator = sklearn.clone(self._estimator)
+        if hasattr(estimator, 'seed'):
+            estimator.seed = est_seed
         # Clone does a deep copy of the model in an estimator without actually copying attached data
         # It yields a new estimator with the same parameters that has not been fit on any data
-        return (mask, sklearn.clone(self._estimator).fit(X[mask, :], y[mask]))
+        return (mask, estimator.fit(X[mask, :], y[mask]))
 
     def _fit_par(self, X, y: MetricData):
         """
         Method to train all the estimators in the ensemble using parallel computing.
         """
         super().fit(X, y)
-        def calc(): return self._fit_est(X, y)
-        self.estimators = Parallel(n_jobs=self.n_jobs, verbose=self.verbose)(delayed(calc)() 
-                                                                                      for _ in range(self.n_estimators)) or []
+        def calc(i): return self._fit_est(X, y, est_idx=i)
+        self.estimators = Parallel(n_jobs=self.n_jobs, verbose=self.verbose)(delayed(calc)(i) 
+                                                                                      for i in range(self.n_estimators)) or []
         return self
 
     def _fit_seq(self, X, y: MetricData):
@@ -70,9 +122,9 @@ class BaggedRegressor(WeightingRegressor):
         """
         super().fit(X, y)
         if self.verbose==0:
-            self.estimators = [ self._fit_est(X, y) for _ in range(self.n_estimators)]
+            self.estimators = [self._fit_est(X, y, i) for i in range(self.n_estimators)]
         else:
-            self.estimators = [ self._fit_est(X, y) for _ in tqdm(range(self.n_estimators))]
+            self.estimators = [self._fit_est(X, y, i) for i in tqdm(range(self.n_estimators))]
         return self
 
     # WeightingRegressor has 2 abstract methods: fit() and weights_for()
@@ -89,10 +141,15 @@ class BaggedRegressor(WeightingRegressor):
         count = 0
         assert len(self.estimators) > 0, "At least one estimator is needed to compute weights"
         # Index of the observation x in the training data
+        # if self.estimator.metric_predictors:
+        #         x_idx = np.argwhere((self._l2_d(self.X_train_, x, self.estimator.structure) \
+        #             <= 1e-10*max(self._l2_d(self.X_train_, np.zeros(x.shape[0]), self.estimator.structure))).flatten()).flatten()
+        #else:
         if self.X_train_.shape[1] == 1:
             x_idx = np.argwhere(np.isclose(self.X_train_, x, rtol=1e-10).flatten()).flatten()
         else:
             x_idx = np.argwhere(np.all(np.isclose(self.X_train_, x, rtol=1e-10), axis=1)).flatten()
+
         if len(x_idx) == 0:
             x_idx = None
             warnings.warn('Observation not found in training data, working with the full training set')
