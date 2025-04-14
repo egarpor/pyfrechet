@@ -102,13 +102,3 @@ def devectorize(vector):
         return np.vstack((vector[:,0], vector[:,2], vector[:,2], vector[:,1])).T.reshape(-1, 2, 2)
     else:
         raise ValueError("Check the dimensions of the input.")
-
-    
-
-# def main():
-#     D=np.array([[0,1],[2,3]])
-#     print(mat_sel_idx(D, [0,1]))
-
-# if __name__=='__main__':
-#     main()
-

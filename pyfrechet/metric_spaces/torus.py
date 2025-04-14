@@ -8,6 +8,8 @@ from .sphere import Sphere
 class Torus(MetricSpace):
     def __init__(self, dim):
         self.dim=dim
+        self.extrinsic_dim = dim + 1
+
         # self.manifold=ProductManifold(manifolds=[Hypersphere(dim=1, default_coords_type='intrinsic') for _ in range(self.dim)],
         #                             default_point_type='vector')
         # self.manifold=Landmarks(ambient_manifold=Hypersphere(dim=1, default_coords_type='intrinsic'),

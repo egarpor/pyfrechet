@@ -4,6 +4,7 @@ from .metric_space import MetricSpace
 class Euclidean(MetricSpace):
     def __init__(self, dim):
         self.dim = dim
+        self.extrinsic_dim = dim
     
     def _d(self, x, y):
         return np.linalg.norm(x - y)
