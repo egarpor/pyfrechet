@@ -34,6 +34,7 @@ class AnisotropicSphere(MetricSpace):
 
 
     def _frechet_mean(self, y, w=None):
+        # Important: it is better to use medoids here!
         extrinsic_mean = w.dot(y)
         return extrinsic_mean / np.linalg.norm(extrinsic_mean)
 
