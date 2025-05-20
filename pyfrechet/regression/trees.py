@@ -82,6 +82,7 @@ def _greedy_propose_splits(X_j):
 
 
 class Tree(WeightingRegressor):
+    "Assuming that the predictors are Euclidean (one-dimensional) variables"
     def __init__(self, 
                  split_type: Literal['greedy', '2means']='greedy',
                  impurity_method: Literal['cart', 'medoid']='cart',
