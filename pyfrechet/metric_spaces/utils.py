@@ -1,6 +1,24 @@
 from joblib import Parallel, delayed
 import numpy as np
 
+
+def sq_D_mat(M, y) -> np.ndarray:
+    """
+    Compute the matrix of squared-distances between the components of y (elements
+    of a metric space M).
+    
+    Hence, in practice: 
+    y is the .data attribute of a MetricData object.
+    M is the .M attribute of a MetricData object (an object of class .MetricSpace)
+    """
+    N = y.shape[0] # Number of elements in y to compute pair-wise distances
+    D = np.zeros((N,N)) # Initialize the matrix of distances
+    # Since D is going to be symmetric, we compute the upper triangular part
+    for i in range(N):
+        for j in range(i+1,N):
+            D[i, j] = M.d(M.index(y, i), M.index(y, j))
+    return D + D.T
+
 def D_mat(M, y) -> np.ndarray:
     """
     Compute the matrix of squared-distances between the components of y (elements
@@ -74,7 +92,7 @@ def mat_sel(D: np.ndarray, mask) -> np.ndarray:
 
 def coalesce_weights(w: np.ndarray, shaped) -> np.ndarray:
     """
-    If weights are given, the funtion returns them. Otherwise,
+    If weights are given, the function returns them. Otherwise,
     it create uniform weights (1/N,...,1/N).
 
     This function is going to be used to initialize weights when instantiate
@@ -102,3 +120,10 @@ def devectorize(vector):
         return np.vstack((vector[:,0], vector[:,2], vector[:,2], vector[:,1])).T.reshape(-1, 2, 2)
     else:
         raise ValueError("Check the dimensions of the input.")
+    
+def remove_row_col(array, i):
+    # Create boolean mask
+    mask = np.ones(array.shape[0], dtype=bool)
+    mask[i] = False
+    # Use mask to remove both row and column
+    return array[mask][:, mask]
