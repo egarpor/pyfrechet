@@ -1,9 +1,9 @@
 from joblib import Parallel, delayed
 from tqdm import tqdm
-from typing import Optional, Union
+from typing import Optional
 import sklearn
 
-from pyfrechet.metric_spaces import MetricData
+from pyfrechet.metric_spaces import MetricData, RiemannianManifold
 from pyfrechet.metric_spaces.utils import *
 from .weighting_regressor import WeightingRegressor
 from sklearn.utils.validation import check_array, check_is_fitted
@@ -35,44 +35,6 @@ class BaggedRegressor(WeightingRegressor):
         self.n_jobs = n_jobs
         self.verbose = verbose
 
-
-    #def _l2_d(self, rows, row1, structure):
-    #    """
-    #    Computes the L2 distances between one row (row1) and multiple rows (rows)
-    #    based on the given metric spaces.
-#
-    #    Parameters:
-    #        row1: 1D numpy array, vector in the product metric space (the base row)
-    #        rows: 2D numpy array of shape (n_rows, n_cols), rows to compute distances against row1
-    #        structure: The structure object containing the metric spaces and corresponding columns
-#
-    #    Returns:
-    #        numpy array: An array of L2 distances between row1 and each row in rows
-    #    """
-    #    # Initialize an array to store distances
-    #    distances = np.zeros(rows.shape[0])
-#
-    #    # Iterate over each row in rows
-    #    for i, row2 in enumerate(rows):
-    #        total_distance_squared = 0
-#
-    #        # Iterate through the structure (metric spaces)
-    #        for M, columns in structure:
-    #            # Extract the corresponding columns from both rows
-    #            values1 = row1[columns]
-    #            values2 = row2[columns]
-#
-    #            # Compute the distance for this metric space
-    #            distance = M.d(values1, values2)
-#
-    #            # Add the squared distance to the total
-    #            total_distance_squared += distance ** 2
-#
-    #        # Compute the L2 distance and store it in the distances array
-    #        distances[i] = np.sqrt(total_distance_squared)
-#
-    #    return distances
-
     def _make_mask(self, N: int, seed) -> np.ndarray:
         """
         Method for randomly select the training subsample of each base learner.
@@ -96,7 +58,6 @@ class BaggedRegressor(WeightingRegressor):
             est_seed = self.seed * self.n_estimators + est_idx
         
         mask = self._make_mask(X.shape[0], seed=est_seed)
-        print(mask)
 
         # Clone the estimator, set the seed if supported
         estimator = sklearn.clone(self._estimator)
@@ -163,10 +124,10 @@ class BaggedRegressor(WeightingRegressor):
             else:
                 # Note that each base estimator has its own .weights_for() method
                 est_weights = estimator.weights_for(x)
-                #Count how many trees there are for which x is OOB. Notice that now, we aggregate only the weights of these trees, not over all the trees. 
+                # Count how many trees there are for which x is OOB. Notice that now, we aggregate only the weights of these trees, not over all the trees. 
                 count += 1
             weights[mask] += est_weights
-        return self._normalize_weights(weights / count, clip=True)
+        return self._normalize_weights(weights / count, clip=True), x_idx
 
     def weights_for(self, x) -> np.ndarray:
         assert len(self.estimators) > 0, "At least one estimator is needed to compute weights"
@@ -177,11 +138,18 @@ class BaggedRegressor(WeightingRegressor):
             weights[mask] += est_weights
         return self._normalize_weights(weights / self.n_estimators, clip=True)
     
-    def _oob_predict_one(self, x):        
+    def _oob_predict_one(self, x):
         """
         Make OOB prediction for just one new observation (requirement for oob_predict() method).
         """
-        return self.y_train_.frechet_mean(self.oob_weights_for(x))
+        weights, x_idx = self.oob_weights_for(x)
+
+        if (self.estimator.impurity_method == 'medoid' and not issubclass(type(self.y_train_.M), RiemannianManifold)):
+            oob_y = MetricData(self.y_train_.M, np.delete(self.y_train_, x_idx, axis=0))
+            oob_y.distances = remove_row_col(self.y_train_.distances, x_idx)
+            return oob_y.frechet_medoid(np.delete(weights, x_idx))
+        else:
+            return self.y_train_.frechet_mean(weights)
     
     def oob_predict(self, x):
         # Check if estimator has been fitted (.fit() has been applied), otherwise raise an error
