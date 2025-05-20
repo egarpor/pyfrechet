@@ -5,6 +5,7 @@ from sklearn.base import BaseEstimator, RegressorMixin
 from sklearn.utils.validation import check_X_y, check_array, check_is_fitted
 from pyfrechet.metric_spaces import MetricData
 from pyfrechet.metrics import r2_score
+from pyfrechet.metric_spaces.riemannian_manifold import RiemannianManifold
 
 # Create T as the type variable constained to be a subtype of WeightingRegressor class
 T = TypeVar("T", bound="WeightingRegressor")
@@ -55,7 +56,10 @@ class WeightingRegressor(RegressorMixin, BaseEstimator, metaclass=ABCMeta):
 
         The prediction is computed as the Frechet mean with weights given by the estimator itself.
         """
-        return self.y_train_.frechet_mean(self.weights_for(x))
+        if (self.estimator.impurity_method == 'medoid' and not issubclass(type(self.y_train_.M), RiemannianManifold)):
+            return self.y_train_.frechet_medoid(self.weights_for(x))
+        else:
+            return self.y_train_.frechet_mean(self.weights_for(x))
     
     @abstractmethod
     def fit(self:T, X, y: MetricData) -> T:
