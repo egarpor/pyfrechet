@@ -1,11 +1,8 @@
 import numpy as np
 from .metric_space import MetricSpace
-from .geomstats_spheroid import Spheroid as GeomstatsSpheroid
-from geomstats.learning.frechet_mean import FrechetMean
 from geopy.distance import geodesic
 from .py_linz_geod import Ellipsoid
 #from pygeodesy import EcefKarney, Ellipsoid
-
 
 
 #class Spheroid(MetricSpace):
