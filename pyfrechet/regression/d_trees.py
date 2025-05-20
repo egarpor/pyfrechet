@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from typing import Generator, Optional, Literal, Union, List, Tuple, Any
-
+import random
 import geomstats.backend as gs
 from geomstats.learning.kmeans import RiemannianKMeans
 from sklearn.cluster import KMeans
@@ -10,9 +10,11 @@ from pyfrechet.metric_spaces import MetricData, two_euclidean
 from pyfrechet.metric_spaces.riemannian_manifold import RiemannianManifold
 from pyfrechet.metric_spaces.utils import *
 from .weighting_regressor import WeightingRegressor
-from pyfrechet.metric_spaces import AnisotropicSphere, Sphere
-from pyfrechet.metric_spaces.utils import D_mat
+from pyfrechet.metric_spaces.utils import sq_D_mat
 import warnings
+import logging
+
+logger = logging.getLogger()
 
 @dataclass
 class HonestIndices:
@@ -45,7 +47,7 @@ def _parse_structure(structure):
             parsed.append((metric, cols[i:i + d]))
     return parsed
 
-def _2means_propose_splits(X_j, M, seed = None):
+def _2means_propose_splits(X_j, rows_X, M, distance_matrix, seed = None):
     """
     Propose a split for splitting variable X_j based in 2-means/2-medoids clustering.
 
@@ -53,42 +55,44 @@ def _2means_propose_splits(X_j, M, seed = None):
     """
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
-        if issubclass(type(M), RiemannianManifold):
-            # k-means
-            if isinstance(M, two_euclidean):
-                kmeans = KMeans(n_clusters=2, n_init=1, max_iter=10, random_state=seed)
+        if issubclass(type(M), RiemannianManifold):         
+            # Run RiemannianKMeans with fixed random state
+            kmeans = RiemannianKMeans(space=M.manifold, n_clusters=2, init='random', max_iter=10)
+            try:
+                # Temporarily suppress warnings (convergence of k-means)
+                logger.setLevel(logging.ERROR)
                 kmeans.fit(X_j)
-                centroids = kmeans.cluster_centers_
-                labels = kmeans.labels_                
+            finally:
+                # Restore logging level after the call
+                logger.setLevel(logging.WARNING)
 
-            else:
-                # Run RiemannianKMeans with fixed random state
-                kmeans = RiemannianKMeans(M.manifold.metric, n_clusters=2, max_iter=10, tol=1e-3)
-                centroids=kmeans.fit(X_j)
-                labels = kmeans.predict(X_j)
+            centroids = kmeans.cluster_centers_
+            labels = kmeans.labels_
         else:
-            # k-medoids
+            # k-medoids (a Riemannian manifold structure is not guaranteed)
             km = kmedoids.KMedoids(2, method='fasterpam', max_iter=10, random_state = seed)
-            distance_matrix = D_mat(M, X_j)
-            km_fit = km.fit(distance_matrix)
+            dist_mat = distance_matrix[rows_X][:, rows_X]    
+            km_fit = km.fit(dist_mat)
             centroids = X_j[km_fit.medoid_indices_]
+
             labels = km_fit.labels_
 
     assert not labels is None, "2means clustering labels are None"
-    sel = labels.astype(bool)
     return centroids[0,:], centroids[1,:]
 
 
-class Tree(WeightingRegressor):
+class d_Tree(WeightingRegressor):
+    "Class for trees with metric predictors (not necessarily Euclidean)."
     def __init__(self, 
                  split_type: Literal['2means']='2means',
-                 impurity_method: Literal['medoid']='medoid',
+                 impurity_method: Literal['cart', 'medoid'] = 'medoid',
                  mtry: Union[int, None]=None,
                  min_split_size: int=5,
                  is_honest: bool=False,
                  honesty_fraction: float=0.5,
                  #metric_predictors: bool=True,
                  structure: List[Tuple[Any, List[int]]]=None,
+                 distance_matrix: List[Any]=[],
                  seed: Optional[int]=None
                  ):
         """
@@ -107,6 +111,7 @@ class Tree(WeightingRegressor):
         # self.metric_predictors = metric_predictors
         self.structure = structure
         self.seed = seed
+        self.distance_matrix = distance_matrix
 
 
     def _var(self, y: MetricData, sel: np.ndarray):
@@ -119,17 +124,20 @@ class Tree(WeightingRegressor):
         w = sel/sel.sum()
         if self.impurity_method == 'medoid':
             return y.frechet_medoid_var(weights=w)
+        elif self.impurity_method == 'cart':
+            return y.frechet_var(weights=w)
         else:
             raise NotImplementedError(f'impurity_method = {self.impurity_method}')
  
     # General syntax: Generator[YieldType, SendType, ReturnType]
-    def _propose_splits(self, X_j, M) -> Generator[float, None, None]:
+    def _propose_splits(self, X_j, rows_X, j, M) -> Generator[float, None, None]:
+        ##AQUI RECIBIR Y PASAR INDICES TB
         if self.split_type == '2means':
-            return _2means_propose_splits(X_j, M, self.seed)
+            return _2means_propose_splits(X_j, rows_X, M, self.distance_matrix[j], self.seed)
         else:
             raise NotImplementedError(f'split_type = {self.split_type}')
 
-    def _find_split(self, X, X_hon, y: MetricData, mtry: Union[int, None]) -> Union[None, Split]:
+    def _find_split(self, X, rows_X, X_hon, y: MetricData, mtry: Union[int, None]) -> Union[None, Split]:
         """
         Method to find the best split according to the choosen splitting criterion.
         """
@@ -145,9 +153,9 @@ class Tree(WeightingRegressor):
         split_val = 0 # Split value of the best split
 
         for j in tried_features:
-             # Metric space of the splitting variable
+            # Metric space of the splitting variable
             X_j = X[:, self.structure[j][1]] # Splitting variable
-            candidate_split_vals = self._propose_splits(X_j, self.structure[j][0])
+            candidate_split_vals = self._propose_splits(X_j, rows_X, j, self.structure[j][0])
             X_j_hon = X_hon[:, self.structure[j][1]] # Honest splitting variable
 
             # Individuals of the splitting node going to the left child node
@@ -206,12 +214,88 @@ class Tree(WeightingRegressor):
             all_idx = np.arange(N)
             return HonestIndices(all_idx, all_idx)
 
+    # For visualization purposes
+    def get_node_indices(self, X=None):
+        """
+        This function is used to visualize the tree structure. It returns observation indices in each node at each level.
+        
+        Parameters:
+        ----------
+        X : array-like of shape (n_samples, n_features), default=None
+            The input samples to trace through the tree.
+            If None, uses the training data.
+            
+        Returns:
+        -------
+        indices_by_level : list of lists
+            Each element is a list containing sets of indices for nodes at that level.
+            Leaf nodes are carried forward to deeper levels without further splitting.
+        """
+        if not self.root_node:
+            return []
+        
+        if X is None:
+            X = self.X_train_
+        
+        # All sample indices
+        all_indices = np.arange(X.shape[0])
+        
+        # Start with the root node
+        current_nodes = [self.root_node]
+        current_indices = [all_indices]
+        
+        result = [current_indices]
+        
+        # Continue until no more splits are possible
+        while any(node.split for node in current_nodes):
+            next_nodes = []
+            next_indices = []
+            
+            for i, node in enumerate(current_nodes):
+                indices = current_indices[i]
+                
+                if node.split:
+                    # Compute which indices go left and right
+                    left_mask = self.structure[node.split.feature_idx][0].d(
+                        X[indices][:, self.structure[node.split.feature_idx][1]], 
+                        node.split.threshold[0]
+                    ) < self.structure[node.split.feature_idx][0].d(
+                        X[indices][:, self.structure[node.split.feature_idx][1]], 
+                        node.split.threshold[1]
+                    )
+                    left_indices = indices[left_mask]
+                    right_indices = indices[~left_mask]
+                    
+                    next_nodes.extend([node.left, node.right])
+                    next_indices.extend([left_indices, right_indices])
+                else:
+                    # It's a leaf node, carry it forward
+                    next_nodes.append(node)
+                    next_indices.append(indices)
+            
+            current_nodes = next_nodes
+            current_indices = next_indices
+            result.append(next_indices)
+            
+            # If all nodes are leaves, we're done
+            if not any(node.split for node in current_nodes):
+                break
+        
+        return result
     # WeightingRegressor has 2 abstact methods that need to be defined: .fit and .weights_for
     def fit(self, X, y: MetricData):
         self.structure = _parse_structure(self.structure)
         if self.seed is not None:
+            random.seed(self.seed)
             np.random.seed(self.seed)
             gs.random.seed(self.seed)
+
+        for i, (M, indices) in enumerate(self.structure):
+            if not issubclass(type(M), RiemannianManifold):
+                self.distance_matrix.append(sq_D_mat(M, X[:, indices]))
+            else:
+                self.distance_matrix.append(None)
+
         # First apply the parent class WeightingRegressor .fit() method
         super().fit(X, y)
 
@@ -227,10 +311,13 @@ class Tree(WeightingRegressor):
         while queue:
         # A list evaluates to False when it is empty, otherwise it evaluates to False
             node = queue.pop(0)
-            split = self._find_split(X[node.selector.fit_idx, :], # Splitting (fitting) subset
+
+            split = self._find_split(X[node.selector.fit_idx, :],
+                                     node.selector.fit_idx, # rows of splitting (fitting) subset
                                      X[node.selector.predict_idx, :], # Honest (predicting) subset
                                      y[node.selector.fit_idx], # Only use labels from the splitting part
                                      mtry)
+
             if split:
                 node.split = split
                 left_indices, right_indices = self._split_to_idx(X, node)
