@@ -1,7 +1,7 @@
 import numpy as np
 from pyfrechet.metric_spaces import MetricSpace 
 from scipy.linalg import eigvals, logm
-from geomstats.geometry.spd_matrices import SPDMatrices, SPDMetricLogEuclidean
+from geomstats.geometry.spd_matrices import SPDMatrices, SPDLogEuclideanMetric
 from geomstats.learning.frechet_mean import FrechetMean
 from pyfrechet.metric_spaces.utils import vectorize, devectorize
 # from pyriemann.utils.distance import distance_logeuclid
@@ -18,7 +18,8 @@ class CustomLogEuclidean(MetricSpace):
     """
     def __init__(self, dim):
         self.dim = dim 
-        self.manifold = SPDMatrices(n = dim, metric = SPDMetricLogEuclidean(n = dim))
+        self.manifold = SPDMatrices(n = dim)
+        self.manifold.metric = SPDLogEuclideanMetric(space=self.manifold)
 
     def _check_inputs(self, A, B):
         if not isinstance(A, np.ndarray) or not isinstance(B, np.ndarray):
@@ -52,7 +53,7 @@ class CustomLogEuclidean(MetricSpace):
 
     def _frechet_mean(self, vectors, w):
         matrices = np.array([devectorize(v) for v in vectors])
-        mean = FrechetMean(metric=self.manifold.metric)
+        mean = FrechetMean(metric=self.manifold.metric, point_type='matrix', verbose=False)
         mean.fit(matrices, weights=w)
         matrix_frechet_mean = mean.estimate_
         return vectorize(matrix_frechet_mean)

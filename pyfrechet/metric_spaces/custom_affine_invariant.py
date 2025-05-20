@@ -63,7 +63,7 @@ class CustomAffineInvariant(MetricSpace):
 
     def _frechet_mean(self, vectors, w):
         matrices = np.array([devectorize(v) for v in vectors])
-        mean = FrechetMean(metric=self.manifold.metric)
+        mean = FrechetMean(metric=self.manifold.metric, point_type='matrix', verbose=False)
         mean.fit(matrices, weights=w)
         matrix_frechet_mean = mean.estimate_
         return vectorize(matrix_frechet_mean)

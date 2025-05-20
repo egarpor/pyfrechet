@@ -66,7 +66,7 @@ class CustomAffineInvariant_2(MetricSpace):
             numpy array of shape (3,): The vectorized Fréchet mean.
         """
         matrices = np.array([self.devectorize(v) for v in y])  # Convert to matrices
-        mean = FrechetMean(metric=self.manifold.metric)
+        mean = FrechetMean(metric=self.manifold.metric, point_type='matrix', verbose=False)
         mean.fit(matrices, weights=w)
         return self.vectorize(mean.estimate_)  # Convert back to vector
 

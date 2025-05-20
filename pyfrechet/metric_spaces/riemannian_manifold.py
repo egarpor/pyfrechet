@@ -13,7 +13,7 @@ class RiemannianManifold(MetricSpace):
         return self.manifold.metric.dist(x, y)
     
     def _frechet_mean(self, y, w):
-        mean = FrechetMean(metric=self.manifold.metric)
+        mean = FrechetMean(space=self.manifold)
         mean.fit(y, weights=w)
         return mean.estimate_
 
@@ -24,4 +24,3 @@ class RiemannianManifold(MetricSpace):
 
     def __str__(self):
         return f'Manifold(manifold={self.manifold})'
-    

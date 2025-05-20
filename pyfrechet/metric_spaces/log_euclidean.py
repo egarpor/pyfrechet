@@ -1,7 +1,7 @@
-from geomstats.geometry.spd_matrices import SPDMatrices, SPDMetricLogEuclidean
-from .riemannian_manifold import RiemannianManifold
+from geomstats.geometry.spd_matrices import SPDMatrices, SPDLogEuclideanMetric
 from geomstats.learning.frechet_mean import FrechetMean
 from pyfrechet.metric_spaces.utils import vectorize, devectorize
+from .riemannian_manifold import RiemannianManifold
 import numpy as np
 
 class LogEuclidean(RiemannianManifold):
@@ -39,7 +39,7 @@ class LogEuclidean(RiemannianManifold):
 
     def _frechet_mean(self, vectors, w):
         matrices = np.array([devectorize(v) for v in vectors])
-        mean = FrechetMean(metric=self.manifold.metric)
+        mean = FrechetMean(metric=self.manifold.metric, point_type='matrix', verbose=False)
         mean.fit(matrices, weights=w)
         matrix_frechet_mean = mean.estimate_
         return vectorize(matrix_frechet_mean)

@@ -10,5 +10,3 @@ class two_euclidean(RiemannianManifold):
 
     def __str__(self):
         return f'Euclidean(dim={self.manifold.dim})'
- 
-    
