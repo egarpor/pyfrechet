@@ -11,10 +11,10 @@ from pyfrechet.regression.trees import Tree
 from pyfrechet.metrics import mse
 from sklearn.metrics import make_scorer
 from sklearn.model_selection import GridSearchCV
-import base64
 from scipy.stats import vonmises_fisher, vonmises_line
 from tqdm import tqdm
 import contextlib
+
 
 np.random.seed(1000)
 
@@ -36,7 +36,7 @@ n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_sphere/' 'data')
 current_block = int(sys.argv[1])
 
 base = Tree(split_type='2means', mtry=None, impurity_method='cart')
-base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1)
+base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=1)
 
 M = Sphere(2)
 
@@ -107,7 +107,7 @@ def simulate_data(m_0, kappa, mu, theta_samples):
 
 def tune_forest(X, y, forest = base_forest, param_grid=param_grid):
     """ Perform hyperparameter tuning using GridSearchCV. """
-    tuned_forest = GridSearchCV(estimator = forest, param_grid=param_grid, scoring=neg_mse, cv=5, n_jobs=-1, verbose=0)
+    tuned_forest = GridSearchCV(estimator = forest, param_grid=param_grid, scoring=neg_mse, cv=5, n_jobs=1, verbose=0)
     tuned_forest.fit(X, y)
     return tuned_forest.best_estimator_
 
@@ -136,7 +136,7 @@ def task(file) -> None:
 
         # Predict the new observation
         pb_new_pred = forest.predict(theta.reshape(-1,1))
-        pb_i_cov[estimation, :] = (M.d(pb_new_pred, new_y) <= oob_quantile)
+        pb_i_cov[estimation, :] = (M.d(pb_new_pred, new_y[0]) <= oob_quantile)
 
 ############################################################################################################            
     # TYPE II COVERAGE RESULTS
@@ -159,7 +159,7 @@ def task(file) -> None:
 
         # Predict the new observation
         pb_new_pred = forest.predict(theta.reshape(-1,1))
-        pb_iii_cov[estimation, :] = (M.d(pb_new_pred, new_y) <= oob_quantile)
+        pb_iii_cov[estimation, :] = (M.d(pb_new_pred, new_y[0]) <= oob_quantile)
 
 ############################################################################################################
     # TYPE IV COVERAGE RESULTS
@@ -222,7 +222,7 @@ def task(file) -> None:
         }
 
     results_filename = os.path.join(os.getcwd(), 'simulations_sphere', 'results', f'{file[:-4]}' + '_results.npy')
-    np.save(results_filename, results)
+    # np.save(results_filename, results)
 
 file_list = list(filter(
                 lambda file: file.endswith(f'block_{current_block}.pkl'), 
@@ -232,4 +232,4 @@ file_list = list(filter(
 total_files = len(file_list)
 
 with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = total_files)) as progress_bar:
-    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in file_list)
+    Parallel(n_jobs=1, verbose=2)( delayed(task)(file) for file in file_list)
