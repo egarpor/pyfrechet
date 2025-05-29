@@ -1,116 +1,0 @@
-slurmstepd: info: Setting TMPDIR to /scratch/11467595. Previous errors about TMPDIR can be discarded
-python/3.9.9 loaded
-jupyter-server/1.13.5-python-3.9.9 loaded
-jupyterlab/3.2.4-python-3.9.9 loaded
-Architecture:                    x86_64
-CPU op-mode(s):                  32-bit, 64-bit
-Byte Order:                      Little Endian
-Address sizes:                   46 bits physical, 57 bits virtual
-CPU(s):                          64
-On-line CPU(s) list:             0-63
-Thread(s) per core:              1
-Core(s) per socket:              32
-Socket(s):                       2
-NUMA node(s):                    4
-Vendor ID:                       GenuineIntel
-CPU family:                      6
-Model:                           106
-Model name:                      Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
-Stepping:                        6
-CPU MHz:                         2800.000
-CPU max MHz:                     3400.0000
-CPU min MHz:                     800.0000
-BogoMIPS:                        4400.00
-Virtualization:                  VT-x
-L1d cache:                       3 MiB
-L1i cache:                       2 MiB
-L2 cache:                        80 MiB
-L3 cache:                        96 MiB
-NUMA node0 CPU(s):               0-15
-NUMA node1 CPU(s):               16-31
-NUMA node2 CPU(s):               32-47
-NUMA node3 CPU(s):               48-63
-Vulnerability Itlb multihit:     Not affected
-Vulnerability L1tf:              Not affected
-Vulnerability Mds:               Not affected
-Vulnerability Meltdown:          Not affected
-Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
-Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
-Vulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling
-Vulnerability Srbds:             Not affected
-Vulnerability Tsx async abort:   Not affected
-Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid fsrm md_clear pconfig flush_l1d arch_capabilities
-INFO: Using numpy backend
-Percentage of tasks completed::   0%|          | 0/80 [00:00<?, ?it/s][Parallel(n_jobs=-1)]: Using backend LokyBackend with 32 concurrent workers.
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-INFO: Using numpy backend
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::   1%|▏         | 1/80 [11:28<15:06:59, 688.86s/it]Percentage of tasks completed::   2%|▎         | 2/80 [11:53<6:27:17, 297.92s/it] Percentage of tasks completed::   4%|▍         | 3/80 [11:57<3:30:27, 163.99s/it]Percentage of tasks completed::   5%|▌         | 4/80 [12:05<2:09:29, 102.22s/it]Percentage of tasks completed::   6%|▋         | 5/80 [12:06<1:22:02, 65.63s/it] Percentage of tasks completed::   8%|▊         | 6/80 [12:11<55:37, 45.10s/it]  Percentage of tasks completed::   9%|▉         | 7/80 [12:11<37:11, 30.57s/it]Percentage of tasks completed::  10%|█         | 8/80 [12:12<25:03, 20.89s/it]Percentage of tasks completed::  11%|█▏        | 9/80 [24:22<4:47:04, 242.60s/it]Percentage of tasks completed::  14%|█▍        | 11/80 [28:03<3:27:29, 180.43s/it]Percentage of tasks completed::  15%|█▌        | 12/80 [29:25<2:56:19, 155.57s/it]Percentage of tasks completed::  16%|█▋        | 13/80 [29:42<2:12:42, 118.85s/it]Percentage of tasks completed::  18%|█▊        | 14/80 [30:06<1:41:57, 92.70s/it] Percentage of tasks completed::  19%|█▉        | 15/80 [30:10<1:13:38, 67.98s/it]Percentage of tasks completed::  20%|██        | 16/80 [30:24<55:42, 52.22s/it]  Percentage of tasks completed::  22%|██▎       | 18/80 [31:00<38:04, 36.84s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  24%|██▍       | 19/80 [40:15<2:45:42, 162.99s/it]Percentage of tasks completed::  25%|██▌       | 20/80 [41:40<2:22:55, 142.92s/it]Percentage of tasks completed::  26%|██▋       | 21/80 [41:47<1:44:36, 106.38s/it]Percentage of tasks completed::  28%|██▊       | 22/80 [42:10<1:20:22, 83.15s/it] Percentage of tasks completed::  29%|██▉       | 23/80 [52:17<3:40:20, 231.94s/it]Percentage of tasks completed::  30%|███       | 24/80 [53:42<2:56:53, 189.53s/it]Percentage of tasks completed::  31%|███▏      | 25/80 [1:00:13<3:47:50, 248.55s/it]Percentage of tasks completed::  32%|███▎      | 26/80 [1:01:02<2:50:48, 189.78s/it]Percentage of tasks completed::  34%|███▍      | 27/80 [1:03:52<2:42:14, 183.67s/it]Percentage of tasks completed::  35%|███▌      | 28/80 [1:05:12<2:12:35, 152.98s/it]Percentage of tasks completed::  36%|███▋      | 29/80 [1:09:32<2:37:13, 184.97s/it]Percentage of tasks completed::  38%|███▊      | 30/80 [1:09:50<1:52:32, 135.06s/it]Percentage of tasks completed::  39%|███▉      | 31/80 [1:10:17<1:23:59, 102.85s/it]Percentage of tasks completed::  40%|████      | 32/80 [1:10:54<1:06:24, 83.02s/it] Percentage of tasks completed::  41%|████▏     | 33/80 [1:11:06<48:26, 61.84s/it]  Percentage of tasks completed::  42%|████▎     | 34/80 [1:11:23<37:04, 48.35s/it]Percentage of tasks completed::  44%|████▍     | 35/80 [1:11:41<29:25, 39.23s/it]Percentage of tasks completed::  45%|████▌     | 36/80 [1:12:12<26:54, 36.69s/it]/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-/home/usc/ei/ega/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  46%|████▋     | 37/80 [1:21:41<2:20:48, 196.48s/it]Percentage of tasks completed::  48%|████▊     | 38/80 [1:21:54<1:38:58, 141.40s/it]Percentage of tasks completed::  49%|████▉     | 39/80 [1:22:12<1:11:12, 104.22s/it]Percentage of tasks completed::  50%|█████     | 40/80 [1:23:11<1:00:26, 90.66s/it] Percentage of tasks completed::  51%|█████▏    | 41/80 [1:29:22<1:53:37, 174.80s/it]Percentage of tasks completed::  52%|█████▎    | 42/80 [1:31:30<1:41:46, 160.70s/it]Percentage of tasks completed::  54%|█████▍    | 43/80 [1:33:48<1:35:02, 154.12s/it]Percentage of tasks completed::  55%|█████▌    | 44/80 [1:34:50<1:15:50, 126.40s/it]Percentage of tasks completed::  56%|█████▋    | 45/80 [1:36:59<1:14:12, 127.20s/it]Percentage of tasks completed::  57%|█████▊    | 46/80 [1:37:29<55:28, 97.89s/it]   Percentage of tasks completed::  59%|█████▉    | 47/80 [1:40:35<1:08:27, 124.46s/it]Percentage of tasks completed::  60%|██████    | 48/80 [1:41:10<51:58, 97.47s/it]   Percentage of tasks completed::  61%|██████▏   | 49/80 [1:50:08<1:58:43, 229.80s/it]Percentage of tasks completed::  62%|██████▎   | 50/80 [1:51:49<1:35:35, 191.20s/it]Percentage of tasks completed::  64%|██████▍   | 51/80 [1:52:09<1:07:29, 139.65s/it]Percentage of tasks completed::  65%|██████▌   | 52/80 [1:52:54<51:56, 111.31s/it]  Percentage of tasks completed::  66%|██████▋   | 53/80 [1:58:34<1:20:56, 179.87s/it]Percentage of tasks completed::  68%|██████▊   | 54/80 [2:02:38<1:26:22, 199.34s/it]Percentage of tasks completed::  69%|██████▉   | 55/80 [2:15:23<2:33:43, 368.93s/it]Percentage of tasks completed::  70%|███████   | 56/80 [2:15:31<1:44:12, 260.51s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [2:21:53<1:53:49, 296.92s/it]Percentage of tasks completed::  72%|███████▎  | 58/80 [2:22:55<1:23:08, 226.73s/it][Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 142.9min remaining: 54.2min
-Percentage of tasks completed::  74%|███████▍  | 59/80 [2:41:44<2:54:02, 497.25s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:42:19<1:59:33, 358.69s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [3:23:03<5:11:36, 984.03s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [3:23:43<3:30:18, 701.02s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [3:24:36<2:23:34, 506.71s/it]Percentage of tasks completed::  80%|████████  | 64/80 [3:24:47<1:35:25, 357.82s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [3:24:49<1:02:44, 250.96s/it]Percentage of tasks completed::  82%|████████▎ | 66/80 [3:25:01<41:53, 179.54s/it]  Percentage of tasks completed::  84%|████████▍ | 67/80 [3:25:29<29:01, 133.93s/it]Percentage of tasks completed::  85%|████████▌ | 68/80 [3:26:30<22:23, 111.95s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [3:30:58<29:07, 158.84s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [3:31:18<19:32, 117.25s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [3:39:33<34:34, 230.51s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:39:45<21:59, 164.95s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:46:27<27:33, 236.27s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:47:35<18:33, 185.67s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [4:00:06<29:35, 355.17s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [4:00:33<17:06, 256.72s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [4:08:08<15:48, 316.33s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [4:10:59<09:05, 272.54s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [4:18:47<05:31, 331.18s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [4:21:19<00:00, 277.58s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 261.3min finished
-Percentage of tasks completed:: 100%|██████████| 80/80 [4:21:19<00:00, 195.99s/it]
-Auto packing the repository in background for optimum performance.
-See "git help gc" for manual housekeeping.
-[main 5d4e8aae4] Simulations SPD block 32
- 3 files changed, 90 insertions(+), 1 deletion(-)
- create mode 100644 simulations_SPD/results/SPD_samp320_N500_df5_block_32_results.npy
-To github.com:egarpor/pyfrechet.git
-   35eadcb92..5d4e8aae4  main -> main
-
-*****************************************************************************
-*                                                                           *
-*                    JOB EFFICIENCY REPORT (seff 11467595)                   *
-*                                                                           *
-*****************************************************************************
-
-Job ID: 11467595
-Cluster: finisterrae3
-User/Group: usceiega/usc
-State: COMPLETED (exit code 0)
-Nodes: 1
-Cores per node: 32
-CPU Utilized: 3-18:29:41
-CPU Efficiency: 64.89% of 5-19:27:28 core-walltime
-Job Wall-clock time: 04:21:29
-Memory Utilized: 14.63 GB
-Memory Efficiency: 91.43% of 16.00 GB
-
-*****************************************************************************
-
