@@ -36,7 +36,7 @@ n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_sphere/' 'data')
 current_block = int(sys.argv[1])
 
 base = Tree(split_type='2means', mtry=None, impurity_method='cart')
-base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=1)
+base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1)
 
 M = Sphere(2)
 
@@ -107,7 +107,7 @@ def simulate_data(m_0, kappa, mu, theta_samples):
 
 def tune_forest(X, y, forest = base_forest, param_grid=param_grid):
     """ Perform hyperparameter tuning using GridSearchCV. """
-    tuned_forest = GridSearchCV(estimator = forest, param_grid=param_grid, scoring=neg_mse, cv=5, n_jobs=1, verbose=0)
+    tuned_forest = GridSearchCV(estimator = forest, param_grid=param_grid, scoring=neg_mse, cv=5, n_jobs=-1, verbose=0)
     tuned_forest.fit(X, y)
     return tuned_forest.best_estimator_
 
@@ -232,4 +232,4 @@ file_list = list(filter(
 total_files = len(file_list)
 
 with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = total_files)) as progress_bar:
-    Parallel(n_jobs=1, verbose=2)( delayed(task)(file) for file in file_list)
+    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in file_list)
