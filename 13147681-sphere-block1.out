@@ -1,0 +1,4 @@
+python/3.9.9 loaded
+jupyter-server/1.13.5-python-3.9.9 loaded
+jupyterlab/3.2.4-python-3.9.9 loaded
+/var/spool/slurmd/job13147681/slurm_script: line 4: pballs/bin/activate: No such file or directory

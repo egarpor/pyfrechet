@@ -44,3 +44,37 @@ Traceback (most recent call last):
   File "/mnt/netapp2/Store_uni/home/otras/est/dso/pyfrechet/simulations_sphere/sphere_parallel.py", line 4, in <module>
     import numpy as np
 ModuleNotFoundError: No module named 'numpy'
+[main b6cb086a4] Simulations Sphere block 1
+ 2 files changed, 306 insertions(+)
+ create mode 100644 13087897-sphere-block1.out
+ create mode 100644 sunspots/copytest.py
+Warning: Permanently added the ECDSA host key for IP address '140.82.121.3' to the list of known hosts.
+To github.com:egarpor/pyfrechet.git
+   172d8e144..b6cb086a4  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 13087897)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 13087897
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.28% of 00:05:52 core-walltime
+Job Wall-clock time: 00:00:11
+Memory Utilized: 448.00 KB
+Memory Efficiency: 0.00% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
