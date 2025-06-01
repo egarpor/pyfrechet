@@ -222,7 +222,7 @@ def task(file) -> None:
         }
 
     results_filename = os.path.join(os.getcwd(), 'simulations_sphere', 'results', f'{file[:-4]}' + '_results.npy')
-    # np.save(results_filename, results)
+    np.save(results_filename, results)
 
 file_list = list(filter(
                 lambda file: file.endswith(f'block_{current_block}.pkl'), 
