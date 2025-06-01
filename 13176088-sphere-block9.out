@@ -62,3 +62,167 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   warnings.warn(
 Percentage of tasks completed::  82%|████████▏ | 163/200 [1:07:03<14:36, 23.69s/it]Percentage of tasks completed::  82%|████████▏ | 164/200 [1:07:12<11:42, 19.50s/it]Percentage of tasks completed::  82%|████████▎ | 165/200 [1:07:22<09:40, 16.59s/it]Percentage of tasks completed::  83%|████████▎ | 166/200 [1:08:08<14:20, 25.31s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [1:08:09<09:55, 18.05s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:08:19<08:23, 15.72s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:09:06<12:56, 25.06s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:09:38<13:35, 27.18s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:10:12<14:08, 29.26s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:10:23<11:00, 23.60s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:10:45<10:26, 23.20s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:11:09<10:08, 23.40s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:11:19<08:09, 19.59s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:11:35<07:18, 18.27s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:11:44<05:59, 15.62s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:12:40<10:10, 27.77s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:13:42<13:17, 37.98s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:14:52<15:53, 47.70s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:15:25<13:41, 43.25s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:16:34<15:13, 50.76s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:16:42<10:45, 37.99s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:17:44<12:02, 45.17s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:18:37<11:56, 47.73s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:18:47<08:29, 36.42s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:19:08<06:52, 31.72s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:19:12<04:39, 23.26s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:19:52<05:10, 28.25s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:22:51<12:16, 73.62s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:23:48<10:17, 68.63s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:23:51<06:31, 48.94s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:27:34<11:47, 101.13s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:29:31<10:35, 105.87s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:30:15<07:16, 87.37s/it] Percentage of tasks completed::  98%|█████████▊| 196/200 [1:30:35<04:29, 67.26s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:32:38<04:11, 83.91s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:34:09<02:51, 85.92s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:34:47<01:11, 71.68s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:35:45<00:00, 67.49s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 95.8min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:35:45<00:00, 28.73s/it]
+[main bbb7ce76a] Simulations Sphere block 9
+ 3031 files changed, 1196 insertions(+)
+ create mode 100644 13176080-sphere-block1.out
+ create mode 100644 13176081-sphere-block2.out
+ create mode 100644 13176082-sphere-block3.out
+ create mode 100644 13176083-sphere-block4.out
+ create mode 100644 13176084-sphere-block5.out
+ create mode 100644 13176085-sphere-block6.out
+ create mode 100644 13176086-sphere-block7.out
+ create mode 100644 13176087-sphere-block8.out
+ create mode 100644 13176088-sphere-block9.out
+ create mode 100644 13176089-sphere-block10.out
+ create mode 100644 13176090-sphere-block11.out
+ create mode 100644 13176091-sphere-block12.out
+ create mode 100644 13176092-sphere-block13.out
+ create mode 100644 13176093-sphere-block14.out
+ create mode 100644 13176094-sphere-block15.out
+ create mode 100644 13176095-sphere-block16.out
+ rewrite simulations_sphere/results/sphere_samp105_N50_kappa200_block_5_results.npy (69%)
+ rewrite simulations_sphere/results/sphere_samp107_N200_kappa200_block_5_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp110_N50_kappa50_block_5_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp112_N100_kappa200_block_5_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp113_N500_kappa200_block_5_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp113_N50_kappa200_block_5_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp115_N200_kappa200_block_5_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp117_N500_kappa50_block_5_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp121_N50_kappa200_block_5_results.npy (73%)
+ rewrite simulations_sphere/results/sphere_samp125_N200_kappa200_block_5_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp127_N100_kappa200_block_6_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp130_N50_kappa50_block_6_results.npy (69%)
+ rewrite simulations_sphere/results/sphere_samp133_N50_kappa200_block_6_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp138_N200_kappa200_block_6_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp139_N200_kappa200_block_6_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp151_N100_kappa50_block_7_results.npy (69%)
+ rewrite simulations_sphere/results/sphere_samp153_N500_kappa50_block_7_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp153_N50_kappa50_block_7_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp154_N500_kappa200_block_7_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp164_N50_kappa50_block_7_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp166_N50_kappa50_block_7_results.npy (69%)
+ rewrite simulations_sphere/results/sphere_samp168_N100_kappa50_block_7_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp169_N100_kappa50_block_7_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp16_N100_kappa200_block_1_results.npy (72%)
+ rewrite simulations_sphere/results/sphere_samp175_N200_kappa200_block_7_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp178_N200_kappa50_block_8_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp17_N200_kappa200_block_1_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp182_N100_kappa50_block_8_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp183_N200_kappa200_block_8_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp188_N200_kappa200_block_8_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp189_N50_kappa50_block_8_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp190_N200_kappa50_block_8_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp191_N100_kappa200_block_8_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp191_N50_kappa200_block_8_results.npy (69%)
+ rewrite simulations_sphere/results/sphere_samp195_N50_kappa200_block_8_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp197_N50_kappa200_block_8_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp198_N50_kappa50_block_8_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp199_N200_kappa50_block_8_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp203_N200_kappa50_block_9_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp204_N100_kappa200_block_9_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp204_N50_kappa50_block_9_results.npy (69%)
+ rewrite simulations_sphere/results/sphere_samp206_N500_kappa200_block_9_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp207_N50_kappa50_block_9_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp210_N50_kappa200_block_9_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp214_N200_kappa200_block_9_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp218_N100_kappa50_block_9_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp221_N100_kappa50_block_9_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp224_N200_kappa50_block_9_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp226_N200_kappa200_block_10_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp231_N200_kappa200_block_10_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp237_N100_kappa50_block_10_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp245_N100_kappa200_block_10_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp245_N100_kappa50_block_10_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp246_N100_kappa200_block_10_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp248_N50_kappa50_block_10_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp24_N50_kappa200_block_1_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp250_N50_kappa50_block_10_results.npy (71%)
+ rewrite simulations_sphere/results/sphere_samp252_N200_kappa50_block_11_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp255_N50_kappa200_block_11_results.npy (69%)
+ rewrite simulations_sphere/results/sphere_samp257_N200_kappa200_block_11_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp25_N50_kappa50_block_1_results.npy (71%)
+ rewrite simulations_sphere/results/sphere_samp264_N200_kappa200_block_11_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp268_N100_kappa50_block_11_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp268_N200_kappa50_block_11_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp268_N50_kappa50_block_11_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp271_N100_kappa200_block_11_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp271_N50_kappa50_block_11_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp274_N200_kappa50_block_11_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp277_N50_kappa50_block_12_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp280_N200_kappa50_block_12_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp282_N50_kappa50_block_12_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp283_N200_kappa200_block_12_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp290_N500_kappa200_block_12_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp290_N50_kappa50_block_12_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp295_N100_kappa200_block_12_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp298_N50_kappa50_block_12_results.npy (73%)
+ rewrite simulations_sphere/results/sphere_samp301_N100_kappa50_block_13_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp303_N100_kappa200_block_13_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp303_N200_kappa200_block_13_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp304_N100_kappa50_block_13_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp304_N50_kappa200_block_13_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp306_N50_kappa50_block_13_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp309_N500_kappa50_block_13_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp309_N50_kappa200_block_13_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp313_N200_kappa50_block_13_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp319_N200_kappa200_block_13_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp322_N100_kappa50_block_13_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp326_N200_kappa50_block_14_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp328_N100_kappa50_block_14_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp32_N500_kappa200_block_2_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp32_N500_kappa50_block_2_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp332_N100_kappa200_block_14_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp332_N200_kappa200_block_14_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp336_N200_kappa50_block_14_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp341_N500_kappa50_block_14_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp341_N50_kappa50_block_14_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp343_N500_kappa50_block_14_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp344_N500_kappa50_block_14_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp345_N50_kappa50_block_14_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp346_N200_kappa200_block_14_results.npy (64%)
+ rewrite simulations_sphere/results/sphere_samp348_N50_kappa200_block_14_results.npy (73%)
+ rewrite simulations_sphere/results/sphere_samp350_N50_kappa200_block_14_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp355_N50_kappa50_block_15_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp357_N50_kappa200_block_15_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp357_N50_kappa50_block_15_results.npy (73%)
+ rewrite simulations_sphere/results/sphere_samp35_N200_kappa50_block_2_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp363_N100_kappa200_block_15_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp366_N100_kappa50_block_15_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp367_N200_kappa200_block_15_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp367_N200_kappa50_block_15_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp368_N200_kappa200_block_15_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp369_N200_kappa200_block_15_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp369_N500_kappa200_block_15_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp37_N50_kappa50_block_2_results.npy (73%)
+ rewrite simulations_sphere/results/sphere_samp380_N50_kappa200_block_16_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp381_N50_kappa200_block_16_results.npy (69%)
+ rewrite simulations_sphere/results/sphere_samp384_N50_kappa200_block_16_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp392_N200_kappa200_block_16_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp394_N100_kappa200_block_16_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp394_N500_kappa200_block_16_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp396_N50_kappa50_block_16_results.npy (71%)
+ rewrite simulations_sphere/results/sphere_samp399_N200_kappa200_block_16_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp39_N50_kappa200_block_2_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp44_N100_kappa200_block_2_results.npy (69%)
+ rewrite simulations_sphere/results/sphere_samp44_N200_kappa200_block_2_results.npy (71%)
+ rewrite simulations_sphere/results/sphere_samp44_N50_kappa50_block_2_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp50_N100_kappa50_block_2_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp53_N100_kappa200_block_3_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp54_N200_kappa50_block_3_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp56_N50_kappa50_block_3_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp60_N100_kappa50_block_3_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp63_N100_kappa50_block_3_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp63_N50_kappa200_block_3_results.npy (78%)
+ rewrite simulations_sphere/results/sphere_samp67_N100_kappa200_block_3_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp67_N50_kappa50_block_3_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp73_N200_kappa50_block_3_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp74_N200_kappa200_block_3_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp79_N100_kappa50_block_4_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp7_N50_kappa200_block_1_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp84_N500_kappa50_block_4_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp86_N100_kappa200_block_4_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp90_N50_kappa200_block_4_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp91_N200_kappa200_block_4_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp94_N100_kappa200_block_4_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp95_N50_kappa200_block_4_results.npy (61%)
+slurmstepd: error: *** JOB 13176088 ON ilk-110 CANCELLED AT 2025-06-01T17:45:02 DUE TO TIME LIMIT ***
