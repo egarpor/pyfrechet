@@ -36,7 +36,7 @@ n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_sphere/' 'data')
 current_block = int(sys.argv[1])
 
 base = Tree(split_type='2means', mtry=None, impurity_method='cart')
-base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1)
+base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1, seed = 5)
 
 M = Sphere(2)
 

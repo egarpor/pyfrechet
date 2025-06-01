@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 from typing import Generator, Optional, Literal, Union
+import random
+import geomstats.backend as gs
 
 from sklearn.cluster import KMeans
 import warnings
@@ -30,7 +32,7 @@ class Node:
     right: Optional['Node']
 
 
-def _2means_propose_splits(X_j):
+def _2means_propose_splits(X_j, seed=None):
     """
     Propose a split for splitting variable X_j based in 2-means clustering.
 
@@ -41,7 +43,8 @@ def _2means_propose_splits(X_j):
         kmeans = KMeans(
             n_clusters=2,
             n_init=1, # Number of times KMeans is run with different centroid seed
-            max_iter=10 # Maximum number of iterations of the KMeans in a single run
+            max_iter=10, # Maximum number of iterations of the KMeans in a single run
+            random_state=seed
         ).fit(X_j.reshape((X_j.shape[0], 1)))
 
     assert not kmeans.labels_ is None, "2means clustering labels are None"
@@ -89,7 +92,9 @@ class Tree(WeightingRegressor):
                  mtry: Union[int, None]=None,
                  min_split_size: int=5,
                  is_honest: bool=False,
-                 honesty_fraction: float=0.5):
+                 honesty_fraction: float=0.5,
+                 seed: Optional[int]=None
+                 ):
         """
         mtry=None carries out no random feature selection at each split. Otherwise,
         and integer value (mtry<X.shape[1]) selects randomly mtry features at each split.
@@ -103,6 +108,7 @@ class Tree(WeightingRegressor):
         self.is_honest = is_honest
         self.honesty_fraction = honesty_fraction
         self.root_node = None
+        self.seed = seed
 
     def _var(self, y: MetricData, sel: np.ndarray):
         """
@@ -124,7 +130,7 @@ class Tree(WeightingRegressor):
         if self.split_type == 'greedy':
             return _greedy_propose_splits(Xj)
         elif self.split_type == '2means':
-            return _2means_propose_splits(Xj)
+            return _2means_propose_splits(Xj, self.seed)
         else:
             raise NotImplementedError(f'split_type = {self.split_type}')
 
@@ -202,6 +208,11 @@ class Tree(WeightingRegressor):
 
     # WeightingRegressor has 2 abstact methods that need to be defined: .fit and .weights_for
     def fit(self, X, y: MetricData):
+        if self.seed is not None:
+            random.seed(self.seed)
+            np.random.seed(self.seed)
+            gs.random.seed(self.seed)
+    
         # First apply the parent class WeightingRegressor .fit() method
         super().fit(X, y)
 
