@@ -85,3 +85,6 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+To github.com:egarpor/pyfrechet.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at bd6952161dca89adaee4e99eb59fd0b3a789fcf5 but expected 45a1bef6ebe47116afd4b33580d67bca5b79d5c0)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'

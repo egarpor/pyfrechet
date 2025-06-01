@@ -64,3 +64,29 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  77%|███████▋  | 154/200 [1:06:35<31:24, 40.97s/it]Percentage of tasks completed::  78%|███████▊  | 155/200 [1:06:37<21:56, 29.26s/it]Percentage of tasks completed::  78%|███████▊  | 156/200 [1:06:55<18:58, 25.87s/it]Percentage of tasks completed::  78%|███████▊  | 157/200 [1:07:14<17:06, 23.88s/it]Percentage of tasks completed::  79%|███████▉  | 158/200 [1:07:39<16:54, 24.15s/it]Percentage of tasks completed::  80%|███████▉  | 159/200 [1:07:43<12:30, 18.30s/it]Percentage of tasks completed::  80%|████████  | 160/200 [1:08:15<14:56, 22.41s/it]Percentage of tasks completed::  80%|████████  | 161/200 [1:08:32<13:23, 20.62s/it]Percentage of tasks completed::  81%|████████  | 162/200 [1:10:02<26:21, 41.62s/it]Percentage of tasks completed::  82%|████████▏ | 163/200 [1:10:34<23:53, 38.75s/it]Percentage of tasks completed::  82%|████████▏ | 164/200 [1:10:41<17:27, 29.10s/it]Percentage of tasks completed::  82%|████████▎ | 165/200 [1:10:53<14:01, 24.04s/it]Percentage of tasks completed::  83%|████████▎ | 166/200 [1:10:56<10:04, 17.77s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [1:11:22<11:01, 20.05s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:11:28<08:30, 15.94s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:12:01<10:51, 21.02s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:13:12<17:57, 35.91s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:13:45<16:55, 35.01s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:13:45<11:31, 24.70s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:13:48<08:12, 18.24s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:13:55<06:24, 14.79s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:14:46<10:39, 25.59s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:15:18<11:01, 27.58s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:15:20<07:34, 19.74s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:15:46<07:56, 21.64s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:16:33<10:13, 29.22s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:18:20<17:31, 52.58s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:18:32<12:51, 40.60s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:18:36<08:51, 29.50s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:19:38<11:06, 39.18s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:21:21<15:33, 58.32s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:22:03<13:23, 53.57s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:22:13<09:24, 40.34s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:22:29<07:10, 33.10s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:23:14<07:22, 36.87s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:24:33<09:02, 49.28s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:26:16<10:54, 65.46s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:27:23<09:53, 65.95s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:28:30<08:50, 66.35s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:29:30<07:31, 64.46s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:31:05<07:20, 73.41s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:31:52<05:27, 65.59s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:33:01<04:26, 66.64s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:33:50<03:03, 61.31s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:35:27<02:24, 72.06s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:35:41<00:54, 54.58s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:36:54<00:00, 60.11s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 96.9min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:36:54<00:00, 29.07s/it]
+[main 90d41ae46] Simulations Sphere block 3
+ 14 files changed, 133 insertions(+), 3 deletions(-)
+ create mode 100644 13155454-sphere-block20.out
+To github.com:egarpor/pyfrechet.git
+   bd6952161..90d41ae46  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 13155437)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 13155437
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-15:12:23
+CPU Efficiency: 74.49% of 2-04:37:52 core-walltime
+Job Wall-clock time: 01:38:41
+Memory Utilized: 14.40 GB
+Memory Efficiency: 89.97% of 16.00 GB
+
+*****************************************************************************
+
