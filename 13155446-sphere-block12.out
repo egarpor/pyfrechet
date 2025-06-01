@@ -101,3 +101,6 @@ It took 2.80 seconds to enumerate untracked files. 'status -uno'
 may speed it up, but you have to be careful not to forget to add
 new files yourself (see 'git help status').
 no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:egarpor/pyfrechet.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 971f60cd63144923db2a4719796061c2adb794d5 but expected 45a1bef6ebe47116afd4b33580d67bca5b79d5c0)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'

@@ -227,3 +227,26 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
  rewrite simulations_sphere/results/sphere_samp96_N50_kappa200_block_4_results.npy (65%)
  rewrite simulations_sphere/results/sphere_samp99_N100_kappa200_block_4_results.npy (69%)
  rewrite simulations_sphere/results/sphere_samp9_N50_kappa200_block_1_results.npy (67%)
+To github.com:egarpor/pyfrechet.git
+   45a1bef6e..971f60cd6  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 13155447)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 13155447
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-13:01:53
+CPU Efficiency: 70.71% of 2-04:22:24 core-walltime
+Job Wall-clock time: 01:38:12
+Memory Utilized: 14.32 GB
+Memory Efficiency: 89.48% of 16.00 GB
+
+*****************************************************************************
+

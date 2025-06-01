@@ -73,3 +73,6 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
  rewrite simulations_sphere/results/sphere_samp225_N500_kappa200_block_9_results.npy (61%)
  copy simulations_sphere/results/{sphere_samp148_N500_kappa200_block_6_results.npy => sphere_samp225_N500_kappa50_block_9_results.npy} (65%)
  rewrite simulations_sphere/results/sphere_samp298_N500_kappa200_block_12_results.npy (61%)
+To github.com:egarpor/pyfrechet.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 971f60cd63144923db2a4719796061c2adb794d5 but expected 45a1bef6ebe47116afd4b33580d67bca5b79d5c0)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'

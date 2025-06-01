@@ -77,3 +77,6 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
  12 files changed, 271 insertions(+), 3 deletions(-)
  create mode 100644 13155452-sphere-block18.out
  create mode 100644 13155453-sphere-block19.out
+To github.com:egarpor/pyfrechet.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 971f60cd63144923db2a4719796061c2adb794d5 but expected 45a1bef6ebe47116afd4b33580d67bca5b79d5c0)
+error: failed to push some refs to 'github.com:egarpor/pyfrechet.git'
