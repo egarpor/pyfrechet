@@ -74,3 +74,30 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   warnings.warn(
 Percentage of tasks completed::  82%|████████▎ | 165/200 [1:21:26<12:11, 20.91s/it]Percentage of tasks completed::  83%|████████▎ | 166/200 [1:22:06<15:07, 26.68s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [1:22:30<14:21, 26.10s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:22:37<10:46, 20.19s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:23:22<14:21, 27.80s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:23:58<15:05, 30.19s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:24:30<14:46, 30.55s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:25:05<15:00, 32.16s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:25:15<11:23, 25.30s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:25:20<08:21, 19.29s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:26:28<14:09, 33.96s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:26:51<12:15, 30.63s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:26:58<08:58, 23.41s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:27:22<08:39, 23.63s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:27:57<09:30, 27.15s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:29:50<17:35, 52.76s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:30:51<17:32, 55.39s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:30:52<11:39, 38.87s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:31:16<09:46, 34.49s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:33:07<15:20, 57.56s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:33:49<13:13, 52.93s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:34:33<11:41, 50.12s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:34:35<07:42, 35.58s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:35:29<08:15, 41.31s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:36:28<08:31, 46.54s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:38:34<11:45, 70.52s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:40:03<11:23, 75.97s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:42:03<11:52, 89.06s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:42:36<08:26, 72.33s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:44:04<07:42, 77.06s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:45:04<05:59, 71.86s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:46:32<05:06, 76.72s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:47:03<03:08, 62.94s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:48:45<02:29, 74.68s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:49:18<01:02, 62.33s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:50:21<00:00, 62.49s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 110.4min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:50:21<00:00, 33.11s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 241290b19] Simulations Sphere block 3
+ 5 files changed, 74 insertions(+), 3 deletions(-)
+To github.com:egarpor/pyfrechet.git
+   13fbdf3fb..241290b19  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 13209471)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 13209471
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-20:53:18
+CPU Efficiency: 76.10% of 2-10:59:12 core-walltime
+Job Wall-clock time: 01:50:36
+Memory Utilized: 14.75 GB
+Memory Efficiency: 92.19% of 16.00 GB
+
+*****************************************************************************
+
