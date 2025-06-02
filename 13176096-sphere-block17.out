@@ -65,3 +65,73 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  96%|█████████▌| 191/200 [1:26:29<09:53, 65.94s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:27:52<09:28, 71.00s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:29:21<08:55, 76.46s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:30:56<08:12, 82.08s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:32:20<06:51, 82.37s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:33:41<05:28, 82.18s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:33:55<03:04, 61.64s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:35:46<02:32, 76.36s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:36:12<01:01, 61.40s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:37:49<00:00, 71.89s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 97.8min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:37:49<00:00, 29.35s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main d641d8bdb] Simulations Sphere block 17
+ 866 files changed, 434 insertions(+), 14 deletions(-)
+ create mode 100644 13176096-sphere-block17.out
+ create mode 100644 13176097-sphere-block18.out
+ create mode 100644 13176098-sphere-block19.out
+ create mode 100644 13176099-sphere-block20.out
+ rewrite simulations_sphere/results/sphere_samp271_N500_kappa200_block_11_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp410_N50_kappa50_block_17_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp411_N100_kappa200_block_17_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp416_N200_kappa50_block_17_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp417_N500_kappa50_block_17_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp420_N50_kappa50_block_17_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp422_N100_kappa200_block_17_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp423_N50_kappa50_block_17_results.npy (69%)
+ rewrite simulations_sphere/results/sphere_samp424_N500_kappa200_block_17_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp428_N50_kappa200_block_18_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp431_N100_kappa200_block_18_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp437_N50_kappa200_block_18_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp440_N50_kappa200_block_18_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp446_N200_kappa200_block_18_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp446_N50_kappa50_block_18_results.npy (69%)
+ rewrite simulations_sphere/results/sphere_samp449_N100_kappa200_block_18_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp449_N50_kappa200_block_18_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp450_N200_kappa200_block_18_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp452_N500_kappa50_block_19_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp453_N50_kappa50_block_19_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp454_N100_kappa50_block_19_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp461_N50_kappa50_block_19_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp463_N100_kappa50_block_19_results.npy (67%)
+ rewrite simulations_sphere/results/sphere_samp466_N100_kappa200_block_19_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp467_N100_kappa50_block_19_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp472_N100_kappa200_block_19_results.npy (69%)
+ rewrite simulations_sphere/results/sphere_samp474_N100_kappa50_block_19_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp474_N50_kappa50_block_19_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp475_N100_kappa200_block_19_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp475_N100_kappa50_block_19_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp478_N200_kappa200_block_20_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp480_N200_kappa200_block_20_results.npy (65%)
+ rewrite simulations_sphere/results/sphere_samp483_N500_kappa200_block_20_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp487_N500_kappa200_block_20_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp489_N50_kappa200_block_20_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp489_N50_kappa50_block_20_results.npy (63%)
+ rewrite simulations_sphere/results/sphere_samp493_N50_kappa200_block_20_results.npy (71%)
+ rewrite simulations_sphere/results/sphere_samp497_N100_kappa200_block_20_results.npy (61%)
+ rewrite simulations_sphere/results/sphere_samp497_N100_kappa50_block_20_results.npy (67%)
+To github.com:egarpor/pyfrechet.git
+   6ff70f9dc..d641d8bdb  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 13176096)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 13176096
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-16:06:36
+CPU Efficiency: 74.12% of 2-06:06:56 core-walltime
+Job Wall-clock time: 01:41:28
+Memory Utilized: 14.98 GB
+Memory Efficiency: 93.64% of 16.00 GB
+
+*****************************************************************************
+
