@@ -100,3 +100,26 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+To github.com:egarpor/pyfrechet.git
+   9c5df69da..72a58f3c1  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 13209472)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 13209472
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-20:25:33
+CPU Efficiency: 75.68% of 2-10:42:08 core-walltime
+Job Wall-clock time: 01:50:04
+Memory Utilized: 14.70 GB
+Memory Efficiency: 91.87% of 16.00 GB
+
+*****************************************************************************
+
