@@ -70,3 +70,30 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   warnings.warn(
 Percentage of tasks completed::  83%|████████▎ | 166/200 [1:20:03<09:20, 16.49s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [1:20:33<11:24, 20.74s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:21:00<11:58, 22.45s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:21:42<14:42, 28.46s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:22:18<15:15, 30.53s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:23:13<18:22, 38.03s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:23:23<13:44, 29.44s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:23:37<11:14, 24.98s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:24:50<16:59, 39.22s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:25:16<14:45, 35.42s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:25:26<11:02, 27.60s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:25:32<08:10, 21.31s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:25:39<06:14, 17.01s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:26:24<08:54, 25.46s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:28:18<17:16, 51.82s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:28:38<13:24, 42.35s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:29:13<12:03, 40.19s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:30:01<12:04, 42.65s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:31:54<16:57, 63.59s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:31:58<11:25, 45.71s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:32:37<10:12, 43.74s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:32:56<07:50, 36.18s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:34:26<10:29, 52.42s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:34:51<08:07, 44.31s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:36:57<11:27, 68.72s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:38:22<11:03, 73.74s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:39:57<10:39, 79.95s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:40:33<07:47, 66.73s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:42:35<08:20, 83.42s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:43:37<06:25, 77.10s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:44:58<05:12, 78.17s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:45:09<02:53, 57.88s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:46:42<02:16, 68.49s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:47:15<00:57, 57.88s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:48:42<00:00, 66.58s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 108.7min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:48:42<00:00, 32.61s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 72a58f3c1] Simulations Sphere block 8
+ 259 files changed, 1367 insertions(+)
+ create mode 100644 13209469-sphere-block1.out
+ create mode 100644 13209470-sphere-block2.out
+ create mode 100644 13209471-sphere-block3.out
+ create mode 100644 13209472-sphere-block4.out
+ create mode 100644 13209473-sphere-block5.out
+ create mode 100644 13209474-sphere-block6.out
+ create mode 100644 13209475-sphere-block7.out
+ create mode 100644 13209476-sphere-block8.out
+ create mode 100644 13209477-sphere-block9.out
+ create mode 100644 13209478-sphere-block10.out
+ create mode 100644 13209479-sphere-block11.out
+ create mode 100644 13209480-sphere-block12.out
+ create mode 100644 13209481-sphere-block13.out
+ create mode 100644 13209482-sphere-block14.out
+ create mode 100644 13209483-sphere-block15.out
+ create mode 100644 13209484-sphere-block16.out
+ copy simulations_sphere/results/{sphere_samp150_N200_kappa200_block_6_results.npy => sphere_samp124_N100_kappa200_block_5_results.npy} (69%)
+ rewrite simulations_sphere/results/sphere_samp147_N200_kappa200_block_6_results.npy (65%)
+ copy simulations_sphere/results/{sphere_samp147_N200_kappa200_block_6_results.npy => sphere_samp149_N100_kappa50_block_6_results.npy} (76%)
+ rewrite simulations_sphere/results/sphere_samp150_N200_kappa200_block_6_results.npy (61%)
+ copy simulations_sphere/results/{sphere_samp91_N200_kappa200_block_4_results.npy => sphere_samp172_N500_kappa200_block_7_results.npy} (67%)
+ rewrite simulations_sphere/results/sphere_samp348_N50_kappa200_block_14_results.npy (69%)
+ rewrite simulations_sphere/results/sphere_samp91_N200_kappa200_block_4_results.npy (61%)
